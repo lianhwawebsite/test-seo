@@ -1,2 +1,9 @@
+# *
 User-agent: *
-Disallow: /
+Allow: /
+
+# Host
+Host: https://test-seo-beta.vercel.app
+
+# Sitemaps
+Sitemap: https://test-seo-beta.vercel.app/sitemap.xml

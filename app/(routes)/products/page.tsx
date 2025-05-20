@@ -4,16 +4,16 @@ import { SeoHead } from "@/app/component/SeoHead";
 
 export function generateMetadata() {
   const lang = localeMap["tw"];
-  return getMetadata(lang, "home");
+  return getMetadata(lang, "products");
 }
 
-export default function Home() {
-  const schema = getSchema("home");
+export default function Page() {
+  const schema = getSchema("products");
 
   return (
     <>
       {schema && <SeoHead schema={schema} />}
-      <h1>歡迎來到 Test Studio</h1>
+      <h1>產品介紹</h1>
     </>
   );
 }
