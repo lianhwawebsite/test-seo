@@ -8,10 +8,9 @@ export function getMetadata(lang: string, pageKey: string): Metadata {
         title: meta.title,
         description: meta.description,
         alternates: {
-          canonical: `https://teststudio.com/${lang}/${pageKey}`,
+          canonical: `https://teststudio.com/${pageKey}`,
           languages: {
-            "tw": `/tw/${pageKey}`,
-            "en": `/en/${pageKey}`,
+            "tw": `/${pageKey}`,
           },
         },
       }

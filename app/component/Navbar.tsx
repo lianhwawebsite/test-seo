@@ -5,22 +5,22 @@ export const Navbar = () => {
     <nav aria-label="主選單">
       <ul className="flex gap-2 sm:gap-10">
         <li>
-          <Link href="/tw/" className="underline">
+          <Link href="/" className="underline">
             Home
           </Link>
         </li>
         <li>
-          <Link href="/tw/about" className="underline">
+          <Link href="/about" className="underline">
             About
           </Link>
         </li>
         <li>
-          <Link href="/tw/products" className="underline">
+          <Link href="/products" className="underline">
             Products
           </Link>
         </li>
         <li>
-          <Link href="/tw/contact" className="underline">
+          <Link href="/contact" className="underline">
             Contact
           </Link>
         </li>

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "./component/Navbar";
 import { localeMap } from "@/app/lib/localeMap";
+import NextBreadcrumb from "@/app/component/NextBreadcrumb";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +28,11 @@ export default function RootLayout({ children, params }: { children: React.React
 
           <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">{children}</main>
 
-          <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">footer</footer>
+          <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center w-full">
+            <div className="w-full">
+              <NextBreadcrumb homeElement={"Home"} separator={<span> &gt; </span>} activeClasses="text-stone-600" containerClasses="flex py-5" listClasses="text-stone-400 hover:underline mx-2" capitalizeLinks />
+            </div>
+          </footer>
         </div>
       </body>
     </html>
