@@ -1,10 +1,8 @@
 import { getMetadata, getSchema } from "@/app/lib/getMetadata";
-import { localeMap } from "@/app/lib/localeMap";
 import { SeoHead } from "@/app/component/SeoHead";
 
 export function generateMetadata() {
-  const lang = localeMap["tw"];
-  return getMetadata(lang, "home");
+  return getMetadata("zh-TW", "home");
 }
 
 export default function Home() {

@@ -1,9 +1,8 @@
 import { getMetadata, getSchema } from "@/app/lib/getMetadata";
-import { localeMap } from "@/app/lib/localeMap";
 import { SeoHead } from "@/app/component/SeoHead";
 
 export function generateMetadata() {
-  const lang = localeMap["tw"];
+  const lang = "zh-TW"; 
   return getMetadata(lang, "products");
 }
 
@@ -13,7 +12,8 @@ export default function Page() {
   return (
     <>
       {schema && <SeoHead schema={schema} />}
-      <h1>產品介紹</h1>
+      <h1>產品介紹（Products）</h1>
+
     </>
   );
 }

@@ -7,12 +7,6 @@ export function getMetadata(lang: string, pageKey: string): Metadata {
     ? {
         title: meta.title,
         description: meta.description,
-        alternates: {
-          canonical: `https://teststudio.com/${pageKey}`,
-          languages: {
-            "tw": `/${pageKey}`,
-          },
-        },
       }
     : {
         title: "Test Studio",

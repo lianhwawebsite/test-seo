@@ -1,8 +1,6 @@
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "./component/Navbar";
-import { localeMap } from "@/app/lib/localeMap";
 import NextBreadcrumb from "@/app/component/NextBreadcrumb";
 
 const geistSans = Geist({
@@ -15,11 +13,9 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export default function RootLayout({ children, params }: { children: React.ReactNode; params: { locale: string } }) {
-  const lang = localeMap["tw"] || "zh-TW";
-
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang={lang}>
+    <html lang="zh-TW">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased `}>
         <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
           <header className="flex items-center justify-between p-4">
