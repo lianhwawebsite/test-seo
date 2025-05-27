@@ -7,8 +7,8 @@ type MetaInfo = {
 export const seoMeta: Record<string, Record<string, MetaInfo>> = {
   "zh-TW": {
     home: {
-      title: "Test Studio｜品牌設計與創意網站",
-      description: "我們是 Test Studio，致力於打造兼具設計與功能的品牌網站。",
+      title: "Medicines Factory 網站",
+      description: "我們是 Medicines Factory。歡迎來到我們的網站！",
       schema: {
         "@context": "https://schema.org",
         "@type": "Organization",
@@ -19,8 +19,8 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
       },
     },
     about: {
-      title: "關於我們｜Test Studio",
-      description: "Test Studio 是一間專注品牌設計與網站開發的創意團隊。",
+      title: "關於我們｜Medicines Factory",
+      description: "Medicines Factory 是一間藥廠，專注於提供高品質的藥品和服務。",
       schema: {
         "@context": "https://schema.org",
         "@type": "WebSite",
@@ -34,8 +34,8 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
       },
     },
     products: {
-      title: "產品介紹｜Test Studio",
-      description: "產品介紹，Test Studio 的所有產品。",
+      title: "產品介紹｜Medicines Factory",
+      description: "產品介紹，Medicines Factory 的所有產品。",
       schema: {
         "@context": "https://schema.org",
         "@type": "WebSite",
@@ -49,12 +49,12 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
       },
     },
     contact: {
-      title: "聯絡我們｜Test Studio",
-      description: "歡迎與我們聯絡，Test Studio 將為您打造理想品牌。",
+      title: "聯絡我們｜Medicines Factory",
+      description: "歡迎與我們聯絡！如果您有任何問題或建議，請隨時與我們聯繫。",
       schema: {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        name: "Test Studio",
+        name: "Medicines Factory",
         url: "https://test-seo-beta.vercel.app",
         potentialAction: {
           "@type": "SearchAction",
@@ -63,5 +63,5 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
         },
       },
     },
-  }
+  },
 };

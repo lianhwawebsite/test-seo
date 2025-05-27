@@ -1,8 +1,65 @@
 {
+    "navbarItems": [
+        {
+            "label": "Home",
+            "href": "/"
+        },
+        {
+            "label": "About",
+            "subItems": [
+                {
+                    "label": "Company Intro",
+                    "href": "/about"
+                },
+                {
+                    "label": "Company History",
+                    "href": "/about/history"
+                }
+            ]
+        },
+        {
+            "label": "Products",
+            "subItems": [
+                {
+                    "label": "All Products",
+                    "href": "/products"
+                },
+                {
+                    "label": "口服液",
+                    "href": "/products?q=口服液"
+                },
+                {
+                    "label": "注射劑",
+                    "href": "/products?q=注射劑"
+                },
+                {
+                    "label": "外用藥膏",
+                    "href": "/products?q=外用藥膏"
+                },
+                {
+                    "label": "錠劑",
+                    "href": "/products?q=錠劑"
+                },
+                {
+                    "label": "粉劑",
+                    "href": "/products?q=粉劑"
+                },
+                {
+                    "label": "混懸液",
+                    "href": "/products?q=混懸液"
+                }
+            ]
+        },
+        {
+            "label": "Contact",
+            "href": "/contact"
+        }
+    ],
     "products": [
         {
             "id": 1,
             "name": "藥品A",
+            "description": "藥品A 的簡介",
             "type": "口服液",
             "animals": [
                 "犬",
@@ -13,6 +70,7 @@
         {
             "id": 2,
             "name": "藥品B",
+            "description": "藥品B 的簡介",
             "type": "注射劑",
             "animals": [
                 "羊",
@@ -22,6 +80,7 @@
         {
             "id": 3,
             "name": "藥品C",
+            "description": "藥品C 的簡介",
             "type": "外用藥膏",
             "animals": [
                 "犬",
@@ -32,6 +91,7 @@
         {
             "id": 4,
             "name": "藥品D",
+            "description": "藥品D 的簡介",
             "type": "錠劑",
             "animals": [
                 "豬",
@@ -41,6 +101,7 @@
         {
             "id": 5,
             "name": "藥品E",
+            "description": "藥品E 的簡介",
             "type": "粉劑",
             "animals": [
                 "雞",
@@ -50,6 +111,7 @@
         {
             "id": 6,
             "name": "藥品F",
+            "description": "藥品F 的簡介",
             "type": "混懸液",
             "animals": [
                 "犬",
@@ -60,6 +122,7 @@
         {
             "id": 7,
             "name": "藥品G",
+            "description": "藥品G 的簡介",
             "type": "口服液",
             "animals": [
                 "牛",
@@ -70,6 +133,7 @@
         {
             "id": 8,
             "name": "藥品H",
+            "description": "藥品H 的簡介",
             "type": "注射劑",
             "animals": [
                 "豬",
@@ -79,6 +143,7 @@
         {
             "id": 9,
             "name": "藥品I",
+            "description": "藥品I 的簡介",
             "type": "錠劑",
             "animals": [
                 "貓"
@@ -87,6 +152,7 @@
         {
             "id": 10,
             "name": "藥品J",
+            "description": "藥品J 的簡介",
             "type": "粉劑",
             "animals": [
                 "雞",
@@ -97,6 +163,7 @@
         {
             "id": 11,
             "name": "藥品K",
+            "description": "藥品K 的簡介",
             "type": "混懸液",
             "animals": [
                 "犬",
@@ -107,6 +174,7 @@
         {
             "id": 12,
             "name": "藥品L",
+            "description": "藥品L 的簡介",
             "type": "外用藥膏",
             "animals": [
                 "貓",
@@ -116,6 +184,7 @@
         {
             "id": 13,
             "name": "藥品M",
+            "description": "藥品M 的簡介",
             "type": "注射劑",
             "animals": [
                 "牛",
@@ -125,6 +194,7 @@
         {
             "id": 14,
             "name": "藥品N",
+            "description": "藥品N 的簡介",
             "type": "錠劑",
             "animals": [
                 "犬",
@@ -134,6 +204,7 @@
         {
             "id": 15,
             "name": "藥品O",
+            "description": "藥品O 的簡介",
             "type": "口服液",
             "animals": [
                 "雞",
@@ -144,6 +215,7 @@
         {
             "id": 16,
             "name": "藥品P",
+            "description": "藥品P 的簡介",
             "type": "混懸液",
             "animals": [
                 "馬",
@@ -153,6 +225,7 @@
         {
             "id": 17,
             "name": "藥品Q",
+            "description": "藥品Q 的簡介",
             "type": "外用藥膏",
             "animals": [
                 "貓",
@@ -162,6 +235,7 @@
         {
             "id": 18,
             "name": "藥品R",
+            "description": "藥品R 的簡介",
             "type": "注射劑",
             "animals": [
                 "牛",
@@ -171,6 +245,7 @@
         {
             "id": 19,
             "name": "藥品S",
+            "description": "藥品S 的簡介",
             "type": "錠劑",
             "animals": [
                 "羊",
@@ -180,6 +255,7 @@
         {
             "id": 20,
             "name": "藥品T",
+            "description": "藥品T 的簡介",
             "type": "粉劑",
             "animals": [
                 "雞",

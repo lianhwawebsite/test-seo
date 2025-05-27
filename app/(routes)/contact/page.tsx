@@ -12,7 +12,7 @@ export default function Page() {
   return (
     <>
       {schema && <SeoHead schema={schema} />}
-      <h1>聯絡我們（Contact Us）</h1>
+      <h1 className="text-xl">聯絡我們（Contact Us）</h1>
     </>
   );
 }

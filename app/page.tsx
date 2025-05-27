@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       {schema && <SeoHead schema={schema} />}
-      <h1>歡迎來到 Test Studio</h1>
+      <h1 className="text-xl">歡迎來到 Medicines Factory</h1>
     </>
   );
 }
