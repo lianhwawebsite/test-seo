@@ -26,27 +26,27 @@
                 },
                 {
                     "label": "口服液",
-                    "href": "/products?q=口服液"
+                    "href": "/products?query=口服液"
                 },
                 {
                     "label": "注射劑",
-                    "href": "/products?q=注射劑"
+                    "href": "/products?query=注射劑"
                 },
                 {
                     "label": "外用藥膏",
-                    "href": "/products?q=外用藥膏"
+                    "href": "/products?query=外用藥膏"
                 },
                 {
                     "label": "錠劑",
-                    "href": "/products?q=錠劑"
+                    "href": "/products?query=錠劑"
                 },
                 {
                     "label": "粉劑",
-                    "href": "/products?q=粉劑"
+                    "href": "/products?query=粉劑"
                 },
                 {
                     "label": "混懸液",
-                    "href": "/products?q=混懸液"
+                    "href": "/products?query=混懸液"
                 }
             ]
         },

@@ -29,7 +29,7 @@ function DesktopNavbar() {
                   {item.label}
                 </Link>
               )}
-              <div className="absolute left-0 top-full w-full h-2 group-hover:block hidden"></div>
+              <div className="absolute left-0 top-full w-full h-4 group-hover:block hidden"></div>
               {item.subItems && openMenu === item.label && (
                 <div className="absolute left-0 top-[calc(100%+0.05rem)]  mt-2 bg-white border rounded shadow-lg z-50 group-hover:block">
                   <ul className="w-48">
