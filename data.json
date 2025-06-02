@@ -19,36 +19,7 @@
         },
         {
             "label": "Products",
-            "subItems": [
-                {
-                    "label": "All Products",
-                    "href": "/products"
-                },
-                {
-                    "label": "口服液",
-                    "href": "/products?query=口服液"
-                },
-                {
-                    "label": "注射劑",
-                    "href": "/products?query=注射劑"
-                },
-                {
-                    "label": "外用藥膏",
-                    "href": "/products?query=外用藥膏"
-                },
-                {
-                    "label": "錠劑",
-                    "href": "/products?query=錠劑"
-                },
-                {
-                    "label": "粉劑",
-                    "href": "/products?query=粉劑"
-                },
-                {
-                    "label": "混懸液",
-                    "href": "/products?query=混懸液"
-                }
-            ]
+            "href": "/products"
         },
         {
             "label": "Contact",
@@ -57,114 +28,116 @@
     ],
     "products": [
         {
-            "id": 1,
-            "name": "藥品A",
-            "description": "藥品A 的簡介",
-            "type": "口服液",
+            "id": "1",
+            "name": "藥A",
+            "description": "藥A 的簡介",
+            "type": "注射液",
+            "animals": [
+                "豬",
+                "雞",
+                "火雞"
+            ]
+        },
+        {
+            "id": "2",
+            "name": "藥B",
+            "description": "藥B 的簡介",
+            "type": "滅菌懸劑",
+            "animals": [
+                "牛",
+                "馬",
+                "羊"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "藥C",
+            "description": "藥C 的簡介",
+            "type": "乾粉注射劑",
             "animals": [
                 "犬",
                 "貓",
-                "牛"
-            ]
-        },
-        {
-            "id": 2,
-            "name": "藥品B",
-            "description": "藥品B 的簡介",
-            "type": "注射劑",
-            "animals": [
-                "羊",
-                "豬"
-            ]
-        },
-        {
-            "id": 3,
-            "name": "藥品C",
-            "description": "藥品C 的簡介",
-            "type": "外用藥膏",
-            "animals": [
-                "犬",
-                "馬",
-                "貓"
-            ]
-        },
-        {
-            "id": 4,
-            "name": "藥品D",
-            "description": "藥品D 的簡介",
-            "type": "錠劑",
-            "animals": [
-                "豬",
-                "牛"
-            ]
-        },
-        {
-            "id": 5,
-            "name": "藥品E",
-            "description": "藥品E 的簡介",
-            "type": "粉劑",
-            "animals": [
-                "雞",
                 "鴨"
             ]
         },
         {
-            "id": 6,
-            "name": "藥品F",
-            "description": "藥品F 的簡介",
-            "type": "混懸液",
+            "id": "4",
+            "name": "藥D",
+            "description": "藥D 的簡介",
+            "type": "散劑",
             "animals": [
-                "犬",
-                "兔",
-                "貓"
+                "鵝",
+                "家畜"
             ]
         },
         {
-            "id": 7,
+            "id": "5",
+            "name": "藥E",
+            "description": "藥E 的簡介",
+            "type": "口服液劑",
+            "animals": [
+                "魚/龜鱉目",
+                "其他"
+            ]
+        },
+        {
+            "id": "6",
+            "name": "藥F",
+            "description": "藥F 的簡介",
+            "type": "消毒劑",
+            "animals": [
+                "雞",
+                "火雞",
+                "鴨",
+                "鵝"
+            ]
+        },
+        {
+            "id": "7",
             "name": "藥品G",
             "description": "藥品G 的簡介",
-            "type": "口服液",
+            "type": "乾粉懸劑",
             "animals": [
                 "牛",
-                "羊",
-                "馬"
+                "馬",
+                "羊"
             ]
         },
         {
-            "id": 8,
+            "id": "8",
             "name": "藥品H",
             "description": "藥品H 的簡介",
-            "type": "注射劑",
+            "type": "輔助飼料",
             "animals": [
                 "豬",
                 "犬"
             ]
         },
         {
-            "id": 9,
+            "id": "9",
             "name": "藥品I",
             "description": "藥品I 的簡介",
-            "type": "錠劑",
+            "type": "其他類",
             "animals": [
                 "貓"
             ]
         },
         {
-            "id": 10,
+            "id": "10",
             "name": "藥品J",
             "description": "藥品J 的簡介",
-            "type": "粉劑",
+            "type": "注射液",
             "animals": [
-                "雞",
-                "火雞",
-                "鴿"
+                "豬",
+                "牛",
+                "馬"
             ]
         },
         {
-            "id": 11,
+            "id": "11",
             "name": "藥品K",
             "description": "藥品K 的簡介",
-            "type": "混懸液",
+            "type": "滅菌懸劑",
             "animals": [
                 "犬",
                 "牛",
@@ -172,40 +145,39 @@
             ]
         },
         {
-            "id": 12,
+            "id": "12",
             "name": "藥品L",
             "description": "藥品L 的簡介",
-            "type": "外用藥膏",
-            "animals": [
-                "貓",
-                "兔"
-            ]
-        },
-        {
-            "id": 13,
-            "name": "藥品M",
-            "description": "藥品M 的簡介",
-            "type": "注射劑",
-            "animals": [
-                "牛",
-                "馬"
-            ]
-        },
-        {
-            "id": 14,
-            "name": "藥品N",
-            "description": "藥品N 的簡介",
-            "type": "錠劑",
+            "type": "乾粉注射劑",
             "animals": [
                 "犬",
                 "貓"
             ]
         },
         {
-            "id": 15,
+            "id": "13",
+            "name": "藥品M",
+            "description": "藥品M 的簡介",
+            "type": "散劑",
+            "animals": [
+                "牛",
+                "馬"
+            ]
+        },
+        {
+            "id": "14",
+            "name": "藥品N",
+            "description": "藥品N 的簡介",
+            "type": "口服液劑",
+            "animals": [
+                "其他"
+            ]
+        },
+        {
+            "id": "15",
             "name": "藥品O",
             "description": "藥品O 的簡介",
-            "type": "口服液",
+            "type": "消毒劑",
             "animals": [
                 "雞",
                 "鴨",
@@ -213,54 +185,58 @@
             ]
         },
         {
-            "id": 16,
+            "id": "16",
             "name": "藥品P",
             "description": "藥品P 的簡介",
-            "type": "混懸液",
+            "type": "乾粉懸劑",
             "animals": [
                 "馬",
                 "豬"
             ]
         },
         {
-            "id": 17,
+            "id": "17",
             "name": "藥品Q",
             "description": "藥品Q 的簡介",
-            "type": "外用藥膏",
+            "type": "輔助飼料",
             "animals": [
-                "貓",
-                "兔"
+                "豬",
+                "雞",
+                "牛",
+                "羊",
+                "家畜"
             ]
         },
         {
-            "id": 18,
+            "id": "18",
             "name": "藥品R",
             "description": "藥品R 的簡介",
-            "type": "注射劑",
+            "type": "其他類",
             "animals": [
                 "牛",
                 "犬"
             ]
         },
         {
-            "id": 19,
+            "id": "19",
             "name": "藥品S",
             "description": "藥品S 的簡介",
-            "type": "錠劑",
+            "type": "注射液",
             "animals": [
                 "羊",
                 "馬"
             ]
         },
         {
-            "id": 20,
+            "id": "20",
             "name": "藥品T",
             "description": "藥品T 的簡介",
-            "type": "粉劑",
+            "type": "滅菌懸劑",
             "animals": [
                 "雞",
-                "鴿",
-                "火雞"
+                "火雞",
+                "鴨",
+                "鵝"
             ]
         }
     ]
