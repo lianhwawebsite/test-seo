@@ -28,9 +28,7 @@ export default async function Page(props: {
       <h1 className="text-xl">產品介紹（Products）</h1>
       <Search initialQuery={""} initialAnimals={[]} initialTypes={[]} />
 
-      <section className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
-        <Table query={query} selectedAnimals={selectedAnimals} selectedTypes={selectedTypes} page={page} />
-      </section>
+      <Table query={query} selectedAnimals={selectedAnimals} selectedTypes={selectedTypes} page={page} />
     </>
   );
 }

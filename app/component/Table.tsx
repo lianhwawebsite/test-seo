@@ -1,8 +1,7 @@
 import data from "@/data.json";
+import { Pagination } from "@/app/component/Pagination";
 
-export default async function Table({ query, selectedAnimals, selectedTypes, page }: { query: string; selectedAnimals: string[]; selectedTypes: string[]; page?: number }) {
-  
-  
+export default async function Table({ query, selectedAnimals, selectedTypes, page }: { query: string; selectedAnimals: string[]; selectedTypes: string[]; page: number }) {
   const filteredData = data?.products.filter((item) => {
     const matchQuery = !query || item.name.toLowerCase().includes(query) || item.id.toLowerCase().includes(query);
 
@@ -13,35 +12,38 @@ export default async function Table({ query, selectedAnimals, selectedTypes, pag
     return matchQuery && matchAnimals && matchTypes;
   });
 
-    // const pageSize = 10;
-    // const totalResults = filteredData.length;
-    // const totalPages = Math.ceil(totalResults / pageSize);
-    // const pagedResults = filteredData.slice((page - 1) * pageSize, page * pageSize);
+  const pageSize = 10;
+  const totalResults = filteredData.length;
+  const totalPages = Math.ceil(totalResults / pageSize);
+  const pagedResults = filteredData.slice((page - 1) * pageSize, page * pageSize);
 
   return (
     <>
-      {filteredData.map((product) => (
-        <article key={product.id} className="border rounded-xl p-4 shadow" itemScope itemType="https://schema.org/Product">
-          <h2 itemProp="name" className="text-lg font-semibold">
-            <a href={`/products/${product.id}`} itemProp="url">
-              {product.name}
-            </a>
-          </h2>
-          <p itemProp="category">{product.type}</p>
-          <p itemProp="audience">
-            {product.animals.map((animal, index) => (
-              <span key={animal} itemProp="audience">
-                {animal}
-                {index < product.animals.length - 1 && "，"}
-              </span>
+      <section className="grid grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
+        {pagedResults.map((product) => (
+          <article key={product.id} className="border rounded-xl p-4 shadow" itemScope itemType="https://schema.org/Product">
+            <h2 itemProp="name" className="text-lg font-semibold">
+              <a href={`/products/${product.id}`} itemProp="url">
+                {product.name}
+              </a>
+            </h2>
+            <p itemProp="category">{product.type}</p>
+            <p itemProp="audience">
+              {product.animals.map((animal, index) => (
+                <span key={animal} itemProp="audience">
+                  {animal}
+                  {index < product.animals.length - 1 && "，"}
+                </span>
+              ))}
+            </p>
+            <meta itemProp="category" content={product.type} />
+            {product.animals.map((animal) => (
+              <meta key={animal} itemProp="audience" content={animal} />
             ))}
-          </p>
-          <meta itemProp="category" content={product.type} />
-          {product.animals.map((animal) => (
-            <meta key={animal} itemProp="audience" content={animal} />
-          ))}
-        </article>
-      ))}
+          </article>
+        ))}
+      </section>
+      {filteredData.length > 0 && <Pagination currentPage={page} totalPages={totalPages} />}
     </>
   );
 }

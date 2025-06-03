@@ -5,7 +5,7 @@ import data from "@/data.json";
 export default function Page() {
   const params = useParams();
   const id = params.productId;
-  const product = data.products.find((p) => p.id === Number(id));
+  const product = data.products.find((p) => p.id === id);
 
   return (
     <section className="flex w-full flex-col p-4">
