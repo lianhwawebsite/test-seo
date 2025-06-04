@@ -70,7 +70,7 @@ function MobileNavbar() {
     <>
       <header className="fixed z-20 bg-stone-300 h-16 top-0 w-full sm:hidden ">
         <Link href={homeItem?.href || ""}>
-          <div className="absolute px-16 z-10 top-5 left-10 bg-stone-400">&nbsp;</div>
+          <div className="absolute px-16 z-10 top-5 left-6 md:left-10 bg-stone-400">&nbsp;</div>
         </Link>
         <button className="sm:hidden absolute z-30 top-5 right-10" onClick={() => setMobileOpen((prev) => !prev)}>
           {mobileOpen ? <div>&#10005;</div> : <div>&#9776;</div>}
