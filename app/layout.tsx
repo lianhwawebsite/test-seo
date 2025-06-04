@@ -18,12 +18,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="zh-TW">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased `}>
         <div className="relative items-center justify-items-center min-h-screen py-8 sm:py-20">
-          {/* <header className="flex items-center justify-between px-10">
-            <h1>Medicines Factory</h1> */}
-            <Navbar />
-          {/* </header> */}
+          <Navbar />
 
-          <main className="w-full h-fit mx-auto my-10 px-10 flex flex-col justify-start">{children}</main>
+          <main className="w-full h-fit mx-auto my-20 mb-36 px-10 flex flex-col justify-start">{children}</main>
 
           <Footer />
         </div>

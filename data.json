@@ -1,29 +1,56 @@
 {
     "navbarItems": [
         {
-            "label": "Home",
+            "label": "首頁",
             "href": "/"
         },
         {
-            "label": "About",
+            "label": "關於我們",
             "subItems": [
                 {
-                    "label": "Company Intro",
+                    "label": "公司簡介",
                     "href": "/about"
                 },
                 {
-                    "label": "Company History",
+                    "label": "發展歷程",
                     "href": "/about/history"
+                },
+                {
+                    "label": "品質研發",
+                    "href": "/about/research"
                 }
             ]
         },
         {
-            "label": "Products",
+            "label": "產品一覽",
             "href": "/products"
         },
         {
-            "label": "Contact",
+            "label": "聯絡我們",
             "href": "/contact"
+        }
+    ],
+    "footerItems": [
+        {
+            "name": "首頁",
+            "label": "Medicine Factory",
+            "href": "/"
+        },
+        {
+            "name":"公司地址",
+            "label": "藥廠地址藥廠區藥廠路123號"
+        },
+        {
+            "name":"聯絡電話",
+            "label": "Tel. 01-2345-6789"
+        },
+        {
+            "name":"傳真號碼",
+            "label": "Fax. 09-8765-4321"
+        },
+        {
+            "name":"公司名稱",
+            "label": "XX 製藥廠股份有限公司"
         }
     ],
     "products": [
