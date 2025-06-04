@@ -33,12 +33,12 @@
     "footerItems": [
         {
             "name": "首頁",
-            "label": "Medicine Factory",
+            "label": "",
             "href": "/"
         },
         {
             "name":"公司地址",
-            "label": "藥廠地址藥廠區藥廠路123號"
+            "label": "藥廠市藥廠區藥廠路123號"
         },
         {
             "name":"聯絡電話",
@@ -50,9 +50,13 @@
         },
         {
             "name":"公司名稱",
-            "label": "XX 製藥廠股份有限公司"
+            "label": "製藥廠股份有限公司"
         }
     ],
+    "home": {
+        "title": "Title 不是一個藥廠，而是一個標題",
+        "description": "這是一個專注於動物用藥的製藥公司，致力於提供高品質的產品和服務。"
+    },
     "products": [
         {
             "id": "1",

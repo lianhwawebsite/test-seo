@@ -18,9 +18,9 @@ function DesktopNavbar() {
   return (
     <header className="absolute top-0 w-full hidden sm:flex bg-stone-300 p-10">
       <nav className="hidden sm:flex items-center justify-between w-full">
-        <h1>
-          <Link href={homeItem?.href || ""}>M</Link>
-        </h1>
+        <Link href={homeItem?.href || ""}>
+          <div className="bg-stone-400 px-16">&nbsp;</div>
+        </Link>
         <ul className="hidden sm:flex space-x-6 px-6">
           {data.navbarItems.map((item) => {
             return (
@@ -65,17 +65,19 @@ function MobileNavbar() {
   const toggleItem = (label: string) => {
     setExpandedItem(expandedItem === label ? null : label);
   };
-
+  const homeItem = data.navbarItems.find((item) => item.label === "首頁");
   return (
     <>
-      <header className="fixed bg-stone-400 h-16 top-0 w-full sm:hidden ">
-        <h1 className="absolute z-10 top-5 left-10">M</h1>
+      <header className="fixed z-20 bg-stone-300 h-16 top-0 w-full sm:hidden ">
+        <Link href={homeItem?.href || ""}>
+          <div className="absolute px-16 z-10 top-5 left-10 bg-stone-400">&nbsp;</div>
+        </Link>
         <button className="sm:hidden absolute z-30 top-5 right-10" onClick={() => setMobileOpen((prev) => !prev)}>
           {mobileOpen ? <div>&#10005;</div> : <div>&#9776;</div>}
         </button>
         {/* Mobile Menu */}
         {mobileOpen && (
-          <nav className="fixed top-0 right-0 z-20 md:hidden px-10 pb-4 w-[100%] h-screen pt-20 bg-stone-400">
+          <nav className="fixed top-0 right-0 z-20 md:hidden px-10 pb-4 w-[100%] h-screen pt-20 bg-stone-300">
             <ul className="space-y-4">
               {data.navbarItems.map((item) => (
                 <li key={item.label}>
