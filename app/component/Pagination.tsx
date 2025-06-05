@@ -58,38 +58,38 @@ export default function PaginationGroup({ totalPages, currentPage, goToPage, pag
   };
 
   return (
-    <div className={`flex gap-6 ${className}`}>
+    <div className={`flex ${className}`}>
       <div className="w-24 flex gap-2 justify-end">
-        {pageGroupIndex > 0 && (
-          <button onClick={goToPrevGroup} className="font-extrabold w-6 text-stone-300">
+        {/* {pageGroupIndex > 0 && (
+          <button onClick={goToPrevGroup} className="font-extrabold w-6 text-stone-200">
             &#706;&#706;
           </button>
-        )}
+        )} */}
         {currentPage > 1 && (
-          <button disabled={currentPage === 1} onClick={() => goToPage(currentPage - 1)} className="w-6">
-            &#706;
+          <button disabled={currentPage === 1} onClick={() => goToPage(currentPage - 1)} className="w-10 text-2xl font-bold">
+            &#8592;
           </button>
         )}
       </div>
-      <div className="w-fit flex justify-center gap-2">
+      <div className="w-fit flex justify-center">
         {(pagesToShow.length !== 1 || pagesToShow[0] !== 1) &&
           pagesToShow.map((page) => (
-            <button key={page} onClick={() => goToPage(page)} className={`px-2 rounded-full ${currentPage === page ? "bg-stone-500 text-white" : "bg-gray-white"}`}>
+            <button key={page} onClick={() => goToPage(page)} className={`px-3 py-1 border ${currentPage === page ? " " : "text-stone-200 border-stone-200"}`}>
               {page}
             </button>
           ))}
       </div>
       <div className="w-24 flex gap-2 justify-start">
         {currentPage !== totalPages && (
-          <button disabled={currentPage === totalPages} onClick={() => goToPage(currentPage + 1)} className="w-6">
-            &#707;
+          <button disabled={currentPage === totalPages} onClick={() => goToPage(currentPage + 1)} className="w-10 text-2xl font-bold">
+            &#8594;
           </button>
         )}
-        {pageGroupIndex < totalGroups - 1 && (
-          <button onClick={goToNextGroup} className="font-extrabold w-6 text-stone-300">
+        {/* {pageGroupIndex < totalGroups - 1 && (
+          <button onClick={goToNextGroup} className="font-extrabold w-6 text-stone-200">
             &#707;&#707;
           </button>
-        )}
+        )} */}
       </div>
     </div>
   );

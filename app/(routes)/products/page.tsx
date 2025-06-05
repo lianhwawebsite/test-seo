@@ -1,7 +1,6 @@
 import { getMetadata, getSchema } from "@/app/lib/getMetadata";
 import { SeoHead } from "@/app/component/SeoHead";
-import Search from "@/app/component/Search";
-import Table from "@/app/component/Table";
+import ProductAllContent from "@/app/component/ProductAllContent";
 
 export function generateMetadata() {
   const lang = "zh-TW";
@@ -25,10 +24,7 @@ export default async function Page(props: {
   return (
     <>
       {schema && <SeoHead schema={schema} />}
-      <h1 className="text-xl">產品介紹（Products）</h1>
-      <Search initialQuery={""} initialAnimals={[]} initialTypes={[]} />
-
-      <Table query={query} selectedAnimals={selectedAnimals} selectedTypes={selectedTypes} page={page} />
+      <ProductAllContent query={query} selectedAnimals={selectedAnimals} selectedTypes={selectedTypes} page={page} />
     </>
   );
 }

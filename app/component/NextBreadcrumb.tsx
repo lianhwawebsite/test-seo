@@ -43,33 +43,33 @@ const NextBreadcrumb = () => {
 
   const nameMap = flattenNavbarItems(data?.navbarItems);
   const Separator = () => {
-    return <span className="text-stone-400"> &#x2f; </span>;
+    return <span className="mx-2"> &#707; </span>;
   };
-  const listClasses = "text-stone-400 hover:underline mx-2";
-  const activeClasses = "text-stone-600";
+  const listClasses = "";
+  const activeClasses = "underline underline-offset-[4px]";
 
   return (
     <>
       {paths !== "/" && (
-          <ul className="flex py-5 px-10 w-full justify-center sm:justify-end">
-            <li className={listClasses}>
-              <Link href={"/"}>{nameMap?.["home"]}</Link>
-            </li>
-            {pathNames.length > 0 && <Separator />}
-            {pathNames.map((link, index) => {
-              let href = `/${pathNames.slice(0, index + 1).join("/")}`;
-              let itemClasses = paths === href ? `${listClasses} ${activeClasses}` : listClasses;
-              let itemText = nameMap?.[link] || data?.products?.find((item) => item.id === link)?.name || link;
-              return (
-                <Fragment key={index}>
-                  <li className={itemClasses}>
-                    <Link href={href}>{itemText}</Link>
-                  </li>
-                  {pathNames.length !== index + 1 && <Separator />}
-                </Fragment>
-              );
-            })}
-          </ul>
+        <ul className="flex w-full text-stone-700 text-md">
+          <li className={listClasses}>
+            <Link href={"/"}>{nameMap?.["home"]}</Link>
+          </li>
+          {pathNames.length > 0 && <Separator />}
+          {pathNames.map((link, index) => {
+            let href = `/${pathNames.slice(0, index + 1).join("/")}`;
+            let itemClasses = paths === href ? `${listClasses} ${activeClasses}` : listClasses;
+            let itemText = nameMap?.[link] || data?.products?.find((item) => item.id === link)?.name || link;
+            return (
+              <Fragment key={index}>
+                <li className={itemClasses}>
+                  <Link href={href}>{itemText}</Link>
+                </li>
+                {pathNames.length !== index + 1 && <Separator />}
+              </Fragment>
+            );
+          })}
+        </ul>
       )}
     </>
   );

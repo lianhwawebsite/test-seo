@@ -16,8 +16,8 @@ export default function Home() {
   return (
     <>
       {schema && <SeoHead schema={schema} />}
-      <div className="bg-stone-200 w-full h-96 md:h-[672px] grid md:grid-cols-7 p-10">
-        <div className="order-2 md:order-1 md:col-span-4 flex flex-col justify-center items-center md:items-start px-8 gap-5 text-center md:text-left">
+      <div className="bg-stone-200 w-full h-96 md:h-[672px] grid md:grid-cols-7 p-10 md:p-24">
+        <div className="order-2 md:order-1 md:col-span-4 flex flex-col justify-center items-center md:items-start gap-5 text-center md:text-left">
           <div className="text-3xl md:text-5xl font-black md:leading-14">
             {titleArr.map((line, index) => (
               <Fragment key={index}>
