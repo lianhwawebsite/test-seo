@@ -37,19 +37,19 @@
             "href": "/"
         },
         {
-            "name":"公司地址",
+            "name": "公司地址",
             "label": "Add. 藥廠市藥廠區藥廠路123號"
         },
         {
-            "name":"聯絡電話",
+            "name": "聯絡電話",
             "label": "Tel. 01-2345-6789"
         },
         {
-            "name":"傳真號碼",
+            "name": "傳真號碼",
             "label": "Fax. 09-8765-4321"
         },
         {
-            "name":"公司名稱",
+            "name": "公司名稱",
             "label": "製藥廠股份有限公司"
         }
     ],
@@ -62,448 +62,851 @@
             "id": "1",
             "name": "藥品1",
             "description": "藥品1 的簡介",
-            "type": "散劑",
+            "type": "輔助飼料",
             "animals": [
-                "鵝",
-                "鴨",
-                "羊"
+                "其他",
+                "馬",
+                "貓",
+                "鵝"
             ],
             "englishName": "Medicine 1",
-            "medicineCode": "294488818",
+            "medicineCode": "24001",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分E",
+                    "amount": "92mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "24mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/1",
             "packaging": "包裝描述",
-            "price": "93元"
+            "price": "441元"
         },
         {
             "id": "2",
             "name": "藥品2",
             "description": "藥品2 的簡介",
-            "type": "注射液",
+            "type": "乾粉懸劑",
             "animals": [
-                "豬",
-                "犬"
+                "雞",
+                "魚/龜鱉目",
+                "火雞",
+                "貓"
             ],
             "englishName": "Medicine 2",
-            "medicineCode": "386621337",
+            "medicineCode": "24002",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分D",
+                    "amount": "35mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "68mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/2",
             "packaging": "包裝描述",
-            "price": "70元"
+            "price": "93元"
         },
         {
             "id": "3",
             "name": "藥品3",
             "description": "藥品3 的簡介",
-            "type": "注射液",
+            "type": "散劑",
             "animals": [
-                "羊"
+                "豬"
             ],
             "englishName": "Medicine 3",
-            "medicineCode": "604809530",
+            "medicineCode": "24003",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分E",
+                    "amount": "27mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "73mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "48mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/3",
             "packaging": "包裝描述",
-            "price": "113元"
+            "price": "169元"
         },
         {
             "id": "4",
             "name": "藥品4",
             "description": "藥品4 的簡介",
-            "type": "乾粉注射劑",
+            "type": "散劑",
             "animals": [
-                "家畜",
-                "馬",
-                "貓"
+                "羊"
             ],
             "englishName": "Medicine 4",
-            "medicineCode": "555288891",
+            "medicineCode": "24004",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分E",
+                    "amount": "33mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/4",
             "packaging": "包裝描述",
-            "price": "103元"
+            "price": "241元"
         },
         {
             "id": "5",
             "name": "藥品5",
             "description": "藥品5 的簡介",
-            "type": "口服液劑",
+            "type": "消毒劑",
             "animals": [
-                "火雞",
-                "豬",
+                "牛",
+                "貓",
+                "家畜",
                 "雞"
             ],
             "englishName": "Medicine 5",
-            "medicineCode": "514189827",
+            "medicineCode": "24005",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分A",
+                    "amount": "1mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "43mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/5",
             "packaging": "包裝描述",
-            "price": "458元"
+            "price": "157元"
         },
         {
             "id": "6",
             "name": "藥品6",
             "description": "藥品6 的簡介",
-            "type": "滅菌懸劑",
+            "type": "輔助飼料",
             "animals": [
-                "馬",
-                "火雞",
-                "牛"
+                "其他",
+                "羊",
+                "家畜"
             ],
             "englishName": "Medicine 6",
-            "medicineCode": "900119040",
+            "medicineCode": "24006",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分E",
+                    "amount": "20mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "83mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/6",
             "packaging": "包裝描述",
-            "price": "63元"
+            "price": "331元"
         },
         {
             "id": "7",
             "name": "藥品7",
             "description": "藥品7 的簡介",
-            "type": "其他類",
+            "type": "消毒劑",
             "animals": [
-                "羊",
+                "鴨",
                 "鵝",
-                "家畜"
+                "貓"
             ],
             "englishName": "Medicine 7",
-            "medicineCode": "753114970",
+            "medicineCode": "24007",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分D",
+                    "amount": "60mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/7",
             "packaging": "包裝描述",
-            "price": "267元"
+            "price": "51元"
         },
         {
             "id": "8",
             "name": "藥品8",
             "description": "藥品8 的簡介",
-            "type": "其他類",
+            "type": "乾粉注射劑",
             "animals": [
-                "鵝"
+                "豬"
             ],
             "englishName": "Medicine 8",
-            "medicineCode": "672944845",
+            "medicineCode": "24008",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分A",
+                    "amount": "79mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "86mg"
+                },
+                {
+                    "name": "主要成分F",
+                    "amount": "66mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/8",
             "packaging": "包裝描述",
-            "price": "481元"
+            "price": "150元"
         },
         {
             "id": "9",
             "name": "藥品9",
             "description": "藥品9 的簡介",
-            "type": "注射液",
+            "type": "散劑",
             "animals": [
-                "貓",
-                "豬",
-                "羊"
+                "其他"
             ],
             "englishName": "Medicine 9",
-            "medicineCode": "416320940",
+            "medicineCode": "24009",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分C",
+                    "amount": "52mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "92mg"
+                },
+                {
+                    "name": "主要成分F",
+                    "amount": "17mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/9",
             "packaging": "包裝描述",
-            "price": "204元"
+            "price": "243元"
         },
         {
             "id": "10",
             "name": "藥品10",
             "description": "藥品10 的簡介",
-            "type": "乾粉懸劑",
+            "type": "口服液劑",
             "animals": [
-                "家畜",
-                "牛"
+                "牛",
+                "貓"
             ],
             "englishName": "Medicine 10",
-            "medicineCode": "633573287",
+            "medicineCode": "24010",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分C",
+                    "amount": "82mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/10",
             "packaging": "包裝描述",
-            "price": "193元"
+            "price": "425元"
         },
         {
             "id": "11",
             "name": "藥品11",
             "description": "藥品11 的簡介",
-            "type": "消毒劑",
+            "type": "輔助飼料",
             "animals": [
-                "豬",
-                "犬",
-                "羊"
+                "鴨",
+                "鵝",
+                "貓",
+                "家畜"
             ],
             "englishName": "Medicine 11",
-            "medicineCode": "239620779",
+            "medicineCode": "24011",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分B",
+                    "amount": "88mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/11",
             "packaging": "包裝描述",
-            "price": "497元"
+            "price": "62元"
         },
         {
             "id": "12",
             "name": "藥品12",
             "description": "藥品12 的簡介",
-            "type": "乾粉注射劑",
+            "type": "口服液劑",
             "animals": [
-                "馬",
-                "鵝",
-                "鴨"
+                "家畜",
+                "羊"
             ],
             "englishName": "Medicine 12",
-            "medicineCode": "296703534",
+            "medicineCode": "24012",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分C",
+                    "amount": "68mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "43mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/12",
             "packaging": "包裝描述",
-            "price": "253元"
+            "price": "304元"
         },
         {
             "id": "13",
             "name": "藥品13",
             "description": "藥品13 的簡介",
-            "type": "散劑",
+            "type": "口服液劑",
             "animals": [
-                "雞",
                 "豬",
-                "鴨"
+                "牛"
             ],
             "englishName": "Medicine 13",
-            "medicineCode": "178916738",
+            "medicineCode": "24013",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分A",
+                    "amount": "83mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/13",
             "packaging": "包裝描述",
-            "price": "381元"
+            "price": "328元"
         },
         {
             "id": "14",
             "name": "藥品14",
             "description": "藥品14 的簡介",
-            "type": "輔助飼料",
+            "type": "滅菌懸劑",
             "animals": [
-                "鵝",
-                "火雞",
-                "雞"
+                "雞",
+                "羊"
             ],
             "englishName": "Medicine 14",
-            "medicineCode": "929060317",
+            "medicineCode": "24014",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分B",
+                    "amount": "29mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "61mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/14",
             "packaging": "包裝描述",
-            "price": "375元"
+            "price": "483元"
         },
         {
             "id": "15",
             "name": "藥品15",
             "description": "藥品15 的簡介",
-            "type": "口服液劑",
+            "type": "乾粉注射劑",
             "animals": [
-                "牛"
+                "馬",
+                "魚/龜鱉目"
             ],
             "englishName": "Medicine 15",
-            "medicineCode": "889076227",
+            "medicineCode": "24015",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分A",
+                    "amount": "84mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "92mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/15",
             "packaging": "包裝描述",
-            "price": "323元"
+            "price": "386元"
         },
         {
             "id": "16",
             "name": "藥品16",
             "description": "藥品16 的簡介",
-            "type": "滅菌懸劑",
+            "type": "乾粉注射劑",
             "animals": [
                 "豬",
-                "牛"
+                "火雞",
+                "羊"
             ],
             "englishName": "Medicine 16",
-            "medicineCode": "990277997",
+            "medicineCode": "24016",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分A",
+                    "amount": "84mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "68mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "68mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/16",
             "packaging": "包裝描述",
-            "price": "449元"
+            "price": "63元"
         },
         {
             "id": "17",
             "name": "藥品17",
             "description": "藥品17 的簡介",
-            "type": "乾粉注射劑",
+            "type": "乾粉懸劑",
             "animals": [
-                "鴨",
-                "雞",
+                "家畜",
                 "犬"
             ],
             "englishName": "Medicine 17",
-            "medicineCode": "325349632",
+            "medicineCode": "24017",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分D",
+                    "amount": "41mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/17",
             "packaging": "包裝描述",
-            "price": "110元"
+            "price": "458元"
         },
         {
             "id": "18",
             "name": "藥品18",
             "description": "藥品18 的簡介",
-            "type": "乾粉注射劑",
+            "type": "口服液劑",
             "animals": [
-                "雞"
+                "牛",
+                "羊",
+                "豬"
             ],
             "englishName": "Medicine 18",
-            "medicineCode": "426836253",
+            "medicineCode": "24018",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分B",
+                    "amount": "79mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/18",
             "packaging": "包裝描述",
-            "price": "151元"
+            "price": "329元"
         },
         {
             "id": "19",
             "name": "藥品19",
             "description": "藥品19 的簡介",
-            "type": "注射液",
+            "type": "消毒劑",
             "animals": [
-                "羊",
-                "豬"
+                "牛"
             ],
             "englishName": "Medicine 19",
-            "medicineCode": "665233453",
+            "medicineCode": "24019",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分E",
+                    "amount": "91mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/19",
             "packaging": "包裝描述",
-            "price": "299元"
+            "price": "326元"
         },
         {
             "id": "20",
             "name": "藥品20",
             "description": "藥品20 的簡介",
-            "type": "乾粉懸劑",
+            "type": "滅菌懸劑",
             "animals": [
-                "豬",
-                "羊"
+                "牛",
+                "家畜",
+                "貓",
+                "犬"
             ],
             "englishName": "Medicine 20",
-            "medicineCode": "737500584",
+            "medicineCode": "24020",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分A",
+                    "amount": "71mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "63mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/20",
             "packaging": "包裝描述",
-            "price": "94元"
+            "price": "204元"
         },
         {
             "id": "21",
             "name": "藥品21",
             "description": "藥品21 的簡介",
-            "type": "散劑",
+            "type": "注射液",
             "animals": [
-                "雞",
-                "家畜",
-                "犬"
+                "其他",
+                "家畜"
             ],
             "englishName": "Medicine 21",
-            "medicineCode": "198031778",
+            "medicineCode": "24021",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分E",
+                    "amount": "90mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/21",
             "packaging": "包裝描述",
-            "price": "414元"
+            "price": "298元"
         },
         {
             "id": "22",
@@ -511,41 +914,79 @@
             "description": "藥品22 的簡介",
             "type": "乾粉懸劑",
             "animals": [
-                "鴨"
+                "鵝",
+                "犬",
+                "牛"
             ],
             "englishName": "Medicine 22",
-            "medicineCode": "691972578",
+            "medicineCode": "24022",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分C",
+                    "amount": "50mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/22",
             "packaging": "包裝描述",
-            "price": "483元"
+            "price": "284元"
         },
         {
             "id": "23",
             "name": "藥品23",
             "description": "藥品23 的簡介",
-            "type": "消毒劑",
+            "type": "其他類",
             "animals": [
                 "其他",
-                "犬",
-                "火雞"
+                "貓",
+                "鵝"
             ],
             "englishName": "Medicine 23",
-            "medicineCode": "655182169",
+            "medicineCode": "24023",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分E",
+                    "amount": "61mg"
+                },
+                {
+                    "name": "主要成分W",
+                    "amount": "6mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/23",
             "packaging": "包裝描述",
-            "price": "212元"
+            "price": "94元"
         },
         {
             "id": "24",
@@ -553,43 +994,88 @@
             "description": "藥品24 的簡介",
             "type": "輔助飼料",
             "animals": [
-                "家畜",
-                "羊"
+                "火雞",
+                "貓",
+                "鵝"
             ],
             "englishName": "Medicine 24",
-            "medicineCode": "264078240",
+            "medicineCode": "24024",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分A",
+                    "amount": "47mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "18mg"
+                },
+                {
+                    "name": "主要成分W",
+                    "amount": "57mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/24",
             "packaging": "包裝描述",
-            "price": "317元"
+            "price": "298元"
         },
         {
             "id": "25",
             "name": "藥品25",
             "description": "藥品25 的簡介",
-            "type": "注射液",
+            "type": "口服液劑",
             "animals": [
+                "家畜",
                 "其他",
-                "鴨"
+                "雞",
+                "火雞"
             ],
             "englishName": "Medicine 25",
-            "medicineCode": "699981302",
+            "medicineCode": "24025",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分B",
+                    "amount": "3mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "68mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/25",
             "packaging": "包裝描述",
-            "price": "155元"
+            "price": "317元"
         },
         {
             "id": "26",
@@ -597,291 +1083,597 @@
             "description": "藥品26 的簡介",
             "type": "散劑",
             "animals": [
-                "馬",
+                "豬",
                 "家畜",
-                "鵝"
+                "牛",
+                "其他"
             ],
             "englishName": "Medicine 26",
-            "medicineCode": "945131202",
+            "medicineCode": "24026",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分D",
+                    "amount": "69mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/26",
             "packaging": "包裝描述",
-            "price": "63元"
+            "price": "222元"
         },
         {
             "id": "27",
             "name": "藥品27",
             "description": "藥品27 的簡介",
-            "type": "輔助飼料",
+            "type": "其他類",
             "animals": [
-                "貓",
-                "鴨"
+                "魚/龜鱉目",
+                "馬",
+                "雞"
             ],
             "englishName": "Medicine 27",
-            "medicineCode": "941189993",
+            "medicineCode": "24027",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分E",
+                    "amount": "56mg"
+                },
+                {
+                    "name": "主要成分W",
+                    "amount": "74mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/27",
             "packaging": "包裝描述",
-            "price": "229元"
+            "price": "500元"
         },
         {
             "id": "28",
             "name": "藥品28",
             "description": "藥品28 的簡介",
-            "type": "其他類",
+            "type": "乾粉懸劑",
             "animals": [
-                "豬"
+                "火雞",
+                "牛",
+                "犬"
             ],
             "englishName": "Medicine 28",
-            "medicineCode": "348445721",
+            "medicineCode": "24028",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分C",
+                    "amount": "74mg"
+                },
+                {
+                    "name": "主要成分W",
+                    "amount": "7mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "3mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/28",
             "packaging": "包裝描述",
-            "price": "332元"
+            "price": "394元"
         },
         {
             "id": "29",
             "name": "藥品29",
             "description": "藥品29 的簡介",
-            "type": "口服液劑",
+            "type": "其他類",
             "animals": [
-                "鴨"
+                "羊",
+                "馬"
             ],
             "englishName": "Medicine 29",
-            "medicineCode": "637723548",
+            "medicineCode": "24029",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分D",
+                    "amount": "26mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "47mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "12mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/29",
             "packaging": "包裝描述",
-            "price": "211元"
+            "price": "110元"
         },
         {
             "id": "30",
             "name": "藥品30",
             "description": "藥品30 的簡介",
-            "type": "乾粉注射劑",
+            "type": "注射液",
             "animals": [
-                "牛"
+                "火雞"
             ],
             "englishName": "Medicine 30",
-            "medicineCode": "411230754",
+            "medicineCode": "24030",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分E",
+                    "amount": "26mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "12mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/30",
             "packaging": "包裝描述",
-            "price": "439元"
+            "price": "104元"
         },
         {
             "id": "31",
             "name": "藥品31",
             "description": "藥品31 的簡介",
-            "type": "消毒劑",
+            "type": "輔助飼料",
             "animals": [
-                "鵝",
-                "雞"
+                "魚/龜鱉目",
+                "豬",
+                "羊",
+                "犬"
             ],
             "englishName": "Medicine 31",
-            "medicineCode": "283437591",
+            "medicineCode": "24031",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分D",
+                    "amount": "29mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "17mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "7mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/31",
             "packaging": "包裝描述",
-            "price": "245元"
+            "price": "370元"
         },
         {
             "id": "32",
             "name": "藥品32",
             "description": "藥品32 的簡介",
-            "type": "輔助飼料",
+            "type": "滅菌懸劑",
             "animals": [
-                "犬",
-                "家畜",
-                "鵝"
+                "鴨"
             ],
             "englishName": "Medicine 32",
-            "medicineCode": "269863666",
+            "medicineCode": "24032",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分B",
+                    "amount": "68mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "52mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "4mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/32",
             "packaging": "包裝描述",
-            "price": "281元"
+            "price": "249元"
         },
         {
             "id": "33",
             "name": "藥品33",
             "description": "藥品33 的簡介",
-            "type": "其他類",
+            "type": "消毒劑",
             "animals": [
-                "魚/龜鱉目",
-                "雞"
+                "豬",
+                "犬",
+                "貓",
+                "羊"
             ],
             "englishName": "Medicine 33",
-            "medicineCode": "562896615",
+            "medicineCode": "24033",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分C",
+                    "amount": "68mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "53mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/33",
             "packaging": "包裝描述",
-            "price": "373元"
+            "price": "447元"
         },
         {
             "id": "34",
             "name": "藥品34",
             "description": "藥品34 的簡介",
-            "type": "口服液劑",
+            "type": "滅菌懸劑",
             "animals": [
-                "羊",
-                "鴨",
-                "魚/龜鱉目"
+                "羊"
             ],
             "englishName": "Medicine 34",
-            "medicineCode": "702820618",
+            "medicineCode": "24034",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分D",
+                    "amount": "44mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "19mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "12mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/34",
             "packaging": "包裝描述",
-            "price": "498元"
+            "price": "407元"
         },
         {
             "id": "35",
             "name": "藥品35",
             "description": "藥品35 的簡介",
-            "type": "輔助飼料",
+            "type": "口服液劑",
             "animals": [
+                "犬",
                 "馬",
-                "貓"
+                "家畜",
+                "鴨"
             ],
             "englishName": "Medicine 35",
-            "medicineCode": "226959772",
+            "medicineCode": "24035",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分E",
+                    "amount": "90mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "15mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/35",
             "packaging": "包裝描述",
-            "price": "441元"
+            "price": "328元"
         },
         {
             "id": "36",
             "name": "藥品36",
             "description": "藥品36 的簡介",
-            "type": "散劑",
+            "type": "滅菌懸劑",
             "animals": [
-                "貓",
-                "豬"
+                "火雞",
+                "鵝"
             ],
             "englishName": "Medicine 36",
-            "medicineCode": "754700927",
+            "medicineCode": "24036",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分C",
+                    "amount": "96mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "78mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "82mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/36",
             "packaging": "包裝描述",
-            "price": "467元"
+            "price": "94元"
         },
         {
             "id": "37",
             "name": "藥品37",
             "description": "藥品37 的簡介",
-            "type": "輔助飼料",
+            "type": "滅菌懸劑",
             "animals": [
-                "豬",
-                "魚/龜鱉目"
+                "鴨",
+                "牛"
             ],
             "englishName": "Medicine 37",
-            "medicineCode": "601279377",
+            "medicineCode": "24037",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分E",
+                    "amount": "72mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "91mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/37",
             "packaging": "包裝描述",
-            "price": "479元"
+            "price": "362元"
         },
         {
             "id": "38",
             "name": "藥品38",
             "description": "藥品38 的簡介",
-            "type": "其他類",
+            "type": "口服液劑",
             "animals": [
-                "馬",
-                "魚/龜鱉目"
+                "牛"
             ],
             "englishName": "Medicine 38",
-            "medicineCode": "457617091",
+            "medicineCode": "24038",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分C",
+                    "amount": "87mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "50mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/38",
             "packaging": "包裝描述",
-            "price": "314元"
+            "price": "391元"
         },
         {
             "id": "39",
             "name": "藥品39",
             "description": "藥品39 的簡介",
-            "type": "注射液",
+            "type": "乾粉懸劑",
             "animals": [
-                "豬"
+                "豬",
+                "犬",
+                "貓",
+                "馬"
             ],
             "englishName": "Medicine 39",
-            "medicineCode": "264155618",
+            "medicineCode": "24039",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分B",
+                    "amount": "45mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/39",
             "packaging": "包裝描述",
-            "price": "174元"
+            "price": "393元"
         },
         {
             "id": "40",
@@ -889,152 +1681,287 @@
             "description": "藥品40 的簡介",
             "type": "口服液劑",
             "animals": [
-                "雞",
-                "其他",
-                "馬"
+                "豬",
+                "家畜"
             ],
             "englishName": "Medicine 40",
-            "medicineCode": "411667040",
+            "medicineCode": "24040",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分A",
+                    "amount": "63mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "47mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/40",
             "packaging": "包裝描述",
-            "price": "201元"
+            "price": "55元"
         },
         {
             "id": "41",
             "name": "藥品41",
             "description": "藥品41 的簡介",
-            "type": "其他類",
+            "type": "乾粉懸劑",
             "animals": [
-                "羊"
+                "其他",
+                "火雞"
             ],
             "englishName": "Medicine 41",
-            "medicineCode": "944445532",
+            "medicineCode": "24041",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分C",
+                    "amount": "49mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "79mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/41",
             "packaging": "包裝描述",
-            "price": "310元"
+            "price": "148元"
         },
         {
             "id": "42",
             "name": "藥品42",
             "description": "藥品42 的簡介",
-            "type": "散劑",
+            "type": "乾粉懸劑",
             "animals": [
-                "火雞",
-                "雞",
-                "魚/龜鱉目"
+                "家畜",
+                "貓",
+                "其他",
+                "豬"
             ],
             "englishName": "Medicine 42",
-            "medicineCode": "434293892",
+            "medicineCode": "24042",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分E",
+                    "amount": "84mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/42",
             "packaging": "包裝描述",
-            "price": "120元"
+            "price": "368元"
         },
         {
             "id": "43",
             "name": "藥品43",
             "description": "藥品43 的簡介",
-            "type": "消毒劑",
+            "type": "口服液劑",
             "animals": [
-                "豬",
-                "火雞",
-                "貓"
+                "火雞"
             ],
             "englishName": "Medicine 43",
-            "medicineCode": "236513574",
+            "medicineCode": "24043",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分B",
+                    "amount": "35mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "85mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/43",
             "packaging": "包裝描述",
-            "price": "497元"
+            "price": "253元"
         },
         {
             "id": "44",
             "name": "藥品44",
             "description": "藥品44 的簡介",
-            "type": "散劑",
+            "type": "輔助飼料",
             "animals": [
-                "魚/龜鱉目",
-                "羊",
-                "牛"
+                "家畜",
+                "貓"
             ],
             "englishName": "Medicine 44",
-            "medicineCode": "684717935",
+            "medicineCode": "24044",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分D",
+                    "amount": "40mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/44",
             "packaging": "包裝描述",
-            "price": "328元"
+            "price": "451元"
         },
         {
             "id": "45",
             "name": "藥品45",
             "description": "藥品45 的簡介",
-            "type": "乾粉懸劑",
+            "type": "乾粉注射劑",
             "animals": [
-                "雞"
+                "家畜",
+                "犬",
+                "牛",
+                "其他"
             ],
             "englishName": "Medicine 45",
-            "medicineCode": "836465157",
+            "medicineCode": "24045",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分C",
+                    "amount": "91mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "21mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "36mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/45",
             "packaging": "包裝描述",
-            "price": "499元"
+            "price": "475元"
         },
         {
             "id": "46",
             "name": "藥品46",
             "description": "藥品46 的簡介",
-            "type": "滅菌懸劑",
+            "type": "散劑",
             "animals": [
-                "鴨",
-                "豬",
-                "犬"
+                "火雞",
+                "牛",
+                "馬",
+                "豬"
             ],
             "englishName": "Medicine 46",
-            "medicineCode": "994557391",
+            "medicineCode": "24046",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分C",
+                    "amount": "86mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "71mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/46",
             "packaging": "包裝描述",
-            "price": "81元"
+            "price": "311元"
         },
         {
             "id": "47",
@@ -1042,61 +1969,129 @@
             "description": "藥品47 的簡介",
             "type": "口服液劑",
             "animals": [
-                "貓"
+                "馬",
+                "犬",
+                "其他"
             ],
             "englishName": "Medicine 47",
-            "medicineCode": "314262474",
+            "medicineCode": "24047",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分E",
+                    "amount": "83mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "36mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "50mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/47",
             "packaging": "包裝描述",
-            "price": "100元"
+            "price": "140元"
         },
         {
             "id": "48",
             "name": "藥品48",
             "description": "藥品48 的簡介",
-            "type": "注射液",
+            "type": "口服液劑",
             "animals": [
-                "火雞"
+                "牛"
             ],
             "englishName": "Medicine 48",
-            "medicineCode": "147609514",
+            "medicineCode": "24048",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分A",
+                    "amount": "33mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "2mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/48",
             "packaging": "包裝描述",
-            "price": "168元"
+            "price": "60元"
         },
         {
             "id": "49",
             "name": "藥品49",
             "description": "藥品49 的簡介",
-            "type": "滅菌懸劑",
+            "type": "消毒劑",
             "animals": [
-                "家畜",
-                "鵝"
+                "貓"
             ],
             "englishName": "Medicine 49",
-            "medicineCode": "197472557",
+            "medicineCode": "24049",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分A",
+                    "amount": "89mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "27mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "85mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/49",
             "packaging": "包裝描述",
-            "price": "457元"
+            "price": "277元"
         },
         {
             "id": "50",
@@ -1104,482 +2099,935 @@
             "description": "藥品50 的簡介",
             "type": "注射液",
             "animals": [
-                "馬"
+                "鴨",
+                "貓"
             ],
             "englishName": "Medicine 50",
-            "medicineCode": "515373606",
+            "medicineCode": "24050",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分D",
+                    "amount": "2mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "3mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/50",
             "packaging": "包裝描述",
-            "price": "313元"
+            "price": "234元"
         },
         {
             "id": "51",
             "name": "藥品51",
             "description": "藥品51 的簡介",
-            "type": "乾粉注射劑",
+            "type": "散劑",
             "animals": [
-                "犬",
-                "火雞"
+                "其他",
+                "豬",
+                "貓",
+                "魚/龜鱉目"
             ],
             "englishName": "Medicine 51",
-            "medicineCode": "373475762",
+            "medicineCode": "24051",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分C",
+                    "amount": "77mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/51",
             "packaging": "包裝描述",
-            "price": "237元"
+            "price": "400元"
         },
         {
             "id": "52",
             "name": "藥品52",
             "description": "藥品52 的簡介",
-            "type": "滅菌懸劑",
+            "type": "散劑",
             "animals": [
-                "牛",
-                "火雞"
+                "馬",
+                "貓",
+                "魚/龜鱉目"
             ],
             "englishName": "Medicine 52",
-            "medicineCode": "325472571",
+            "medicineCode": "24052",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分A",
+                    "amount": "96mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/52",
             "packaging": "包裝描述",
-            "price": "356元"
+            "price": "173元"
         },
         {
             "id": "53",
             "name": "藥品53",
             "description": "藥品53 的簡介",
-            "type": "注射液",
+            "type": "其他類",
             "animals": [
-                "貓",
-                "鴨",
-                "鵝"
+                "雞",
+                "鵝",
+                "家畜"
             ],
             "englishName": "Medicine 53",
-            "medicineCode": "535603927",
+            "medicineCode": "24053",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分C",
+                    "amount": "56mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "44mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "68mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/53",
             "packaging": "包裝描述",
-            "price": "125元"
+            "price": "104元"
         },
         {
             "id": "54",
             "name": "藥品54",
             "description": "藥品54 的簡介",
-            "type": "其他類",
+            "type": "滅菌懸劑",
             "animals": [
-                "鵝",
-                "牛",
-                "家畜"
+                "雞"
             ],
             "englishName": "Medicine 54",
-            "medicineCode": "910905908",
+            "medicineCode": "24054",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分C",
+                    "amount": "55mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/54",
             "packaging": "包裝描述",
-            "price": "253元"
+            "price": "188元"
         },
         {
             "id": "55",
             "name": "藥品55",
             "description": "藥品55 的簡介",
-            "type": "乾粉注射劑",
+            "type": "輔助飼料",
             "animals": [
-                "牛",
-                "家畜",
-                "馬"
+                "其他"
             ],
             "englishName": "Medicine 55",
-            "medicineCode": "479366476",
+            "medicineCode": "24055",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分D",
+                    "amount": "55mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "45mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "44mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/55",
             "packaging": "包裝描述",
-            "price": "367元"
+            "price": "248元"
         },
         {
             "id": "56",
             "name": "藥品56",
             "description": "藥品56 的簡介",
-            "type": "乾粉注射劑",
+            "type": "乾粉懸劑",
             "animals": [
+                "鵝",
+                "羊",
                 "犬",
-                "家畜",
-                "其他"
+                "家畜"
             ],
             "englishName": "Medicine 56",
-            "medicineCode": "112247881",
+            "medicineCode": "24056",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分C",
+                    "amount": "80mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/56",
             "packaging": "包裝描述",
-            "price": "350元"
+            "price": "379元"
         },
         {
             "id": "57",
             "name": "藥品57",
             "description": "藥品57 的簡介",
-            "type": "乾粉懸劑",
+            "type": "其他類",
             "animals": [
-                "鵝",
-                "鴨",
-                "雞"
+                "羊",
+                "魚/龜鱉目"
             ],
             "englishName": "Medicine 57",
-            "medicineCode": "808845365",
+            "medicineCode": "24057",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分B",
+                    "amount": "84mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/57",
             "packaging": "包裝描述",
-            "price": "384元"
+            "price": "286元"
         },
         {
             "id": "58",
             "name": "藥品58",
             "description": "藥品58 的簡介",
-            "type": "消毒劑",
+            "type": "其他類",
             "animals": [
-                "火雞"
+                "貓",
+                "牛",
+                "犬"
             ],
             "englishName": "Medicine 58",
-            "medicineCode": "251626007",
+            "medicineCode": "24058",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分C",
+                    "amount": "74mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/58",
             "packaging": "包裝描述",
-            "price": "410元"
+            "price": "484元"
         },
         {
             "id": "59",
             "name": "藥品59",
             "description": "藥品59 的簡介",
-            "type": "乾粉懸劑",
+            "type": "注射液",
             "animals": [
-                "其他",
-                "豬",
-                "貓"
+                "鴨",
+                "貓",
+                "雞",
+                "牛"
             ],
             "englishName": "Medicine 59",
-            "medicineCode": "335875533",
+            "medicineCode": "24059",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分D",
+                    "amount": "30mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/59",
             "packaging": "包裝描述",
-            "price": "297元"
+            "price": "308元"
         },
         {
             "id": "60",
             "name": "藥品60",
             "description": "藥品60 的簡介",
-            "type": "消毒劑",
+            "type": "乾粉懸劑",
             "animals": [
-                "家畜",
-                "貓"
+                "雞",
+                "犬"
             ],
             "englishName": "Medicine 60",
-            "medicineCode": "865544155",
+            "medicineCode": "24060",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分C",
+                    "amount": "65mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "88mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "14mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/60",
             "packaging": "包裝描述",
-            "price": "491元"
+            "price": "446元"
         },
         {
             "id": "61",
             "name": "藥品61",
             "description": "藥品61 的簡介",
-            "type": "消毒劑",
+            "type": "滅菌懸劑",
             "animals": [
-                "鴨"
+                "鵝",
+                "鴨",
+                "馬"
             ],
             "englishName": "Medicine 61",
-            "medicineCode": "186188118",
+            "medicineCode": "24061",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分C",
+                    "amount": "40mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "10mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "19mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/61",
             "packaging": "包裝描述",
-            "price": "429元"
+            "price": "443元"
         },
         {
             "id": "62",
             "name": "藥品62",
             "description": "藥品62 的簡介",
-            "type": "注射液",
+            "type": "乾粉懸劑",
             "animals": [
-                "其他",
-                "犬",
+                "羊",
+                "馬",
+                "貓",
                 "雞"
             ],
             "englishName": "Medicine 62",
-            "medicineCode": "213592456",
+            "medicineCode": "24062",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分D",
+                    "amount": "33mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "72mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "55mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/62",
             "packaging": "包裝描述",
-            "price": "169元"
+            "price": "71元"
         },
         {
             "id": "63",
             "name": "藥品63",
             "description": "藥品63 的簡介",
-            "type": "乾粉注射劑",
+            "type": "乾粉懸劑",
             "animals": [
+                "雞",
                 "火雞"
             ],
             "englishName": "Medicine 63",
-            "medicineCode": "598412809",
+            "medicineCode": "24063",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分A",
+                    "amount": "53mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "90mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "1mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/63",
             "packaging": "包裝描述",
-            "price": "343元"
+            "price": "279元"
         },
         {
             "id": "64",
             "name": "藥品64",
             "description": "藥品64 的簡介",
-            "type": "口服液劑",
+            "type": "乾粉懸劑",
             "animals": [
-                "牛"
+                "雞"
             ],
             "englishName": "Medicine 64",
-            "medicineCode": "872594006",
+            "medicineCode": "24064",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分C",
+                    "amount": "58mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "49mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/64",
             "packaging": "包裝描述",
-            "price": "103元"
+            "price": "91元"
         },
         {
             "id": "65",
             "name": "藥品65",
             "description": "藥品65 的簡介",
-            "type": "消毒劑",
+            "type": "滅菌懸劑",
             "animals": [
-                "犬",
                 "雞",
-                "鴨"
+                "牛",
+                "犬"
             ],
             "englishName": "Medicine 65",
-            "medicineCode": "368288206",
+            "medicineCode": "24065",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分A",
+                    "amount": "58mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/65",
             "packaging": "包裝描述",
-            "price": "413元"
+            "price": "136元"
         },
         {
             "id": "66",
             "name": "藥品66",
             "description": "藥品66 的簡介",
-            "type": "輔助飼料",
+            "type": "滅菌懸劑",
             "animals": [
-                "犬"
+                "鴨",
+                "魚/龜鱉目"
             ],
             "englishName": "Medicine 66",
-            "medicineCode": "554972430",
+            "medicineCode": "24066",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分B",
+                    "amount": "30mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "12mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/66",
             "packaging": "包裝描述",
-            "price": "269元"
+            "price": "157元"
         },
         {
             "id": "67",
             "name": "藥品67",
             "description": "藥品67 的簡介",
-            "type": "乾粉懸劑",
+            "type": "消毒劑",
             "animals": [
-                "火雞",
-                "鵝",
-                "魚/龜鱉目"
+                "馬"
             ],
             "englishName": "Medicine 67",
-            "medicineCode": "710775986",
+            "medicineCode": "24067",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分B",
+                    "amount": "15mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "88mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/67",
             "packaging": "包裝描述",
-            "price": "140元"
+            "price": "351元"
         },
         {
             "id": "68",
             "name": "藥品68",
             "description": "藥品68 的簡介",
-            "type": "口服液劑",
+            "type": "其他類",
             "animals": [
-                "家畜",
-                "馬",
-                "豬"
+                "豬",
+                "家畜"
             ],
             "englishName": "Medicine 68",
-            "medicineCode": "490053641",
+            "medicineCode": "24068",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分D",
+                    "amount": "65mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "36mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "35mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/68",
             "packaging": "包裝描述",
-            "price": "115元"
+            "price": "271元"
         },
         {
             "id": "69",
             "name": "藥品69",
             "description": "藥品69 的簡介",
-            "type": "注射液",
+            "type": "滅菌懸劑",
             "animals": [
                 "鵝"
             ],
             "englishName": "Medicine 69",
-            "medicineCode": "612118910",
+            "medicineCode": "24069",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分B",
+                    "amount": "7mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/69",
             "packaging": "包裝描述",
-            "price": "120元"
+            "price": "430元"
         },
         {
             "id": "70",
             "name": "藥品70",
             "description": "藥品70 的簡介",
-            "type": "散劑",
+            "type": "口服液劑",
             "animals": [
-                "羊",
-                "鴨"
+                "馬"
             ],
             "englishName": "Medicine 70",
-            "medicineCode": "355057704",
+            "medicineCode": "24070",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分B",
+                    "amount": "82mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "72mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/70",
             "packaging": "包裝描述",
-            "price": "341元"
+            "price": "193元"
         },
         {
             "id": "71",
             "name": "藥品71",
             "description": "藥品71 的簡介",
-            "type": "滅菌懸劑",
+            "type": "散劑",
             "animals": [
-                "貓"
+                "家畜",
+                "鴨",
+                "魚/龜鱉目"
             ],
             "englishName": "Medicine 71",
-            "medicineCode": "204615779",
+            "medicineCode": "24071",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分D",
+                    "amount": "67mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/71",
             "packaging": "包裝描述",
-            "price": "333元"
+            "price": "204元"
         },
         {
             "id": "72",
             "name": "藥品72",
             "description": "藥品72 的簡介",
-            "type": "滅菌懸劑",
+            "type": "消毒劑",
             "animals": [
-                "雞"
+                "牛",
+                "家畜",
+                "貓"
             ],
             "englishName": "Medicine 72",
-            "medicineCode": "199807573",
+            "medicineCode": "24072",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分A",
+                    "amount": "18mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/72",
             "packaging": "包裝描述",
-            "price": "215元"
+            "price": "107元"
         },
         {
             "id": "73",
@@ -1587,63 +3035,122 @@
             "description": "藥品73 的簡介",
             "type": "口服液劑",
             "animals": [
-                "羊",
-                "雞",
-                "鵝"
+                "魚/龜鱉目",
+                "馬"
             ],
             "englishName": "Medicine 73",
-            "medicineCode": "776808378",
+            "medicineCode": "24073",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分D",
+                    "amount": "60mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "80mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "65mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/73",
             "packaging": "包裝描述",
-            "price": "313元"
+            "price": "307元"
         },
         {
             "id": "74",
             "name": "藥品74",
             "description": "藥品74 的簡介",
-            "type": "口服液劑",
+            "type": "乾粉注射劑",
             "animals": [
-                "鵝",
-                "雞",
-                "豬"
+                "犬",
+                "羊",
+                "家畜",
+                "雞"
             ],
             "englishName": "Medicine 74",
-            "medicineCode": "991199065",
+            "medicineCode": "24074",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分C",
+                    "amount": "21mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/74",
             "packaging": "包裝描述",
-            "price": "320元"
+            "price": "412元"
         },
         {
             "id": "75",
             "name": "藥品75",
             "description": "藥品75 的簡介",
-            "type": "輔助飼料",
+            "type": "散劑",
             "animals": [
-                "雞"
+                "羊",
+                "犬",
+                "貓",
+                "火雞"
             ],
             "englishName": "Medicine 75",
-            "medicineCode": "690307680",
+            "medicineCode": "24075",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分B",
+                    "amount": "64mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/75",
             "packaging": "包裝描述",
-            "price": "163元"
+            "price": "249元"
         },
         {
             "id": "76",
@@ -1652,272 +3159,525 @@
             "type": "消毒劑",
             "animals": [
                 "貓",
-                "魚/龜鱉目"
+                "雞",
+                "其他",
+                "家畜"
             ],
             "englishName": "Medicine 76",
-            "medicineCode": "426416924",
+            "medicineCode": "24076",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分A",
+                    "amount": "40mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "71mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/76",
             "packaging": "包裝描述",
-            "price": "118元"
+            "price": "375元"
         },
         {
             "id": "77",
             "name": "藥品77",
             "description": "藥品77 的簡介",
-            "type": "滅菌懸劑",
+            "type": "輔助飼料",
             "animals": [
+                "鵝",
+                "魚/龜鱉目",
                 "其他"
             ],
             "englishName": "Medicine 77",
-            "medicineCode": "728723208",
+            "medicineCode": "24077",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分A",
+                    "amount": "75mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "24mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "91mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/77",
             "packaging": "包裝描述",
-            "price": "484元"
+            "price": "95元"
         },
         {
             "id": "78",
             "name": "藥品78",
             "description": "藥品78 的簡介",
-            "type": "消毒劑",
+            "type": "乾粉注射劑",
             "animals": [
-                "火雞"
+                "豬"
             ],
             "englishName": "Medicine 78",
-            "medicineCode": "637201575",
+            "medicineCode": "24078",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分E",
+                    "amount": "9mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "46mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/78",
             "packaging": "包裝描述",
-            "price": "305元"
+            "price": "456元"
         },
         {
             "id": "79",
             "name": "藥品79",
             "description": "藥品79 的簡介",
-            "type": "口服液劑",
+            "type": "滅菌懸劑",
             "animals": [
                 "貓"
             ],
             "englishName": "Medicine 79",
-            "medicineCode": "754243574",
+            "medicineCode": "24079",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分E",
+                    "amount": "92mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "30mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/79",
             "packaging": "包裝描述",
-            "price": "361元"
+            "price": "76元"
         },
         {
             "id": "80",
             "name": "藥品80",
             "description": "藥品80 的簡介",
-            "type": "注射液",
+            "type": "消毒劑",
             "animals": [
-                "雞",
-                "其他",
-                "牛"
+                "羊"
             ],
             "englishName": "Medicine 80",
-            "medicineCode": "187893123",
+            "medicineCode": "24080",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分D",
+                    "amount": "76mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/80",
             "packaging": "包裝描述",
-            "price": "132元"
+            "price": "376元"
         },
         {
             "id": "81",
             "name": "藥品81",
             "description": "藥品81 的簡介",
-            "type": "輔助飼料",
+            "type": "消毒劑",
             "animals": [
-                "豬",
-                "馬"
+                "貓",
+                "犬"
             ],
             "englishName": "Medicine 81",
-            "medicineCode": "123845583",
+            "medicineCode": "24081",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分A",
+                    "amount": "69mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/81",
             "packaging": "包裝描述",
-            "price": "227元"
+            "price": "169元"
         },
         {
             "id": "82",
             "name": "藥品82",
             "description": "藥品82 的簡介",
-            "type": "滅菌懸劑",
+            "type": "乾粉注射劑",
             "animals": [
-                "其他"
+                "馬",
+                "魚/龜鱉目",
+                "羊",
+                "豬"
             ],
             "englishName": "Medicine 82",
-            "medicineCode": "967838406",
+            "medicineCode": "24082",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分A",
+                    "amount": "5mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/82",
             "packaging": "包裝描述",
-            "price": "236元"
+            "price": "435元"
         },
         {
             "id": "83",
             "name": "藥品83",
             "description": "藥品83 的簡介",
-            "type": "口服液劑",
+            "type": "消毒劑",
             "animals": [
-                "羊"
+                "馬",
+                "豬"
             ],
             "englishName": "Medicine 83",
-            "medicineCode": "281616946",
+            "medicineCode": "24083",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分D",
+                    "amount": "63mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/83",
             "packaging": "包裝描述",
-            "price": "339元"
+            "price": "370元"
         },
         {
             "id": "84",
             "name": "藥品84",
             "description": "藥品84 的簡介",
-            "type": "注射液",
+            "type": "滅菌懸劑",
             "animals": [
-                "雞",
-                "犬",
-                "其他"
+                "犬"
             ],
             "englishName": "Medicine 84",
-            "medicineCode": "947983352",
+            "medicineCode": "24084",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分C",
+                    "amount": "42mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/84",
             "packaging": "包裝描述",
-            "price": "439元"
+            "price": "432元"
         },
         {
             "id": "85",
             "name": "藥品85",
             "description": "藥品85 的簡介",
-            "type": "注射液",
+            "type": "乾粉注射劑",
             "animals": [
-                "牛",
-                "貓",
-                "家畜"
+                "魚/龜鱉目"
             ],
             "englishName": "Medicine 85",
-            "medicineCode": "189867596",
+            "medicineCode": "24085",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分B",
+                    "amount": "73mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "10mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "36mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/85",
             "packaging": "包裝描述",
-            "price": "252元"
+            "price": "474元"
         },
         {
             "id": "86",
             "name": "藥品86",
             "description": "藥品86 的簡介",
-            "type": "口服液劑",
+            "type": "滅菌懸劑",
             "animals": [
-                "犬",
-                "馬"
+                "魚/龜鱉目"
             ],
             "englishName": "Medicine 86",
-            "medicineCode": "181948234",
+            "medicineCode": "24086",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分D",
+                    "amount": "59mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "29mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/86",
             "packaging": "包裝描述",
-            "price": "55元"
+            "price": "442元"
         },
         {
             "id": "87",
             "name": "藥品87",
             "description": "藥品87 的簡介",
-            "type": "其他類",
+            "type": "散劑",
             "animals": [
-                "馬",
-                "魚/龜鱉目",
-                "犬"
+                "犬",
+                "貓",
+                "其他",
+                "雞"
             ],
             "englishName": "Medicine 87",
-            "medicineCode": "860762266",
+            "medicineCode": "24087",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分B",
+                    "amount": "73mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "44mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "60mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/87",
             "packaging": "包裝描述",
-            "price": "309元"
+            "price": "432元"
         },
         {
             "id": "88",
             "name": "藥品88",
             "description": "藥品88 的簡介",
-            "type": "其他類",
+            "type": "乾粉懸劑",
             "animals": [
+                "牛",
                 "其他",
-                "火雞",
-                "貓"
+                "鴨"
             ],
             "englishName": "Medicine 88",
-            "medicineCode": "544465163",
+            "medicineCode": "24088",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分D",
+                    "amount": "58mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "33mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/88",
             "packaging": "包裝描述",
-            "price": "305元"
+            "price": "277元"
         },
         {
             "id": "89",
@@ -1925,43 +3685,84 @@
             "description": "藥品89 的簡介",
             "type": "輔助飼料",
             "animals": [
-                "其他",
-                "羊",
-                "牛"
+                "鵝",
+                "馬",
+                "犬"
             ],
             "englishName": "Medicine 89",
-            "medicineCode": "616513966",
+            "medicineCode": "24089",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分B",
+                    "amount": "1mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "71mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/89",
             "packaging": "包裝描述",
-            "price": "339元"
+            "price": "370元"
         },
         {
             "id": "90",
             "name": "藥品90",
             "description": "藥品90 的簡介",
-            "type": "輔助飼料",
+            "type": "消毒劑",
             "animals": [
-                "豬"
+                "其他",
+                "犬",
+                "牛",
+                "家畜"
             ],
             "englishName": "Medicine 90",
-            "medicineCode": "192587082",
+            "medicineCode": "24090",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分B",
+                    "amount": "92mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "29mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/90",
             "packaging": "包裝描述",
-            "price": "237元"
+            "price": "354元"
         },
         {
             "id": "91",
@@ -1969,187 +3770,395 @@
             "description": "藥品91 的簡介",
             "type": "乾粉注射劑",
             "animals": [
-                "鵝"
+                "火雞"
             ],
             "englishName": "Medicine 91",
-            "medicineCode": "133494747",
+            "medicineCode": "24091",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分D",
+                    "amount": "47mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "23mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "3mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/91",
             "packaging": "包裝描述",
-            "price": "110元"
+            "price": "357元"
         },
         {
             "id": "92",
             "name": "藥品92",
             "description": "藥品92 的簡介",
-            "type": "乾粉注射劑",
+            "type": "注射液",
             "animals": [
-                "犬"
+                "牛",
+                "其他",
+                "貓",
+                "魚/龜鱉目"
             ],
             "englishName": "Medicine 92",
-            "medicineCode": "454438058",
+            "medicineCode": "24092",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分B",
+                    "amount": "9mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "51mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "32mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/92",
             "packaging": "包裝描述",
-            "price": "80元"
+            "price": "227元"
         },
         {
             "id": "93",
             "name": "藥品93",
             "description": "藥品93 的簡介",
-            "type": "乾粉懸劑",
+            "type": "口服液劑",
             "animals": [
-                "鴨",
-                "馬",
+                "家畜",
+                "鵝",
+                "雞",
                 "豬"
             ],
             "englishName": "Medicine 93",
-            "medicineCode": "269243622",
+            "medicineCode": "24093",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分E",
+                    "amount": "91mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "15mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/93",
             "packaging": "包裝描述",
-            "price": "238元"
+            "price": "294元"
         },
         {
             "id": "94",
             "name": "藥品94",
             "description": "藥品94 的簡介",
-            "type": "乾粉懸劑",
+            "type": "輔助飼料",
             "animals": [
-                "火雞"
+                "家畜",
+                "其他",
+                "魚/龜鱉目"
             ],
             "englishName": "Medicine 94",
-            "medicineCode": "170777886",
+            "medicineCode": "24094",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分E",
+                    "amount": "39mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "82mg"
+                },
+                {
+                    "name": "主要成分A",
+                    "amount": "71mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/94",
             "packaging": "包裝描述",
-            "price": "244元"
+            "price": "256元"
         },
         {
             "id": "95",
             "name": "藥品95",
             "description": "藥品95 的簡介",
-            "type": "乾粉注射劑",
+            "type": "散劑",
             "animals": [
-                "犬"
+                "家畜",
+                "火雞"
             ],
             "englishName": "Medicine 95",
-            "medicineCode": "179207193",
+            "medicineCode": "24095",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分B",
+                    "amount": "32mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "60mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "50mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/95",
             "packaging": "包裝描述",
-            "price": "333元"
+            "price": "88元"
         },
         {
             "id": "96",
             "name": "藥品96",
             "description": "藥品96 的簡介",
-            "type": "口服液劑",
+            "type": "其他類",
             "animals": [
-                "貓"
+                "犬",
+                "家畜",
+                "其他",
+                "牛"
             ],
             "englishName": "Medicine 96",
-            "medicineCode": "770265408",
+            "medicineCode": "24096",
             "mainIngredients": [
-                "主要成分1"
+                {
+                    "name": "主要成分A",
+                    "amount": "65mg"
+                },
+                {
+                    "name": "主要成分E",
+                    "amount": "30mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "90mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/96",
             "packaging": "包裝描述",
-            "price": "258元"
+            "price": "344元"
         },
         {
             "id": "97",
             "name": "藥品97",
             "description": "藥品97 的簡介",
-            "type": "散劑",
+            "type": "滅菌懸劑",
             "animals": [
-                "貓",
                 "馬"
             ],
             "englishName": "Medicine 97",
-            "medicineCode": "754571496",
+            "medicineCode": "24097",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分A",
+                    "amount": "94mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "72mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/97",
             "packaging": "包裝描述",
-            "price": "72元"
+            "price": "182元"
         },
         {
             "id": "98",
             "name": "藥品98",
             "description": "藥品98 的簡介",
-            "type": "滅菌懸劑",
+            "type": "乾粉懸劑",
             "animals": [
-                "火雞",
-                "鴨"
+                "魚/龜鱉目",
+                "鵝",
+                "牛"
             ],
             "englishName": "Medicine 98",
-            "medicineCode": "252788631",
+            "medicineCode": "24098",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分C",
+                    "amount": "61mg"
+                },
+                {
+                    "name": "主要成分C",
+                    "amount": "12mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/98",
             "packaging": "包裝描述",
-            "price": "114元"
+            "price": "442元"
         },
         {
             "id": "99",
             "name": "藥品99",
             "description": "藥品99 的簡介",
-            "type": "口服液劑",
+            "type": "滅菌懸劑",
             "animals": [
-                "羊",
-                "火雞",
-                "豬"
+                "雞",
+                "犬",
+                "貓"
             ],
             "englishName": "Medicine 99",
-            "medicineCode": "757529828",
+            "medicineCode": "24099",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2",
-                "主要成分3"
+                {
+                    "name": "主要成分E",
+                    "amount": "6mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "69mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/99",
             "packaging": "包裝描述",
-            "price": "151元"
+            "price": "390元"
         },
         {
             "id": "100",
@@ -2157,21 +4166,46 @@
             "description": "藥品100 的簡介",
             "type": "乾粉注射劑",
             "animals": [
-                "羊",
-                "鴨",
-                "家畜"
+                "貓",
+                "馬",
+                "犬",
+                "雞"
             ],
             "englishName": "Medicine 100",
-            "medicineCode": "765596808",
+            "medicineCode": "24100",
             "mainIngredients": [
-                "主要成分1",
-                "主要成分2"
+                {
+                    "name": "主要成分C",
+                    "amount": "85mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "91mg"
+                },
+                {
+                    "name": "主要成分D",
+                    "amount": "16mg"
+                }
             ],
             "indications": "適應症描述",
             "dosageAndAdministration": "用法用量描述",
-            "precautions": "注意事項描述",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "注意事項1描述"
+                },
+                {
+                    "id": "2",
+                    "precaution": "注意事項2描述"
+                },
+                {
+                    "id": "3",
+                    "precaution": "注意事項3描述"
+                }
+            ],
+            "licenseUrl": "/products/100",
             "packaging": "包裝描述",
-            "price": "168元"
+            "price": "147元"
         }
     ]
 }

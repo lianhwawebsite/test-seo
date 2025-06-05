@@ -36,7 +36,7 @@ function DesktopNavbar() {
                     )}
                     <div className="absolute left-0 top-full w-full h-4 group-hover:block hidden"></div>
                     {item.subItems && openMenu === item.label && (
-                      <div className="absolute left-0 top-[calc(100%+0.05rem)]  mt-2 bg-white border rounded shadow-lg z-50 group-hover:block">
+                      <div className="absolute left-0 top-[calc(100%+0.05rem)]  mt-2 bg-white border z-50 group-hover:block">
                         <ul className="w-48">
                           {item.subItems.map((sub) => (
                             <li key={sub.href}>
