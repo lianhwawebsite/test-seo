@@ -19,13 +19,16 @@ export default function ProductAllContent({ query, selectedAnimals, selectedType
   //9種
   const allTypes = ["注射液", "滅菌懸劑", "乾粉注射劑", "乾粉懸劑", "散劑", "口服液劑", "消毒劑", "輔助飼料", "其他類"];
 
-  function updateURL() {
+  function updateURL(customQuery?: string) {
     const params = new URLSearchParams(searchParams);
-    if (inputValue.trim()) {
-      params.set("query", inputValue.trim());
+    const effectiveQuery = customQuery?.trim() ?? inputValue.trim();
+
+    if (effectiveQuery) {
+      params.set("query", effectiveQuery);
     } else {
       params.delete("query");
     }
+
     if (animals.length > 0) {
       params.set("animals", animals.join(","));
     } else {
@@ -37,13 +40,34 @@ export default function ProductAllContent({ query, selectedAnimals, selectedType
     } else {
       params.delete("types");
     }
+
     params.delete("page");
     replace(`${pathname}?${params.toString()}`, { scroll: false });
   }
 
+  // 1. 初始化（只有第一次 render）
+  useEffect(() => {
+    const initAnimals = searchParams.get("animals")?.split(",") ?? [];
+    const initTypes = searchParams.get("types")?.split(",") ?? [];
+    setAnimals(initAnimals);
+    setTypes(initTypes);
+  }, []);
+
+  // 2. 同步 URL ← state
   useEffect(() => {
     updateURL();
   }, [animals, types]);
+
+  // 3. 同步 state ← URL（修正從 breadcrumbs 點回來的狀況）
+  useEffect(() => {
+    const urlTypes = searchParams.get("types")?.split(",") ?? [];
+    const urlAnimals = searchParams.get("animals")?.split(",") ?? [];
+
+    if (JSON.stringify(urlTypes) !== JSON.stringify(types) || JSON.stringify(urlAnimals) !== JSON.stringify(animals)) {
+      setTypes(urlTypes);
+      setAnimals(urlAnimals);
+    }
+  }, [searchParams.toString()]);
 
   return (
     <>

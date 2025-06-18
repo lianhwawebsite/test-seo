@@ -1,7 +1,7 @@
 "use client";
 import { Fragment } from "react";
-import { usePathname } from "next/navigation";
 import Link from "next/link";
+import { useSearchParams, usePathname } from "next/navigation";
 import data from "@/data.json";
 
 type NavbarItemData = {
@@ -14,6 +14,8 @@ type NavbarItemData = {
 };
 
 const NextBreadcrumb = () => {
+  const searchParams = useSearchParams();
+  const typeParam = searchParams.get("types");
   const paths = usePathname();
   const pathNames = paths.split("/").filter((path) => path);
 
@@ -46,7 +48,7 @@ const NextBreadcrumb = () => {
     return <span className="mx-2"> &#707; </span>;
   };
   const listClasses = "";
-  const activeClasses = "underline underline-offset-[4px]";
+  const activeClasses = "";
 
   return (
     <>
@@ -57,15 +59,50 @@ const NextBreadcrumb = () => {
           </li>
           {pathNames.length > 0 && <Separator />}
           {pathNames.map((link, index) => {
-            let href = `/${pathNames.slice(0, index + 1).join("/")}`;
-            let itemClasses = paths === href ? `${listClasses} ${activeClasses}` : listClasses;
-            let itemText = nameMap?.[link] || data?.products?.find((item) => item.id === link)?.name || link;
+            const href = `/${pathNames.slice(0, index + 1).join("/")}`;
+            const itemClasses = paths === href ? `${listClasses} ${activeClasses}` : listClasses;
+
+            const isProductDetailPage = pathNames[index - 1] === "products" && data?.products?.some((item) => item.id === link);
+            const product = data?.products?.find((item) => item.id === link);
+
+            const typeParam = searchParams.get("types");
+
+            // 如果這是最後一層而且是產品頁面，要先插入 type 再插入產品名稱
+            if (isProductDetailPage && product) {
+              return (
+                <Fragment key={index}>
+                  {/* type 層 */}
+                  <li className={listClasses}>
+                    <Link href={`/products?types=${encodeURIComponent(product.type)}`}>{product.type}</Link>
+                  </li>
+                  <Separator />
+                  {/* 藥品名稱 */}
+                  <li className={itemClasses}>
+                    <Link href={href}>{product.name}</Link>
+                  </li>
+                </Fragment>
+              );
+            }
+
             return (
               <Fragment key={index}>
+                {/* 一般層級顯示 */}
                 <li className={itemClasses}>
-                  <Link href={href}>{itemText}</Link>
+                  <Link href={href}>{nameMap?.[link] || link}</Link>
                 </li>
-                {pathNames.length !== index + 1 && <Separator />}
+
+                {/* 如果是 /products 且 query 有 types，要插入 type */}
+                {link === "products" && typeParam && (
+                  <>
+                    <Separator />
+                    <li className={listClasses}>
+                      <Link href={`/products?types=${encodeURIComponent(typeParam)}`}>{typeParam}</Link>
+                    </li>
+                  </>
+                )}
+
+                {/* 分隔線（不加在最後一層） */}
+                {pathNames.length !== index + 1 && !(link === "products" && typeParam) && <Separator />}
               </Fragment>
             );
           })}
