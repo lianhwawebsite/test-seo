@@ -15,7 +15,6 @@ type NavbarItemData = {
 
 const NextBreadcrumb = () => {
   const searchParams = useSearchParams();
-  const typeParam = searchParams.get("types");
   const paths = usePathname();
   const pathNames = paths.split("/").filter((path) => path);
 

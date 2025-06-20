@@ -1,5 +1,5 @@
 "use client";
-import { Fragment, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 type Product = {
   id: string;
@@ -69,14 +69,18 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
       {showSuggestions && suggestions.length > 0 && (
         <ul className="absolute top-14 z-10 w-full">
           {suggestions.map((item, index) => {
-            const keywords = inputValue.split("");
-            const hasMatch = keywords.some((keyword) => item.name.includes(keyword));
+            const keyword = inputValue.toLowerCase();
+            const nameIncludes = item.name.toLowerCase().includes(keyword);
+            const codeIncludes = item.medicineCode.toLowerCase().includes(keyword);
+
             const isFirst = index === 0;
             const isLast = index === suggestions.length - 1;
 
+            const displayText = codeIncludes && !nameIncludes ? item.medicineCode : item.name;
+
             return (
               <li key={item.id} className="flex" onMouseDown={() => handleSelect(item)}>
-                <div className={`px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm w-full bg-white border-x border-stone-300 ${isFirst ? "border-t" : ""} ${isLast ? "border-b" : ""}`}>{hasMatch ? item.name : item.medicineCode}</div>
+                <div className={`px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm w-full bg-white border-x border-stone-300 ${isFirst ? "border-t" : ""} ${isLast ? "border-b" : ""}`}>{displayText}</div>
                 <div className="w-[44.5px] py-2"></div>
               </li>
             );
