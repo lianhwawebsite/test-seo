@@ -13,7 +13,6 @@ export default function Navbar() {
 }
 
 function DesktopNavbar() {
-  const [openMenu, setOpenMenu] = useState<string | null>(null);
   const homeItem = data.navbarItems.find((item) => item.label === "首頁");
   return (
     <header className="absolute top-0 w-full hidden sm:flex bg-stone-300 px-10 py-5">
@@ -26,28 +25,11 @@ function DesktopNavbar() {
             return (
               <Fragment key={item.label}>
                 {item.href !== "/" && (
-                  <li key={item.label} className="relative group" onMouseEnter={() => setOpenMenu(item.label)} onMouseLeave={() => setOpenMenu(null)}>
-                    {item.subItems ? (
-                      <span className="cursor-pointer group-hover:border-b transition">{item.label}</span>
-                    ) : (
-                      <Link href={item.href!} className="group-hover:border-b transition">
+                  <li className="relative group"
+                  >
+                     <Link href={item.href!} className="group-hover:border-b transition">
                         {item.label}
                       </Link>
-                    )}
-                    <div className="absolute left-0 top-full w-full h-4 group-hover:block hidden"></div>
-                    {item.subItems && openMenu === item.label && (
-                      <div className="absolute left-0 top-[calc(100%+0.05rem)]  mt-2 bg-white border z-50 group-hover:block">
-                        <ul className="w-48">
-                          {item.subItems.map((sub) => (
-                            <li key={sub.href}>
-                              <Link href={sub.href} className="block px-4 py-2 hover:bg-stone-100" onClick={() => setOpenMenu(null)}>
-                                {sub.label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    )}
                   </li>
                 )}
               </Fragment>
@@ -81,29 +63,9 @@ function MobileNavbar() {
             <ul className="space-y-4">
               {data.navbarItems.map((item) => (
                 <li key={item.label}>
-                  {item.subItems ? (
-                    <>
-                      <div onClick={() => toggleItem(item.label)} className="cursor-pointer flex justify-between items-center">
-                        {item.label}
-                        {expandedItem === item.label ? <span>&#8896;</span> : <span>&#8897;</span>}
-                      </div>
-                      {expandedItem === item.label && (
-                        <ul className="pl-4 mt-4 space-y-1">
-                          {item.subItems.map((sub) => (
-                            <li key={sub.href}>
-                              <Link href={sub.href} className="block py-1 text-sm text-gray-700" onClick={() => setMobileOpen(false)}>
-                                {sub.label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </>
-                  ) : (
                     <Link href={item.href!} className="block py-1" onClick={() => setMobileOpen(false)}>
                       {item.label}
                     </Link>
-                  )}
                   <div className="w-full mt-3 border-b"></div>
                 </li>
               ))}
