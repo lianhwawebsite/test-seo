@@ -16,7 +16,7 @@ function DesktopNavbar() {
   const [openMenu, setOpenMenu] = useState<string | null>(null);
   const homeItem = data.navbarItems.find((item) => item.label === "首頁");
   return (
-    <header className="absolute top-0 w-full hidden sm:flex bg-stone-300 p-10">
+    <header className="absolute top-0 w-full hidden sm:flex bg-stone-300 px-10 py-5">
       <nav className="hidden sm:flex items-center justify-between w-full">
         <Link href={homeItem?.href || ""}>
           <div className="bg-stone-400 px-16">&nbsp;</div>

@@ -5,23 +5,6 @@
             "href": "/"
         },
         {
-            "label": "關於我們",
-            "subItems": [
-                {
-                    "label": "公司簡介",
-                    "href": "/about"
-                },
-                {
-                    "label": "發展歷程",
-                    "href": "/about/history"
-                },
-                {
-                    "label": "品質研發",
-                    "href": "/about/research"
-                }
-            ]
-        },
-        {
             "label": "產品一覽",
             "href": "/products"
         },

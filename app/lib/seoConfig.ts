@@ -18,21 +18,6 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
         sameAs: ["https://www.instagram.com/你的帳號", "https://www.facebook.com/你的粉專"],
       },
     },
-    about: {
-      title: "關於我們｜Medicines Factory",
-      description: "Medicines Factory 是一間藥廠，專注於提供高品質的藥品和服務。",
-      schema: {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        name: "Test Studio",
-        url: "https://test-seo-beta.vercel.app",
-        potentialAction: {
-          "@type": "SearchAction",
-          target: "https://test-seo-beta.vercel.app/search?q={search_term_string}",
-          "query-input": "required name=search_term_string",
-        },
-      },
-    },
     products: {
       title: "產品介紹｜Medicines Factory",
       description: "產品介紹，Medicines Factory 的所有產品。",

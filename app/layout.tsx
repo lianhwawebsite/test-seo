@@ -17,10 +17,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="zh-TW">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased `}>
-        <div className="relative items-center justify-items-center min-h-screen py-8 sm:py-20">
+        <div className="relative items-center justify-items-center min-h-screen pt-16 pb-48">
           <Navbar />
 
-          <main className="w-full h-fit my-6 mb-36 flex flex-col justify-start">{children}</main>
+          <main className="relative w-full h-fit flex flex-col justify-start">
+            {children}
+
+          </main>
 
           <Footer />
         </div>
