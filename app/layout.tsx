@@ -1,29 +1,17 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import "@/app/lib/globals.css";
+import { inter, notoSansTC } from "@/app/lib/fonts";
 import Navbar from "@/app/component/Navbar";
 import Footer from "./component/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="zh-TW">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased `}>
-        <div className="relative items-center justify-items-center min-h-screen pt-16 pb-48">
+      <body className={`${inter.variable}  ${notoSansTC.variable}  antialiased font-sans`}>
+        <div className="relative items-center justify-items-center min-h-screen">
           <Navbar />
 
-          <main className="relative w-full h-fit flex flex-col justify-start">
-            {children}
-
-          </main>
+          <main className="relative w-full h-fit flex flex-col justify-start">{children}</main>
 
           <Footer />
         </div>
