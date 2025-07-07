@@ -54,8 +54,8 @@
                 "id": "1",
                 "title": "服務介紹",
                 "description": "秉持「創新研發、專業服務、優良品質、誠信責任」的核心理念，追求永續經營，並以自有開發的SGP製程技術為基礎，提供多元且具療效的產品，與動物健康緊密相連，攜手畜牧產業邁向更高的照護標準。",
-                "imgSrcPc": "/images/home/landing_page_Service_pc.png",
-                "imgSrcMo": "/images/home/landing_page_Service_mo.png"
+                "imgSrcPc": "/images/home/landing_page_service_pc.png",
+                "imgSrcMo": "/images/home/landing_page_service_mo.png"
             },
             {
                 "id": "2",
@@ -66,7 +66,7 @@
                 "id": "3",
                 "title": "展望未來",
                 "description": "展望未來，與經營團隊持續深化產品創新與製造技術，提升整體品質，持續為畜牧產業、消費者與社會創造更多價值。",
-                "imgSrc": "/images/home/landing_page_Slogan_pc_mo.png"
+                "imgSrc": "/images/home/landing_page_slogan_pc_mo.png"
             }
         ]
     },
