@@ -4,6 +4,7 @@ import { ServiceSecond } from "@/app/component/home/ServiceSecond";
 import { ServiceThird } from "@/app/component/home/ServiceThird";
 import { ServiceFourth } from "@/app/component/home/ServiceFourth";
 import data from "@/data.json";
+import PageTransition from "../PageTransition";
 
 export const AllServices = () => {
   const { title, description, imgSrcPc, imgSrcMo, services } = data.home;
@@ -11,10 +12,12 @@ export const AllServices = () => {
 
   return (
     <>
-          <ServiceFirst title={title} description={description} imgSrcPc={imgSrcPc} imgSrcMo={imgSrcMo} />
-          <ServiceSecond data={services[0]} />
-          <ServiceThird data={services[1]} productPage={productPage} />
-          <ServiceFourth data={services[2]} />
+      <PageTransition>
+        <ServiceFirst title={title} description={description} imgSrcPc={imgSrcPc} imgSrcMo={imgSrcMo} />
+        <ServiceSecond data={services[0]} />
+        <ServiceThird data={services[1]} productPage={productPage} />
+        <ServiceFourth data={services[2]} />
+      </PageTransition>
     </>
   );
 };
