@@ -28,13 +28,13 @@ body {
   --breakpoint-3xl: 120rem;
   --color-primary: #df4425;
   --color-customGray: #eeeeef;
-  --color-customGray-6: #F2F2F7;
+  --color-customGray-6: #f2f2f7;
   --color-customBlack: #0b0b0b;
-  --color-theme-1: #ED6F60;
-  --color-theme-2: #F9EB72;
-  --color-theme-3: #AECAF2;
-  --color-theme-4: #3E66D1;
-  --color-theme-5: #5ECC4F;
-  --color-theme-6: #D8DCD9;
-  --color-theme-7: #F7CCDB;
+  --color-theme-1: #ed6f60;
+  --color-theme-2: #f9eb72;
+  --color-theme-3: #aecaf2;
+  --color-theme-4: #3e66d1;
+  --color-theme-5: #5ecc4f;
+  --color-theme-6: #d8dcd9;
+  --color-theme-7: #f7ccdb;
 }

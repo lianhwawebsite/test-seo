@@ -2,7 +2,7 @@ import "@/app/lib/globals.css";
 import { inter, notoSansTC } from "@/app/lib/fonts";
 import Navbar from "@/app/component/Navbar";
 import Footer from "./component/Footer";
-
+import PageTransition from "./component/PageTransition";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -11,7 +11,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="relative items-center justify-items-center min-h-screen">
           <Navbar />
 
-          <main className="relative w-full h-fit flex flex-col justify-start">{children}</main>
+          <main className="relative w-full h-fit flex flex-col justify-start">
+             <PageTransition>
+              {children}
+             </PageTransition>
+          </main>
 
           <Footer />
         </div>

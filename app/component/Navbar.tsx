@@ -27,7 +27,7 @@ function DesktopNavbar() {
               <Fragment key={item.label}>
                 {item.href !== "/" && (
                   <li className="relative group text-base lg:text-xl">
-                    <Link href={item.href!} className="group-hover:font-bold transition">
+                    <Link href={item.href!} className="">
                       {item.label}
                     </Link>
                   </li>
