@@ -26,7 +26,15 @@ export default function Footer() {
           <p className="text-[10px] text-center font-bold md:text-lg lg:text-xl md:font-medium">{companyNameItem?.label}</p>
           <div className="flex flex-col justify-start items-center text-[10px] !no-underline gap-2 md:justify-between md:font-medium md:items-start md:text-md lg:text-base w-full md:gap-3">
             {data?.footerItems.map((item) => {
-              return <Fragment key={item.name}>{item.name !== "首頁" && item.name !== "公司英文名稱" && item.name !== "公司名稱" && <p key={item.name}>{item.label}</p>}</Fragment>;
+              return (
+                <Fragment key={item.name}>
+                  {item.name !== "首頁" && item.name !== "公司英文名稱" && item.name !== "公司名稱" && (
+                    <p className="!no-underline !text-inherit hover:!text-inherit" key={item.name}>
+                      {item.label}
+                    </p>
+                  )}
+                </Fragment>
+              );
             })}
           </div>
         </div>
