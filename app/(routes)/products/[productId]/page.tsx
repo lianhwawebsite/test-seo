@@ -1,5 +1,6 @@
 "use client";
 import { useParams } from "next/navigation";
+import { notFound } from "next/navigation";
 import data from "@/data.json";
 import Link from "next/link";
 
@@ -7,6 +8,8 @@ export default function Page() {
   const params = useParams();
   const id = params.productId;
   const product = data.products.find((p) => p.id === id);
+  if (!product) return notFound();
+
 
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 gap-6  md:gap-20 mt-10">

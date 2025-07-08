@@ -10,7 +10,7 @@ export default function Footer() {
   const companyNameItem = data.footerItems.find((item) => item.name === "公司名稱");
   const companyEnglishNameItem = data.footerItems.find((item) => item.name === "公司英文名稱");
   return (
-    <footer className="relative row-start-3 font-notoSansTC overflow-hidden flex items-center justify-center h-[205px] md:h-[421px]">
+    <footer className="relative row-start-3 font-notoSansTC overflow-hidden flex items-center justify-center h-[205px] md:h-[421px]  w-screen">
       <Image src="/images/footer_pc.svg" alt="" fill sizes="(min-width: 768px) 100vw, 0px" className="object-top object-cover hidden md:block -z-10" priority />
       <Image src="/images/footer_mo.svg" alt="" fill sizes="(max-width: 767px) 100vw, 0px" className="object-top object-cover block md:hidden -z-10" priority />
       <div className="relative z-10 grid gap-6 h-fit w-full pt-9 pb-6 px-6 text-stone-100 md:grid-cols-3 md:pb-16 md:pt-34 md:px-28 lg:grid-cols-3">
