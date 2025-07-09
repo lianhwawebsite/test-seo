@@ -24,6 +24,10 @@ body {
   color: var(--foreground);
 }
 
+a {
+  text-decoration: none !important;
+}
+
 @theme {
   --breakpoint-3xl: 120rem;
   --color-primary: #df4425;

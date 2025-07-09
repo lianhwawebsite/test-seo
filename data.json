@@ -970,7 +970,7 @@
                 "鵝"
             ],
             "englishName": "Medicine 23",
-            "medicineCode": "24023",
+            "medicineCode": "",
             "mainIngredients": [
                 {
                     "name": "主要成分E",
@@ -997,7 +997,7 @@
                     "precaution": "注意事項3描述"
                 }
             ],
-            "licenseUrl": "/products/23",
+            "licenseUrl": "",
             "packaging": "包裝描述",
             "price": "94元"
         },

@@ -7,12 +7,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="zh-TW">
       <body className={`${inter.variable}  ${notoSansTC.variable}  antialiased font-sans`}>
-        <div className="relative items-center justify-items-center min-h-screen">
+        <div className="relative items-center justify-items-center  flex flex-col min-h-screen">
           <Navbar />
 
-          <main className="relative w-full h-fit flex flex-col justify-start">
-              {children}
-          </main>
+          <main className="relative w-full h-fit flex flex-col justify-start">{children}</main>
 
           <Footer />
         </div>
