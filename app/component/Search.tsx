@@ -40,8 +40,8 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
   };
 
   return (
-    <div className="relative">
-      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className="flex flex-1 flex-shrink-0 gap-2 mt-5 mb-8">
+    <div className="relative w-full md:col-span-3">
+      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className="flex flex-1 flex-shrink-0 gap-2">
         <label htmlFor="search" className="sr-only">
           Search
         </label>
@@ -60,12 +60,6 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
           &#8981;
         </button>
       </form>
-      {/* <ul className="absolute top-14 z-10 w-full">
-        <li className="flex">
-          <div className="px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm w-full bg-white  border border-stone-300">r</div>
-          <div className="w-[44.5px] py-2"></div>
-        </li>
-      </ul> */}
       {showSuggestions && suggestions.length > 0 && (
         <ul className="absolute top-14 z-10 w-full">
           {suggestions.map((item, index) => {

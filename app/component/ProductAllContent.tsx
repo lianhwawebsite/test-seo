@@ -4,6 +4,7 @@ import { useSearchParams, usePathname, useRouter } from "next/navigation";
 import Search from "./Search";
 import Table from "./Table";
 import Filter from "./Filter";
+import NextBreadcrumb from "./NextBreadcrumb";
 
 export default function ProductAllContent({ query, selectedAnimals, selectedTypes, page }: { query: string; selectedAnimals: string[]; selectedTypes: string[]; page: number }) {
   const searchParams = useSearchParams();
@@ -71,8 +72,11 @@ export default function ProductAllContent({ query, selectedAnimals, selectedType
 
   return (
     <>
-      <section className="flex flex-col">
-        <div className="text-base text-stone-700 mt-1">{productNum}&nbsp;項結果</div>
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10">
+        <div className="flex flex-col">
+          <NextBreadcrumb />
+          <div className="text-base text-stone-700 mt-1">{productNum}&nbsp;項</div>
+        </div>
         <Search inputValue={inputValue} setInputValue={setInputValue} updateURL={updateURL} />
       </section>
       <section className="grid grid-cols-1 md:grid-cols-4 gap-6">

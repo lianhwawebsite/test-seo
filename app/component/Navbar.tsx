@@ -17,11 +17,11 @@ function DesktopNavbar() {
   const homeItem = data.navbarItems.find((item) => item.label === "首頁");
   return (
     <header className="relative w-full hidden sm:flex bg-primary px-8 lg:px-24 py-2 text-white font-medium">
-      <nav className="hidden sm:flex items-center justify-between w-full">
-        <Link href={homeItem?.href || ""}>
+      <nav className="hidden mx-auto max-w-[1200px] sm:flex items-center justify-between w-full">
+        <Link className="relative -left-2" href={homeItem?.href || ""}>
           <Image src="/images/logo_pc.svg" alt="" width={282} height={79} className="w-3/4" />
         </Link>
-        <ul className="hidden w-full justify-end space-x-5 sm:flex lg:space-x-15 lg:px-6">
+        <ul className="hidden w-full justify-end space-x-5 sm:flex lg:space-x-15">
           {data.navbarItems.map((item) => {
             return (
               <Fragment key={item.label}>
