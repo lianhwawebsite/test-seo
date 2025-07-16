@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 type Product = {
@@ -41,13 +42,16 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
 
   return (
     <div className="relative w-full md:col-span-3">
-      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className="flex flex-1 flex-shrink-0 gap-2">
+      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className="flex flex-1 flex-shrink-0 gap-2 border rounded-md">
         <label htmlFor="search" className="sr-only">
           Search
         </label>
+        <button type="submit" className="cursor-pointer ml-2.5" aria-label="搜尋">
+          <Image src="/images/search.svg" alt="" width={24} height={24} className="w-3/4" />
+        </button>
         <input
-          className="block w-full border border-stone-300 py-[9px] pl-5 text-sm placeholder:text-stone-400 focus:outline-0"
-          placeholder="搜尋藥品名稱及編號..."
+          className="block w-full py-[9px] pl-5 text-sm placeholder:text-stone-400 focus:outline-0"
+          placeholder="產品名稱或動物藥製字"
           onChange={(e) => {
             setInputValue(e.target.value);
             setShowSuggestions(true);
@@ -56,9 +60,6 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
           onFocus={() => inputValue && setShowSuggestions(true)}
           onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
         />
-        <button type="submit" className="h-[36px] w-[36px] text-2xl text-gray-500 -rotate-[1.25rad]" aria-label="搜尋">
-          &#8981;
-        </button>
       </form>
       {showSuggestions && suggestions.length > 0 && (
         <ul className="absolute top-14 z-10 w-full">

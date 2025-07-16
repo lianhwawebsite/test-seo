@@ -72,14 +72,14 @@ export default function ProductAllContent({ query, selectedAnimals, selectedType
 
   return (
     <>
-      <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10">
+      <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 mx-auto max-w-[1200px] ">
         <div className="flex flex-col">
           <NextBreadcrumb />
-          <div className="text-base text-stone-700 mt-1">{productNum}&nbsp;項</div>
+          <div className="text-sm leading-[1.21] tracking-[.3px] mt-1">{productNum}&nbsp;項</div>
         </div>
         <Search inputValue={inputValue} setInputValue={setInputValue} updateURL={updateURL} />
       </section>
-      <section className="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <section className="grid grid-cols-1 md:grid-cols-4 gap-6 mx-auto max-w-[1200px] ">
         <Filter allTypes={allTypes} allAnimals={allAnimals} setAnimals={setAnimals} setTypes={setTypes} animals={animals} types={types} />
 
         <Table query={query} selectedAnimals={selectedAnimals} selectedTypes={selectedTypes} page={page} setProductNum={setProductNum} />

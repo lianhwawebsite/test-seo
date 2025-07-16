@@ -44,15 +44,15 @@ const NextBreadcrumb = () => {
 
   const nameMap = flattenNavbarItems(data?.navbarItems);
   const Separator = () => {
-    return <span className="mx-2"> &#707; </span>;
+    return <span className="text-sm mx-1.5 leading-[1] inline-block align-top"> &gt; </span>;
   };
-  const listClasses = "";
-  const activeClasses = "";
+  const listClasses = "text-sm leading-[1.21] tracking-[.3px]";
+  const activeClasses = "underline decoration-1";
 
   return (
     <>
       {paths !== "/" && (
-        <ul className="flex w-full text-stone-700 text-md">
+        <ul className="flex w-full text-md">
           <li className={listClasses}>
             <Link href={"/"}>{nameMap?.["home"]}</Link>
           </li>
@@ -86,7 +86,7 @@ const NextBreadcrumb = () => {
             return (
               <Fragment key={index}>
                 {/* 一般層級顯示 */}
-                <li className={itemClasses}>
+                <li className={link === "products" && typeParam ? listClasses : itemClasses}>
                   <Link href={href}>{nameMap?.[link] || link}</Link>
                 </li>
 
@@ -94,7 +94,7 @@ const NextBreadcrumb = () => {
                 {link === "products" && typeParam && (
                   <>
                     <Separator />
-                    <li className={listClasses}>
+                    <li className={itemClasses}>
                       <Link href={`/products?types=${encodeURIComponent(typeParam)}`}>{typeParam}</Link>
                     </li>
                   </>

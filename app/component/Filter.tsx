@@ -3,9 +3,8 @@ import { useEffect, useState } from "react";
 export default function Filter({ allTypes, allAnimals, setAnimals, setTypes, animals, types }: { allTypes: string[]; allAnimals: string[]; setAnimals: (v: string[]) => void; setTypes: (v: string[]) => void; animals: string[]; types: string[] }) {
     return (
         <section className="col-span-1 flex flex-col">
-            <h2 className="hidden text-xl font-semibold mb-4 md:block">Filter</h2>
             <DesktopFilterButton title={"藥品種類"} items={allTypes} item={types} setItems={setTypes} />
-            <div className="hidden border-0 border-b w-full h-1 mt-5 mb-6 md:block" />
+            <div className="hidden w-full h-13.5 md:block" />
             <DesktopFilterButton title={"適用動物"} items={allAnimals} item={animals} setItems={setAnimals} />
             <MobileFilterMenu allTypes={allTypes} allAnimals={allAnimals} types={types} animals={animals} setTypes={setTypes} setAnimals={setAnimals} />
         </section>
@@ -21,20 +20,19 @@ function DesktopFilterButton({ title, items, item, setItems }: { title: string; 
     };
 
     return (
-        <div className="hidden md:block">
-            <div className="flex gap-1 items-center">
-                <div className="bg-stone-300 rounded-full w-5 h-5"></div>
-                <h3 className="text-stone-900 font-bold">{title}</h3>
-            </div>
-            <div className="mt-4 flex flex-col gap-2 w-fit ml-[2px]">
-                {items.map((i, idx) => (
-                    <button key={idx} type="button" className="flex items-center gap-2 cursor-pointer" onClick={() => toggle(i, item, setItems)}>
-                        <div className={`border w-[15px] h-[15px] ${item.includes(i) ? "bg-stone-500 text-white border-stone-500" : "bg-white"}`}></div>
-                        <p className="text-md">{i}</p>
-                    </button>
-                ))}
-            </div>
+      <div className="hidden md:block">
+        <div className="flex gap-1 items-center">
+          <h3 className="text-theme-1 font-bold text-lg leading-[1.22] tracking-[.6px]">{title}</h3>
         </div>
+        <div className="mt-5 flex flex-col gap-3.5 w-fit">
+          {items.map((i, idx) => (
+            <button key={idx} type="button" className="flex items-center gap-1.5 cursor-pointer" onClick={() => toggle(i, item, setItems)}>
+              <div className={`border rounded-full w-[20px] h-[20px] ${item.includes(i) ? "bg-theme-1 text-white border-black" : "bg-white"}`}></div>
+              <p className="text-base leading-[1.26] tracking-[.5px]">{i}</p>
+            </button>
+          ))}
+        </div>
+      </div>
     );
 }
 
