@@ -2,9 +2,9 @@ import data from "@/data.json";
 import { Pagination } from "@/app/component/Pagination";
 import { Fragment, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Table({ query, selectedAnimals, selectedTypes, page, setProductNum }: { query: string; selectedAnimals: string[]; selectedTypes: string[]; page: number; setProductNum: (num: number) => void }) {
-
   const filteredData = data?.products.filter((item) => {
     const matchQuery = !query || item.name.toLowerCase().includes(query) || item.medicineCode.toLowerCase().includes(query);
 
@@ -13,7 +13,7 @@ export default function Table({ query, selectedAnimals, selectedTypes, page, set
     const matchTypes = selectedTypes.length === 0 || selectedTypes.some((t) => item.type.includes(t));
     return matchQuery && matchAnimals && matchTypes;
   });
-  
+
   useEffect(() => {
     setProductNum(filteredData.length);
   }, [filteredData]);
@@ -24,8 +24,8 @@ export default function Table({ query, selectedAnimals, selectedTypes, page, set
   const pagedResults = filteredData.slice((page - 1) * pageSize, page * pageSize);
 
   return (
-    <section className="col-span-1 flex flex-col md:col-span-3">
-      <section className="grid grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+    <section className="col-span-1 flex flex-col md:col-span-3 gap-4.5 sm:gap-15">
+      <section className="grid grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         {pagedResults.map((product) => (
           <Fragment key={product.id}>
             <ProductCard product={product} />
@@ -41,25 +41,23 @@ function ProductCard({ product }: { product: (typeof data.products)[0] }) {
   return (
     <Link href={`/products/${product.id}`} itemProp="url">
       <article className="" itemScope itemType="https://schema.org/Product">
-        <div itemProp="img" className="bg-stone-300 h-36 md:h-64 w-full mb-2 md:mb-4 border border-stone-300">
-          <div className="text-xs flex justify-between h-fit items-center m-5 text-stone-100">
+        <div itemProp="img" className="bg-customGray w-full flex flex-col justify-between gap-7 px-2 pt-2 pb-1.5 rounded-lg sm:gap-18 sm:px-4.5 sm:pt-5 sm:pb-3.5">
+          <div className="flex text-[10px] leading-[1.20] tracking-[0px] h-fit items-center justify-between">
             <p itemProp="category">{product.type}</p>
-            <p itemProp="audience" className="text-right">
-              {product.animals.map((animal, index) => (
-                <span key={animal} itemProp="audience">
-                  {animal}
-                  {index < product.animals.length - 1 && "，"}
-                </span>
-              ))}
-            </p>
+            <p itemProp="productID">動物藥製字&nbsp;{product.medicineCode}</p>
+          </div>
+          <div className="flex items-center justify-between">
+            <div className="flex flex-col gap-1">
+              <h2 itemProp="name" className="text-xs leading-[1.22] tracking-[.5px] md:text-lg md:tracking-[.6px] font-semibold">
+                {product.name}
+              </h2>
+              <h3 itemProp="english-name" className="text-[10px] leading-[1.20] tracking-0 md:text-base md:leading-[1.16]">
+                {product.englishName}
+              </h3>
+            </div>
+            <Image src="/images/product_arrow.svg" alt="" width={57} height={60} className="w-[27px] h-[28px] sm:w-fit sm:h-fit" />
           </div>
         </div>
-        <h2 itemProp="name" className="text-md md:text-lg font-semibold">
-          {product.name}
-        </h2>
-        <h3 itemProp="english-name" className="text-xs md:text-sm">
-          {product.englishName}
-        </h3>
 
         <meta itemProp="category" content={product.type} />
         {product.animals.map((animal) => (

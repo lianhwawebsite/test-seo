@@ -42,15 +42,17 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
 
   return (
     <div className="relative w-full md:col-span-3">
-      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className="flex flex-1 flex-shrink-0 gap-2 border rounded-md">
+      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className="flex flex-1 flex-shrink-0 gap-1.5 border rounded-md py-1.5">
         <label htmlFor="search" className="sr-only">
           Search
         </label>
-        <button type="submit" className="cursor-pointer ml-2.5" aria-label="搜尋">
-          <Image src="/images/search.svg" alt="" width={24} height={24} className="w-3/4" />
+        <button type="submit" className="cursor-pointer ml-2.25" aria-label="搜尋">
+          <Image src="/images/search.svg" alt="" width={24} height={24} className="w-full" />
         </button>
-        <input
-          className="block w-full py-[9px] pl-5 text-sm placeholder:text-stone-400 focus:outline-0"
+        <div className="w-full relative">
+          <div className="absolute h-[85%] w-[1px] bg-theme-6 top-1/2 -translate-y-[50%] left-0"></div>
+          <input
+          className="block w-full text-sm pl-1 placeholder:text-theme-6 focus:outline-0"
           placeholder="產品名稱或動物藥製字"
           onChange={(e) => {
             setInputValue(e.target.value);
@@ -60,6 +62,8 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
           onFocus={() => inputValue && setShowSuggestions(true)}
           onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
         />
+        </div>
+        
       </form>
       {showSuggestions && suggestions.length > 0 && (
         <ul className="absolute top-14 z-10 w-full">

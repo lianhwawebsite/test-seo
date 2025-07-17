@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Filter({ allTypes, allAnimals, setAnimals, setTypes, animals, types }: { allTypes: string[]; allAnimals: string[]; setAnimals: (v: string[]) => void; setTypes: (v: string[]) => void; animals: string[]; types: string[] }) {
@@ -41,19 +42,18 @@ function MobileFilterMenu({ allTypes, allAnimals, types, animals, setTypes, setA
 
     function FilterTitle({ title, onClick, isActive }: { title: string; onClick: () => void; isActive: boolean }) {
         return (
-            <button type="button" onClick={onClick} className="w-full flex gap-1 items-center justify-center py-4 cursor-pointer">
-                <h3 className="text-stone-900 font-bold text-center">{title}</h3>
-                <div className={`rounded-full w-4 h-4 ${isActive ? "bg-stone-500" : "bg-stone-300"}`} />
-            </button>
+          <button type="button" onClick={onClick} className="w-full flex gap-1 items-center justify-center cursor-pointer">
+            <h3 className="font-medium text-xs leading-[1.22] tracking-0 text-center">{title}</h3>
+            <Image src="/images/arrow_down.svg" alt="" width={12} height={12} className={`w-fit h-fit ${isActive ? "hidden" : ""}`} />
+          </button>
         );
     }
 
 
     return (
         <>
-            <div className="flex justify-between border-y md:hidden">
+            <div className="flex items-center justify-between h-full">
                 <FilterTitle title={"藥品種類"} isActive={openFilter === "type"} onClick={() => setOpenFilter(openFilter === "type" ? null : "type")} />
-                <div className="border-0 border-l w-1 h-full" />
                 <FilterTitle title={"適用動物"} isActive={openFilter === "animal"} onClick={() => setOpenFilter(openFilter === "animal" ? null : "animal")} />
             </div>
             {openFilter === "type" && <MobileFilterButton items={allTypes} item={types} setItems={setTypes} setOpenFilter={setOpenFilter} title={"藥品種類"} col={1} />}
@@ -82,18 +82,24 @@ function MobileFilterButton({ items, item, setItems, setOpenFilter, title, col }
 
 
     return (
-        <div className="fixed left-0 top-0 z-50 w-full h-screen p-8 flex flex-col items-center justify-start  md:hidden bg-stone-300">
-            <div className="absolute right-10 top-10" onClick={() => setOpenFilter(null)}>X</div>
-            <div className="mt-32">{title}</div>
-            <div className={`grid ${col === 1 ? "grid-cols-1":"grid-cols-2"} gap-y-4 w-full ml-[2px] my-10 px-10`}>
-                {items.map((i, idx) => (
-                    <button key={idx} type="button" className="col-span-1 flex items-center gap-1 cursor-pointer" onClick={() => toggle(i)}>
-                        <div className={`border w-[15px] h-[15px] ${tempItems.includes(i) ? "bg-stone-500 text-white border-stone-500" : "bg-white"}`}></div>
-                        <p className="text-md">{i}</p>
-                    </button>
-                ))}
-            </div>
-            <button type="button" className="bg-stone-800 text-white py-1 px-10 text-sm" onClick={handleConfirm}>確認</button>
+      <div className="fixed right-0 top-0 z-50 w-[93%] h-screen p-8 flex flex-col items-center justify-start text-white md:hidden">
+        <div className="absolute z-50 right-10 top-10" onClick={() => setOpenFilter(null)}>
+          <Image src="/images/close.svg" alt="" width={16} height={16} className="w-fit h-fit" />
         </div>
+        <div className="z-50 mt-32">{title}</div>
+        <div className={`z-50 grid ${col === 1 ? "grid-cols-1" : "grid-cols-2"} gap-y-4 w-full ml-[2px] my-10 px-10`}>
+          {items.map((i, idx) => (
+            <button key={idx} type="button" className="col-span-1 flex items-center gap-1 cursor-pointer" onClick={() => toggle(i)}>
+              <div className={`border w-[15px] h-[15px] ${tempItems.includes(i) ? "bg-stone-500 text-white border-stone-500" : "bg-white"}`}></div>
+              <p className="text-md">{i}</p>
+            </button>
+          ))}
+        </div>
+        <button type="button" className="z-50 flex gap-6.5 bg-theme-1 rounded-lg text-white py-2.5 pl-11.5 pr-1/2 text-sm" onClick={handleConfirm}>
+          <p>顯示篩選結果</p>
+          <Image src="/images/arrow_right_white.svg" alt="" width={17} height={17} className="w-fit h-fit" />
+        </button>
+        <div className="absolute top-0 z-40 h-screen w-full bg-customDarkGray opacity-[.9]"></div>
+      </div>
     );
 }

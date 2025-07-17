@@ -72,18 +72,63 @@ export default function ProductAllContent({ query, selectedAnimals, selectedType
 
   return (
     <>
-      <section className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 mx-auto max-w-[1200px] ">
+      <DesktopContent productNum={productNum} inputValue={inputValue} setInputValue={setInputValue} updateURL={updateURL} allTypes={allTypes} allAnimals={allAnimals} setTypes={setTypes} setAnimals={setAnimals} animals={animals} types={types} query={query} selectedAnimals={selectedAnimals} selectedTypes={selectedTypes} page={page} setProductNum={setProductNum} />
+      <MobileContent productNum={productNum} inputValue={inputValue} setInputValue={setInputValue} updateURL={updateURL} allTypes={allTypes} allAnimals={allAnimals} setTypes={setTypes} setAnimals={setAnimals} animals={animals} types={types} query={query} selectedAnimals={selectedAnimals} selectedTypes={selectedTypes} page={page} setProductNum={setProductNum} />
+    </>
+  );
+}
+
+interface ContentProps {
+  productNum: number;
+  inputValue: string;
+  setInputValue: (inputValue: string) => void;
+  updateURL: (customQuery?: string) => void;
+  allTypes: string[];
+  allAnimals: string[];
+  setTypes: (types: string[]) => void;
+  setAnimals: (animals: string[]) => void;
+  animals: string[];
+  types: string[];
+  query: string;
+  selectedAnimals: string[];
+  selectedTypes: string[];
+  page: number;
+  setProductNum: (productNum: number) => void;
+}
+
+const DesktopContent = ({ productNum, inputValue, setInputValue, updateURL, allTypes, allAnimals, setTypes, setAnimals, animals, types, query, selectedAnimals, selectedTypes, page, setProductNum }: ContentProps) => {
+  return (
+    <>
+      <section className="hidden md:grid grid-cols-2 md:grid-cols-4 gap-6 mb-12 mx-auto max-w-[1200px] ">
         <div className="flex flex-col">
           <NextBreadcrumb />
           <div className="text-sm leading-[1.21] tracking-[.3px] mt-1">{productNum}&nbsp;項</div>
         </div>
         <Search inputValue={inputValue} setInputValue={setInputValue} updateURL={updateURL} />
       </section>
-      <section className="grid grid-cols-1 md:grid-cols-4 gap-6 mx-auto max-w-[1200px] ">
-        <Filter allTypes={allTypes} allAnimals={allAnimals} setAnimals={setAnimals} setTypes={setTypes} animals={animals} types={types} />
-
+      <section className="hidden md:grid grid-cols-1 md:grid-cols-4 gap-6 mx-auto max-w-[1200px]">
+          <Filter allTypes={allTypes} allAnimals={allAnimals} setAnimals={setAnimals} setTypes={setTypes} animals={animals} types={types} />
         <Table query={query} selectedAnimals={selectedAnimals} selectedTypes={selectedTypes} page={page} setProductNum={setProductNum} />
       </section>
     </>
   );
-}
+};
+
+
+const MobileContent = ({ productNum, inputValue, setInputValue, updateURL, allTypes, allAnimals, setTypes, setAnimals, animals, types, query, selectedAnimals, selectedTypes, page, setProductNum }: ContentProps) => {
+  return (
+    <>
+      <section className="flex flex-col md:hidden">
+        <NextBreadcrumb />
+        <div className="text-[10px] leading-[1.2] tracking-0 md:text-sm md:leading-[1.21] md:tracking-[.3px] mt-1">{productNum}&nbsp;項</div>
+      </section>
+      <section className="grid grid-cols-2 md:hidden md:grid-cols-4 gap-4 mt-5 mb-4.5">
+        <Filter allTypes={allTypes} allAnimals={allAnimals} setAnimals={setAnimals} setTypes={setTypes} animals={animals} types={types} />
+        <Search inputValue={inputValue} setInputValue={setInputValue} updateURL={updateURL} />
+      </section>
+      <section className="md:hidden mx-auto">
+        <Table query={query} selectedAnimals={selectedAnimals} selectedTypes={selectedTypes} page={page} setProductNum={setProductNum} />
+      </section>
+    </>
+  );
+};
