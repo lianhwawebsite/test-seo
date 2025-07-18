@@ -42,28 +42,28 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
 
   return (
     <div className="relative w-full md:col-span-3">
-      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className="flex flex-1 flex-shrink-0 gap-1.5 border rounded-md py-1.5">
+      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className="flex flex-1 flex-shrink-0 gap-1.5 border rounded-md py-1.25 md:py-1.5">
         <label htmlFor="search" className="sr-only">
           Search
         </label>
-        <button type="submit" className="cursor-pointer ml-2.25" aria-label="搜尋">
-          <Image src="/images/search.svg" alt="" width={24} height={24} className="w-full" />
+        <button type="submit" className="cursor-pointer ml-1.75 md:ml-2.25" aria-label="搜尋">
+          <Image src="/images/search.svg" alt="" width={24} height={24} className="hidden md:w-fit md:block" />
+          <Image src="/images/search_mo.svg" alt="" width={12} height={12} className="w-fit md:hidden" />
         </button>
-        <div className="w-full relative">
+        <div className="w-full relative flex">
           <div className="absolute h-[85%] w-[1px] bg-theme-6 top-1/2 -translate-y-[50%] left-0"></div>
           <input
-          className="block w-full text-sm pl-1 placeholder:text-theme-6 focus:outline-0"
-          placeholder="產品名稱或動物藥製字"
-          onChange={(e) => {
-            setInputValue(e.target.value);
-            setShowSuggestions(true);
-          }}
-          value={inputValue}
-          onFocus={() => inputValue && setShowSuggestions(true)}
-          onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
-        />
+            className="block w-[90%] text-xs leading-[1.16] tracking-0 md:text-base md:leading-[1.26] md:tracking-[.5] pl-1 placeholder:text-theme-6 focus:outline-0"
+            placeholder="產品名稱或動物藥製字"
+            onChange={(e) => {
+              setInputValue(e.target.value);
+              setShowSuggestions(true);
+            }}
+            value={inputValue}
+            onFocus={() => inputValue && setShowSuggestions(true)}
+            onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
+          />
         </div>
-        
       </form>
       {showSuggestions && suggestions.length > 0 && (
         <ul className="absolute top-14 z-10 w-full">

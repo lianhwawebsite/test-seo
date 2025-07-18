@@ -16,17 +16,17 @@ export default function Navbar() {
 function DesktopNavbar() {
   const homeItem = data.navbarItems.find((item) => item.label === "首頁");
   return (
-    <header className="relative w-full hidden sm:flex bg-primary px-8 lg:px-24 py-2 text-white font-medium">
+    <header className="relative w-full hidden sm:flex bg-primary px-9 py-4 lg:px-24 md:py-8 text-white">
       <nav className="hidden mx-auto max-w-[1200px] sm:flex items-center justify-between w-full">
-        <Link className="relative -left-2" href={homeItem?.href || ""}>
-          <Image src="/images/logo_pc.svg" alt="" width={282} height={79} className="w-3/4" />
+        <Link className="w-full" href={homeItem?.href || ""}>
+          <Image src="/images/logo_pc.svg" alt="" width={214} height={60} className="w-1/2 lg:w-fit" />
         </Link>
-        <ul className="hidden w-full justify-end space-x-5 sm:flex lg:space-x-15">
+        <ul className="hidden w-full justify-end space-x-5 sm:flex lg:space-x-[30px]">
           {data.navbarItems.map((item) => {
             return (
               <Fragment key={item.label}>
                 {item.href !== "/" && (
-                  <li className="relative group text-base lg:text-xl">
+                  <li className="relative group text-base font-medium md:bottom-[5px] md:text-lg md:leading-[1.22] md:tracking-[.6px] md:font-bold">
                     <Link href={item.href!} className="">
                       {item.label}
                     </Link>

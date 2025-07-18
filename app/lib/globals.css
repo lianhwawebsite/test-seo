@@ -46,9 +46,9 @@ a {
 
 @layer components {
   .footer-title {
-    @apply text-center text-[10px] font-bold leading-[1.132] tracking-[.21px] md:text-base md:font-medium md:leading-[1.32] md:tracking-[.5px] lg:text-xl ;
+    @apply text-center text-[10px] font-bold leading-[1.132] tracking-[.21px] md:text-base md:font-bold md:leading-[1.22] md:tracking-[.6px] lg:text-lg ;
   }
   .footer-text {
-    @apply text-[10px] leading-[1.109] tracking-normal !no-underline md:font-medium md:leading-[1.26] lg:text-base;
+    @apply text-[10px] leading-[1.109] tracking-normal !no-underline md:text-sm md:leading-[1.21] lg:tracking-[.3px];
   }
 }
