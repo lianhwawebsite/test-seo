@@ -26,7 +26,7 @@ function DesktopNavbar() {
             return (
               <Fragment key={item.label}>
                 {item.href !== "/" && (
-                  <li className="relative group text-base font-medium md:bottom-[5px] md:text-lg md:leading-[1.22] md:tracking-[.6px] md:font-bold">
+                  <li className="relative group text-base font-medium md:text-lg md:leading-[1.22] md:tracking-[.6px] md:font-bold">
                     <Link href={item.href!} className="">
                       {item.label}
                     </Link>
