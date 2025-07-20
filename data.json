@@ -4220,5 +4220,31 @@
             "packaging": "包裝描述",
             "price": "147元"
         }
+    ],
+    "contact": [
+        {
+            "name": "公司名稱",
+            "label": "製藥廠股份有限公司"
+        },
+        {
+            "name": "聯絡電話",
+            "label": "Tel | 01-2345-6789"
+        },
+        {
+            "name": "傳真號碼",
+            "label": "Fax | 09-8765-4321"
+        },
+        {
+            "name": "公司地址",
+            "label": "Add | 123456 藥廠市藥廠區藥廠路123號"
+        },
+        {
+            "name": "電子信箱",
+            "label": "Email | 123@email.com"
+        },
+        {
+            "name": "營業時間",
+            "label": "Working Hours | Mon - Fri, 08:00 - 17:00"
+        }
     ]
 }

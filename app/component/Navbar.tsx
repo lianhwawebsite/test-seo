@@ -60,11 +60,11 @@ function MobileNavbar() {
 
   return (
     <>
-      <header className="relative bg-primary py-4 px-8 top-0 w-full sm:hidden ">
+      <header className="relative bg-primary py-4 px-8 flex justify-between w-full sm:hidden">
         <Link href={homeItem?.href || ""}>
-          <Image src="/images/logo_mo.svg" alt="" width={334} height={244} className="w-2/12" />
+          <Image src="/images/logo_mo.svg" alt="" width={334} height={244} className="w-[49px]" />
         </Link>
-        <button className="sm:hidden absolute top-0 bottom-0 my-auto h-fit z-30 right-10" onClick={() => setMobileOpen((prev) => !prev)}>
+        <button className="sm:hidden my-auto h-fit z-30 right-10" onClick={() => setMobileOpen((prev) => !prev)}>
           {mobileOpen ? <div className="text-white">&#10005;</div> : <Image src="/images/hamburger.svg" alt="" width={24} height={24} className="w-fit" />}
         </button>
         {/* Mobile Menu */}

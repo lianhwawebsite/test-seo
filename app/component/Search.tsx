@@ -66,7 +66,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
         </div>
       </form>
       {showSuggestions && suggestions.length > 0 && (
-        <ul className="absolute top-14 z-10 w-full">
+        <ul className="absolute top-6 left-6 z-10 w-full md:top-8 md:left-10">
           {suggestions.map((item, index) => {
             const keyword = inputValue.toLowerCase();
             const nameIncludes = item.name.toLowerCase().includes(keyword);
@@ -79,7 +79,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
 
             return (
               <li key={item.id} className="flex" onMouseDown={() => handleSelect(item)}>
-                <div className={`px-4 py-2 hover:bg-gray-100 cursor-pointer text-sm w-full bg-white border-x border-stone-300 ${isFirst ? "border-t" : ""} ${isLast ? "border-b" : ""}`}>{displayText}</div>
+                <div className={`px-4 py-2 hover:bg-gray-100 cursor-pointer text-xs w-full bg-white border-x md:text-base ${isFirst ? "border-t" : ""} ${isLast ? "border-b" : ""}`}>{displayText}</div>
                 <div className="w-[44.5px] py-2"></div>
               </li>
             );

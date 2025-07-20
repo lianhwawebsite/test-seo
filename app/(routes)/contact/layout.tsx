@@ -3,11 +3,8 @@ import { Suspense } from "react";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="md:px-24 mt-12">
+    <div className="px-17.5 lg:px-24 mt-16 mb-30 md:mt-12 md:mb-15">
       <Suspense>
-        <div className="px-6 md:px-0">
-          <NextBreadcrumb />
-        </div>
         {children}
       </Suspense>
     </div>
