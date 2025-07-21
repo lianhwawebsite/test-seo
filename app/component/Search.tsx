@@ -12,6 +12,7 @@ type Product = {
 export default function Search({ inputValue, setInputValue, updateURL }: { inputValue: string; setInputValue: (v: string) => void; updateURL: (customQuery?: string) => void }) {
   const [suggestions, setSuggestions] = useState<Product[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
+  const [inputFocus, setInputFocus] = useState(false);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -40,9 +41,15 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
     updateURL(item.name);
   };
 
+  const handleDelete = () => {
+    setInputValue("");
+    setShowSuggestions(false);
+    updateURL("");
+  };
+
   return (
     <div className="relative w-full md:col-span-3">
-      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className="flex flex-1 flex-shrink-0 gap-1.5 border rounded-md py-1.25 md:py-1.5">
+      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className={`relative flex flex-1 flex-shrink-0 gap-1.5 outline rounded-md py-1.25 md:py-1.5 ${inputFocus ? "outline-theme-1 outline-2" : "outline-black"}`}>
         <label htmlFor="search" className="sr-only">
           Search
         </label>
@@ -60,10 +67,21 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
               setShowSuggestions(true);
             }}
             value={inputValue}
-            onFocus={() => inputValue && setShowSuggestions(true)}
-            onBlur={() => setTimeout(() => setShowSuggestions(false), 150)}
+            onFocus={() => {
+              inputValue && setShowSuggestions(true);
+              setInputFocus(true);
+            }}
+            onBlur={() =>
+              setTimeout(() => {
+                setShowSuggestions(false);
+                setInputFocus(false);
+              }, 150)
+            }
           />
         </div>
+        <button type="button" className="absolute top-[50%] right-[8px] -translate-y-[50%] cursor-pointer" onClick={handleDelete} aria-label="清除搜尋">
+          <Image src="/images/close_black.svg" alt="" width={24} height={24} className="w-fit" />
+        </button>
       </form>
       {showSuggestions && suggestions.length > 0 && (
         <ul className="absolute top-6 left-6 z-10 w-full md:top-8 md:left-10">

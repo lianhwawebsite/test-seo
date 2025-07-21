@@ -28,8 +28,9 @@ function DesktopFilterButton({ title, items, item, setItems }: { title: string; 
       <div className="mt-5 flex flex-col gap-3.5 w-fit">
         {items.map((i, idx) => (
           <button key={idx} type="button" className="flex items-center gap-1.5 cursor-pointer" onClick={() => toggle(i, item, setItems)}>
-            <div className={`border rounded-full w-[20px] h-[20px] ${item.includes(i) ? "bg-theme-1 text-white border-black" : "bg-white"}`}></div>
-            <p className="text-base leading-[1.26] tracking-[.5px]">{i}</p>
+            <div className={`relative border rounded-full w-[20px] h-[20px] ${item.includes(i) ? " border-black border-[1.5px]" : "bg-white"}`}>{item.includes(i) && <div className="absolute bg-theme-1 w-2 h-2 rounded-full top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"></div>}</div>
+
+            <p className={`text-base leading-[1.26]  ${item.includes(i) ? "font-medium tracking-[.4px] underline" : "font-normal tracking-[.5px]"}`}>{i}</p>
           </button>
         ))}
       </div>
@@ -90,8 +91,8 @@ function MobileFilterButton({ items, item, setItems, setOpenFilter, title, col }
         <div className={`z-50 grid ${col === 1 ? "grid-cols-1" : "grid-cols-2"} gap-y-3.5 w-full ml-[2px] my-7.5 pl-3`}>
           {items.map((i, idx) => (
             <button key={idx} type="button" className="col-span-1 flex items-center gap-1 cursor-pointer" onClick={() => toggle(i)}>
-              <div className={`border rounded-full border-white w-[18px] h-[18px] ${tempItems.includes(i) ? "bg-theme-1" : "bg-transparent"}`}></div>
-              <p className="text-sm leading-[1.21] tracking-[0.3px]">{i}</p>
+              <div className={`relative border rounded-full border-white w-[18px] h-[18px] bg-transparent ${tempItems.includes(i) ? "border-[1.5px]" : ""}`}>{tempItems.includes(i) && <div className="bg-theme-1 w-2 h-2 rounded-full absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"></div>}</div>
+              <p className={`text-sm leading-[1.21] tracking-[0.3px] ${tempItems.includes(i) ? "font-medium underline":"font-normal"}`}>{i}</p>
             </button>
           ))}
         </div>
