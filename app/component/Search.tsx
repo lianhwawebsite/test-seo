@@ -45,6 +45,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
     setInputValue("");
     setShowSuggestions(false);
     updateURL("");
+    setInputFocus(true);
   };
 
   return (
@@ -79,8 +80,8 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
             }
           />
         </div>
-        <button type="button" className="absolute top-[50%] right-[8px] -translate-y-[50%] cursor-pointer" onClick={handleDelete} aria-label="清除搜尋">
-          <Image src="/images/close_black.svg" alt="" width={24} height={24} className="w-fit" />
+        <button type="button" className={`absolute top-[50%] right-1 md:right-[8px] -translate-y-[50%] cursor-pointer ${inputFocus ? "block":"hidden"}`} onClick={handleDelete} aria-label="清除搜尋">
+          <Image src="/images/close_black.svg" alt="" width={24} height={24} className="w-[15px] h-[15px] md:w-fit md:h-fit" />
         </button>
       </form>
       {showSuggestions && suggestions.length > 0 && (

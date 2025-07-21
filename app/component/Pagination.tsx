@@ -33,7 +33,7 @@ export function Pagination({ currentPage, totalPages }: { currentPage: number; t
     <div className="grid grid-cols-5 w-full">
       <div className="flex gap-2 col-span-1">
         {currentPage > 1 && (
-          <button disabled={currentPage === 1} onClick={() => goToPage(currentPage - 1)} className="flex gap-1 items-center">
+          <button disabled={currentPage === 1} onClick={() => goToPage(currentPage - 1)} className="flex gap-1 items-center cursor-pointer">
             <Image src="/images/arrow_left.svg" alt="" width={18} height={18} className="w-[12px] h-[12px] sm:w-fit sm:h-fit" />
             <p className="text-[10px] leading-[1.20] tracking-0 md:text-base md:leading-[1.26] md:tracking-[.5px]">上一頁</p>
           </button>
@@ -42,14 +42,14 @@ export function Pagination({ currentPage, totalPages }: { currentPage: number; t
       <div className="w-full flex justify-center items-center col-span-3">
         {(pagesToShow.length !== 1 || pagesToShow[0] !== 1) &&
           pagesToShow.map((page) => (
-            <button key={page} onClick={() => goToPage(page)} className={`text-[10px] leading-[1.20] tracking-0 font-notoSansTC px-2 py-1.5 md:leading-[1.26] md:text-base ${currentPage === page ? "md:tracking-[.4px] " : "md:tracking-[.5px] text-theme-6"}`}>
+            <button key={page} onClick={() => goToPage(page)} className={`text-[10px] leading-[1.20] tracking-0 font-notoSansTC px-2 py-1.5 cursor-pointer md:leading-[1.26] md:text-base ${currentPage === page ? "md:tracking-[.4px] " : "md:tracking-[.5px] text-theme-6"}`}>
               {page}
             </button>
           ))}
       </div>
       <div className="flex gap-2 col-span-1 justify-end">
         {currentPage !== totalPages && (
-          <button disabled={currentPage === totalPages} onClick={() => goToPage(currentPage + 1)} className="flex gap-1 items-center">
+          <button disabled={currentPage === totalPages} onClick={() => goToPage(currentPage + 1)} className="flex gap-1 items-center cursor-pointer">
             <p className="text-[10px] leading-[1.20] tracking-0 md:text-base md:leading-[1.26] md:tracking-[.5px]">下一頁</p>
             <Image src="/images/arrow_right.svg" alt="" width={18} height={18} className="w-[12px] h-[12px] sm:w-fit sm:h-fit" />
           </button>

@@ -1,6 +1,6 @@
 import data from "@/data.json";
 import { Pagination } from "@/app/component/Pagination";
-import { Fragment, useEffect } from "react";
+import { Fragment, useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -38,10 +38,12 @@ export default function Table({ query, selectedAnimals, selectedTypes, page, set
 }
 
 function ProductCard({ product }: { product: (typeof data.products)[0] }) {
+  const [isHover, setIsHover] = useState(false);
+
   return (
     <Link href={`/products/${product.id}`} itemProp="url">
       <article className="" itemScope itemType="https://schema.org/Product">
-        <div itemProp="img" className="bg-customGray w-full flex flex-col justify-between gap-11 px-2 pt-2 pb-1.5 rounded-lg sm:gap-18 sm:px-4.5 sm:pt-5 sm:pb-3.5">
+        <div onMouseOver={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)} itemProp="img" className="bg-customGray w-full flex flex-col justify-between gap-11 px-2 pt-2 pb-1.5 rounded-lg sm:gap-18 sm:px-4.5 sm:pt-5 sm:pb-3.5 hover:bg-theme-1 hover:text-white transition-all">
           <div className="flex text-[10px] leading-[1.20] tracking-[0px] h-fit items-center justify-between">
             <p itemProp="category">{product.type}</p>
             <p itemProp="productID">動物藥製字&nbsp;{product.medicineCode}</p>
@@ -55,7 +57,7 @@ function ProductCard({ product }: { product: (typeof data.products)[0] }) {
                 {product.englishName}
               </h3>
             </div>
-            <Image src="/images/product_arrow.svg" alt="" width={57} height={60} className="w-[27px] h-[28px] sm:w-fit sm:h-fit" />
+            {isHover ? <Image src="/images/product_arrow_white.svg" alt="" width={57} height={60} className="w-[27px] h-[28px] sm:w-fit sm:h-fit" /> : <Image src="/images/product_arrow.svg" alt="" width={57} height={60} className="w-[27px] h-[28px] sm:w-fit sm:h-fit" />}
           </div>
         </div>
 
