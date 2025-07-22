@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import { CTAFunc } from "./CTA";
 
 export default function Filter({ allTypes, allAnimals, setAnimals, setTypes, animals, types }: { allTypes: string[]; allAnimals: string[]; setAnimals: (v: string[]) => void; setTypes: (v: string[]) => void; animals: string[]; types: string[] }) {
   return (
@@ -92,14 +93,11 @@ function MobileFilterButton({ items, item, setItems, setOpenFilter, title, col }
           {items.map((i, idx) => (
             <button key={idx} type="button" className="col-span-1 flex items-center gap-1 cursor-pointer" onClick={() => toggle(i)}>
               <div className={`relative border rounded-full border-white w-[18px] h-[18px] bg-transparent ${tempItems.includes(i) ? "border-[1.5px]" : ""}`}>{tempItems.includes(i) && <div className="bg-theme-1 w-2 h-2 rounded-full absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"></div>}</div>
-              <p className={`text-sm leading-[1.21] tracking-[0.3px] ${tempItems.includes(i) ? "font-medium underline":"font-normal"}`}>{i}</p>
+              <p className={`text-sm leading-[1.21] tracking-[0.3px] ${tempItems.includes(i) ? "font-medium underline" : "font-normal"}`}>{i}</p>
             </button>
           ))}
         </div>
-        <button type="button" className="relative z-50 bg-theme-1 rounded-lg text-white px-11.75 py-2.75 text-xs leading-[1.22] tracking-0" onClick={handleConfirm}>
-          <p>顯示篩選結果</p>
-          <Image src="/images/arrow_right_white.svg" alt="" width={17} height={17} className="w-fit h-fit absolute top-[50%] -translate-y-[50%] right-[2px]" />
-        </button>
+        <CTAFunc handleFunc={handleConfirm} label="顯示篩選結果" />
       </div>
 
       <div className="absolute top-0 z-40 h-screen w-full bg-customDarkGray opacity-[.9]"></div>

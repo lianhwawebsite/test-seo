@@ -5,6 +5,7 @@ import data from "@/data.json";
 import Link from "next/link";
 import NextBreadcrumb from "@/app/component/NextBreadcrumb";
 import Image from "next/image";
+import { CTA } from "@/app/component/CTA";
 
 export default function Page() {
   const params = useParams();
@@ -65,15 +66,7 @@ export default function Page() {
                 ))}
               </ol>
             </div>
-            <div className="flex items-center h-20 mb-4">
-              {product?.licenseUrl && (
-                <Link href={product.licenseUrl} className="relative bg-theme-1 rounded-lg px-10 py-2.5 md:pl-15 md:rounded-xl md:pr-20 md:py-3 cursor-pointer flex">
-                  <span className="text-white font-medium text-xs tracking-[0px] md:font-bold md:text-base md:leading-[1.32] md:tracking-[.5px]">動物用藥品許可證查詢</span>
-                  <Image src="/images/arrow_right_white_thick.svg" alt="Arrow Right" width={24} height={24} className="hidden absolute top-[50%] -translate-y-[50%] right-4 md:block w-fit h-fit" />
-                  <Image src="/images/arrow_right_white.svg" alt="Arrow Right" width={17} height={17} className="absolute top-[50%] -translate-y-[50%] right-0.5 w-fit h-fit md:hidden" />
-                </Link>
-              )}
-            </div>
+            <div className="flex items-center h-20 mb-4">{product?.licenseUrl && <CTA href={product.licenseUrl} label="動物用藥品許可證查詢" />}</div>
           </article>
         </section>
       </section>
