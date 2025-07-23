@@ -16,7 +16,7 @@ const companyTitle = data?.contact.find((item) => item.name === "公司名稱")?
   return (
     <>
       {schema && <SeoHead schema={schema} />}
-      <div className="mx-auto max-w-[1200px] grid grid-cols-1 gap-15 font-notoSansTC md:grid-cols-2 md:gap-30 lg:gap-40">
+      <div className="mx-auto max-w-[1200px] grid grid-cols-1 gap-15 font-notoSansTC md:grid-cols-2 md:gap-30 lg:gap-52">
         <div className="flex flex-col justify-center items-center md:items-start">
           <Image src="/images/contact_page_KV_pc.svg" width={462} height={462} alt="" className="w-full md:w-fit md:h-fit md:my-9 md:mx-15" />
         </div>

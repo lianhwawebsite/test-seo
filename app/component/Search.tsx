@@ -68,19 +68,21 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
               setShowSuggestions(true);
             }}
             value={inputValue}
-            onFocus={() => {
+            onFocus={(e) => {
+              e.target.placeholder = "";
               inputValue && setShowSuggestions(true);
               setInputFocus(true);
             }}
-            onBlur={() =>
+            onBlur={(e) => {
+              e.target.placeholder = "產品名稱或動物藥製字";
               setTimeout(() => {
                 setShowSuggestions(false);
                 setInputFocus(false);
-              }, 150)
-            }
+              }, 150);
+            }}
           />
         </div>
-        <button type="button" className={`absolute top-[50%] right-1 md:right-[8px] -translate-y-[50%] cursor-pointer ${inputFocus ? "block":"hidden"}`} onClick={handleDelete} aria-label="清除搜尋">
+        <button type="button" className={`absolute top-[50%] right-1 md:right-[8px] -translate-y-[50%] cursor-pointer ${inputFocus ? "block" : "hidden"}`} onClick={handleDelete} aria-label="清除搜尋">
           <Image src="/images/close_black.svg" alt="" width={24} height={24} className="w-[15px] h-[15px] md:w-fit md:h-fit" />
         </button>
       </form>
