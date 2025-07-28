@@ -37,7 +37,7 @@ export default function Page() {
           </article>
           <article className="md:col-start-1 md:row-start-2 md:row-span-6 flex flex-col gap-y-6" itemScope itemType="https://schema.org/Product">
             <div className="text-xs leading-[1.5] tracking-[0px] md:text-base md:leading-[1.7] md:tracking-[0.5px]">
-              <p>Each mg contains</p>
+              <p>{product?.ingredientsNote}</p>
               {product?.mainIngredients.map((ingredient, idx) => (
                 <div key={idx}>
                   {ingredient.name}.....................................&nbsp;{ingredient.amount}

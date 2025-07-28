@@ -16,9 +16,10 @@ export default function ProductAllContent({ query, selectedAnimals, selectedType
   const [types, setTypes] = useState<string[]>([]);
 
   //13種
-  const allAnimals = ["豬", "雞", "火雞", "牛", "馬", "羊", "犬", "貓", "鴨", "鵝", "家畜", "魚/龜鱉目", "其他"];
-  //9種
-  const allTypes = ["注射液", "滅菌懸劑", "乾粉注射劑", "乾粉懸劑", "散劑", "口服液劑", "消毒劑", "輔助飼料", "其他類"];
+  const allAnimals = ["家畜","雞", "豬", "火雞", "牛", "馬", "羊", "犬", "貓", "鵝", "鴨", "魚類", "龜鱉"];
+  //7種
+  const allTypes = ["注射液、滅菌懸劑","乾粉注射劑、乾粉懸劑","散劑","口服液劑","消毒劑（外用液劑）","補助飼料","其他類"
+];
 
   function updateURL(customQuery?: string) {
     const params = new URLSearchParams(searchParams);
