@@ -7,10 +7,16 @@ export function getMetadata(lang: string, pageKey: string): Metadata {
     ? {
         title: meta.title,
         description: meta.description,
+        icons: {
+          icon: "/images/favicon.ico",
+        },
       }
     : {
         title: "Test Studio",
         description: "網站設計與品牌創意。",
+        icons: {
+          icon: "/images/favicon.ico",
+        },
       };
 }
 
