@@ -123,9 +123,9 @@ const MobileContent = ({ productNum, inputValue, setInputValue, updateURL, allTy
         <NextBreadcrumb />
         <div className="text-[10px] leading-[1.2] tracking-0 md:text-sm md:leading-[1.21] md:tracking-[.3px] mt-1">{productNum}&nbsp;項</div>
       </section>
-      <section className="grid grid-cols-2 md:hidden md:grid-cols-4 gap-4 mt-5 mb-4.5">
-        <Filter allTypes={allTypes} allAnimals={allAnimals} setAnimals={setAnimals} setTypes={setTypes} animals={animals} types={types} />
+      <section className="grid grid-cols md:hidden md:grid-cols-4 gap-5 mt-5 mb-5">
         <Search inputValue={inputValue} setInputValue={setInputValue} updateURL={updateURL} />
+        <Filter allTypes={allTypes} allAnimals={allAnimals} setAnimals={setAnimals} setTypes={setTypes} animals={animals} types={types} />
       </section>
       <section className="md:hidden mx-auto">
         <Table query={query} selectedAnimals={selectedAnimals} selectedTypes={selectedTypes} page={page} setProductNum={setProductNum} />

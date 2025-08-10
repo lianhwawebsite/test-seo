@@ -30,7 +30,7 @@ export function Pagination({ currentPage, totalPages }: { currentPage: number; t
   const pagesToShow = Array.from({ length: end - start + 1 }, (_, i) => start + i);
 
   return (
-    <div className="grid grid-cols-5 w-full">
+    <div className="grid grid-cols-5 w-full px-9">
       <div className="flex gap-2 col-span-1">
         {currentPage > 1 && (
           <button disabled={currentPage === 1} onClick={() => goToPage(currentPage - 1)} className="flex gap-1 items-center cursor-pointer">

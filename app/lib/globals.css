@@ -34,6 +34,7 @@ a {
   --color-customGray: #eeeeef;
   --color-customGray-6: #f2f2f7;
   --color-customDarkGray: #323232;
+  --color-customLightGray: #999999;
   --color-customBlack: #0b0b0b;
   --color-theme-1: #ed6f60;
   --color-theme-2: #f9eb72;
@@ -42,6 +43,7 @@ a {
   --color-theme-5: #5ecc4f;
   --color-theme-6: #d8dcd9;
   --color-theme-7: #f7ccdb;
+  --color-theme-8: #F1B7AE;
 }
 
 @layer components {

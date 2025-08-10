@@ -61,23 +61,31 @@ function MobileNavbar() {
   return (
     <>
       <header className="relative bg-primary py-4 px-8 flex justify-between w-full sm:hidden">
-        <Link href={homeItem?.href || ""}>
-          <Image src="/images/logo_mo.svg" alt="" width={334} height={244} className="w-[49px]" />
-        </Link>
+        {mobileOpen ? (
+          <Link href={homeItem?.href || ""} onClick={() => setMobileOpen(false)}>
+            <Image src="/images/logo_mo.svg" alt="" width={334} height={244} className="w-[49px] z-30 relative" />
+          </Link>
+        ) : (
+          <Link href={homeItem?.href || ""}>
+            <Image src="/images/logo_mo.svg" alt="" width={334} height={244} className="w-[49px]" />
+          </Link>
+        )}
+
         <button className="sm:hidden my-auto h-fit z-30 right-10" onClick={() => setMobileOpen((prev) => !prev)}>
-          {mobileOpen ? <div className="text-white">&#10005;</div> : <Image src="/images/hamburger.svg" alt="" width={24} height={24} className="w-fit" />}
+          {mobileOpen ? <Image src="/images/close.svg" alt="" width={20} height={20} className="w-fit" /> : <Image src="/images/hamburger.svg" alt="" width={24} height={24} className="w-fit" />}
         </button>
         {/* Mobile Menu */}
         {mobileOpen && (
-          <nav className="fixed top-0 right-0 z-20 md:hidden px-10 pb-4 w-[100%] h-screen pt-36 bg-primary text-white overflow-hidden">
-            <ul className="pl-8 space-y-8 w-full text-lg">
+          <nav className="fixed top-0 right-0 z-20 md:hidden px-8 pb-4 w-[100%] h-screen pt-36 bg-primary text-white overflow-hidden">
+            <ul className="space-y-10 w-full text-base leading-[1.26] tracking-[0.4%]">
               {data.navbarItems.map((item) => {
                 return (
                   <Fragment key={item.label}>
                     {item.href === "/" ? null : (
-                      <li>
-                        <Link href={item.href!} className="w-fit" onClick={() => setMobileOpen(false)}>
-                          {item.label}
+                      <li className="">
+                        <Link href={item.href!} className="flex items-center justify-between" onClick={() => setMobileOpen(false)}>
+                          <p>{item.label}</p>
+                          <Image src="/images/arrow_down_white.svg" alt="" width={20} height={20} className="w-fit" />
                         </Link>
                       </li>
                     )}

@@ -50,7 +50,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
 
   return (
     <div className="relative w-full md:col-span-3">
-      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className={`relative flex flex-1 flex-shrink-0 gap-1.5 outline rounded-md py-1.25 md:py-1.5 ${inputFocus ? "outline-theme-1 outline-2" : "outline-black"}`}>
+      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className={`relative flex flex-1 flex-shrink-0 gap-1.5 outline py-2.25 md:py-1.5 ${inputFocus ? "outline-theme-1 outline-2 rounded-t-md " : "outline-black rounded-md"}`}>
         <label htmlFor="search" className="sr-only">
           Search
         </label>
@@ -61,7 +61,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
         <div className="w-full relative flex">
           <div className="absolute h-[85%] w-[1px] bg-theme-6 top-1/2 -translate-y-[50%] left-0"></div>
           <input
-            className="block w-[90%] text-xs leading-[1.16] tracking-0 md:text-base md:leading-[1.26] md:tracking-[.5] pl-1 placeholder:text-theme-6 focus:outline-0"
+            className="block w-[90%] text-sm leading-[1.21] tracking-[0.3px] md:text-base md:leading-[1.26] md:tracking-[.5] pl-1 placeholder:text-theme-6 focus:outline-0"
             placeholder="產品名稱或動物藥製字"
             onChange={(e) => {
               setInputValue(e.target.value);
@@ -85,9 +85,9 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
         <button type="button" className={`absolute top-[50%] right-1 md:right-[8px] -translate-y-[50%] cursor-pointer ${inputFocus ? "block" : "hidden"}`} onClick={handleDelete} aria-label="清除搜尋">
           <Image src="/images/close_black.svg" alt="" width={24} height={24} className="w-[15px] h-[15px] md:w-fit md:h-fit" />
         </button>
-      </form>
-      {showSuggestions && suggestions.length > 0 && (
-        <ul className="absolute top-6 left-6 z-10 w-full md:top-8 md:left-10">
+
+        {showSuggestions && suggestions.length > 0 && (
+        <ul className="absolute top-6 left-6 z-10 w-full md:top-8 md:left-0">
           {suggestions.map((item, index) => {
             const keyword = inputValue.toLowerCase();
             const nameIncludes = item.name.toLowerCase().includes(keyword);
@@ -99,14 +99,18 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
             const displayText = codeIncludes && !nameIncludes ? item.medicineCode : item.name;
 
             return (
-              <li key={item.id} className="flex" onMouseDown={() => handleSelect(item)}>
-                <div className={`px-4 py-2 hover:bg-gray-100 cursor-pointer text-xs w-full bg-white border-x md:text-base ${isFirst ? "border-t" : ""} ${isLast ? "border-b" : ""}`}>{displayText}</div>
-                <div className="w-[44.5px] py-2"></div>
+              <li key={item.id} className="relative flex" onMouseDown={() => handleSelect(item)}>
+                <div className={`relative z-30 px-2 py-1.5 hover:bg-theme-8 cursor-pointer text-xs w-full bg-white text-customLightGray border-x flex gap-2 md:text-base md:leading-[1.26] md:tracking-[0.5%] ${isFirst ? "" : ""} ${isLast ? "border-b rounded-b-lg" : ""}`}>
+                  <Image src="/images/search_gray.svg" alt="" width={24} height={24} className="hidden md:w-fit md:block" />
+                  {displayText}
+                </div>
+                {/* <div className="w-[44.5px] py-2"></div> */}
               </li>
             );
           })}
         </ul>
-      )}
+        )}
+      </form>
     </div>
   );
 }
