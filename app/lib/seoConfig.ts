@@ -1,52 +1,102 @@
+import { abs } from "@/app/config";
+
 type MetaInfo = {
   title: string;
   description: string;
-  schema?: object;
+  schema?: object | object[];
+  openGraph?: {
+    url?: string;
+    type?: "website" | "article" | "product";
+    siteName?: string;
+    locale?: string;
+    images?: string[];
+  };
+  alternates?: {
+    canonical?: string;
+  };
+  robots?: {
+    index?: boolean;
+    follow?: boolean;
+  };
 };
 
 export const seoMeta: Record<string, Record<string, MetaInfo>> = {
   "zh-TW": {
     home: {
-      title: "Medicines Factory 網站",
-      description: "我們是 Medicines Factory。歡迎來到我們的網站！",
-      schema: {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        name: "Test Studio",
-        url: "https://test-seo-beta.vercel.app",
-        logo: "https://test-seo-beta.vercel.app/logo.png",
-        sameAs: ["https://www.instagram.com/你的帳號", "https://www.facebook.com/你的粉專"],
+      title: "首頁｜某某製藥廠",
+      description: "我們是某某製藥廠。歡迎來到我們的網站！",
+      alternates: { canonical: "/" },
+      openGraph: {
+        type: "website",
+        siteName: "某某製藥廠",
+        locale: "zh_TW",
+        url: "/", // 讓 metadataBase 自動補完整網域
+        images: ["/images/1200x630.svg"],
       },
+      schema: [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "某某製藥廠",
+          url: abs("/"),
+          logo: abs("/images/favicon.ico"),
+        },
+      ],
     },
     products: {
-      title: "產品介紹｜Medicines Factory",
-      description: "產品介紹，Medicines Factory 的所有產品。",
+      title: "產品一覽｜某某製藥廠",
+      description: "某某製藥廠 的所有產品。",
+      alternates: { canonical: "/products" },
+      openGraph: {
+        type: "website",
+        siteName: "某某製藥廠",
+        locale: "zh_TW",
+        url: "/products",
+        images: ["/images/1200x630.svg"],
+      },
       schema: {
         "@context": "https://schema.org",
-        "@type": "WebSite",
-        name: "Test Studio",
-        url: "https://test-seo-beta.vercel.app",
-        potentialAction: {
-          "@type": "SearchAction",
-          target: "https://test-seo-beta.vercel.app/search?q={search_term_string}",
-          "query-input": "required name=search_term_string",
-        },
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "首頁", item: abs("/") },
+          { "@type": "ListItem", position: 2, name: "產品一覽", item: abs("/products") },
+        ],
       },
     },
     contact: {
-      title: "聯絡我們｜Medicines Factory",
+      title: "聯絡我們｜某某製藥廠",
       description: "歡迎與我們聯絡！如果您有任何問題或建議，請隨時與我們聯繫。",
-      schema: {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        name: "Medicines Factory",
-        url: "https://test-seo-beta.vercel.app",
-        potentialAction: {
-          "@type": "SearchAction",
-          target: "https://test-seo-beta.vercel.app/search?q={search_term_string}",
-          "query-input": "required name=search_term_string",
-        },
+      alternates: { canonical: "/contact" },
+      openGraph: {
+        type: "website",
+        siteName: "某某製藥廠",
+        locale: "zh_TW",
+        url: "/contact",
+        images: ["/images/1200x630.svg"],
       },
+      schema: [
+        {
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          name: "聯絡我們",
+          url: abs("/contact"),
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "某某製藥廠",
+          url: abs("/"),
+          contactPoint: [
+            {
+              "@type": "ContactPoint",
+              telephone: "+886-2-1234-5678",
+              contactType: "customer service",
+              areaServed: "TW",
+              availableLanguage: ["Chinese"],
+            },
+          ],
+        },
+      ],
     },
   },
 };

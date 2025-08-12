@@ -1,25 +1,35 @@
 import { seoMeta } from "./seoConfig";
-import { Metadata } from "next";
+import type { Metadata } from "next";
 
 export function getMetadata(lang: string, pageKey: string): Metadata {
   const meta = seoMeta[lang]?.[pageKey];
-  return meta
-    ? {
-        title: meta.title,
-        description: meta.description,
-        icons: {
-          icon: "/images/favicon.ico",
-        },
-      }
-    : {
-        title: "Test Studio",
-        description: "網站設計與品牌創意。",
-        icons: {
-          icon: "/images/favicon.ico",
-        },
-      };
+
+  if (meta) {
+    return {
+      title: meta.title,
+      description: meta.description,
+      alternates: meta.alternates,
+      robots: meta.robots ?? { index: true, follow: true },
+      openGraph: meta.openGraph,
+      icons: { icon: "/images/favicon.ico" },
+    };
+  }
+
+  // fallback
+  return {
+    title: "某某製藥廠",
+    description: "我們是某某製藥廠。歡迎來到我們的網站！",
+    openGraph: {
+      type: "website",
+      siteName: "某某製藥廠",
+      locale: "zh_TW",
+      url: "/",
+      images: ["/images/1200x630.svg"],
+    },
+    icons: { icon: "/images/favicon.ico" },
+  };
 }
 
-export function getSchema(key: string): object | null {
-  return seoMeta[key]?.schema ?? null;
+export function getSchema(key: string): object | object[] | null {
+  return seoMeta["zh-TW"]?.[key]?.schema ?? null;
 }

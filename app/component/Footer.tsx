@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="mx-auto max-w-[1200px] relative z-10 grid gap-6 h-fit w-full pt-9 pb-6 text-white md:grid-cols-3 md:pb-15 md:pt-25 lg:grid-cols-3">
         <div className="order-2 md:order-1 relative flex flex-col gap-13.5 items-center md:items-start md:col-span-2 lg:col-span-2 justify-start">
           <Link href={homeItem?.href || ""} className="hidden w-fit md:flex">
-            <Image src="/images/logo_mo.svg" alt="" width={135} height={98} className="" />
+            <Image src="/images/logo_mo.svg" alt="" height={0} width={0} className="w-[135px] h-auto" priority />
           </Link>
           <p className="text-[8px] text-center md:text-xs md:leading-[1.16] md:tracking-0 md:text-left">
             {companyEnglishNameItem?.label}&nbsp;©&nbsp;{year}. All rights reserved.

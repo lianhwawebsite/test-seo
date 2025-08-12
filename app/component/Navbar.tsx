@@ -63,11 +63,11 @@ function MobileNavbar() {
       <header className="relative bg-primary py-4 px-8 flex justify-between w-full sm:hidden">
         {mobileOpen ? (
           <Link href={homeItem?.href || ""} onClick={() => setMobileOpen(false)}>
-            <Image src="/images/logo_mo.svg" alt="" width={334} height={244} className="w-[49px] z-30 relative" />
+            <Image src="/images/logo_mo.svg" alt="" height={0} width={0} className="w-[49px] h-auto z-30 relative" />
           </Link>
         ) : (
           <Link href={homeItem?.href || ""}>
-            <Image src="/images/logo_mo.svg" alt="" width={334} height={244} className="w-[49px]" />
+            <Image src="/images/logo_mo.svg" alt="" height={0} width={0} className="w-[49px] h-auto" />
           </Link>
         )}
 

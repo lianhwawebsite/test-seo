@@ -8,7 +8,6 @@ export function generateMetadata() {
 
 export default function Home() {
   const schema = getSchema("home");
-
   return (
     <>
       {schema && <SeoHead schema={schema} />}
