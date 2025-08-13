@@ -23,7 +23,7 @@ type Product = {
   ogImage?: string;
 };
 
-type Props = { params: { productId: string } };
+type Props = {params: Promise<{ productId: string }>};
 
 function findProduct(id: string): Product | undefined {
   const list = (data as any).products as Product[];
