@@ -8,10 +8,14 @@ import { SITE_URL } from "@/app/config";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   icons: { icon: "/images/favicon.ico" },
+  title: "首頁｜某某製藥廠",
+  description: "我們是某某製藥廠。歡迎來到我們的網站！",
+  alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    siteName: "Medicines Factory",
+    siteName: "某某製藥廠",
     locale: "zh_TW",
+    url: "/",
     images: ["/images/OG_image.png"],
   },
   robots: { index: true, follow: true },

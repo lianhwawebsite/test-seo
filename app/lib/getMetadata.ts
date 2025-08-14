@@ -19,6 +19,7 @@ export function getMetadata(lang: string, pageKey: string): Metadata {
   return {
     title: "某某製藥廠",
     description: "我們是某某製藥廠。歡迎來到我們的網站！",
+    alternates: { canonical: "/" },
     openGraph: {
       type: "website",
       siteName: "某某製藥廠",
