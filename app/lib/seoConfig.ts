@@ -31,7 +31,7 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
         siteName: "某某製藥廠",
         locale: "zh_TW",
         url: "/", // 讓 metadataBase 自動補完整網域
-        images: ["/images/1200x630.svg"],
+        images: ["/images/OG_image.png"],
       },
       schema: [
         {
@@ -52,7 +52,7 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
         siteName: "某某製藥廠",
         locale: "zh_TW",
         url: "/products",
-        images: ["/images/1200x630.svg"],
+        images: ["/images/OG_image.png"],
       },
       schema: {
         "@context": "https://schema.org",
@@ -72,7 +72,7 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
         siteName: "某某製藥廠",
         locale: "zh_TW",
         url: "/contact",
-        images: ["/images/1200x630.svg"],
+        images: ["/images/OG_image.png"],
       },
       schema: [
         {

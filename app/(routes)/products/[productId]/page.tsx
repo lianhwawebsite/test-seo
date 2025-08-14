@@ -68,6 +68,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     description,
     alternates: { canonical: `/products/${productId}` },
     robots: { index: true, follow: true },
+    openGraph: {
+      type: "website",
+      siteName: "某某製藥廠",
+      locale: "zh_TW",
+      url: `/products/${productId}`,
+      images: ["/images/OG_image.png"],
+    },
   };
 }
 

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Medicines Factory",
     locale: "zh_TW",
-    images: ["/images/1200x630.svg"],
+    images: ["/images/OG_image.png"],
   },
   robots: { index: true, follow: true },
 };

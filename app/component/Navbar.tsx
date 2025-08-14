@@ -85,7 +85,6 @@ function MobileNavbar() {
                       <li className="">
                         <Link href={item.href!} className="flex items-center justify-between" onClick={() => setMobileOpen(false)}>
                           <p>{item.label}</p>
-                          <Image src="/images/arrow_down_white.svg" alt="" width={20} height={20} className="w-fit" />
                         </Link>
                       </li>
                     )}

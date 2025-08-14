@@ -76,8 +76,7 @@ function MobileFilterButton({ items, item, setItems }: { items: string[]; item: 
     <div className="flex flex-wrap items-center justify-start gap-x-6 gap-y-3 mt-3 md:hidden">
         {items.map((i, idx) => (
           <button key={idx} type="button" className="col-span-1 flex items-center gap-1 cursor-pointer" onClick={() => toggle(i, item, setItems)}>
-            <div className={`relative border rounded-full border-black w-[18px] h-[18px] bg-transparent ${item.includes(i) ? "border-[1.5px]" : ""}`}>{item.includes(i) && <div className="bg-theme-1 w-2 h-2 rounded-full absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"></div>}</div>
-            <p className={`text-sm leading-[1.21] tracking-[0.3px] ${item.includes(i) ? "font-medium underline" : "font-normal"}`}>{i}</p>
+            <p className={`text-sm leading-[1.21] tracking-[0.3px] ${item.includes(i) ? "font-medium text-theme-1" : "font-normal"}`}>{i}</p>
           </button>
         ))}
     </div>

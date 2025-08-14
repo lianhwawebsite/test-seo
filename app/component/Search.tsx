@@ -13,6 +13,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
   const [suggestions, setSuggestions] = useState<Product[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [inputFocus, setInputFocus] = useState(false);
+  const [hoverId, setHoverId] = useState<string | null>(null);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -50,13 +51,13 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
 
   return (
     <div className="relative w-full md:col-span-3">
-      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className={`relative flex flex-1 flex-shrink-0 gap-1.5 outline py-2.25 md:py-1.5 ${inputFocus ? "outline-theme-1 outline-2 rounded-t-md " : "outline-black rounded-md"}`}>
+      <form onSubmit={handleSubmit} action="/products" method="GET" role="search" className={`relative flex flex-1 flex-shrink-0 gap-1.5 outline py-2.25 md:py-1.5 ${inputFocus ? "outline-theme-1 outline-2 rounded-md " : "outline-black rounded-md"}`}>
         <label htmlFor="search" className="sr-only">
           Search
         </label>
-        <button type="submit" className="cursor-pointer ml-1.75 md:ml-2.25" aria-label="搜尋">
-          <Image src="/images/search.svg" alt="" width={24} height={24} className="hidden md:w-fit md:block" />
-          <Image src="/images/search_mo.svg" alt="" width={12} height={12} className="w-fit md:hidden" />
+        <button type="submit" className="cursor-pointer ml-1.75 md:ml-2" aria-label="搜尋">
+          <Image src="/images/search.svg" alt="" width={24} height={24} className="hidden md:w-[14px] md:block" />
+          <Image src="/images/search_mo.svg" alt="" width={12} height={12} className="w-[12px] md:hidden" />
         </button>
         <div className="w-full relative flex">
           <div className="absolute h-[85%] w-[1px] bg-theme-6 top-1/2 -translate-y-[50%] left-0"></div>
@@ -87,7 +88,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
         </button>
 
         {showSuggestions && suggestions.length > 0 && (
-        <ul className="absolute top-6 left-6 z-10 w-full md:top-8 md:left-0">
+        <ul className="absolute top-8 left-0 z-10 w-full md:top-7.25 md:left-0  outline-theme-1 outline-2 rounded-b-md bg-white">
           {suggestions.map((item, index) => {
             const keyword = inputValue.toLowerCase();
             const nameIncludes = item.name.toLowerCase().includes(keyword);
@@ -99,12 +100,14 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
             const displayText = codeIncludes && !nameIncludes ? item.medicineCode : item.name;
 
             return (
-              <li key={item.id} className="relative flex" onMouseDown={() => handleSelect(item)}>
-                <div className={`relative z-30 px-2 py-1.5 hover:bg-theme-8 cursor-pointer text-xs w-full bg-white text-customLightGray border-x flex gap-2 md:text-base md:leading-[1.26] md:tracking-[0.5%] ${isFirst ? "" : ""} ${isLast ? "border-b rounded-b-lg" : ""}`}>
-                  <Image src="/images/search_gray.svg" alt="" width={24} height={24} className="hidden md:w-fit md:block" />
+              <li key={item.id} className="relative flex" onMouseDown={() => handleSelect(item)} onMouseOver={() => setHoverId(item.id)} onMouseLeave={() => setHoverId(null)}>
+                <div className={`${isFirst ? "w-full h-[5px] absolute -top-[2px] bg-white z-20" : ""}`}></div>
+                <div className={`relative z-30 px-2 py-1.5 hover:bg-theme-8 cursor-pointer text-xs w-full  text-customLightGray hover:text-black flex gap-2 md:text-base md:leading-[1.26] md:tracking-[0.5%] ${isFirst ? "mt-1.5" : ""} ${isLast ? "rounded-b-md" : ""}`}>
+                  {hoverId === item.id ? <Image src="/images/search.svg" alt="" width={24} height={24} className="hidden md:w-[14px] md:block" /> : <Image src="/images/search_gray.svg" alt="" width={24} height={24} className="hidden md:w-[14px] md:block" />}
+                  {hoverId === item.id ? <Image src="/images/search_mo.svg" alt="" width={12} height={12} className="w-[12px] md:hidden" /> : <Image src="/images/search_gray_mo.svg" alt="" width={12} height={12} className="w-[12px] md:hidden" />}
+
                   {displayText}
                 </div>
-                {/* <div className="w-[44.5px] py-2"></div> */}
               </li>
             );
           })}

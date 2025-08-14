@@ -24,7 +24,7 @@ export function getMetadata(lang: string, pageKey: string): Metadata {
       siteName: "某某製藥廠",
       locale: "zh_TW",
       url: "/",
-      images: ["/images/1200x630.svg"],
+      images: ["/images/OG_image.png"],
     },
     icons: { icon: "/images/favicon.ico" },
   };
