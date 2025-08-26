@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://test-seo-beta.vercel.app
+Host: https://test-seo-hazel.vercel.app
 
 # Sitemaps
-Sitemap: https://test-seo-beta.vercel.app/sitemap.xml
+Sitemap: https://test-seo-hazel.vercel.app/sitemap.xml
