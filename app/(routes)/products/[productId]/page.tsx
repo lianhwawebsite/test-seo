@@ -20,10 +20,12 @@ type Product = {
   licenseUrl?: string;
   packaging?: string;
   ingredientsNote?: string;
+  ingredientsNoteSecond?: string;
+  mainIngredientsSecond?: { name?: string; amount?: string }[];
   ogImage?: string;
 };
 
-type Props = {params: Promise<{ productId: string }>};
+type Props = { params: Promise<{ productId: string }> };
 
 function findProduct(id: string): Product | undefined {
   const list = (data as any).products as Product[];
@@ -130,6 +132,19 @@ export default async function Page({ params }: Props) {
                   {ingredient.name}.....................................&nbsp;{ingredient.amount}
                 </div>
               ))}
+              {Object.keys(product)?.includes("ingredientsNoteSecond") && (
+                <>
+                  <br />
+                  <p>{product?.ingredientsNoteSecond}</p>
+                </>
+              )}
+
+              {Object.keys(product)?.includes("mainIngredientsSecond") &&
+                product?.mainIngredientsSecond?.map((ingredient, idx) => (
+                  <div key={idx}>
+                    {ingredient.name}.....................................&nbsp;{ingredient.amount}
+                  </div>
+                ))}
             </div>
 
             <div>

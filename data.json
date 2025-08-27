@@ -72,7 +72,7 @@
     },
     "products": [
         {
-            "id": "1",
+            "id": "0",
             "name": "藥品1",
             "type": "乾粉注射劑、乾粉懸劑",
             "animals": [
@@ -105,7 +105,142 @@
             ],
             "licenseUrl": "/products/1",
             "packaging": "包裝描述",
-            "ingredientsNote": "Each gm contains:"
+            "ingredientsNote": "Each gm contains:",
+            "mainIngredientsSecond": [
+                {
+                    "name": "主要成分A",
+                    "amount": "不超過50mg"
+                },
+                {
+                    "name": "主要成分B",
+                    "amount": "不超過50mg"
+                }
+            ],
+            "ingredientsNoteSecond": "每 gm 含量不超過:"
+        },
+        {
+            "id": "1",
+            "name": "聯華牌新肉卵素 一四-六-二",
+            "type": "補助飼料",
+            "animals": [],
+            "englishName": "ROWLANSON 14-6-2",
+            "medicineCode": "臺省農畜飼製字第19159號",
+            "mainIngredients": [
+                {
+                    "name": "碘",
+                    "amount": "50毫克"
+                },
+                {
+                    "name": "葉酸",
+                    "amount": "50毫克"
+                },
+                {
+                    "name": "泛酸鈣",
+                    "amount": "7,000毫克"
+                },
+                {
+                    "name": "維生素B1",
+                    "amount": "1,000毫克"
+                },
+                {
+                    "name": "維生素B2",
+                    "amount": "3,600毫克"
+                },
+                {
+                    "name": "維生素D3",
+                    "amount": "1,650,000毫克"
+                },
+                {
+                    "name": "維生素K3",
+                    "amount": "3,000毫克"
+                },
+                {
+                    "name": "錳",
+                    "amount": "1,500毫克"
+                },
+                {
+                    "name": "離氨酸",
+                    "amount": "25,000毫克"
+                },
+                {
+                    "name": "生物素",
+                    "amount": "1,000毫克"
+                },
+                {
+                    "name": "菸鹼醯胺",
+                    "amount": "7,000毫克"
+                },
+                {
+                    "name": "維生素A",
+                    "amount": "5.000.000單位"
+                },
+                {
+                    "name": "維生素B12",
+                    "amount": "1,000微毫克"
+                },
+                {
+                    "name": "維生素B6",
+                    "amount": "1,500毫克"
+                },
+                {
+                    "name": "維生素E",
+                    "amount": "10,000單位"
+                },
+                {
+                    "name": "鈷",
+                    "amount": "100毫克"
+                },
+                {
+                    "name": "鐵",
+                    "amount": "1,000毫克"
+                },
+                {
+                    "name": "蛋胺酸",
+                    "amount": "17,000毫克"
+                },
+                {
+                    "name": "蛋胺酸",
+                    "amount": "17,000毫克"
+                }
+            ],
+            "indications": "防治緊迫症、提高產肉率、提高產蛋率、提高孵化率、防止脂肪肝、減輕疫苗接種後反應。",
+            "dosageAndAdministration": "將本品每1公斤溶於1,000公升飲水中使用或每噸飼料添加本品2～3公斤。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本品使用後請將袋口密封。"
+                }
+            ],
+            "licenseUrl": "",
+            "packaging": "1kg",
+            "ingredientsNote": "每公斤含量不低於",
+            "mainIngredientsSecond": [
+                {
+                    "name": "銅",
+                    "amount": "不超過500毫克"
+                },
+                {
+                    "name": "鋅",
+                    "amount": "不超過1,000毫克"
+                },
+                {
+                    "name": "鉛",
+                    "amount": "不超過50ppm"
+                },
+                {
+                    "name": "砷",
+                    "amount": "不超過12ppm"
+                },
+                {
+                    "name": "鎘",
+                    "amount": "不超過10ppm"
+                },
+                {
+                    "name": "汞",
+                    "amount": "不超過0.5ppm"
+                }
+            ],
+            "ingredientsNoteSecond": "每公斤含量不超過"
         },
         {
             "id": "2",

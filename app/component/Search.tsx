@@ -88,30 +88,30 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
         </button>
 
         {showSuggestions && suggestions.length > 0 && (
-        <ul className="absolute top-8 left-0 z-10 w-full md:top-7.25 md:left-0  outline-theme-1 outline-2 rounded-b-md bg-white">
-          {suggestions.map((item, index) => {
-            const keyword = inputValue.toLowerCase();
-            const nameIncludes = item.name.toLowerCase().includes(keyword);
-            const codeIncludes = item.medicineCode.toLowerCase().includes(keyword);
+          <ul className="absolute top-8 left-0 z-10 w-full md:top-7.25 md:left-0  outline-theme-1 outline-2 rounded-b-md bg-white">
+            {suggestions.map((item, index) => {
+              const keyword = inputValue.toLowerCase();
+              const nameIncludes = item.name.toLowerCase().includes(keyword);
+              const codeIncludes = item.medicineCode.toLowerCase().includes(keyword);
 
-            const isFirst = index === 0;
-            const isLast = index === suggestions.length - 1;
+              const isFirst = index === 0;
+              const isLast = index === suggestions.length - 1;
 
-            const displayText = codeIncludes && !nameIncludes ? item.medicineCode : item.name;
+              const displayText = codeIncludes && !nameIncludes ? item.medicineCode : item.name;
 
-            return (
-              <li key={item.id} className="relative flex" onMouseDown={() => handleSelect(item)} onMouseOver={() => setHoverId(item.id)} onMouseLeave={() => setHoverId(null)}>
-                <div className={`${isFirst ? "w-full h-[5px] absolute -top-[2px] bg-white z-20" : ""}`}></div>
-                <div className={`relative z-30 px-2 py-1.5 hover:bg-theme-8 cursor-pointer text-xs w-full  text-customLightGray hover:text-black flex gap-2 md:text-base md:leading-[1.26] md:tracking-[0.5%] ${isFirst ? "mt-1.5" : ""} ${isLast ? "rounded-b-md" : ""}`}>
-                  {hoverId === item.id ? <Image src="/images/search.svg" alt="" width={24} height={24} className="hidden md:w-[14px] md:block" /> : <Image src="/images/search_gray.svg" alt="" width={24} height={24} className="hidden md:w-[14px] md:block" />}
-                  {hoverId === item.id ? <Image src="/images/search_mo.svg" alt="" width={12} height={12} className="w-[12px] md:hidden" /> : <Image src="/images/search_gray_mo.svg" alt="" width={12} height={12} className="w-[12px] md:hidden" />}
+              return (
+                <li key={item.id} className="relative flex" onMouseDown={() => handleSelect(item)} onMouseOver={() => setHoverId(item.id)} onMouseLeave={() => setHoverId(null)}>
+                  <div className={`${isFirst ? "w-full h-[5px] absolute -top-[2px] bg-white z-20" : ""}`}></div>
+                  <div className={`relative z-30 px-2 py-1.5 hover:bg-theme-8 cursor-pointer text-xs w-full  text-customLightGray hover:text-black flex gap-2 md:text-base md:leading-[1.26] md:tracking-[0.5%] ${isFirst ? "mt-1.5" : ""} ${isLast ? "rounded-b-md" : ""}`}>
+                    {hoverId === item.id ? <Image src="/images/search.svg" alt="" width={24} height={24} className="hidden md:w-[14px] md:block" /> : <Image src="/images/search_gray.svg" alt="" width={24} height={24} className="hidden md:w-[14px] md:block" />}
+                    {hoverId === item.id ? <Image src="/images/search_mo.svg" alt="" width={12} height={12} className="w-[12px] md:hidden" /> : <Image src="/images/search_gray_mo.svg" alt="" width={12} height={12} className="w-[12px] md:hidden" />}
 
-                  {displayText}
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+                    {displayText}
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
         )}
       </form>
     </div>

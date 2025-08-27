@@ -64,7 +64,7 @@ function MobileFilterMenu({ allTypes, allAnimals, types, animals, setTypes, setA
   );
 }
 
-function MobileFilterButton({ items, item, setItems }: { items: string[]; item: string[]; setItems: (v: string[]) => void; }) {
+function MobileFilterButton({ items, item, setItems }: { items: string[]; item: string[]; setItems: (v: string[]) => void }) {
   const toggle = (value: string, list: string[], setList: (v: string[]) => void) => {
     let newList = [...list];
 
@@ -74,11 +74,11 @@ function MobileFilterButton({ items, item, setItems }: { items: string[]; item: 
 
   return (
     <div className="flex flex-wrap items-center justify-start gap-x-6 gap-y-3 mt-3 md:hidden">
-        {items.map((i, idx) => (
-          <button key={idx} type="button" className="col-span-1 flex items-center gap-1 cursor-pointer" onClick={() => toggle(i, item, setItems)}>
-            <p className={`text-sm leading-[1.21] tracking-[0.3px] ${item.includes(i) ? "font-medium text-theme-1" : "font-normal"}`}>{i}</p>
-          </button>
-        ))}
+      {items.map((i, idx) => (
+        <button key={idx} type="button" className="col-span-1 flex items-center gap-1 cursor-pointer" onClick={() => toggle(i, item, setItems)}>
+          <p className={`text-sm leading-[1.21] tracking-[0.3px] ${item.includes(i) ? "font-medium text-theme-1" : "font-normal"}`}>{i}</p>
+        </button>
+      ))}
     </div>
   );
 }
