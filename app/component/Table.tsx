@@ -44,7 +44,7 @@ function ProductCard({ product }: { product: (typeof data.products)[0] }) {
   return (
     <Link className="hidden sm:block" href={`/products/${product.id}`} itemProp="url">
       <article className="" itemScope itemType="https://schema.org/Product">
-        <div onMouseOver={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)} itemProp="img" className="bg-customGray w-full flex flex-col justify-between gap-11 px-2 pt-2 pb-1.5 rounded-lg sm:gap-18 sm:px-4.5 sm:pt-5 sm:pb-3.5 hover:bg-theme-1 hover:text-white transition-all">
+        <div onMouseOver={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)} itemProp="img" className="bg-customGray w-full flex flex-col justify-between px-2 pt-2 pb-1.5 rounded-lg sm:h-45 sm:px-4.5 sm:pt-5 sm:pb-3.5 hover:bg-theme-1 hover:text-white transition-all">
           <div className="grid grid-cols-2 text-[10px] leading-[1.20] tracking-[0px] h-fit">
             <p itemProp="category">{product.type}</p>
             <p itemProp="productID" className="text-right">
