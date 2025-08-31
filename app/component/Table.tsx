@@ -1,19 +1,36 @@
 import data from "@/data.json";
 import { Pagination } from "@/app/component/Pagination";
-import { Fragment, useEffect, useState } from "react";
+import { Fragment, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { Product } from "@/app/lib/types";
+
+const products: Product[] = (data as any).products.map((p: any) => ({
+  ...p,
+  animals: Array.isArray(p?.animals) ? (p.animals as string[]) : [],
+}));
 
 export default function Table({ query, selectedAnimals, selectedTypes, page, setProductNum }: { query: string; selectedAnimals: string[]; selectedTypes: string[]; page: number; setProductNum: (num: number) => void }) {
-  const filteredData = data?.products.filter((item) => {
-    const matchQuery = !query || item.name.toLowerCase().includes(query) || item.medicineCode.toLowerCase().includes(query);
 
-    const matchAnimals = selectedAnimals.length === 0 || selectedAnimals.some((a) => item.animals.includes(a));
+  const filteredData = useMemo(() => {
+    const q = (query ?? "").toLowerCase();
 
-    const matchTypes = selectedTypes.length === 0 || selectedTypes.some((t) => item.type.includes(t));
-    return matchQuery && matchAnimals && matchTypes;
-  });
+    return products.filter((item) => {
 
+      const nameHit = item.name.toLowerCase().includes(q);
+      const codeHit = (item.medicineCode ?? "").toLowerCase().includes(q);
+      const matchQuery = !q || nameHit || codeHit;
+
+      const animalList = item.animals ?? [];
+      const matchAnimals = selectedAnimals.length === 0 || selectedAnimals.some((a) => animalList.includes(a));
+
+      const typeStr = item.type ?? "";
+      const matchTypes = selectedTypes.length === 0 || selectedTypes.some((t) => typeStr.includes(t));
+
+      return matchQuery && matchAnimals && matchTypes;
+    });
+  }, [query, selectedAnimals, selectedTypes]);
+  
   useEffect(() => {
     setProductNum(filteredData.length);
   }, [filteredData]);
@@ -38,7 +55,7 @@ export default function Table({ query, selectedAnimals, selectedTypes, page, set
   );
 }
 
-function ProductCard({ product }: { product: (typeof data.products)[0] }) {
+function ProductCard({ product }: { product: Product }) {
   const [isHover, setIsHover] = useState(false);
 
   return (
@@ -72,7 +89,7 @@ function ProductCard({ product }: { product: (typeof data.products)[0] }) {
     </Link>
   );
 }
-function ProductCardMobile({ product }: { product: (typeof data.products)[0] }) {
+function ProductCardMobile({ product }: { product: Product }) {
   const [isHover, setIsHover] = useState(false);
 
   return (

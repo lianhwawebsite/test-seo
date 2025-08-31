@@ -16,10 +16,9 @@ export default function ProductAllContent({ query, selectedAnimals, selectedType
   const [types, setTypes] = useState<string[]>([]);
 
   //13種
-  const allAnimals = ["家畜","雞", "豬", "火雞", "牛", "馬", "羊", "犬", "貓", "鵝", "鴨", "魚類", "龜鱉"];
+  const allAnimals = ["家畜", "雞", "豬", "火雞", "牛", "馬", "羊", "犬", "貓", "鵝", "鴨", "魚類", "龜鱉"];
   //7種
-  const allTypes = ["注射液、滅菌懸劑","乾粉注射劑、乾粉懸劑","散劑","口服液劑","消毒劑（外用液劑）","補助飼料","其他類"
-];
+  const allTypes = ["注射液、滅菌懸劑", "乾粉注射液、乾粉懸劑", "散劑", "口服液劑", "消毒劑", "補助飼料", "其他"];
 
   function updateURL(customQuery?: string) {
     const params = new URLSearchParams(searchParams);
@@ -108,13 +107,12 @@ const DesktopContent = ({ productNum, inputValue, setInputValue, updateURL, allT
         <Search inputValue={inputValue} setInputValue={setInputValue} updateURL={updateURL} />
       </section>
       <section className="hidden md:grid grid-cols-1 md:grid-cols-4 gap-6 mx-auto max-w-[1200px]">
-          <Filter allTypes={allTypes} allAnimals={allAnimals} setAnimals={setAnimals} setTypes={setTypes} animals={animals} types={types} />
+        <Filter allTypes={allTypes} allAnimals={allAnimals} setAnimals={setAnimals} setTypes={setTypes} animals={animals} types={types} />
         <Table query={query} selectedAnimals={selectedAnimals} selectedTypes={selectedTypes} page={page} setProductNum={setProductNum} />
       </section>
     </>
   );
 };
-
 
 const MobileContent = ({ productNum, inputValue, setInputValue, updateURL, allTypes, allAnimals, setTypes, setAnimals, animals, types, query, selectedAnimals, selectedTypes, page, setProductNum }: ContentProps) => {
   return (

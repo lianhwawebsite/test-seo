@@ -17,12 +17,12 @@ export function getMetadata(lang: string, pageKey: string): Metadata {
 
   // fallback
   return {
-    title: "某某製藥廠",
-    description: "我們是某某製藥廠。歡迎來到我們的網站！",
+    title: "聯華製藥廠",
+    description: "我們是聯華製藥廠。歡迎來到我們的網站！",
     alternates: { canonical: "/" },
     openGraph: {
       type: "website",
-      siteName: "某某製藥廠",
+      siteName: "聯華製藥廠",
       locale: "zh_TW",
       url: "/",
       images: ["/images/OG_image.png"],

@@ -5,6 +5,7 @@ import NextBreadcrumb from "@/app/component/NextBreadcrumb";
 import { CTA } from "@/app/component/CTA";
 import { SeoHead } from "@/app/component/SeoHead";
 import { abs } from "@/app/config";
+import { Fragment } from "react";
 
 type Product = {
   id: string;
@@ -52,7 +53,7 @@ function buildDrugSchema(p: Product) {
     dosageForm,
     manufacturer: {
       "@type": "Organization",
-      name: "某某製藥廠",
+      name: "聯華製藥廠",
     },
   };
 }
@@ -62,7 +63,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = findProduct(productId);
   if (!product) return notFound();
 
-  const title = `${product.name} 介紹｜某某製藥廠`;
+  const title = `${product.name} 介紹｜聯華製藥廠`;
   const description = product.indications || `${product.name} 的產品資訊`;
 
   return {
@@ -72,7 +73,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     robots: { index: true, follow: true },
     openGraph: {
       type: "website",
-      siteName: "某某製藥廠",
+      siteName: "聯華製藥廠",
       locale: "zh_TW",
       url: `/products/${productId}`,
       images: ["/images/OG_image.png"],
@@ -111,6 +112,14 @@ export default async function Page({ params }: Props) {
             <div className="absolute top-0 left-0 h-[48px]  border-theme-1 border-3 rounded-4xl"></div>
             <h1 className="font-bold text-2xl leading-[1.22] tracking-[1px]">{product?.name}</h1>
             <h2 className="font-bold text-lg leading-[1.22] tracking-[.6px]">{product?.englishName}</h2>
+            {/* temp */}
+            <p className="text-xs leading-[1.16] tracking-[0px]">
+              {product?.animals?.map((a) => {
+                console.log(a);
+                return <span key={a}>{a},</span>;
+              })}
+            </p>
+            {/* temp end */}
           </div>
           <div className="grid md:grid-cols-6">
             <p className="hidden col-span-2 px-6 font-medium text-base leading-[1.26] tracking-[.4px] md:block">{product?.medicineCode}</p>
@@ -137,7 +146,13 @@ function ProductDetail({ product }: { product: Product }) {
           <p>{product?.ingredientsNote}</p>
           {product?.mainIngredients?.map((ingredient, idx) => (
             <div key={idx}>
-              {ingredient.name}.....................................&nbsp;{ingredient.amount}
+              {ingredient.name}.....................................&nbsp;
+              {ingredient.amount?.split("\n").map((sentence, idx) => (
+                <Fragment key={idx}>
+                  <span className="text-xs md:text-base">{sentence}</span>
+                  <br />
+                </Fragment>
+              ))}
             </div>
           ))}
           {Object.keys(product)?.includes("ingredientsNoteSecond") && (
@@ -150,36 +165,82 @@ function ProductDetail({ product }: { product: Product }) {
           {Object.keys(product)?.includes("mainIngredientsSecond") &&
             product?.mainIngredientsSecond?.map((ingredient, idx) => (
               <div key={idx}>
-                {ingredient.name}.....................................&nbsp;{ingredient.amount}
+                {ingredient.name}.....................................&nbsp;
+                {ingredient.amount?.split("\n").map((sentence, idx) => (
+                  <Fragment key={idx}>
+                    <span className="text-xs md:text-base">{sentence}</span>
+                    <br />
+                  </Fragment>
+                ))}
               </div>
             ))}
         </div>
 
-        <div>
-          <p className="font-medium text-xs md:text-base">用法用量</p>
-          <p className="text-xs md:text-base">{product?.dosageAndAdministration}</p>
-        </div>
-
-        <div>
-          <p className="font-medium text-xs md:text-base">適應症</p>
-          <p className="text-xs md:text-base">{product?.indications}</p>
-        </div>
-
-        <div>
-          <p className="font-medium text-xs md:text-base">包裝</p>
-          <p className="text-xs md:text-base">{product?.packaging}</p>
-        </div>
-
-        <div className="text-primary">
-          <p className="font-medium text-xs md:text-base">注意事項</p>
-          <ol className="list-decimal pl-5">
-            {product?.precautions?.map((precaution) => (
-              <li key={precaution.id} className="text-xs md:text-base">
-                {precaution.precaution}
-              </li>
+        {product?.dosageAndAdministration?.length === 0 ? null : (
+          <div>
+            <p className="font-medium text-xs md:text-base">用法用量</p>
+            {product?.dosageAndAdministration?.split("\n").map((sentence, idx) => (
+              <p key={idx} className="text-xs md:text-base">
+                {sentence}
+              </p>
             ))}
-          </ol>
-        </div>
+          </div>
+        )}
+
+        {product?.indications?.length === 0 ? null : (
+          <div>
+            <p className="font-medium text-xs md:text-base">適應症</p>
+            {product?.indications?.split("\n").map((sentence, idx) => (
+              <p key={idx} className="text-xs md:text-base">
+                {sentence}
+              </p>
+            ))}
+          </div>
+        )}
+
+        {product?.packaging?.length === 0 ? null : (
+          <div>
+            <p className="font-medium text-xs md:text-base">包裝</p>
+            {product?.packaging?.split("\n").map((sentence, idx) => (
+              <p key={idx} className="text-xs md:text-base">
+                {sentence}
+              </p>
+            ))}
+          </div>
+        )}
+
+        {product?.precautions?.length === 0 ? null : (
+          <div className="text-primary">
+            <p className="font-medium text-xs md:text-base">注意事項</p>
+            {product?.precautions?.length === 1 ? (
+              <>
+                {product?.precautions?.map((precaution) => (
+                  <div key={precaution.id} className="text-xs md:text-base">
+                    {precaution.precaution.split("\n").map((sentence, idx) => (
+                      <Fragment key={idx}>
+                        <span className="text-xs md:text-base">{sentence}</span>
+                        <br />
+                      </Fragment>
+                    ))}
+                  </div>
+                ))}
+              </>
+            ) : (
+              <ol className="list-decimal pl-5">
+                {product?.precautions?.map((precaution) => (
+                  <li key={precaution.id} className="text-xs md:text-base">
+                    {precaution.precaution.split("\n").map((sentence, idx) => (
+                      <Fragment key={idx}>
+                        <span className="text-xs md:text-base">{sentence}</span>
+                        <br />
+                      </Fragment>
+                    ))}
+                  </li>
+                ))}
+              </ol>
+            )}
+          </div>
+        )}
 
         <div className="flex items-center h-20 mb-4">{product?.licenseUrl && <CTA href={product.licenseUrl} label="動物用藥品許可證查詢" />}</div>
       </article>

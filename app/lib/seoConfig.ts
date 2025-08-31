@@ -23,12 +23,12 @@ type MetaInfo = {
 export const seoMeta: Record<string, Record<string, MetaInfo>> = {
   "zh-TW": {
     home: {
-      title: "首頁｜某某製藥廠",
-      description: "我們是某某製藥廠。歡迎來到我們的網站！",
+      title: "首頁｜聯華製藥廠",
+      description: "我們是聯華製藥廠。歡迎來到我們的網站！",
       alternates: { canonical: "/" },
       openGraph: {
         type: "website",
-        siteName: "某某製藥廠",
+        siteName: "聯華製藥廠",
         locale: "zh_TW",
         url: "/", // 讓 metadataBase 自動補完整網域
         images: ["/images/OG_image.png"],
@@ -37,19 +37,19 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
         {
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "某某製藥廠",
+          name: "聯華製藥廠",
           url: abs("/"),
           logo: abs("/images/favicon.ico"),
         },
       ],
     },
     products: {
-      title: "產品一覽｜某某製藥廠",
-      description: "某某製藥廠 的所有產品。",
+      title: "產品一覽｜聯華製藥廠",
+      description: "聯華製藥廠的所有產品。",
       alternates: { canonical: "/products" },
       openGraph: {
         type: "website",
-        siteName: "某某製藥廠",
+        siteName: "聯華製藥廠",
         locale: "zh_TW",
         url: "/products",
         images: ["/images/OG_image.png"],
@@ -64,12 +64,12 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
       },
     },
     contact: {
-      title: "聯絡我們｜某某製藥廠",
+      title: "聯絡我們｜聯華製藥廠",
       description: "歡迎與我們聯絡！如果您有任何問題或建議，請隨時與我們聯繫。",
       alternates: { canonical: "/contact" },
       openGraph: {
         type: "website",
-        siteName: "某某製藥廠",
+        siteName: "聯華製藥廠",
         locale: "zh_TW",
         url: "/contact",
         images: ["/images/OG_image.png"],
@@ -84,12 +84,12 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
         {
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "某某製藥廠",
+          name: "聯華製藥廠",
           url: abs("/"),
           contactPoint: [
             {
               "@type": "ContactPoint",
-              telephone: "+886-2-1234-5678",
+              telephone: "07-6963001",
               contactType: "customer service",
               areaServed: "TW",
               availableLanguage: ["Chinese"],
