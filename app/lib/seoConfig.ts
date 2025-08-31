@@ -24,7 +24,7 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
   "zh-TW": {
     home: {
       title: "首頁｜聯華製藥廠",
-      description: "我們是聯華製藥廠。歡迎來到我們的網站！",
+      description: "聯華製藥廠股份有限公司創立於1973年，專注於動物藥品的研發與製造。",
       alternates: { canonical: "/" },
       openGraph: {
         type: "website",
@@ -45,7 +45,7 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
     },
     products: {
       title: "產品一覽｜聯華製藥廠",
-      description: "聯華製藥廠的所有產品。",
+      description: "目前聯華的產品線涵蓋各類動物專用藥品，包括：注射液、懸浮液劑、乾粉注射劑、乾粉懸劑、散劑、口服液劑、外用消毒劑、含藥飼料添加物、補助飼料等，共計百種常用處方及指示用藥。",
       alternates: { canonical: "/products" },
       openGraph: {
         type: "website",

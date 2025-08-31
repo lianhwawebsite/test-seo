@@ -18,7 +18,7 @@ export function getMetadata(lang: string, pageKey: string): Metadata {
   // fallback
   return {
     title: "聯華製藥廠",
-    description: "我們是聯華製藥廠。歡迎來到我們的網站！",
+    description: "聯華製藥廠股份有限公司創立於1973年，專注於動物藥品的研發與製造。",
     alternates: { canonical: "/" },
     openGraph: {
       type: "website",
