@@ -112,14 +112,6 @@ export default async function Page({ params }: Props) {
             <div className="absolute top-0 left-0 h-[48px]  border-theme-1 border-3 rounded-4xl"></div>
             <h1 className="font-bold text-2xl leading-[1.22] tracking-[1px]">{product?.name}</h1>
             <h2 className="font-bold text-lg leading-[1.22] tracking-[.6px]">{product?.englishName}</h2>
-            {/* temp */}
-            <p className="text-xs leading-[1.16] tracking-[0px]">
-              {product?.animals?.map((a) => {
-                console.log(a);
-                return <span key={a}>{a},</span>;
-              })}
-            </p>
-            {/* temp end */}
           </div>
           <div className="grid md:grid-cols-6">
             <p className="hidden col-span-2 px-6 font-medium text-base leading-[1.26] tracking-[.4px] md:block">{product?.medicineCode}</p>
