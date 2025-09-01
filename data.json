@@ -405,7 +405,7 @@
             "mainIngredients": [
                 {
                     "name": "乳酸桿菌",
-                    "amount": "10²個"
+                    "amount": "10^10個"
                 }
             ],
             "indications": "促進生長、提高飼料效率。",
@@ -602,7 +602,7 @@
             "animals": [
                 "雞"
             ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1806"
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11848"
         },
         {
             "id": "9",
@@ -1049,7 +1049,7 @@
                 "豬",
                 "鴨"
             ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12326"
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/17510"
         },
         {
             "id": "19",
@@ -1987,9 +1987,26 @@
                 }
             ],
             "indications": "豬：治療豬丹毒，痢疾及對本劑具感受性細菌所引起之肺炎、腦炎、泌尿道炎、子宮炎、敗血症、化膿性疾患。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "以注射用水或適當稀釋液加入用力振搖溶解後行皮下或肌肉注射。\n豬：每日每公斤體重注射本劑10~20mg。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師(佐)監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "本劑加入注射用水或稀釋液，須在8小時內用完，且不宜放置冰箱冷藏。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "停藥期：豬7日。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "本劑請貯存於陰涼處。"
+                }
+            ],
+            "packaging": "15gm",
             "animals": [
                 "豬"
             ],
@@ -2013,9 +2030,26 @@
                 }
             ],
             "indications": "豬、雞、火雞（不含產蛋中之蛋雞）：治療急慢性豬丹毒、葡萄球菌症、螺旋體菌症、肺炎球菌症、皮膚感染症、化膿性球菌症、腦炎及其他細菌感染症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量\n豬：15~20mg。\n雞、火雞(不含產蛋中之蛋雞)：20~30mg。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師(佐)監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "停藥期：5日。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "本品應置於陰暗處。"
+                }
+            ],
+            "packaging": "25gm",
             "animals": [
                 "雞",
                 "火雞"
@@ -2040,9 +2074,26 @@
                 }
             ],
             "indications": "豬、雞、火雞（不含產蛋中之蛋雞）：治療急慢性豬丹毒、葡萄球菌症、螺旋體菌症、肺炎球菌症、皮膚感染症、化膿性球菌症、腦炎及其他細菌感染症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量\n豬：15~20mg。\n雞、火雞(不含產蛋中之蛋雞)：20~30mg。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師(佐)監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "停藥期：5日。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "本品應置於陰暗處。"
+                }
+            ],
+            "packaging": "30gm",
             "animals": [
                 "豬",
                 "雞",
@@ -2072,9 +2123,26 @@
                 }
             ],
             "indications": "家畜、雞、火雞（不含產蛋中之蛋雞）：治療葡萄球菌症、慢性呼吸器病(CRD)、傳染性鼻炎、肺炎、大腸桿菌及其它呼吸道感染症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "將本品以注射用水溶解後行肌肉注射，按每公斤體重注射劑量：\n雞、火雞（不含產蛋中之蛋雞）：15～25mg\n家畜：10～15mg",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本品應置於陰暗處。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "停藥期：5日"
+                },
+                {
+                    "id": "3",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                }
+            ],
+            "packaging": "12.5gm",
             "animals": [
                 "雞",
                 "火雞",
@@ -2104,9 +2172,26 @@
                 }
             ],
             "indications": "家畜、雞、火雞（不含產蛋中之蛋雞）：治療葡萄球菌症、慢性呼吸器病(CRD)、傳染性鼻炎、肺炎、大腸桿菌及其它呼吸道感染症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "將本品以注射用水溶解後行肌肉注射，按每公斤體重注射劑量：\n雞、火雞（不含產蛋中之蛋雞）：15～25mg\n家畜：10～15mg",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本品應置於陰暗處。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "停藥期：5日"
+                },
+                {
+                    "id": "3",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                }
+            ],
+            "packaging": "25gm",
             "animals": [
                 "雞",
                 "火雞",
@@ -2128,9 +2213,34 @@
                 }
             ],
             "indications": "豬：治療細菌性肺炎（嗜血桿菌性肺炎）、子宮炎、乳房炎、無乳症候群(MMA)、豬丹毒、大腸桿菌症、沙氏桿菌症及一般化膿症。 \n牛：治療細菌性肺炎、子宮炎、乳房炎、無乳症候群(MMA)、大腸桿菌症、沙氏桿菌症及一般化膿症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "以注射用水或適當稀釋液加入用力振搖均勻後行肌肉注射。\n豬、牛：每日每公斤體重注射本劑7mg，連續使用3～5天。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "本劑加入注射用水或稀釋液，須在12小時內用完，且不得放置冰箱冷藏。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "停藥期：豬14日／牛乳48小時／牛21日。本劑不可連續使用超過7日。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "使用本劑偶會發生過敏症狀，使用前宜先施行反應試驗，陽性反應者避免使用。"
+                },
+                {
+                    "id": "5",
+                    "precaution": "投本劑偶會發生局部作用。"
+                },
+                {
+                    "id": "6",
+                    "precaution": "本劑請儲存於陰涼處。"
+                }
+            ],
+            "packaging": "15gm",
             "animals": [
                 "豬",
                 "牛"
@@ -2151,9 +2261,34 @@
                 }
             ],
             "indications": "豬：治療細菌性肺炎（嗜血桿菌性肺炎）、子宮炎、乳房炎、無乳症候群(MMA)、豬丹毒、大腸桿菌症、沙氏桿菌症及一般化膿症。 \n牛：治療細菌性肺炎、子宮炎、乳房炎、無乳症候群(MMA)、大腸桿菌症、沙氏桿菌症及一般化膿症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "以注射用水或適當稀釋液加入用力振搖均勻後行肌肉注射。\n豬、牛：每日每公斤體重注射本劑7mg，連續使用3～5天。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "本劑加入注射用水或稀釋液，須在12小時內用完，且不得放置冰箱冷藏。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "停藥期：豬14日、牛乳48小時、牛21日。本劑不可連續使用超過7日。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "使用本劑偶會發生過敏症狀，使用前宜先施行反應試驗，陽性反應者避免使用。"
+                },
+                {
+                    "id": "5",
+                    "precaution": "投本劑偶會發生局部作用。"
+                },
+                {
+                    "id": "6",
+                    "precaution": "本劑請儲存於陰涼處。"
+                }
+            ],
+            "packaging": "30gm",
             "animals": [
                 "豬",
                 "牛"
@@ -2174,9 +2309,26 @@
                 }
             ],
             "indications": "牛、羊、豬：治療細菌性肺炎、細菌性下痢症、乳房炎。\n雞、火雞（不含產蛋中之蛋雞）：治療慢性呼吸器病、傳染性鼻炎。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量：\n牛：5～10mg\n豬、羊：15〜20mg\n雞、火雞（不含產蛋中之蛋雞）：25mg",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本品應置於暗處。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "停藥期：牛、羊、豬30日／牛乳36小時／雞、火雞（不含產蛋中之蛋雞）：14日"
+                }
+            ],
+            "packaging": "12.5gm",
             "animals": [
                 "牛",
                 "豬",
@@ -2200,9 +2352,26 @@
                 }
             ],
             "indications": "牛、羊、豬：治療細菌性肺炎、細菌性下痢症、乳房炎。 \n雞、火雞（不含產蛋中之蛋雞）：治療慢性呼吸器病、傳染性鼻炎。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量：\n牛：5～10mg\n豬、羊：15〜20mg\n雞、火雞（不含產蛋中之蛋雞）：25mg",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本品應置於暗處。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "停藥期：牛、羊、豬30日／牛乳36小時／雞、火雞（不含產蛋中之蛋雞）：14日"
+                }
+            ],
+            "packaging": "25gm",
             "animals": [
                 "牛",
                 "豬",
@@ -2230,9 +2399,26 @@
                 }
             ],
             "indications": "牛、豬、羊：治療細菌性肺炎、細菌性下痢、乳房炎。 \n雞、火雞（不含蛋雞）：治療慢性呼吸器病(CRD)、傳染性鼻炎。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "肌肉注射每公斤體重注射劑量：\n牛 : 5～10mg。\n豬、羊：15~20mg。\n雞、火雞（不含蛋雞）：25mg。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "本品應置於冷暗處"
+                },
+                {
+                    "id": "3",
+                    "precaution": "蛋雞不得使用。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "停藥期：牛、羊、豬:30日／牛乳：36小時／雞、火雞（不含蛋雞）：14日"
+                }
+            ],
+            "packaging": "5gm",
             "animals": [
                 "牛",
                 "豬",
@@ -2256,9 +2442,26 @@
                 }
             ],
             "indications": "家畜：治療肺炎、丹毒、赤痢、關節炎、乳房炎。 \n雞、火雞（不含蛋雞）：治療慢性呼吸器病(CRD)、傳染性鼻炎、滑膜炎、葡萄球菌症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量：\n家畜：5～22mg。\n雞、火雞（不含蛋雞）：25～50mg。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "停藥期：5日。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "蛋雞不得使用。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "本品應置於暗處。"
+                }
+            ],
+            "packaging": "25gm",
             "animals": [
                 "家畜",
                 "雞",
@@ -2284,9 +2487,30 @@
                 }
             ],
             "indications": "豬：治療葡萄球菌症、鏈球菌症、黴漿菌症、赤痢及對本劑具感受性之其它感染症。 \n雞（不含產蛋中之蛋雞）：治療葡萄球菌症、鏈球菌症、黴漿菌症及對本劑具感受性之其它感染症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "以注射用水或適當稀釋液加入用力振搖溶解。\n豬：每日每公斤體重肌肉注射本劑15mg，連續使用3～7天。\n雞（不含產蛋中之蛋雞）：每日每公斤體重皮下注射本劑30mg，連續使用3天。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "本劑加入注射用水或稀釋液溶解，未使用完可放置冰箱冷藏，但不宜超過3天。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "停藥期：豬、雞21日。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "本劑請儲存於陰涼處。"
+                },
+                {
+                    "id": "5",
+                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                }
+            ],
+            "packaging": "30gm/vial",
             "animals": [
                 "豬",
                 "雞"
@@ -2311,9 +2535,30 @@
                 }
             ],
             "indications": "豬：治療葡萄球菌症、鏈球菌症、黴漿菌症、赤痢及對本劑具感受性之其它感染症。\n雞（不含產蛋中之蛋雞）：治療葡萄球菌症、鏈球菌症、黴漿菌症及對本劑具感受性之其它感染症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "以注射用水或適當稀釋液加入用力振搖溶解。\n豬：每日每公斤體重肌肉注射本劑15mg，連續使用3~7天。\n雞（不含產蛋中之蛋雞）：每日每公斤體重皮下注射本劑30mg，連續使用3天。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "本劑加入注射用水或稀釋液溶解，未使用完可放置冰箱冷藏，但不宜超過3天。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "停藥期：豬、雞21日。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "本劑請儲存於陰涼處。"
+                },
+                {
+                    "id": "5",
+                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                }
+            ],
+            "packaging": "45gm/vial",
             "animals": [
                 "豬",
                 "雞"
@@ -2334,9 +2579,34 @@
                 }
             ],
             "indications": "牛、羊：治療溶血性、敗血性巴氏桿菌及牛睡眠性嗜血桿菌等引起之呼吸道感染症。\n豬：治療胸膜肺炎放線桿菌、敗血性巴氏桿菌、豬霍亂沙氏桿菌及豬鏈球菌第二型等引起之呼吸道感染症。\n一日齡雞、火雞：控制大腸桿菌症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "每gm加20ml注射用水且用力振搖溶解後，即每ml溶解後溶液約含50mg的Ceftiofur。\n牛、羊：每kg體重肌肉注射本劑1.1～2.2mg，每日一次，連續使用3～5日。\n豬：每kg體重肌肉注射本劑3~5mg，每日一次，連續使用3日。\n一日齡雞：每隻皮下注射本劑0.08～0.20mg。\n一日齡火雞：每隻皮下注射本劑0.17~0.50mg。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "本劑加入注射用水或稀釋液，須在12小時内用完，或放置2～8°C冰箱冷藏須在7天内用完，並避免陽光照射。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "停藥期：牛、羊、豬、雞、火雞5日，使用於乳牛無需牛乳廢棄期。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "本劑請貯存於2〜8°C冰箱冷藏。"
+                },
+                {
+                    "id": "5",
+                    "precaution": "勿使用於對Penicillins、Cephalosporins過敏的動物。"
+                },
+                {
+                    "id": "6",
+                    "precaution": "請勿使用於人類，並置於兒童無法取得之處；另避免與皮膚或黏膜直接接觸，以免發生過敏反應，若出現皮膚發疹、呼吸困難時請找醫生診治。"
+                }
+            ],
+            "packaging": "4gm",
             "animals": [
                 "牛",
                 "羊",
@@ -2360,9 +2630,34 @@
                 }
             ],
             "indications": "牛、羊：治療溶血性、敗血性巴氏桿菌及牛睡眠性嗜血桿菌等引起之呼吸道感染症。\n豬：治療胸膜肺炎放線桿菌、敗血性巴氏桿菌、豬霍亂沙氏桿菌及豬鏈球菌第二型等引起之呼吸道感染症。\n一日齡雞、火雞：控制大腸桿菌症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "每gm加20ml注射用水且用力振搖溶解後，即每ml溶解後溶液約含50mg的Ceftiofur。\n牛、羊：每kg體重肌肉注射本劑1.1～2.2mg，每日一次，連續使用3～5日。\n豬：每kg體重肌肉注射本劑3~5mg，每日一次，連續使用3日。\n一日齡雞：每隻皮下注射本劑0.08～0.20mg。\n一日齡火雞：每隻皮下注射本劑0.17~0.50mg。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "本劑加入注射用水或稀釋液，須在12小時内用完，或放置2～8°C冰箱冷藏須在7天内用完，並避免陽光照射。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "停藥期：牛、羊、豬、雞、火雞5日，使用於乳牛無需牛乳廢棄期。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "本劑請貯存於2〜8°C冰箱冷藏。"
+                },
+                {
+                    "id": "5",
+                    "precaution": "勿使用於對Penicillins、Cephalosporins過敏的動物。"
+                },
+                {
+                    "id": "6",
+                    "precaution": "請勿使用於人類，並置於兒童無法取得之處；另避免與皮膚或黏膜直接接觸，以免發生過敏反應，若出現皮膚發疹、呼吸困難時請找醫生診治。"
+                }
+            ],
+            "packaging": "10gm",
             "animals": [
                 "牛",
                 "羊",
@@ -2386,9 +2681,34 @@
                 }
             ],
             "indications": "牛、羊：治療溶血性、敗血性巴氏桿菌及牛睡眠性嗜血桿菌等引起之呼吸道感染症。\n豬：治療胸膜肺炎放線桿菌、敗血性巴氏桿菌、豬霍亂沙氏桿菌及豬鏈球菌第二型等引起之呼吸道感染症。\n一日齡雞、火雞：控制大腸桿菌症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "每gm加20ml注射用水且用力振搖溶解後，即每ml溶解後溶液約含50mg的Ceftiofur。\n牛、羊：每kg體重肌肉注射本劑1.1～2.2mg，每日一次，連續使用3～5日。\n豬：每kg體重肌肉注射本劑3~5mg，每日一次，連續使用3日。\n一日齡雞：每隻皮下注射本劑0.08～0.20mg。\n一日齡火雞：每隻皮下注射本劑0.17~0.50mg。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "本劑加入注射用水或稀釋液，須在12小時内用完，或放置2～8°C冰箱冷藏須在7天内用完，並避免陽光照射。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "停藥期：牛、羊、豬、雞、火雞5日，使用於乳牛無需牛乳廢棄期。"
+                },
+                {
+                    "id": "4",
+                    "precaution": "本劑請貯存於2〜8°C冰箱冷藏。"
+                },
+                {
+                    "id": "5",
+                    "precaution": "勿使用於對Penicillins、Cephalosporins過敏的動物。"
+                },
+                {
+                    "id": "6",
+                    "precaution": "請勿使用於人類，並置於兒童無法取得之處；另避免與皮膚或黏膜直接接觸，以免發生過敏反應，若出現皮膚發疹、呼吸困難時請找醫生診治。"
+                }
+            ],
+            "packaging": "25gm",
             "animals": [
                 "牛",
                 "羊",
@@ -2412,9 +2732,14 @@
                 }
             ],
             "indications": "犬、猫：治療肺炎、沙氏桿菌症、泌尿道感染症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "將本品用注射用蒸餾水溶解液，按每公斤體重皮下或肌内注射11mg。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                }
+            ],
+            "packaging": "550mg",
             "animals": [
                 "犬",
                 "貓"
@@ -2435,9 +2760,14 @@
                 }
             ],
             "indications": "犬、猫：治療肺炎、沙氏桿菌症、泌尿道感染症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "將本品用注射用蒸餾水溶解液，按每公斤體重皮下或肌内注射11mg。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                }
+            ],
+            "packaging": "5500mg",
             "animals": [
                 "犬",
                 "貓"
@@ -2458,9 +2788,18 @@
                 }
             ],
             "indications": "豬：治療腸炎、仔豬白痢。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "皮下或肌肉注射按每公斤體重注射5mg連用2～4天。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "停藥期：21日。"
+                }
+            ],
+            "packaging": "5gm",
             "animals": [
                 "豬"
             ],
@@ -2480,9 +2819,18 @@
                 }
             ],
             "indications": "豬：治療腸炎、仔豬白痢。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "皮下或肌肉注射按每公斤體重注射5mg連用2～4天。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "停藥期：21日。"
+                }
+            ],
+            "packaging": "12.5gm",
             "animals": [
                 "豬"
             ],
@@ -2502,9 +2850,18 @@
                 }
             ],
             "indications": "豬：治療腸炎、仔豬白痢。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "皮下或肌肉注射按每公斤體重注射5mg連用2～4天。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "停藥期：21日。"
+                }
+            ],
+            "packaging": "15gm",
             "animals": [
                 "豬"
             ],
@@ -2524,9 +2881,18 @@
                 }
             ],
             "indications": "豬：治療腸炎、仔豬白痢。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "皮下或肌肉注射按每公斤體重注射5mg連用2～4天。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "停藥期：21日。"
+                }
+            ],
+            "packaging": "25gm",
             "animals": [
                 "豬"
             ],
@@ -2550,9 +2916,14 @@
                 }
             ],
             "indications": "豬及雞：治療肝臟疾病解毒。增進營養、產前產後營養補給、酸中毒、低血糖症。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "静脈注射、皮下注射或腹腔注射，注射劑量：大豬40～100ml、小豬10～20ml、雞0.5～3ml。",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                }
+            ],
+            "packaging": "500ml",
             "animals": [
                 "豬",
                 "雞"
@@ -2577,9 +2948,22 @@
                 }
             ],
             "indications": "豬：治療腸炎、仔豬白痢。",
-            "dosageAndAdministration": "",
-            "precautions": [],
-            "packaging": "",
+            "dosageAndAdministration": "按每公斤體重肌肉或皮下注射0.3～0.4ml，連用2～3天",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
+                },
+                {
+                    "id": "2",
+                    "precaution": "停藥期：21日。"
+                },
+                {
+                    "id": "3",
+                    "precaution": "請將本品置於冷暗處。"
+                }
+            ],
+            "packaging": "100ml",
             "animals": [
                 "豬"
             ],
