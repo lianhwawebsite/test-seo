@@ -52,7 +52,7 @@ const NextBreadcrumb = () => {
   return (
     <>
       {paths !== "/" && (
-        <ul className="flex w-full text-md">
+        <ul className="flex w-full flex-wrap text-md">
           <li className={listClasses}>
             <Link href={"/"}>{nameMap?.["home"]}</Link>
           </li>

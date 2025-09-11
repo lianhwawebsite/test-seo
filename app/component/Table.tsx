@@ -61,7 +61,7 @@ function ProductCard({ product }: { product: Product }) {
   return (
     <Link className="hidden sm:block" href={`/products/${product.id}`} itemProp="url">
       <article className="" itemScope itemType="https://schema.org/Product">
-        <div onMouseOver={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)} itemProp="img" className="bg-customGray w-full flex flex-col justify-between px-2 pt-2 pb-1.5 rounded-lg sm:h-45 sm:px-4.5 sm:pt-5 sm:pb-3.5 hover:bg-theme-1 hover:text-white transition-all">
+        <div onMouseOver={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)} itemProp="img" className="bg-customGray w-full flex flex-col justify-between px-2 pt-2 pb-1.5 rounded-xl sm:h-45 sm:px-4.5 sm:pt-6 sm:pb-5 hover:bg-theme-1 hover:text-white transition-all">
           <div className="grid grid-cols-2 text-[10px] leading-[1.20] tracking-[0px] h-fit">
             <p itemProp="category">{product.type}</p>
             <p itemProp="productID" className="text-right">
@@ -69,11 +69,11 @@ function ProductCard({ product }: { product: Product }) {
             </p>
           </div>
           <div className="flex items-center justify-between">
-            <div className="flex flex-col gap-1">
-              <h2 itemProp="name" className="text-xs leading-[1.22] tracking-[.5px] md:text-lg md:tracking-[.6px] font-semibold">
+            <div className="flex flex-col gap-2">
+              <h2 itemProp="name" className="text-xs leading-[1.22] tracking-[.5px] md:text-sm md:leading-[1.26] md:tracking-[.4px] md:truncate md:max-w-[100px] xl:max-w-[150px] font-semibold md:font-medium">
                 {product.name}
               </h2>
-              <h3 itemProp="english-name" className="text-[10px] leading-[1.20] tracking-0 md:text-base md:leading-[1.16]">
+              <h3 itemProp="english-name" className="text-[10px] leading-[1.20] tracking-0 md:text-xs md:leading-[1.16] md:truncate md:max-w-[100px] xl:max-w-[150px] ">
                 {product.englishName}
               </h3>
             </div>
