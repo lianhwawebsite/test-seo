@@ -1,6 +1,5 @@
 import { headers } from "next/headers";
 import Link from "next/link";
-import { ErrorIcon } from "@/app/lib/icons";
 import Image from "next/image";
 
 export default async function NotFound() {

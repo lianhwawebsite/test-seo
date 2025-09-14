@@ -1,7 +1,6 @@
 import { getMetadata, getSchema } from "@/app/lib/getMetadata";
 import { SeoHead } from "@/app/component/SeoHead";
 import data from "@/data.json";
-import { Fragment } from "react";
 import Image from "next/image";
 
 export function generateMetadata() {
