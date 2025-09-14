@@ -69,11 +69,11 @@ function ProductCard({ product }: { product: Product }) {
             </p>
           </div>
           <div className="flex items-center justify-between">
-            <div className="flex flex-col gap-2">
-              <h2 itemProp="name" className="text-xs leading-[1.22] tracking-[.5px] md:text-sm md:leading-[1.26] md:tracking-[.4px] md:truncate md:max-w-[100px] xl:max-w-[150px] font-semibold md:font-medium">
+            <div className="flex flex-col gap-1">
+              <h2 itemProp="name" className="text-xs leading-[1.22] tracking-[.5px] md:text-lg md:leading-[1.26] md:tracking-[.4px] md:truncate md:max-w-[100px] xl:max-w-[150px] font-semibold md:font-medium">
                 {product.name}
               </h2>
-              <h3 itemProp="english-name" className="text-[10px] leading-[1.20] tracking-0 md:text-xs md:leading-[1.16] md:truncate md:max-w-[100px] xl:max-w-[150px] ">
+              <h3 itemProp="english-name" className="text-[10px] leading-[1.20] tracking-0 md:text-sm md:leading-[1.16] md:truncate md:max-w-[100px] xl:max-w-[150px] ">
                 {product.englishName}
               </h3>
             </div>
