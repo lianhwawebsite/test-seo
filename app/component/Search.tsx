@@ -60,7 +60,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
           <Image src="/images/search_mo.svg" alt="" width={12} height={12} className="w-[12px] md:hidden" />
         </button>
         <div className="w-full relative flex">
-          <div className="absolute h-[85%] w-[1px] bg-theme-6 top-1/2 -translate-y-[50%] left-0"></div>
+          <div className={`absolute h-[85%] w-[1px] bg-theme-6 top-1/2 -translate-y-[50%] left-0 ${inputFocus ? "opacity-0" : "opacity-100"}`}></div>
           <input
             className="block w-[90%] text-sm leading-[1.21] tracking-[0.3px] md:text-base md:leading-[1.26] md:tracking-[.5] pl-1 placeholder:text-theme-6 focus:outline-0"
             placeholder="產品名稱或動物藥製字"

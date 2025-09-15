@@ -9,7 +9,7 @@ export const ServiceSecond = ({ data }: { data: Service }) => {
           <Image src={data.imgSrcPc || ""} alt="" width={720} height={754} className="hidden h-fit md:block" />
           <Image src={data.imgSrcMo || ""} alt="" width={720} height={754} className="block w-10/12 sm:w-2/4 md:hidden" />
         </div>
-        <div className="md:col-span-3 text-sm text-center md:text-sm md:leading-[2.2] tracking-[0.4px]  flex items-center md:font-medium md:text-left">{data.description}</div>
+        <div className="md:col-span-3 text-sm text-center md:text-base md:leading-[2.2] tracking-[0.4px]  flex items-center md:font-medium md:text-left">{data.description}</div>
       </div>
     </div>
   );

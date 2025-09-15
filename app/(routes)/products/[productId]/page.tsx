@@ -128,20 +128,20 @@ function ProductDetail({ product }: { product: Product }) {
     <section className="flex flex-col gap-y-6 md:gap-y-10 col-span-4">
       <article className="flex flex-col gap-6 justify-between md:hidden">
         <div className="text-primary flex flex-col gap-1.5">
-          <h1 className="font-bold text-lg leading-[1.22] tracking-[0.6px]">{product?.name}</h1>
-          <h2 className="font-medium text-xs leading-[1.22] tracking-[0px]">{product?.englishName}</h2>
+          <h1 className="font-bold text-xl leading-[1.22] tracking-[0.6px]">{product?.name}</h1>
+          <h2 className="font-medium text-base leading-[1.22] tracking-[0px]">{product?.englishName}</h2>
         </div>
-        <p className="text-xs leading-[1.16] tracking-[0px]">{product?.medicineCode}</p>
+        <p className="text-sm leading-[1.16] tracking-[0px]">{product?.medicineCode}</p>
       </article>
       <article className="md:col-start-1 md:row-start-2 flex flex-col gap-y-6" itemScope itemType="https://schema.org/Product">
-        <div className="text-xs leading-[1.5] tracking-[0px] md:text-base md:leading-[1.7] md:tracking-[0.5px]">
+        <div className="text-sm leading-[1.5] tracking-[0px] md:text-base md:leading-[1.7] md:tracking-[0.5px]">
           <p>{product?.ingredientsNote}</p>
           {product?.mainIngredients?.map((ingredient, idx) => (
             <div key={idx}>
               {ingredient.name}.....................................&nbsp;
               {ingredient.amount?.split("\n").map((sentence, idx) => (
                 <Fragment key={idx}>
-                  <span className="text-xs md:text-base">{sentence}</span>
+                  <span className="text-sm md:text-base">{sentence}</span>
                   <br />
                 </Fragment>
               ))}
@@ -160,7 +160,7 @@ function ProductDetail({ product }: { product: Product }) {
                 {ingredient.name}.....................................&nbsp;
                 {ingredient.amount?.split("\n").map((sentence, idx) => (
                   <Fragment key={idx}>
-                    <span className="text-xs md:text-base">{sentence}</span>
+                    <span className="text-sm md:text-base">{sentence}</span>
                     <br />
                   </Fragment>
                 ))}
@@ -170,9 +170,9 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.dosageAndAdministration?.length === 0 ? null : (
           <div>
-            <p className="font-medium text-xs md:text-base">用法用量</p>
+            <p className="font-medium text-sm md:text-base">用法用量</p>
             {product?.dosageAndAdministration?.split("\n").map((sentence, idx) => (
-              <p key={idx} className="text-xs md:text-base">
+              <p key={idx} className="text-sm md:text-base">
                 {sentence}
               </p>
             ))}
@@ -181,9 +181,9 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.indications?.length === 0 ? null : (
           <div>
-            <p className="font-medium text-xs md:text-base">適應症</p>
+            <p className="font-medium text-sm md:text-base">適應症</p>
             {product?.indications?.split("\n").map((sentence, idx) => (
-              <p key={idx} className="text-xs md:text-base">
+              <p key={idx} className="text-sm md:text-base">
                 {sentence}
               </p>
             ))}
@@ -192,9 +192,9 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.packaging?.length === 0 ? null : (
           <div>
-            <p className="font-medium text-xs md:text-base">包裝</p>
+            <p className="font-medium text-sm md:text-base">包裝</p>
             {product?.packaging?.split("\n").map((sentence, idx) => (
-              <p key={idx} className="text-xs md:text-base">
+              <p key={idx} className="text-sm md:text-base">
                 {sentence}
               </p>
             ))}
@@ -203,14 +203,14 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.precautions?.length === 0 ? null : (
           <div className="text-primary">
-            <p className="font-medium text-xs md:text-base">注意事項</p>
+            <p className="font-medium text-sm md:text-base">注意事項</p>
             {product?.precautions?.length === 1 ? (
               <>
                 {product?.precautions?.map((precaution) => (
-                  <div key={precaution.id} className="text-xs md:text-base">
+                  <div key={precaution.id} className="text-sm md:text-base">
                     {precaution.precaution.split("\n").map((sentence, idx) => (
                       <Fragment key={idx}>
-                        <span className="text-xs md:text-base">{sentence}</span>
+                        <span className="text-sm md:text-base">{sentence}</span>
                         <br />
                       </Fragment>
                     ))}
@@ -220,10 +220,10 @@ function ProductDetail({ product }: { product: Product }) {
             ) : (
               <ol className="list-decimal pl-5">
                 {product?.precautions?.map((precaution) => (
-                  <li key={precaution.id} className="text-xs md:text-base">
+                  <li key={precaution.id} className="text-sm md:text-base">
                     {precaution.precaution.split("\n").map((sentence, idx) => (
                       <Fragment key={idx}>
-                        <span className="text-xs md:text-base">{sentence}</span>
+                        <span className="text-sm md:text-base">{sentence}</span>
                         <br />
                       </Fragment>
                     ))}

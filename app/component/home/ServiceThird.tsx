@@ -13,7 +13,7 @@ export const ServiceThird = ({ data, productPage }: { data: Service; productPage
           <Image src="/images/arrow_right_white.svg" alt="Arrow Right" width={17} height={17} className="absolute top-[50%] -translate-y-[50%] right-0.5 w-fit h-fit md:hidden" />
         </Link>
       </div>
-      <div className="md:col-span-3 text-sm text-center md:text-sm md:leading-[2.2] tracking-[0.4px]  md:text-left md:row-span-1 md:font-medium flex items-center">{data.description}</div>
+      <div className="md:col-span-3 text-sm text-center md:text-base md:leading-[2.2] tracking-[0.4px]  md:text-left md:row-span-1 md:font-medium flex items-center">{data.description}</div>
       <Link href={productPage?.href || "/"} className="flex w-fit mx-auto relative bg-theme-1 rounded-lg px-15 py-2.5 md:pl-15 cursor-pointer md:hidden active:bg-customDarkGray">
         <span className="text-white font-medium text-xs tracking-[0px]">{productPage?.label}</span>
         <Image src="/images/arrow_right_white_thick.svg" alt="Arrow Right" width={24} height={24} className="hidden absolute top-[50%] -translate-y-[50%] right-4 md:block w-fit h-fit" />

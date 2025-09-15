@@ -62,7 +62,7 @@ function ProductCard({ product }: { product: Product }) {
     <Link className="hidden sm:block" href={`/products/${product.id}`} itemProp="url">
       <article className="" itemScope itemType="https://schema.org/Product">
         <div onMouseOver={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)} itemProp="img" className="bg-customGray w-full flex flex-col justify-between px-2 pt-2 pb-1.5 rounded-xl sm:h-45 sm:px-4.5 sm:pt-6 sm:pb-5 hover:bg-theme-1 hover:text-white transition-all">
-          <div className="grid grid-cols-2 text-[10px] leading-[1.20] tracking-[0px] h-fit">
+          <div className="grid grid-cols-2 text-[12px] leading-[1.20] tracking-[0px] h-fit">
             <p itemProp="category">{product.type}</p>
             <p itemProp="productID" className="text-right">
               {product.medicineCode}
@@ -98,10 +98,10 @@ function ProductCardMobile({ product }: { product: Product }) {
         <div onMouseOver={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)} itemProp="img" className="bg-customGray w-full flex flex-col justify-between gap-11 px-2.5 py-2.5 rounded-lg sm:gap-18 sm:px-4.5 sm:pt-5 sm:pb-3.5 hover:bg-theme-1 hover:text-white transition-all">
           <div className="flex items-center justify-between">
             <div className="flex flex-col gap-4">
-              <h2 itemProp="name" className="text-sm leading-[1.22] tracking-[.5px] md:text-lg md:tracking-[.6px] font-semibold">
+              <h2 itemProp="name" className="text-base leading-[1.22] tracking-[.5px] md:text-lg md:tracking-[.6px] font-semibold">
                 {product.name}
               </h2>
-              <h3 itemProp="english-name" className="text-[10px] leading-[1.20] tracking-0 md:text-base md:leading-[1.16]">
+              <h3 itemProp="english-name" className="text-sm leading-[1.20] tracking-0 md:text-base md:leading-[1.16]">
                 {product.medicineCode}
               </h3>
             </div>

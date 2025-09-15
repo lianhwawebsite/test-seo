@@ -6,7 +6,7 @@ export default function Filter({ allTypes, allAnimals, setAnimals, setTypes, ani
   return (
     <section className="col-span-1 flex flex-col">
       <DesktopFilterButton title={"產品種類"} items={allTypes} item={types} setItems={setTypes} />
-      <div className="hidden w-full h-13.5 md:block" />
+      <div className="hidden w-full h-9 md:block" />
       <DesktopFilterButton title={"適用動物"} items={allAnimals} item={animals} setItems={setAnimals} />
       <MobileFilterMenu allTypes={allTypes} allAnimals={allAnimals} types={types} animals={animals} setTypes={setTypes} setAnimals={setAnimals} />
     </section>
@@ -29,9 +29,9 @@ function DesktopFilterButton({ title, items, item, setItems }: { title: string; 
       <div className="mt-5 flex flex-col gap-3.5 w-fit">
         {items.map((i, idx) => (
           <button key={idx} type="button" className="flex items-center gap-1.5 cursor-pointer" onClick={() => toggle(i, item, setItems)}>
-            <div className={`relative border rounded-full w-[20px] h-[20px] ${item.includes(i) ? " border-black border-[1.5px]" : "bg-white"}`}>{item.includes(i) && <div className="absolute bg-theme-1 w-2 h-2 rounded-full top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"></div>}</div>
+            <div className={`relative border rounded-full w-[16px] h-[16px] ${item.includes(i) ? " border-black border-[1.5px]" : "bg-white"}`}>{item.includes(i) && <div className="absolute bg-theme-1 w-2 h-2 rounded-full top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"></div>}</div>
 
-            <p className={`text-base leading-[1.26] text-left  ${item.includes(i) ? "font-medium tracking-[.4px] underline" : "font-normal tracking-[.5px]"}`}>{i}</p>
+            <p className={`text-sm leading-[1.26] text-left  ${item.includes(i) ? "font-medium tracking-[.4px] underline" : "font-normal tracking-[.5px]"}`}>{i}</p>
           </button>
         ))}
       </div>
@@ -45,7 +45,7 @@ function MobileFilterMenu({ allTypes, allAnimals, types, animals, setTypes, setA
   function FilterTitle({ title, onClick, isActive }: { title: string; onClick: () => void; isActive: boolean }) {
     return (
       <button type="button" onClick={onClick} className="w-fit flex gap-1 items-center justify-center cursor-pointer">
-        <h3 className={`text-xs leading-[1.22] tracking-0 text-center   ${isActive ? "" : "text-customLightGray"}`}>{title}</h3>
+        <h3 className={`text-sm leading-[1.22] tracking-0 text-center   ${isActive ? "" : "text-customLightGray"}`}>{title}</h3>
         <Image src="/images/arrow_down.svg" alt="" width={12} height={12} className={`w-fit h-fit ${isActive ? "hidden" : ""}`} />
         <Image src="/images/arrow_up.svg" alt="" width={12} height={12} className={`w-fit h-fit ${isActive ? "" : "hidden"}`} />
       </button>

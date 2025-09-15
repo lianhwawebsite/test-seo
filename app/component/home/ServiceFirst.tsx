@@ -6,8 +6,8 @@ export const ServiceFirst = ({ title, description, imgSrcPc, imgSrcMo }: { title
       <Image src={imgSrcPc} alt="" width={1440} height={837} className="hidden w-fit md:flex md:px-10 lg:px-0 xl:w-8/12 xl:max-w-[1440px]" />
       <Image src={imgSrcMo} alt="" width={1440} height={837} className="w-fit pt-10 px-5 md:hidden" />
       <div className="flex flex-col px-10 pb-10 gap-4 md:gap-9">
-        <div className="text-xl md:text-4xl lg:text-5xl font-medium">{title}</div>
-        <div className="text-sm md:font-medium md:text-sm md:leading-[2.2] tracking-[0.4px] md:w-1/2 mx-auto">{description}</div>
+        <div className="text-xl md:text-4xl lg:text-[44px] font-semibold">{title}</div>
+        <div className="text-sm md:font-medium md:text-base md:leading-[2.2] tracking-[0.4px] md:w-1/2 mx-auto">{description}</div>
       </div>
     </div>
   );

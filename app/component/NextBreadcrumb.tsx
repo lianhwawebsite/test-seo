@@ -44,9 +44,9 @@ const NextBreadcrumb = () => {
 
   const nameMap = flattenNavbarItems(data?.navbarItems);
   const Separator = () => {
-    return <span className="text-[10px] leading-[1.2] tracking-0 mx-1 md:text-sm md:mx-1.5 md:leading-[1] inline-block align-top"> &gt; </span>;
+    return <span className="text-[12px] leading-[1.2] tracking-0 mx-1 md:text-sm md:mx-1.5 md:leading-[1] inline-block align-top"> &gt; </span>;
   };
-  const listClasses = "text-[10px] leading-[1.2] tracking-0 md:text-sm md:leading-[1.21] md:tracking-[.3px]";
+  const listClasses = "text-[12px] leading-[1.2] tracking-0 md:text-sm md:leading-[1.21] md:tracking-[.3px]";
   const activeClasses = "underline decoration-1";
 
   return (

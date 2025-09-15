@@ -119,7 +119,7 @@ const MobileContent = ({ productNum, inputValue, setInputValue, updateURL, allTy
     <>
       <section className="flex flex-col md:hidden">
         <NextBreadcrumb />
-        <div className="text-[10px] leading-[1.2] tracking-0 md:text-sm md:leading-[1.21] md:tracking-[.3px] mt-1">{productNum}&nbsp;項</div>
+        <div className="text-[12px] leading-[1.2] tracking-0 md:text-sm md:leading-[1.21] md:tracking-[.3px] mt-1">{productNum}&nbsp;項</div>
       </section>
       <section className="grid grid-cols md:hidden md:grid-cols-4 gap-5 mt-5 mb-5">
         <Search inputValue={inputValue} setInputValue={setInputValue} updateURL={updateURL} />
