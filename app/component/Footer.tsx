@@ -1,16 +1,22 @@
+"use client";
+import { usePathname } from "next/navigation";
 import data from "@/data.json";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment } from "react";
 
 export default function Footer() {
+  const pathname = usePathname();
+  const isHome = pathname === "/";
   const date = new Date();
   let year = date.getFullYear();
   const homeItem = data.footerItems.find((item) => item.name === "首頁");
   const companyNameItem = data.footerItems.find((item) => item.name === "公司名稱");
   const companyEnglishNameItem = data.footerItems.find((item) => item.name === "公司英文名稱");
   return (
-    <footer className="relative row-start-3 font-notoSansTC overflow-hidden flex items-center justify-center h-[205px] mt-auto md:h-[328px] w-screen  md:px-9 lg:px-24 ">
+    <footer
+      className={`relative z-10 row-start-3 font-notoSansTC overflow-hidden flex items-center justify-center h-[205px] mt-auto md:h-[328px] w-screen md:px-9 lg:px-24 
+      ${isHome ? "bg-transparent" : "bg-white"}`}>
       <Image src="/images/footer_pc.svg" alt="" fill sizes="(min-width: 768px) 100vw, 0px" className="object-top object-cover hidden md:block -z-10" priority />
       <Image src="/images/footer_mo.svg" alt="" fill sizes="(max-width: 767px) 100vw, 0px" className="object-top object-cover block md:hidden -z-10" priority />
       <div className="mx-auto max-w-[1200px] relative z-10 grid gap-6 h-fit w-full pt-9 pb-6 text-white md:grid-cols-3 md:pb-15 md:pt-25 lg:grid-cols-3">
