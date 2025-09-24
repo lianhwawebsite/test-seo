@@ -77,7 +77,7 @@ function ProductCard({ product }: { product: Product }) {
                 {product.englishName}
               </h3>
             </div>
-            {isHover ? <Image src="/images/product_arrow_white.svg" alt="" width={57} height={60} className="w-[27px] h-[28px] sm:w-fit sm:h-fit" /> : <Image src="/images/product_arrow.svg" alt="" width={57} height={60} className="w-[27px] h-[28px] sm:w-fit sm:h-fit" />}
+            {isHover ? <Image src="/images/product_arrow_white_PC.svg" alt="" width={57} height={60} className="w-[47.5px] h-[50px] sm:w-fit sm:h-fit" /> : <Image src="/images/product_arrow_PC.svg" alt="" width={57} height={60} className="w-[47.5px] h-[50px] sm:w-fit sm:h-fit" />}
           </div>
         </div>
 
@@ -105,7 +105,7 @@ function ProductCardMobile({ product }: { product: Product }) {
                 {product.medicineCode}
               </h3>
             </div>
-            {isHover ? <Image src="/images/product_arrow_white.svg" alt="" width={57} height={60} className="w-[27px] h-[28px] sm:w-fit sm:h-fit" /> : <Image src="/images/product_arrow.svg" alt="" width={57} height={60} className="w-[27px] h-[28px] sm:w-fit sm:h-fit" />}
+            {isHover ? <Image src="/images/product_arrow_white_MO.svg" alt="" width={57} height={60} className="w-[28px] h-[28px] sm:w-fit sm:h-fit" /> : <Image src="/images/product_arrow_MO.svg" alt="" width={57} height={60} className="w-[28px] h-[28px] sm:w-fit sm:h-fit" />}
           </div>
         </div>
 

@@ -8,12 +8,12 @@ import { SITE_URL } from "@/app/config";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   icons: { icon: "/images/favicon.ico" },
-  title: "首頁｜某某製藥廠",
-  description: "我們是某某製藥廠。歡迎來到我們的網站！",
+  title: "首頁｜聯華製藥廠",
+  description: "聯華製藥廠股份有限公司創立於1973年，專注於動物藥品的研發與製造。",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
-    siteName: "某某製藥廠",
+    siteName: "聯華製藥廠官方網站",
     locale: "zh_TW",
     url: "/",
     images: ["/images/OG_image.png"],

@@ -28,16 +28,16 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
       alternates: { canonical: "/" },
       openGraph: {
         type: "website",
-        siteName: "聯華製藥廠",
+        siteName: "聯華製藥廠官方網站",
         locale: "zh_TW",
-        url: "/", // 讓 metadataBase 自動補完整網域
+        url: "/",
         images: ["/images/OG_image.png"],
       },
       schema: [
         {
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "聯華製藥廠",
+          name: "聯華製藥廠官方網站",
           url: abs("/"),
           logo: abs("/images/favicon.ico"),
         },
@@ -49,7 +49,7 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
       alternates: { canonical: "/products" },
       openGraph: {
         type: "website",
-        siteName: "聯華製藥廠",
+        siteName: "聯華製藥廠官方網站",
         locale: "zh_TW",
         url: "/products",
         images: ["/images/OG_image.png"],
@@ -69,7 +69,7 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
       alternates: { canonical: "/contact" },
       openGraph: {
         type: "website",
-        siteName: "聯華製藥廠",
+        siteName: "聯華製藥廠官方網站",
         locale: "zh_TW",
         url: "/contact",
         images: ["/images/OG_image.png"],
@@ -84,7 +84,7 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
         {
           "@context": "https://schema.org",
           "@type": "Organization",
-          name: "聯華製藥廠",
+          name: "聯華製藥廠官方網站",
           url: abs("/"),
           contactPoint: [
             {

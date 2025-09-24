@@ -22,7 +22,7 @@ export function getMetadata(lang: string, pageKey: string): Metadata {
     alternates: { canonical: "/" },
     openGraph: {
       type: "website",
-      siteName: "聯華製藥廠",
+      siteName: "聯華製藥廠官方網站",
       locale: "zh_TW",
       url: "/",
       images: ["/images/OG_image.png"],
