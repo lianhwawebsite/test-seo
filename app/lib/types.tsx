@@ -11,11 +11,10 @@ export interface NavbarItem {
   label: string;
   href: string;
 }
-
 export interface Product {
   id: string;
   name: string;
-  englishName: string;
+  alternativeName: string;
   type: string;
   animals: string[];
   medicineCode?: string;
@@ -28,4 +27,30 @@ export interface Product {
   precautions?: { id: string; precaution: string }[];
   packaging?: string;
   licenseUrl?: string;
-};
+}
+export interface AllData {
+  navbarItems: {
+    label: string;
+    href: string;
+  }[];
+  footerItems: {
+    name: string;
+    label: string;
+    href?: string;
+  }[];
+  home: {
+    title: string;
+    description: string;
+    imgSrcPc: string;
+    imgSrcMo: string;
+    services: {
+      id: string;
+      title: string;
+      description: string;
+      imgSrcPc?: string;
+      imgSrcMo?: string;
+      imgSrc?: string;
+    }[];
+  };
+  products: Product[];
+}

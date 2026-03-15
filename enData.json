@@ -1,27 +1,27 @@
 {
     "navbarItems": [
         {
-            "label": "首頁",
-            "href": "/"
+            "label": "Home",
+            "href": "/en"
         },
         {
-            "label": "產品一覽",
-            "href": "/products"
+            "label": "Products",
+            "href": "/en/products"
         },
         {
-            "label": "聯絡我們",
-            "href": "/contact"
+            "label": "Contact",
+            "href": "/en/contact"
         }
     ],
     "footerItems": [
         {
             "name": "首頁",
             "label": "",
-            "href": "/"
+            "href": "/en"
         },
         {
             "name": "公司地址",
-            "label": "〒 | 821012 高雄市路竹區中山路383號"
+            "label": "〒 | 821012 XXX"
         },
         {
             "name": "聯絡電話",
@@ -37,7 +37,7 @@
         },
         {
             "name": "公司名稱",
-            "label": "聯華製藥廠股份有限公司"
+            "label": "LIAN HWA PHARMACEUTICAL"
         },
         {
             "name": "公司英文名稱",
@@ -73,10 +73,10 @@
     "products": [
         {
             "id": "1",
-            "name": "聯華牌新肉卵素 一四-六-二",
-            "alternativeName": "ROWLANSON 14-6-2",
-            "type": "補助飼料",
-            "medicineCode": "臺省農畜飼製字第19159號",
+            "name": "ROWLANSON 14-6-2",
+            "alternativeName": "聯華牌新肉卵素 一四-六-二",
+            "type": "Supplement",
+            "medicineCode": "No. 19159",
             "ingredientsNote": "每公斤含量不低於",
             "mainIngredients": [
                 {
@@ -193,10 +193,10 @@
         },
         {
             "id": "2",
-            "name": "聯華牌維他肥",
-            "alternativeName": "VITAFASOL",
-            "type": "補助飼料",
-            "medicineCode": "臺省農畜飼製字第19152號",
+            "name": "VITAFASOL",
+            "alternativeName": "聯華牌維他肥",
+            "type": "Supplement",
+            "medicineCode": "No. 19152",
             "ingredientsNote": "每公斤含量不低於",
             "mainIngredients": [
                 {
@@ -321,10 +321,10 @@
         },
         {
             "id": "3",
-            "name": "聯華牌電解質 維康素",
-            "alternativeName": "Electrolytic VICOMS soluble",
-            "type": "補助飼料",
-            "medicineCode": "臺省農畜飼製字第19157號",
+            "name": "Electrolytic VICOMS soluble",
+            "alternativeName": "聯華牌電解質 維康素",
+            "type": "Supplement",
+            "medicineCode": "No. 19157",
             "ingredientsNote": "每公斤含量不低於",
             "mainIngredients": [
                 {
@@ -397,10 +397,10 @@
         },
         {
             "id": "4",
-            "name": "聯華牌 表衛命",
-            "alternativeName": "BIO-LACTOMINE",
-            "type": "補助飼料",
-            "medicineCode": "臺省農畜飼添字第00027號",
+            "name": "BIO-LACTOMINE",
+            "alternativeName": "聯華牌 表衛命",
+            "type": "Supplement",
+            "medicineCode": "No. 00027",
             "ingredientsNote": "每公斤含量不低於",
             "mainIngredients": [
                 {
@@ -430,10 +430,10 @@
         },
         {
             "id": "5",
-            "name": "聯華 嗽服寧粉",
-            "alternativeName": "COUGHTIN POWDER",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第02475號",
+            "name": "COUGHTIN POWDER",
+            "alternativeName": "聯華 嗽服寧粉",
+            "type": "Powder",
+            "medicineCode": "No. 02475",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -445,7 +445,7 @@
                     "amount": "2mg"
                 }
             ],
-            "indications": "家畜：治療急慢性支氣管炎、肺炎及感冒引起咳嗽、喀痰、氣喘。\n雞、火雞：治療慢性呼吸器病（CRD）、傳染性鼻炎、感冒、傳染性支氣管炎等對症治療。",
+            "indications": "Livestock：治療急慢性支氣管炎、肺炎及感冒引起咳嗽、喀痰、氣喘。\n雞、Turkey：治療慢性呼吸器病（CRD）、傳染性鼻炎、感冒、傳染性支氣管炎等對症治療。",
             "dosageAndAdministration": "治療時每1000kg飼料加入本品2～3kg。",
             "precautions": [
                 {
@@ -463,18 +463,18 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "家畜",
-                "雞",
-                "火雞"
+                "Livestock",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1850"
         },
         {
             "id": "6",
-            "name": "歐帝賜500",
-            "alternativeName": "OTC 500",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08860號",
+            "name": "OTC 500",
+            "alternativeName": "歐帝賜500",
+            "type": "Powder",
+            "medicineCode": "No. 08860",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -508,17 +508,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "雞",
-                "豬"
+                "Chicken",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12415"
         },
         {
             "id": "7",
-            "name": "特安200",
-            "alternativeName": "DOXYLLIN 200",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第09652號",
+            "name": "DOXYLLIN 200",
+            "alternativeName": "特安200",
+            "type": "Powder",
+            "medicineCode": "No. 09652",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -552,17 +552,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "雞",
-                "豬"
+                "Chicken",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28953"
         },
         {
             "id": "8",
-            "name": "聯華 紅黴素",
-            "alternativeName": "ERYTHROMYCIN 500 Water Soluble Powder",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08495號",
+            "name": "ERYTHROMYCIN 500 Water Soluble Powder",
+            "alternativeName": "聯華 紅黴素",
+            "type": "Powder",
+            "medicineCode": "No. 08495",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -600,16 +600,16 @@
             ],
             "packaging": "400GM/包\n1KG/包",
             "animals": [
-                "雞"
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11848"
         },
         {
             "id": "9",
-            "name": "速效黴素 C",
-            "alternativeName": "ERYMYCIN C",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08861號",
+            "name": "ERYMYCIN C",
+            "alternativeName": "速效黴素 C",
+            "type": "Powder",
+            "medicineCode": "No. 08861",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -621,8 +621,8 @@
                     "amount": "100,000IU"
                 }
             ],
-            "indications": "雞、火雞（不含產蛋中之蛋雞）：治療呼吸道及消化道疾病；可解除因疫苗接種、剪嘴及遷移等所產生之緊迫而導致的呼吸道併發症。",
-            "dosageAndAdministration": "雞、火雞（不含產蛋中之蛋雞）：每噸飲水添加本劑1kg，連續使用3日。",
+            "indications": "雞、Turkey（不含產蛋中之蛋雞）：治療呼吸道及消化道疾病；可解除因疫苗接種、剪嘴及遷移等所產生之緊迫而導致的呼吸道併發症。",
+            "dosageAndAdministration": "雞、Turkey（不含產蛋中之蛋雞）：每噸飲水添加本劑1kg，連續使用3日。",
             "precautions": [
                 {
                     "id": "1",
@@ -630,7 +630,7 @@
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：雞、火雞7日。"
+                    "precaution": "停藥期：雞、Turkey7日。"
                 },
                 {
                     "id": "3",
@@ -647,17 +647,17 @@
             ],
             "packaging": "100GM/包\n1KG/包",
             "animals": [
-                "雞",
-                "火雞"
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12411"
         },
         {
             "id": "10",
-            "name": "博效黴素粉",
-            "alternativeName": "AMPIDICLOX Pow.",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第04675號",
+            "name": "AMPIDICLOX Pow.",
+            "alternativeName": "博效黴素粉",
+            "type": "Powder",
+            "medicineCode": "No. 04675",
             "ingredientsNote": "Each gm Contains:",
             "mainIngredients": [
                 {
@@ -695,17 +695,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "雞",
-                "豬"
+                "Chicken",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3141"
         },
         {
             "id": "11",
-            "name": "安復西林200",
-            "alternativeName": "AMOCILLIN 200",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08429號",
+            "name": "AMOCILLIN 200",
+            "alternativeName": "安復西林200",
+            "type": "Powder",
+            "medicineCode": "No. 08429",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -739,17 +739,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "雞",
-                "豬"
+                "Chicken",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/122"
         },
         {
             "id": "12",
-            "name": "安復西林500",
-            "alternativeName": "AMOCILLIN 500",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08833號",
+            "name": "AMOCILLIN 500",
+            "alternativeName": "安復西林500",
+            "type": "Powder",
+            "medicineCode": "No. 08833",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -787,17 +787,17 @@
             ],
             "packaging": "500GM/包\n1KG/包\n20KG/包",
             "animals": [
-                "雞",
-                "豬"
+                "Chicken",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12365"
         },
         {
             "id": "13",
-            "name": "雪華黴素散",
-            "alternativeName": "CEPHA Powder",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第07602號",
+            "name": "CEPHA Powder",
+            "alternativeName": "雪華黴素散",
+            "type": "Powder",
+            "medicineCode": "No. 07602",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -831,17 +831,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "雞",
-                "豬"
+                "Chicken",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/6096"
         },
         {
             "id": "14",
-            "name": "聯華 必驅淨",
-            "alternativeName": "PEXIN",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第02479號",
+            "name": "PEXIN",
+            "alternativeName": "聯華 必驅淨",
+            "type": "Powder",
+            "medicineCode": "No. 02479",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -867,22 +867,22 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "豬",
-                "雞",
-                "牛",
-                "羊",
-                "馬",
-                "犬",
-                "貓"
+                "Pig",
+                "Chicken",
+                "Cattle",
+                "Sheep",
+                "Horse",
+                "Dog",
+                "Cat"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1855"
         },
         {
             "id": "15",
-            "name": "聯華 速寧",
-            "alternativeName": "SULDIN",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第06757號",
+            "name": "SULDIN",
+            "alternativeName": "聯華 速寧",
+            "type": "Powder",
+            "medicineCode": "No. 06757",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -916,16 +916,16 @@
             ],
             "packaging": "100GM/包\n1KG/包",
             "animals": [
-                "豬"
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/4984"
         },
         {
             "id": "16",
-            "name": "聯華 滅克速",
-            "alternativeName": "MYCOSOL",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第04932號",
+            "name": "MYCOSOL",
+            "alternativeName": "聯華 滅克速",
+            "type": "Powder",
+            "medicineCode": "No. 04932",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -963,16 +963,16 @@
             ],
             "packaging": "100GM/包\n1KG/包",
             "animals": [
-                "雞"
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3277"
         },
         {
             "id": "17",
-            "name": "極大黴素150",
-            "alternativeName": "GENTAMICIN 150",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08521號",
+            "name": "GENTAMICIN 150",
+            "alternativeName": "極大黴素150",
+            "type": "Powder",
+            "medicineCode": "No. 08521",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1006,17 +1006,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "雞",
-                "豬"
+                "Chicken",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11885"
         },
         {
             "id": "18",
-            "name": "復洛黴素100散",
-            "alternativeName": "FLORCIN 100 Pow.",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第09457號",
+            "name": "FLORCIN 100 Pow.",
+            "alternativeName": "復洛黴素100散",
+            "type": "Powder",
+            "medicineCode": "No. 09457",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1046,17 +1046,17 @@
             ],
             "packaging": "1KG/包\n25KG/包",
             "animals": [
-                "豬",
-                "鴨"
+                "Pig",
+                "Duck"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/17510"
         },
         {
             "id": "19",
-            "name": "畜樂黴素250",
-            "alternativeName": "THIALORCIN 250",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08500號",
+            "name": "THIALORCIN 250",
+            "alternativeName": "畜樂黴素250",
+            "type": "Powder",
+            "medicineCode": "No. 08500",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1090,16 +1090,16 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "雞"
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11859"
         },
         {
             "id": "20",
-            "name": "復美淨500",
-            "alternativeName": "FLUMEQUINE 500",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08883號",
+            "name": "FLUMEQUINE 500",
+            "alternativeName": "復美淨500",
+            "type": "Powder",
+            "medicineCode": "No. 08883",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1137,18 +1137,18 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "雞",
-                "魚類",
-                "龜鱉"
+                "Chicken",
+                "Fish",
+                "Turtle"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12454"
         },
         {
             "id": "21",
-            "name": "複方白冠必克寧 K",
-            "alternativeName": "COMPLEX LEUKOPYCORIN K",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第02452號",
+            "name": "COMPLEX LEUKOPYCORIN K",
+            "alternativeName": "複方白冠必克寧 K",
+            "type": "Powder",
+            "medicineCode": "No. 02452",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1190,17 +1190,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "豬",
-                "雞"
+                "Pig",
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1822"
         },
         {
             "id": "22",
-            "name": "新尅痢威靈粉",
-            "alternativeName": "COLIVARIN Soluble",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第02484號",
+            "name": "COLIVARIN Soluble",
+            "alternativeName": "新尅痢威靈粉",
+            "type": "Powder",
+            "medicineCode": "No. 02484",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1220,7 +1220,7 @@
                     "amount": "1mg"
                 }
             ],
-            "indications": "家畜：治療乳豬白痢、赤痢症，飼料變動或氣候劇變引起下痢症，大腸菌症。\n雞、火雞（不含產蛋中之蛋雞）：治療沙氏桿菌症、大腸菌症、傳染性漿膜炎。",
+            "indications": "Livestock：治療乳豬白痢、赤痢症，飼料變動或氣候劇變引起下痢症，大腸菌症。\n雞、Turkey（不含產蛋中之蛋雞）：治療沙氏桿菌症、大腸菌症、傳染性漿膜炎。",
             "dosageAndAdministration": "治療時將本品1kg溶於1000L飲水中給與，連續使用3～5日。",
             "precautions": [
                 {
@@ -1242,18 +1242,18 @@
             ],
             "packaging": "100GM/包\n1KG/包",
             "animals": [
-                "家畜",
-                "雞",
-                "火雞"
+                "Livestock",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1860"
         },
         {
             "id": "23",
-            "name": "剋球寶可溶散",
-            "alternativeName": "COCCIDIOCIDESOL",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第02490號",
+            "name": "COCCIDIOCIDESOL",
+            "alternativeName": "剋球寶可溶散",
+            "type": "Powder",
+            "medicineCode": "No. 02490",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1277,7 +1277,7 @@
                     "amount": "1mg"
                 }
             ],
-            "indications": "家畜及雞、火雞（不含產蛋中之蛋雞）：治療各種球蟲病、家禽霍亂、弧菌性肝炎。",
+            "indications": "Livestock及雞、Turkey（不含產蛋中之蛋雞）：治療各種球蟲病、家禽霍亂、弧菌性肝炎。",
             "dosageAndAdministration": "治療時將本品1kg溶於1000L飲水中給與連續使用3日。",
             "precautions": [
                 {
@@ -1299,18 +1299,18 @@
             ],
             "packaging": "100GM/包\n1KG/包",
             "animals": [
-                "家畜",
-                "雞",
-                "火雞"
+                "Livestock",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1863"
         },
         {
             "id": "24",
-            "name": "殺球",
-            "alternativeName": "CS3 Soluble",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第02451號",
+            "name": "CS3 Soluble",
+            "alternativeName": "殺球",
+            "type": "Powder",
+            "medicineCode": "No. 02451",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1330,7 +1330,7 @@
                     "amount": "500,000IU"
                 }
             ],
-            "indications": "雞、火雞（不含產蛋中之蛋雞）：治療各種球蟲病、霍亂、雞白痢、傷寒、弧菌性肝炎。",
+            "indications": "雞、Turkey（不含產蛋中之蛋雞）：治療各種球蟲病、霍亂、雞白痢、傷寒、弧菌性肝炎。",
             "dosageAndAdministration": "治療時將本品1kg溶於飲水1000L中給與連續使用2～3日。",
             "precautions": [
                 {
@@ -1352,17 +1352,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "雞",
-                "火雞"
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1821"
         },
         {
             "id": "25",
-            "name": "立剋球600",
-            "alternativeName": "LICOCCIDE 600",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08621號",
+            "name": "LICOCCIDE 600",
+            "alternativeName": "立剋球600",
+            "type": "Powder",
+            "medicineCode": "No. 08621",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1370,7 +1370,7 @@
                     "amount": "600mg"
                 }
             ],
-            "indications": "雞、火雞（不含產蛋中之蛋雞）：治療球蟲病及沙氏桿菌症。",
+            "indications": "雞、Turkey（不含產蛋中之蛋雞）：治療球蟲病及沙氏桿菌症。",
             "dosageAndAdministration": "每噸飲水添加本劑500gm（相當於含300gm的Sulfachloropyrazine Sod. Monohydrate），連續使用3日。",
             "precautions": [
                 {
@@ -1396,17 +1396,17 @@
             ],
             "packaging": "500GM/包",
             "animals": [
-                "雞",
-                "火雞"
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12039"
         },
         {
             "id": "26",
-            "name": "聯華 速康",
-            "alternativeName": "DIMETHOPRIM",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第05635號",
+            "name": "DIMETHOPRIM",
+            "alternativeName": "聯華 速康",
+            "type": "Powder",
+            "medicineCode": "No. 05635",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1418,8 +1418,8 @@
                     "amount": "400mg"
                 }
             ],
-            "indications": "雞、火雞（不含產蛋中之蛋雞）：治療大腸桿菌症、傳染性鼻炎、葡萄球菌症、肺炎、腸炎。",
-            "dosageAndAdministration": "雞、火雞（不含產蛋中之蛋雞）：治療時每1～2gm溶於10L飲水中給與，連用2～3日。",
+            "indications": "雞、Turkey（不含產蛋中之蛋雞）：治療大腸桿菌症、傳染性鼻炎、葡萄球菌症、肺炎、腸炎。",
+            "dosageAndAdministration": "雞、Turkey（不含產蛋中之蛋雞）：治療時每1～2gm溶於10L飲水中給與，連用2～3日。",
             "precautions": [
                 {
                     "id": "1",
@@ -1440,17 +1440,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "雞",
-                "火雞"
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3958"
         },
         {
             "id": "27",
-            "name": "除疾靈480",
-            "alternativeName": "TRIDIAZINE 480",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08611號",
+            "name": "TRIDIAZINE 480",
+            "alternativeName": "除疾靈480",
+            "type": "Powder",
+            "medicineCode": "No. 08611",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1488,19 +1488,19 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "牛",
-                "羊",
-                "豬",
-                "雞"
+                "Cattle",
+                "Sheep",
+                "Pig",
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12017"
         },
         {
             "id": "28",
-            "name": "聯華 特滅菌500",
-            "alternativeName": "TOMEGIN 500",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08939號",
+            "name": "TOMEGIN 500",
+            "alternativeName": "聯華 特滅菌500",
+            "type": "Powder",
+            "medicineCode": "No. 08939",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1534,21 +1534,21 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "豬",
-                "雞",
-                "牛",
-                "馬",
-                "犬",
-                "貓"
+                "Pig",
+                "Chicken",
+                "Cattle",
+                "Horse",
+                "Dog",
+                "Cat"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12547"
         },
         {
             "id": "29",
-            "name": "聯華 泰樂新500",
-            "alternativeName": "TYLOSIN 500",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第09646號",
+            "name": "TYLOSIN 500",
+            "alternativeName": "聯華 泰樂新500",
+            "type": "Powder",
+            "medicineCode": "No. 09646",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1578,17 +1578,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "雞",
-                "豬"
+                "Chicken",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28941"
         },
         {
             "id": "30",
-            "name": "聯華 愛樂新50",
-            "alternativeName": "AIVALOSIN 50",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08749號",
+            "name": "AIVALOSIN 50",
+            "alternativeName": "聯華 愛樂新50",
+            "type": "Powder",
+            "medicineCode": "No. 08749",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1618,17 +1618,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "豬",
-                "雞"
+                "Pig",
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12223"
         },
         {
             "id": "31",
-            "name": "聯華 泰順200",
-            "alternativeName": "TILMICOSIN 200",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08678號",
+            "name": "TILMICOSIN 200",
+            "alternativeName": "聯華 泰順200",
+            "type": "Powder",
+            "medicineCode": "No. 08678",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1658,16 +1658,16 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "豬"
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12117"
         },
         {
             "id": "32",
-            "name": "聯華 靈可新400",
-            "alternativeName": "LINCOCIN 400",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08661號",
+            "name": "LINCOCIN 400",
+            "alternativeName": "聯華 靈可新400",
+            "type": "Powder",
+            "medicineCode": "No. 08661",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1721,17 +1721,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "豬",
-                "雞"
+                "Pig",
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12091"
         },
         {
             "id": "33",
-            "name": "速倍特靈220",
-            "alternativeName": "SPECTLIN 220",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08729號",
+            "name": "SPECTLIN 220",
+            "alternativeName": "速倍特靈220",
+            "type": "Powder",
+            "medicineCode": "No. 08729",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1765,16 +1765,16 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "豬"
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12195"
         },
         {
             "id": "34",
-            "name": "聯華 泰妙素200",
-            "alternativeName": "TIAMULIN 200",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08710號",
+            "name": "TIAMULIN 200",
+            "alternativeName": "聯華 泰妙素200",
+            "type": "Powder",
+            "medicineCode": "No. 08710",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1808,17 +1808,17 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "豬",
-                "雞"
+                "Pig",
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12169"
         },
         {
             "id": "35",
-            "name": "聯華 剋痢黴素120",
-            "alternativeName": "COLISTIN 120",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第08748號",
+            "name": "COLISTIN 120",
+            "alternativeName": "聯華 剋痢黴素120",
+            "type": "Powder",
+            "medicineCode": "No. 08748",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1826,8 +1826,8 @@
                     "amount": "120mg(pot.)\n（相當含有3,600,000IU）"
                 }
             ],
-            "indications": "小牛、豬、肉雞、火雞及產蛋雞：治療對Colistin具感受性之大腸桿菌或沙氏桿菌引起的消化道感染症。",
-            "dosageAndAdministration": "小牛：溶解於飲水中，每日每kg體重使用本劑42～50mg，連續使用5～7日。\n豬：溶解於飲水中，每日每kg體重使用本劑42～50mg，連續使用5～7日。\n肉雞、火雞及產蛋雞：溶解於飲水中，每日每kg體重使用本劑50mg，連續使用5～7日。",
+            "indications": "小牛、豬、肉雞、Turkey及產蛋雞：治療對Colistin具感受性之大腸桿菌或沙氏桿菌引起的消化道感染症。",
+            "dosageAndAdministration": "小牛：溶解於飲水中，每日每kg體重使用本劑42～50mg，連續使用5～7日。\n豬：溶解於飲水中，每日每kg體重使用本劑42～50mg，連續使用5～7日。\n肉雞、Turkey及產蛋雞：溶解於飲水中，每日每kg體重使用本劑50mg，連續使用5～7日。",
             "precautions": [
                 {
                     "id": "1",
@@ -1843,7 +1843,7 @@
                 },
                 {
                     "id": "4",
-                    "precaution": "停藥期（小牛、豬、肉雞、火雞及產蛋雞）：3日。"
+                    "precaution": "停藥期（小牛、豬、肉雞、Turkey及產蛋雞）：3日。"
                 },
                 {
                     "id": "5",
@@ -1852,19 +1852,19 @@
             ],
             "packaging": "1KG/包\n25KG/包",
             "animals": [
-                "牛",
-                "豬",
-                "雞",
-                "火雞"
+                "Cattle",
+                "Pig",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12221"
         },
         {
             "id": "36",
-            "name": "特安500",
-            "alternativeName": "DOXYLLIN 500",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第09654號",
+            "name": "DOXYLLIN 500",
+            "alternativeName": "特安500",
+            "type": "Powder",
+            "medicineCode": "No. 09654",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1898,16 +1898,16 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "雞"
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28954"
         },
         {
             "id": "37",
-            "name": "聯華 尿酸溶解",
-            "alternativeName": "URICOSURIC powder",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第05613號",
+            "name": "URICOSURIC powder",
+            "alternativeName": "聯華 尿酸溶解",
+            "type": "Powder",
+            "medicineCode": "No. 05613",
             "ingredientsNote": "Each kilogram contains:",
             "mainIngredients": [
                 {
@@ -1933,17 +1933,17 @@
             ],
             "packaging": "1kg",
             "animals": [
-                "犬",
-                "貓"
+                "Dog",
+                "Cat"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3933"
         },
         {
             "id": "38",
-            "name": "特安黴素",
-            "alternativeName": "DOXYCYCLINE",
-            "type": "散劑",
-            "medicineCode": "動物藥製字第05610號",
+            "name": "DOXYCYCLINE",
+            "alternativeName": "特安黴素",
+            "type": "Powder",
+            "medicineCode": "No. 05610",
             "ingredientsNote": "Each kilogram contains:",
             "mainIngredients": [
                 {
@@ -1969,16 +1969,16 @@
             ],
             "packaging": "1kg",
             "animals": [
-                "雞"
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3926"
         },
         {
             "id": "39",
-            "name": "聯華 安比西寧針",
-            "alternativeName": "AMPICILLIN Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第08673號",
+            "name": "AMPICILLIN Inj.",
+            "alternativeName": "聯華 安比西寧針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 08673",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2008,16 +2008,16 @@
             ],
             "packaging": "15gm",
             "animals": [
-                "豬"
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12104"
         },
         {
             "id": "40",
-            "name": "長效安黴素針",
-            "alternativeName": "AMPICIN-G Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第04110號",
+            "name": "AMPICIN-G Inj.",
+            "alternativeName": "長效安黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 04110",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2029,8 +2029,8 @@
                     "amount": "7.5gm"
                 }
             ],
-            "indications": "豬、雞、火雞（不含產蛋中之蛋雞）：治療急慢性豬丹毒、葡萄球菌症、螺旋體菌症、肺炎球菌症、皮膚感染症、化膿性球菌症、腦炎及其他細菌感染症。",
-            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量\n豬：15~20mg。\n雞、火雞(不含產蛋中之蛋雞)：20~30mg。",
+            "indications": "豬、雞、Turkey（不含產蛋中之蛋雞）：治療急慢性豬丹毒、葡萄球菌症、螺旋體菌症、肺炎球菌症、皮膚感染症、化膿性球菌症、腦炎及其他細菌感染症。",
+            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量\n豬：15~20mg。\n雞、Turkey(不含產蛋中之蛋雞)：20~30mg。",
             "precautions": [
                 {
                     "id": "1",
@@ -2051,17 +2051,17 @@
             ],
             "packaging": "25gm",
             "animals": [
-                "雞",
-                "火雞"
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2758"
         },
         {
             "id": "41",
-            "name": "長效安黴素針",
-            "alternativeName": "AMPICIN-G Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第04110號",
+            "name": "AMPICIN-G Inj.",
+            "alternativeName": "長效安黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 04110",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2073,8 +2073,8 @@
                     "amount": "9.0gm"
                 }
             ],
-            "indications": "豬、雞、火雞（不含產蛋中之蛋雞）：治療急慢性豬丹毒、葡萄球菌症、螺旋體菌症、肺炎球菌症、皮膚感染症、化膿性球菌症、腦炎及其他細菌感染症。",
-            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量\n豬：15~20mg。\n雞、火雞(不含產蛋中之蛋雞)：20~30mg。",
+            "indications": "豬、雞、Turkey（不含產蛋中之蛋雞）：治療急慢性豬丹毒、葡萄球菌症、螺旋體菌症、肺炎球菌症、皮膚感染症、化膿性球菌症、腦炎及其他細菌感染症。",
+            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量\n豬：15~20mg。\n雞、Turkey(不含產蛋中之蛋雞)：20~30mg。",
             "precautions": [
                 {
                     "id": "1",
@@ -2095,18 +2095,18 @@
             ],
             "packaging": "30gm",
             "animals": [
-                "豬",
-                "雞",
-                "火雞"
+                "Pig",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2758"
         },
         {
             "id": "42",
-            "name": "博效黴素針",
-            "alternativeName": "AMPIDICLOX Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第04676號",
+            "name": "AMPIDICLOX Inj.",
+            "alternativeName": "博效黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 04676",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2122,8 +2122,8 @@
                     "amount": "3.125gm"
                 }
             ],
-            "indications": "家畜、雞、火雞（不含產蛋中之蛋雞）：治療葡萄球菌症、慢性呼吸器病(CRD)、傳染性鼻炎、肺炎、大腸桿菌及其它呼吸道感染症。",
-            "dosageAndAdministration": "將本品以注射用水溶解後行肌肉注射，按每公斤體重注射劑量：\n雞、火雞（不含產蛋中之蛋雞）：15～25mg\n家畜：10～15mg",
+            "indications": "Livestock、雞、Turkey（不含產蛋中之蛋雞）：治療葡萄球菌症、慢性呼吸器病(CRD)、傳染性鼻炎、肺炎、大腸桿菌及其它呼吸道感染症。",
+            "dosageAndAdministration": "將本品以注射用水溶解後行肌肉注射，按每公斤體重注射劑量：\n雞、Turkey（不含產蛋中之蛋雞）：15～25mg\nLivestock：10～15mg",
             "precautions": [
                 {
                     "id": "1",
@@ -2144,18 +2144,18 @@
             ],
             "packaging": "12.5gm",
             "animals": [
-                "雞",
-                "火雞",
-                "家畜"
+                "Chicken",
+                "Turkey",
+                "Livestock"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3142"
         },
         {
             "id": "43",
-            "name": "博效黴素針",
-            "alternativeName": "AMPIDICLOX Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第04676號",
+            "name": "AMPIDICLOX Inj.",
+            "alternativeName": "博效黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 04676",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2171,8 +2171,8 @@
                     "amount": "6.25gm"
                 }
             ],
-            "indications": "家畜、雞、火雞（不含產蛋中之蛋雞）：治療葡萄球菌症、慢性呼吸器病(CRD)、傳染性鼻炎、肺炎、大腸桿菌及其它呼吸道感染症。",
-            "dosageAndAdministration": "將本品以注射用水溶解後行肌肉注射，按每公斤體重注射劑量：\n雞、火雞（不含產蛋中之蛋雞）：15～25mg\n家畜：10～15mg",
+            "indications": "Livestock、雞、Turkey（不含產蛋中之蛋雞）：治療葡萄球菌症、慢性呼吸器病(CRD)、傳染性鼻炎、肺炎、大腸桿菌及其它呼吸道感染症。",
+            "dosageAndAdministration": "將本品以注射用水溶解後行肌肉注射，按每公斤體重注射劑量：\n雞、Turkey（不含產蛋中之蛋雞）：15～25mg\nLivestock：10～15mg",
             "precautions": [
                 {
                     "id": "1",
@@ -2193,18 +2193,18 @@
             ],
             "packaging": "25gm",
             "animals": [
-                "雞",
-                "火雞",
-                "家畜"
+                "Chicken",
+                "Turkey",
+                "Livestock"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3142"
         },
         {
             "id": "44",
-            "name": "安復西林針",
-            "alternativeName": "AMOCILLIN Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第08433號",
+            "name": "AMOCILLIN Inj.",
+            "alternativeName": "安復西林針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 08433",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2242,17 +2242,17 @@
             ],
             "packaging": "15gm",
             "animals": [
-                "豬",
-                "牛"
+                "Pig",
+                "Cattle"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/130"
         },
         {
             "id": "45",
-            "name": "安復西林針",
-            "alternativeName": "AMOCILLIN Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第08433號",
+            "name": "AMOCILLIN Inj.",
+            "alternativeName": "安復西林針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 08433",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2290,17 +2290,17 @@
             ],
             "packaging": "30gm",
             "animals": [
-                "豬",
-                "牛"
+                "Pig",
+                "Cattle"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/130"
         },
         {
             "id": "46",
-            "name": "聯華 康黴素針",
-            "alternativeName": "KANAMYCIN Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第02434號",
+            "name": "KANAMYCIN Inj.",
+            "alternativeName": "聯華 康黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 02434",
             "ingredientsNote": "Each Vial Contains:",
             "mainIngredients": [
                 {
@@ -2308,8 +2308,8 @@
                     "amount": "12.5gm(pot.)"
                 }
             ],
-            "indications": "牛、羊、豬：治療細菌性肺炎、細菌性下痢症、乳房炎。\n雞、火雞（不含產蛋中之蛋雞）：治療慢性呼吸器病、傳染性鼻炎。",
-            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量：\n牛：5～10mg\n豬、羊：15〜20mg\n雞、火雞（不含產蛋中之蛋雞）：25mg",
+            "indications": "牛、羊、豬：治療細菌性肺炎、細菌性下痢症、乳房炎。\n雞、Turkey（不含產蛋中之蛋雞）：治療慢性呼吸器病、傳染性鼻炎。",
+            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量：\n牛：5～10mg\n豬、羊：15〜20mg\n雞、Turkey（不含產蛋中之蛋雞）：25mg",
             "precautions": [
                 {
                     "id": "1",
@@ -2325,25 +2325,25 @@
                 },
                 {
                     "id": "4",
-                    "precaution": "停藥期：牛、羊、豬30日／牛乳36小時／雞、火雞（不含產蛋中之蛋雞）：14日"
+                    "precaution": "停藥期：牛、羊、豬30日／牛乳36小時／雞、Turkey（不含產蛋中之蛋雞）：14日"
                 }
             ],
             "packaging": "12.5gm",
             "animals": [
-                "牛",
-                "豬",
-                "羊",
-                "雞",
-                "火雞"
+                "Cattle",
+                "Pig",
+                "Sheep",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1337"
         },
         {
             "id": "47",
-            "name": "聯華 康黴素針",
-            "alternativeName": "KANAMYCIN Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第02434號",
+            "name": "KANAMYCIN Inj.",
+            "alternativeName": "聯華 康黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 02434",
             "ingredientsNote": "Each Vial Contains:",
             "mainIngredients": [
                 {
@@ -2351,8 +2351,8 @@
                     "amount": "25gm(pot.)"
                 }
             ],
-            "indications": "牛、羊、豬：治療細菌性肺炎、細菌性下痢症、乳房炎。 \n雞、火雞（不含產蛋中之蛋雞）：治療慢性呼吸器病、傳染性鼻炎。",
-            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量：\n牛：5～10mg\n豬、羊：15〜20mg\n雞、火雞（不含產蛋中之蛋雞）：25mg",
+            "indications": "牛、羊、豬：治療細菌性肺炎、細菌性下痢症、乳房炎。 \n雞、Turkey（不含產蛋中之蛋雞）：治療慢性呼吸器病、傳染性鼻炎。",
+            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量：\n牛：5～10mg\n豬、羊：15〜20mg\n雞、Turkey（不含產蛋中之蛋雞）：25mg",
             "precautions": [
                 {
                     "id": "1",
@@ -2368,25 +2368,25 @@
                 },
                 {
                     "id": "4",
-                    "precaution": "停藥期：牛、羊、豬30日／牛乳36小時／雞、火雞（不含產蛋中之蛋雞）：14日"
+                    "precaution": "停藥期：牛、羊、豬30日／牛乳36小時／雞、Turkey（不含產蛋中之蛋雞）：14日"
                 }
             ],
             "packaging": "25gm",
             "animals": [
-                "牛",
-                "豬",
-                "羊",
-                "雞",
-                "火雞"
+                "Cattle",
+                "Pig",
+                "Sheep",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1337"
         },
         {
             "id": "48",
-            "name": "聯華 康黴素D針",
-            "alternativeName": "KANAMYCIN D INJECTION",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第02436號",
+            "name": "KANAMYCIN D INJECTION",
+            "alternativeName": "聯華 康黴素D針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 02436",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2398,8 +2398,8 @@
                     "amount": "5000mcg"
                 }
             ],
-            "indications": "牛、豬、羊：治療細菌性肺炎、細菌性下痢、乳房炎。 \n雞、火雞（不含蛋雞）：治療慢性呼吸器病(CRD)、傳染性鼻炎。",
-            "dosageAndAdministration": "肌肉注射每公斤體重注射劑量：\n牛 : 5～10mg。\n豬、羊：15~20mg。\n雞、火雞（不含蛋雞）：25mg。",
+            "indications": "牛、豬、羊：治療細菌性肺炎、細菌性下痢、乳房炎。 \n雞、Turkey（不含蛋雞）：治療慢性呼吸器病(CRD)、傳染性鼻炎。",
+            "dosageAndAdministration": "肌肉注射每公斤體重注射劑量：\n牛 : 5～10mg。\n豬、羊：15~20mg。\n雞、Turkey（不含蛋雞）：25mg。",
             "precautions": [
                 {
                     "id": "1",
@@ -2415,25 +2415,25 @@
                 },
                 {
                     "id": "4",
-                    "precaution": "停藥期：牛、羊、豬:30日／牛乳：36小時／雞、火雞（不含蛋雞）：14日"
+                    "precaution": "停藥期：牛、羊、豬:30日／牛乳：36小時／雞、Turkey（不含蛋雞）：14日"
                 }
             ],
             "packaging": "5gm",
             "animals": [
-                "牛",
-                "豬",
-                "羊",
-                "雞",
-                "火雞"
+                "Cattle",
+                "Pig",
+                "Sheep",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1798"
         },
         {
             "id": "49",
-            "name": "泰靈黴素針",
-            "alternativeName": "TYLOSIN STERILE Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第02413號",
+            "name": "TYLOSIN STERILE Inj.",
+            "alternativeName": "泰靈黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 02413",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2441,8 +2441,8 @@
                     "amount": "25gm(pot.)"
                 }
             ],
-            "indications": "家畜：治療肺炎、丹毒、赤痢、關節炎、乳房炎。 \n雞、火雞（不含蛋雞）：治療慢性呼吸器病(CRD)、傳染性鼻炎、滑膜炎、葡萄球菌症。",
-            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量：\n家畜：5～22mg。\n雞、火雞（不含蛋雞）：25～50mg。",
+            "indications": "Livestock：治療肺炎、丹毒、赤痢、關節炎、乳房炎。 \n雞、Turkey（不含蛋雞）：治療慢性呼吸器病(CRD)、傳染性鼻炎、滑膜炎、葡萄球菌症。",
+            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量：\nLivestock：5～22mg。\n雞、Turkey（不含蛋雞）：25～50mg。",
             "precautions": [
                 {
                     "id": "1",
@@ -2463,18 +2463,18 @@
             ],
             "packaging": "25gm",
             "animals": [
-                "家畜",
-                "雞",
-                "火雞"
+                "Livestock",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1778"
         },
         {
             "id": "50",
-            "name": "速倍特靈針",
-            "alternativeName": "SPECTLIN Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第09653號",
+            "name": "SPECTLIN Inj.",
+            "alternativeName": "速倍特靈針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 09653",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2512,17 +2512,17 @@
             ],
             "packaging": "30gm/vial",
             "animals": [
-                "豬",
-                "雞"
+                "Pig",
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28955"
         },
         {
             "id": "51",
-            "name": "速倍特靈針",
-            "alternativeName": "SPECTLIN Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第09653號",
+            "name": "SPECTLIN Inj.",
+            "alternativeName": "速倍特靈針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 09653",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2560,17 +2560,17 @@
             ],
             "packaging": "45gm/vial",
             "animals": [
-                "豬",
-                "雞"
+                "Pig",
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28955"
         },
         {
             "id": "52",
-            "name": "瀉涕伏針",
-            "alternativeName": "CEFTIOFUR Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第08772號",
+            "name": "CEFTIOFUR Inj.",
+            "alternativeName": "瀉涕伏針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 08772",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2578,8 +2578,8 @@
                     "amount": "4gm(pot.)"
                 }
             ],
-            "indications": "牛、羊：治療溶血性、敗血性巴氏桿菌及牛睡眠性嗜血桿菌等引起之呼吸道感染症。\n豬：治療胸膜肺炎放線桿菌、敗血性巴氏桿菌、豬霍亂沙氏桿菌及豬鏈球菌第二型等引起之呼吸道感染症。\n一日齡雞、火雞：控制大腸桿菌症。",
-            "dosageAndAdministration": "每gm加20ml注射用水且用力振搖溶解後，即每ml溶解後溶液約含50mg的Ceftiofur。\n牛、羊：每kg體重肌肉注射本劑1.1～2.2mg，每日一次，連續使用3～5日。\n豬：每kg體重肌肉注射本劑3~5mg，每日一次，連續使用3日。\n一日齡雞：每隻皮下注射本劑0.08～0.20mg。\n一日齡火雞：每隻皮下注射本劑0.17~0.50mg。",
+            "indications": "牛、羊：治療溶血性、敗血性巴氏桿菌及牛睡眠性嗜血桿菌等引起之呼吸道感染症。\n豬：治療胸膜肺炎放線桿菌、敗血性巴氏桿菌、豬霍亂沙氏桿菌及豬鏈球菌第二型等引起之呼吸道感染症。\n一日齡雞、Turkey：控制大腸桿菌症。",
+            "dosageAndAdministration": "每gm加20ml注射用水且用力振搖溶解後，即每ml溶解後溶液約含50mg的Ceftiofur。\n牛、羊：每kg體重肌肉注射本劑1.1～2.2mg，每日一次，連續使用3～5日。\n豬：每kg體重肌肉注射本劑3~5mg，每日一次，連續使用3日。\n一日齡雞：每隻皮下注射本劑0.08～0.20mg。\n一日齡Turkey：每隻皮下注射本劑0.17~0.50mg。",
             "precautions": [
                 {
                     "id": "1",
@@ -2591,7 +2591,7 @@
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：牛、羊、豬、雞、火雞5日，使用於乳牛無需牛乳廢棄期。"
+                    "precaution": "停藥期：牛、羊、豬、雞、Turkey5日，使用於乳牛無需牛乳廢棄期。"
                 },
                 {
                     "id": "4",
@@ -2608,20 +2608,20 @@
             ],
             "packaging": "4gm",
             "animals": [
-                "牛",
-                "羊",
-                "豬",
-                "雞",
-                "火雞"
+                "Cattle",
+                "Sheep",
+                "Pig",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12257"
         },
         {
             "id": "53",
-            "name": "瀉涕伏針",
-            "alternativeName": "CEFTIOFUR Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第08772號",
+            "name": "CEFTIOFUR Inj.",
+            "alternativeName": "瀉涕伏針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 08772",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2629,8 +2629,8 @@
                     "amount": "10gm(pot.)"
                 }
             ],
-            "indications": "牛、羊：治療溶血性、敗血性巴氏桿菌及牛睡眠性嗜血桿菌等引起之呼吸道感染症。\n豬：治療胸膜肺炎放線桿菌、敗血性巴氏桿菌、豬霍亂沙氏桿菌及豬鏈球菌第二型等引起之呼吸道感染症。\n一日齡雞、火雞：控制大腸桿菌症。",
-            "dosageAndAdministration": "每gm加20ml注射用水且用力振搖溶解後，即每ml溶解後溶液約含50mg的Ceftiofur。\n牛、羊：每kg體重肌肉注射本劑1.1～2.2mg，每日一次，連續使用3～5日。\n豬：每kg體重肌肉注射本劑3~5mg，每日一次，連續使用3日。\n一日齡雞：每隻皮下注射本劑0.08～0.20mg。\n一日齡火雞：每隻皮下注射本劑0.17~0.50mg。",
+            "indications": "牛、羊：治療溶血性、敗血性巴氏桿菌及牛睡眠性嗜血桿菌等引起之呼吸道感染症。\n豬：治療胸膜肺炎放線桿菌、敗血性巴氏桿菌、豬霍亂沙氏桿菌及豬鏈球菌第二型等引起之呼吸道感染症。\n一日齡雞、Turkey：控制大腸桿菌症。",
+            "dosageAndAdministration": "每gm加20ml注射用水且用力振搖溶解後，即每ml溶解後溶液約含50mg的Ceftiofur。\n牛、羊：每kg體重肌肉注射本劑1.1～2.2mg，每日一次，連續使用3～5日。\n豬：每kg體重肌肉注射本劑3~5mg，每日一次，連續使用3日。\n一日齡雞：每隻皮下注射本劑0.08～0.20mg。\n一日齡Turkey：每隻皮下注射本劑0.17~0.50mg。",
             "precautions": [
                 {
                     "id": "1",
@@ -2642,7 +2642,7 @@
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：牛、羊、豬、雞、火雞5日，使用於乳牛無需牛乳廢棄期。"
+                    "precaution": "停藥期：牛、羊、豬、雞、Turkey5日，使用於乳牛無需牛乳廢棄期。"
                 },
                 {
                     "id": "4",
@@ -2659,20 +2659,20 @@
             ],
             "packaging": "10gm",
             "animals": [
-                "牛",
-                "羊",
-                "豬",
-                "雞",
-                "火雞"
+                "Cattle",
+                "Sheep",
+                "Pig",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12257"
         },
         {
             "id": "54",
-            "name": "瀉涕伏針",
-            "alternativeName": "CEFTIOFUR Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第08772號",
+            "name": "CEFTIOFUR Inj.",
+            "alternativeName": "瀉涕伏針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 08772",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2680,8 +2680,8 @@
                     "amount": "25gm(pot.)"
                 }
             ],
-            "indications": "牛、羊：治療溶血性、敗血性巴氏桿菌及牛睡眠性嗜血桿菌等引起之呼吸道感染症。\n豬：治療胸膜肺炎放線桿菌、敗血性巴氏桿菌、豬霍亂沙氏桿菌及豬鏈球菌第二型等引起之呼吸道感染症。\n一日齡雞、火雞：控制大腸桿菌症。",
-            "dosageAndAdministration": "每gm加20ml注射用水且用力振搖溶解後，即每ml溶解後溶液約含50mg的Ceftiofur。\n牛、羊：每kg體重肌肉注射本劑1.1～2.2mg，每日一次，連續使用3～5日。\n豬：每kg體重肌肉注射本劑3~5mg，每日一次，連續使用3日。\n一日齡雞：每隻皮下注射本劑0.08～0.20mg。\n一日齡火雞：每隻皮下注射本劑0.17~0.50mg。",
+            "indications": "牛、羊：治療溶血性、敗血性巴氏桿菌及牛睡眠性嗜血桿菌等引起之呼吸道感染症。\n豬：治療胸膜肺炎放線桿菌、敗血性巴氏桿菌、豬霍亂沙氏桿菌及豬鏈球菌第二型等引起之呼吸道感染症。\n一日齡雞、Turkey：控制大腸桿菌症。",
+            "dosageAndAdministration": "每gm加20ml注射用水且用力振搖溶解後，即每ml溶解後溶液約含50mg的Ceftiofur。\n牛、羊：每kg體重肌肉注射本劑1.1～2.2mg，每日一次，連續使用3～5日。\n豬：每kg體重肌肉注射本劑3~5mg，每日一次，連續使用3日。\n一日齡雞：每隻皮下注射本劑0.08～0.20mg。\n一日齡Turkey：每隻皮下注射本劑0.17~0.50mg。",
             "precautions": [
                 {
                     "id": "1",
@@ -2693,7 +2693,7 @@
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：牛、羊、豬、雞、火雞5日，使用於乳牛無需牛乳廢棄期。"
+                    "precaution": "停藥期：牛、羊、豬、雞、Turkey5日，使用於乳牛無需牛乳廢棄期。"
                 },
                 {
                     "id": "4",
@@ -2710,20 +2710,20 @@
             ],
             "packaging": "25gm",
             "animals": [
-                "牛",
-                "羊",
-                "豬",
-                "雞",
-                "火雞"
+                "Cattle",
+                "Sheep",
+                "Pig",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12257"
         },
         {
             "id": "55",
-            "name": "雪華黴素針",
-            "alternativeName": "CEPHAMYCIN Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第08138號",
+            "name": "CEPHAMYCIN Inj.",
+            "alternativeName": "雪華黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 08138",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2741,17 +2741,17 @@
             ],
             "packaging": "550mg",
             "animals": [
-                "犬",
-                "貓"
+                "Dog",
+                "Cat"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3927"
         },
         {
             "id": "56",
-            "name": "雪華黴素針",
-            "alternativeName": "CEPHAMYCIN Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第08138號",
+            "name": "CEPHAMYCIN Inj.",
+            "alternativeName": "雪華黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 08138",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2769,17 +2769,17 @@
             ],
             "packaging": "5500mg",
             "animals": [
-                "犬",
-                "貓"
+                "Dog",
+                "Cat"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3927"
         },
         {
             "id": "57",
-            "name": "速靈黴素針",
-            "alternativeName": "Spectinomycin Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第05631號",
+            "name": "Spectinomycin Inj.",
+            "alternativeName": "速靈黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 05631",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2801,16 +2801,16 @@
             ],
             "packaging": "5gm",
             "animals": [
-                "豬"
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
         },
         {
             "id": "58",
-            "name": "速靈黴素針",
-            "alternativeName": "Spectinomycin Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第05631號",
+            "name": "Spectinomycin Inj.",
+            "alternativeName": "速靈黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 05631",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2832,16 +2832,16 @@
             ],
             "packaging": "12.5gm",
             "animals": [
-                "豬"
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
         },
         {
             "id": "59",
-            "name": "速靈黴素針",
-            "alternativeName": "Spectinomycin Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第05631號",
+            "name": "Spectinomycin Inj.",
+            "alternativeName": "速靈黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 05631",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2863,16 +2863,16 @@
             ],
             "packaging": "15gm",
             "animals": [
-                "豬"
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
         },
         {
             "id": "60",
-            "name": "速靈黴素針",
-            "alternativeName": "Spectinomycin Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第05631號",
+            "name": "Spectinomycin Inj.",
+            "alternativeName": "速靈黴素針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 05631",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
                 {
@@ -2894,16 +2894,16 @@
             ],
             "packaging": "25gm",
             "animals": [
-                "豬"
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
         },
         {
             "id": "61",
-            "name": "聯華營養針",
-            "alternativeName": "",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第05616號",
+            "name": "05616",
+            "alternativeName": "聯華營養針",
+            "type": "Dry Powder",
+            "medicineCode": "No. 05616",
             "ingredientsNote": "Each 500 ml contains:",
             "mainIngredients": [
                 {
@@ -2925,17 +2925,17 @@
             ],
             "packaging": "500ml",
             "animals": [
-                "豬",
-                "雞"
+                "Pig",
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3934"
         },
         {
             "id": "62",
-            "name": "速靈黴素",
-            "alternativeName": "SPECTINOMYCIN Inj.",
-            "type": "乾粉注射液、乾粉懸劑",
-            "medicineCode": "動物藥製字第05634號",
+            "name": "SPECTINOMYCIN Inj.",
+            "alternativeName": "速靈黴素",
+            "type": "Dry Powder",
+            "medicineCode": "No. 05634",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -2965,16 +2965,16 @@
             ],
             "packaging": "100ml",
             "animals": [
-                "豬"
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3956"
         },
         {
             "id": "63",
-            "name": "藍特淨",
-            "alternativeName": "phenazathionium",
-            "type": "消毒劑",
-            "medicineCode": "動物藥製字第02455號",
+            "name": "phenazathionium",
+            "alternativeName": "藍特淨",
+            "type": "Disinfectant",
+            "medicineCode": "No. 02455",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -2986,7 +2986,7 @@
                     "amount": "0.005%"
                 }
             ],
-            "indications": "家禽流行性感冒病毒、新城病病毒、家畜及家禽皮膚、畜舍、飼養器具、工作器具及乳房之消毒。",
+            "indications": "家禽流行性感冒病毒、新城病病毒、Livestock及家禽皮膚、畜舍、飼養器具、工作器具及乳房之消毒。",
             "dosageAndAdministration": "一般創傷、皮膚黏膜消毒、手術前皮膚消毒：以1,000～1,500倍稀釋液擦拭消毒。\n畜舍、雞舍、雞體、畜體、飼料倉庫消毒：以500～700倍稀釋液撒布、噴霧或擦拭消毒。\n給水器、給餌器、孵卵器、育雛器消毒：以500～700倍稀釋液撒布、噴霧或擦拭消毒。\n種蛋殺菌消毒：以500～700倍稀釋液，並確保藥液溫度較蛋內部溫度高（通常45℃）浸漬約2分鐘，避免急冷乾燥之。\n踏槽、踏盤消毒：以300～500倍稀釋液，每2~5日或污濁時更換藥液。\n工作服、工作鞋、手術器具消毒：以500～700倍稀釋液洗淨、噴霧或擦拭消毒。\n乳房洗淨消毒：以500～1000倍稀釋液擦拭消毒。\n家禽流行性感冒病毒之消毒：以200倍稀釋液噴霧或擦拭消毒。\n新城病病毒之消毒：以400倍稀釋液噴霧或擦拭消毒。",
             "precautions": [
                 {
@@ -3004,10 +3004,10 @@
         },
         {
             "id": "64",
-            "name": "穩特淨500",
-            "alternativeName": "WINTOZINE 500",
-            "type": "消毒劑",
-            "medicineCode": "動物藥製字第08445號",
+            "name": "WINTOZINE 500",
+            "alternativeName": "穩特淨500",
+            "type": "Disinfectant",
+            "medicineCode": "No. 08445",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3037,10 +3037,10 @@
         },
         {
             "id": "65",
-            "name": "必克淨",
-            "alternativeName": "BKB-S",
-            "type": "消毒劑",
-            "medicineCode": "動物藥製字第08015號",
+            "name": "BKB-S",
+            "alternativeName": "必克淨",
+            "type": "Disinfectant",
+            "medicineCode": "No. 08015",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3070,10 +3070,10 @@
         },
         {
             "id": "66",
-            "name": "普衛碘300",
-            "alternativeName": "POVIDINE 300",
-            "type": "消毒劑",
-            "medicineCode": "動物藥製字第08446號",
+            "name": "POVIDINE 300",
+            "alternativeName": "普衛碘300",
+            "type": "Disinfectant",
+            "medicineCode": "No. 08446",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3103,10 +3103,10 @@
         },
         {
             "id": "67",
-            "name": "優特淨250",
-            "alternativeName": "UTOZINE 250",
-            "type": "消毒劑",
-            "medicineCode": "動物藥製字第09596號",
+            "name": "UTOZINE 250",
+            "alternativeName": "優特淨250",
+            "type": "Disinfectant",
+            "medicineCode": "No. 09596",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3152,10 +3152,10 @@
         },
         {
             "id": "68",
-            "name": "聯華 立可安",
-            "alternativeName": "L.C.N INJECTION",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第07601號",
+            "name": "L.C.N INJECTION",
+            "alternativeName": "聯華 立可安",
+            "type": "Injection",
+            "medicineCode": "No. 07601",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3167,8 +3167,8 @@
                     "amount": "100mg(pot.)"
                 }
             ],
-            "indications": "豬：治療傳染性關節炎、大腸桿菌症、黴漿菌性肺炎、與嗜血桿菌性肺炎。\n雞與火雞（不含產蛋中之蛋雞）：治療慢性呼吸器病、複合性慢性呼吸器病、家禽霍亂與葡萄球菌症。\n犬：治療呼吸道感染、皮膚病、尿路感染以及續發性細菌性感染。",
-            "dosageAndAdministration": "豬：每10公斤體重肌肉注射本品1ml，每天一次，依需要注射3～7天。\n雞及火雞（不含產蛋中之蛋雞）：每0.5公斤體重0.1ml，每天一次，連續注射3天。\n犬：每5公斤體重肌肉注射本品1ml，每天一次，可達21天。",
+            "indications": "豬：治療傳染性關節炎、大腸桿菌症、黴漿菌性肺炎、與嗜血桿菌性肺炎。\n雞與Turkey（不含產蛋中之蛋雞）：治療慢性呼吸器病、複合性慢性呼吸器病、家禽霍亂與葡萄球菌症。\n犬：治療呼吸道感染、皮膚病、尿路感染以及續發性細菌性感染。",
+            "dosageAndAdministration": "豬：每10公斤體重肌肉注射本品1ml，每天一次，依需要注射3～7天。\n雞及Turkey（不含產蛋中之蛋雞）：每0.5公斤體重0.1ml，每天一次，連續注射3天。\n犬：每5公斤體重肌肉注射本品1ml，每天一次，可達21天。",
             "precautions": [
                 {
                     "id": "1",
@@ -3189,19 +3189,19 @@
             ],
             "packaging": "100ml",
             "animals": [
-                "豬",
-                "雞",
-                "火雞",
-                "犬"
+                "Pig",
+                "Chicken",
+                "Turkey",
+                "Dog"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/6095"
         },
         {
             "id": "69",
-            "name": "聯華 立刻靈 注",
-            "alternativeName": "DECADIN Inj.",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第04770號",
+            "name": "DECADIN Inj.",
+            "alternativeName": "聯華 立刻靈 注",
+            "type": "Injection",
+            "medicineCode": "No. 04770",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3209,8 +3209,8 @@
                     "amount": "1mg"
                 }
             ],
-            "indications": "牛、馬、豬、雞、火雞（不含蛋雞）：產前、產後跛腳、急慢性乳房炎、子宮炎、肺炎、氣管炎、喘咳、關節炎、濕疹及其他副腎皮質賀爾蒙適應症。",
-            "dosageAndAdministration": "牛、馬：10～20ml。\n豬：5～10ml。\n雞、火雞 (不含蛋雞)：0.5～2ml。\n行肌肉或皮下注射。",
+            "indications": "牛、馬、豬、雞、Turkey（不含蛋雞）：產前、產後跛腳、急慢性乳房炎、子宮炎、肺炎、氣管炎、喘咳、關節炎、濕疹及其他副腎皮質賀爾蒙適應症。",
+            "dosageAndAdministration": "牛、馬：10～20ml。\n豬：5～10ml。\n雞、Turkey (不含蛋雞)：0.5～2ml。\n行肌肉或皮下注射。",
             "precautions": [
                 {
                     "id": "1",
@@ -3223,20 +3223,20 @@
             ],
             "packaging": "100ml",
             "animals": [
-                "牛",
-                "馬",
-                "豬",
-                "雞",
-                "火雞"
+                "Cattle",
+                "Horse",
+                "Pig",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3184"
         },
         {
             "id": "70",
-            "name": "聯華 林可300針",
-            "alternativeName": "LINCO 300 Inj.",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第09645號",
+            "name": "LINCO 300 Inj.",
+            "alternativeName": "聯華 林可300針",
+            "type": "Injection",
+            "medicineCode": "No. 09645",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3278,19 +3278,19 @@
             ],
             "packaging": "100ml",
             "animals": [
-                "犬",
-                "貓",
-                "雞",
-                "豬"
+                "Dog",
+                "Cat",
+                "Chicken",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28935"
         },
         {
             "id": "71",
-            "name": "咳喘寧針",
-            "alternativeName": "ANTICOUGH Inj.",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第08930號",
+            "name": "ANTICOUGH Inj.",
+            "alternativeName": "咳喘寧針",
+            "type": "Injection",
+            "medicineCode": "No. 08930",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3320,21 +3320,21 @@
             ],
             "packaging": "500ml、100ml",
             "animals": [
-                "牛",
-                "馬",
-                "豬",
-                "羊",
-                "犬",
-                "貓"
+                "Cattle",
+                "Horse",
+                "Pig",
+                "Sheep",
+                "Dog",
+                "Cat"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12535"
         },
         {
             "id": "72",
-            "name": "聯華 泰樂新V注",
-            "alternativeName": "TYLOSIN V Inj.",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第02441號",
+            "name": "TYLOSIN V Inj.",
+            "alternativeName": "聯華 泰樂新V注",
+            "type": "Injection",
+            "medicineCode": "No. 02441",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3350,8 +3350,8 @@
                     "amount": "150mg"
                 }
             ],
-            "indications": "牛：治療肺炎，運輸熱、腐蹄病、子宮炎。\n豬：治療流行性肺炎、赤痢症、丹毒。\n雞、火雞（不含蛋雞）：治療慢性呼吸器病(CRD)、葡萄球菌症、鏈球菌症。",
-            "dosageAndAdministration": "皮下或肌肉注射每公斤體重注射劑量。\n牛：0.1～0.3ml、豬、羊：0.1～0.4ml，\n雞、火雞（不含蛋雞）：1ml （四週齡以上雞才能使用）\n連用最多不可超過三天。",
+            "indications": "牛：治療肺炎，運輸熱、腐蹄病、子宮炎。\n豬：治療流行性肺炎、赤痢症、丹毒。\n雞、Turkey（不含蛋雞）：治療慢性呼吸器病(CRD)、葡萄球菌症、鏈球菌症。",
+            "dosageAndAdministration": "皮下或肌肉注射每公斤體重注射劑量。\n牛：0.1～0.3ml、豬、羊：0.1～0.4ml，\n雞、Turkey（不含蛋雞）：1ml （四週齡以上雞才能使用）\n連用最多不可超過三天。",
             "precautions": [
                 {
                     "id": "1",
@@ -3368,19 +3368,19 @@
             ],
             "packaging": "100ml",
             "animals": [
-                "牛",
-                "豬",
-                "雞",
-                "火雞"
+                "Cattle",
+                "Pig",
+                "Chicken",
+                "Turkey"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1801"
         },
         {
             "id": "73",
-            "name": "聯華 特滅菌 20注",
-            "alternativeName": "Tomegin 20 Inj.",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第04113號",
+            "name": "Tomegin 20 Inj.",
+            "alternativeName": "聯華 特滅菌 20注",
+            "type": "Injection",
+            "medicineCode": "No. 04113",
             "ingredientsNote": "Each 100ml Contains:",
             "mainIngredients": [
                 {
@@ -3392,8 +3392,8 @@
                     "amount": "q.s."
                 }
             ],
-            "indications": "雞、火雞、鴨、鵝（不含產蛋中之蛋禽）：治療傳染性鼻炎、球蟲症、白冠病。\n家畜：治療下痢症、弓蟲病、錐蟲病。",
-            "dosageAndAdministration": "皮下或肌肉注射，每公斤體重注射劑量\n雞、火雞、鴨、鵝（不含產蛋中之蛋禽）：0.25～0.5ml。\n家畜：0.15～0.25ml。",
+            "indications": "雞、Turkey、鴨、鵝（不含產蛋中之蛋禽）：治療傳染性鼻炎、球蟲症、白冠病。\nLivestock：治療下痢症、弓蟲病、錐蟲病。",
+            "dosageAndAdministration": "皮下或肌肉注射，每公斤體重注射劑量\n雞、Turkey、鴨、鵝（不含產蛋中之蛋禽）：0.25～0.5ml。\nLivestock：0.15～0.25ml。",
             "precautions": [
                 {
                     "id": "1",
@@ -3410,20 +3410,20 @@
             ],
             "packaging": "100ml",
             "animals": [
-                "雞",
-                "火雞",
-                "鴨",
-                "鵝",
-                "家畜"
+                "Chicken",
+                "Turkey",
+                "Duck",
+                "Goose",
+                "Livestock"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2761"
         },
         {
             "id": "74",
-            "name": "聯華 康黴素 100針",
-            "alternativeName": "KANAMYCIN 100 Inj.",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第09010號",
+            "name": "KANAMYCIN 100 Inj.",
+            "alternativeName": "聯華 康黴素 100針",
+            "type": "Injection",
+            "medicineCode": "No. 09010",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3457,20 +3457,20 @@
             ],
             "packaging": "100ml",
             "animals": [
-                "豬",
-                "牛",
-                "羊",
-                "雞",
-                "鴨"
+                "Pig",
+                "Cattle",
+                "Sheep",
+                "Chicken",
+                "Duck"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12660"
         },
         {
             "id": "75",
-            "name": "聯華 速必寧500針",
-            "alternativeName": "SULPYRIN 500 Inj.",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第08586號",
+            "name": "SULPYRIN 500 Inj.",
+            "alternativeName": "聯華 速必寧500針",
+            "type": "Injection",
+            "medicineCode": "No. 08586",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3504,18 +3504,18 @@
             ],
             "packaging": "100ml、600ml",
             "animals": [
-                "牛",
-                "羊",
-                "豬"
+                "Cattle",
+                "Sheep",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11977"
         },
         {
             "id": "76",
-            "name": "聯華 速必寧 注",
-            "alternativeName": "SULPYRIN Inj.",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第04112號",
+            "name": "SULPYRIN Inj.",
+            "alternativeName": "聯華 速必寧 注",
+            "type": "Injection",
+            "medicineCode": "No. 04112",
             "ingredientsNote": "Each 100ml Contains:",
             "mainIngredients": [
                 {
@@ -3537,18 +3537,18 @@
             ],
             "packaging": "100ml、500ml",
             "animals": [
-                "牛",
-                "羊",
-                "豬"
+                "Cattle",
+                "Sheep",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2759"
         },
         {
             "id": "77",
-            "name": "復勞酸 注",
-            "alternativeName": "FURONSAN Inj.",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第02448號",
+            "name": "FURONSAN Inj.",
+            "alternativeName": "復勞酸 注",
+            "type": "Injection",
+            "medicineCode": "No. 02448",
             "ingredientsNote": "Each ml Contains:",
             "mainIngredients": [
                 {
@@ -3602,10 +3602,10 @@
         },
         {
             "id": "78",
-            "name": "聯華 愛樂利 100針",
-            "alternativeName": "ENROTRIL 100 Inj.",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第08844號",
+            "name": "ENROTRIL 100 Inj.",
+            "alternativeName": "聯華 愛樂利 100針",
+            "type": "Injection",
+            "medicineCode": "No. 08844",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3635,17 +3635,17 @@
             ],
             "packaging": "500ml",
             "animals": [
-                "牛",
-                "豬"
+                "Cattle",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12390"
         },
         {
             "id": "79",
-            "name": "聯華 維力康 注",
-            "alternativeName": "VILICAN  INJECTION",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第02449號",
+            "name": "VILICAN  INJECTION",
+            "alternativeName": "聯華 維力康 注",
+            "type": "Injection",
+            "medicineCode": "No. 02449",
             "ingredientsNote": "Each 100ml Contains:",
             "mainIngredients": [
                 {
@@ -3695,10 +3695,10 @@
         },
         {
             "id": "80",
-            "name": "樂胎速 注",
-            "alternativeName": "PITOCIN  INJECTION",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第02465號",
+            "name": "PITOCIN  INJECTION",
+            "alternativeName": "樂胎速 注",
+            "type": "Injection",
+            "medicineCode": "No. 02465",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3720,21 +3720,21 @@
             ],
             "packaging": "20ml",
             "animals": [
-                "牛",
-                "馬",
-                "羊",
-                "豬",
-                "犬",
-                "貓"
+                "Cattle",
+                "Horse",
+                "Sheep",
+                "Pig",
+                "Dog",
+                "Cat"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1834"
         },
         {
             "id": "81",
-            "name": "百炎通 注",
-            "alternativeName": "PREDONINE S inj.",
-            "type": "注射液、滅菌懸劑",
-            "medicineCode": "動物藥製字第05612號",
+            "name": "PREDONINE S inj.",
+            "alternativeName": "百炎通 注",
+            "type": "Injection",
+            "medicineCode": "No. 05612",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3760,16 +3760,16 @@
             ],
             "packaging": "100ml",
             "animals": [
-                "牛",
-                "豬"
+                "Cattle",
+                "Pig"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3929"
         },
         {
             "id": "82",
-            "name": "聯華 好飼佳",
-            "alternativeName": "LH POULTRIN",
-            "type": "其他",
+            "name": "LH POULTRIN",
+            "alternativeName": "聯華 好飼佳",
+            "type": "Others",
             "medicineCode": "",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -3806,9 +3806,9 @@
         },
         {
             "id": "83",
-            "name": "聯華 好飼壯",
-            "alternativeName": "LH HOTFREE",
-            "type": "其他",
+            "name": "LH HOTFREE",
+            "alternativeName": "聯華 好飼壯",
+            "type": "Others",
             "medicineCode": "",
             "ingredientsNote": "Each kg contains:",
             "mainIngredients": [
@@ -3841,9 +3841,9 @@
         },
         {
             "id": "84",
-            "name": "聯華 禽壯150",
-            "alternativeName": "LH POULTRONG 150",
-            "type": "其他",
+            "name": "LH POULTRONG 150",
+            "alternativeName": "聯華 禽壯150",
+            "type": "Others",
             "medicineCode": "",
             "ingredientsNote": "Each kg contains:",
             "mainIngredients": [
@@ -3880,10 +3880,10 @@
         },
         {
             "id": "85",
-            "name": "極大黴素50",
-            "alternativeName": "GENTAMICIN 50",
-            "type": "口服液劑",
-            "medicineCode": "動物藥製字第08798號",
+            "name": "GENTAMICIN 50",
+            "alternativeName": "極大黴素50",
+            "type": "Oral Solution",
+            "medicineCode": "No. 08798",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -3921,17 +3921,17 @@
             ],
             "packaging": "200ml",
             "animals": [
-                "豬",
-                "雞"
+                "Pig",
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12314"
         },
         {
             "id": "86",
-            "name": "復洛黴素100",
-            "alternativeName": "FLORCIN 100",
-            "type": "口服液劑",
-            "medicineCode": "動物藥製字第08809號",
+            "name": "FLORCIN 100",
+            "alternativeName": "復洛黴素100",
+            "type": "Oral Solution",
+            "medicineCode": "No. 08809",
             "ingredientsNote": "Each ml contains：",
             "mainIngredients": [
                 {
@@ -3969,18 +3969,18 @@
             ],
             "packaging": "1L\n200ml",
             "animals": [
-                "豬",
-                "雞",
-                "魚類"
+                "Pig",
+                "Chicken",
+                "Fish"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12326"
         },
         {
             "id": "87",
-            "name": "聯華 泰順250",
-            "alternativeName": "TILMICOSIN 250",
-            "type": "口服液劑",
-            "medicineCode": "動物藥製字第08799號",
+            "name": "TILMICOSIN 250",
+            "alternativeName": "聯華 泰順250",
+            "type": "Oral Solution",
+            "medicineCode": "No. 08799",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -4014,17 +4014,17 @@
             ],
             "packaging": "1L",
             "animals": [
-                "豬",
-                "雞"
+                "Pig",
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12315"
         },
         {
             "id": "88",
-            "name": "聯華 剋球淨25",
-            "alternativeName": "TOLTRAZURIL 25",
-            "type": "口服液劑",
-            "medicineCode": "動物藥製字第08826號",
+            "name": "TOLTRAZURIL 25",
+            "alternativeName": "聯華 剋球淨25",
+            "type": "Oral Solution",
+            "medicineCode": "No. 08826",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -4070,16 +4070,16 @@
             ],
             "packaging": "1L",
             "animals": [
-                "雞"
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12364"
         },
         {
             "id": "89",
-            "name": "復美淨500S",
-            "alternativeName": "FLUMEQUINE 500S",
-            "type": "口服液劑",
-            "medicineCode": "動物藥製字第08899號",
+            "name": "FLUMEQUINE 500S",
+            "alternativeName": "復美淨500S",
+            "type": "Oral Solution",
+            "medicineCode": "No. 08899",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -4113,16 +4113,16 @@
             ],
             "packaging": "1L",
             "animals": [
-                "雞"
+                "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12479"
         },
         {
             "id": "90",
-            "name": "聯華 剋痢黴素200S",
-            "alternativeName": "COLISTIN 200S",
-            "type": "口服液劑",
-            "medicineCode": "動物藥製字第08922號",
+            "name": "COLISTIN 200S",
+            "alternativeName": "聯華 剋痢黴素200S",
+            "type": "Oral Solution",
+            "medicineCode": "No. 08922",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
                 {
@@ -4130,8 +4130,8 @@
                     "amount": "2,000,000IU"
                 }
             ],
-            "indications": "雞、火雞、豬、仔牛、仔羊：治療對COLISTIN 具感受性細菌（大腸桿菌、沙氏桿菌）所引起之消化道感染症。",
-            "dosageAndAdministration": "每噸飲水添加本劑500~1,000ml（1,000~2,000倍）。\n雞、火雞：每日每公斤體重投予75,000IU，連續使用3~5天。\n豬、仔牛、仔羊：每日每公斤體重投予50,000IU，連續使用3~5天。",
+            "indications": "雞、Turkey、豬、仔牛、仔羊：治療對COLISTIN 具感受性細菌（大腸桿菌、沙氏桿菌）所引起之消化道感染症。",
+            "dosageAndAdministration": "每噸飲水添加本劑500~1,000ml（1,000~2,000倍）。\n雞、Turkey：每日每公斤體重投予75,000IU，連續使用3~5天。\n豬、仔牛、仔羊：每日每公斤體重投予50,000IU，連續使用3~5天。",
             "precautions": [
                 {
                     "id": "1",
@@ -4139,7 +4139,7 @@
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：豬、牛、羊、雞、火雞1日；蛋0日。"
+                    "precaution": "停藥期：豬、牛、羊、雞、Turkey1日；蛋0日。"
                 },
                 {
                     "id": "3",
@@ -4152,11 +4152,11 @@
             ],
             "packaging": "1L",
             "animals": [
-                "雞",
-                "火雞",
-                "豬",
-                "牛",
-                "羊"
+                "Chicken",
+                "Turkey",
+                "Pig",
+                "Cattle",
+                "Sheep"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12520"
         }

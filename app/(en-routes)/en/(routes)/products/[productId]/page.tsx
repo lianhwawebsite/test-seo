@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import data from "@/data.json";
+import data from "@/enData.json";
 import NextBreadcrumb from "@/app/component/NextBreadcrumb";
 import { CTA } from "@/app/component/CTA";
 import { SeoHead } from "@/app/component/SeoHead";
@@ -46,14 +46,14 @@ function buildDrugSchema(p: Product) {
     "@context": "https://schema.org",
     "@type": "Drug",
     name: p.name,
-    description: p.indications || `${p.name} 的產品資訊`,
+    description: p.indications || `${p.name} Introduction`,
     nonProprietaryName: p.alternativeName || undefined,
     identifier: p.medicineCode || undefined,
     activeIngredient: activeIngredient || undefined,
     dosageForm,
     manufacturer: {
       "@type": "Organization",
-      name: "聯華製藥廠",
+      name: "Lian Hwa Pharmaceutical",
     },
   };
 }
@@ -63,19 +63,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = findProduct(productId);
   if (!product) return notFound();
 
-  const title = `${product.name} 介紹｜聯華製藥廠`;
-  const description = product.indications || `${product.name} 的產品資訊`;
+  const title = `${product.name} ｜Lian Hwa Pharmaceutical`;
+  const description = product.indications || `${product.name} Introduction`;
 
   return {
     title,
     description,
-    alternates: { canonical: `/products/${productId}` },
+    alternates: { canonical: `/en/products/${productId}` },
     robots: { index: true, follow: true },
     openGraph: {
       type: "website",
-      siteName: "聯華製藥廠",
-      locale: "zh_TW",
-      url: `/products/${productId}`,
+      siteName: "Lian Hwa Pharmaceutical",
+      locale: "en",
+      url: `/en/products/${productId}`,
       images: ["/images/OG_image.png"],
     },
   };
@@ -90,9 +90,9 @@ export default async function Page({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "首頁", item: abs("/") },
-      { "@type": "ListItem", position: 2, name: "產品一覽", item: abs("/products") },
-      { "@type": "ListItem", position: 3, name: product.name, item: abs(`/products/${productId}`) },
+      { "@type": "ListItem", position: 1, name: "Home", item: abs("/en") },
+      { "@type": "ListItem", position: 2, name: "Products", item: abs("/en/products") },
+      { "@type": "ListItem", position: 3, name: product.name, item: abs(`/en/products/${productId}`) },
     ],
   };
 

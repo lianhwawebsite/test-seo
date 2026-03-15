@@ -99,4 +99,82 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
       ],
     },
   },
+  en: {
+    home: {
+      title: "Home｜Lian Hwa Pharmaceutical",
+      description: "Lian Hwa Pharmaceutical",
+      alternates: { canonical: "/en" },
+      openGraph: {
+        type: "website",
+        siteName: "Lian Hwa Pharmaceutical Official Website",
+        locale: "en",
+        url: "/",
+        images: ["/images/OG_image.png"],
+      },
+      schema: [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Lian Hwa Pharmaceutical Official Website",
+          url: abs("/en"),
+          logo: abs("/images/favicon.ico"),
+        },
+      ],
+    },
+    products: {
+      title: "Product｜Lian Hwa Pharmaceutical",
+      description: "Lian Hwa Pharmaceutical",
+      alternates: { canonical: "/en/products" },
+      openGraph: {
+        type: "website",
+        siteName: "Lian Hwa Pharmaceutical Official Website",
+        locale: "en",
+        url: "/en/products",
+        images: ["/images/OG_image.png"],
+      },
+      schema: {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: abs("/en") },
+          { "@type": "ListItem", position: 2, name: "Product", item: abs("/en/products") },
+        ],
+      },
+    },
+    contact: {
+      title: "Contact｜Lian Hwa Pharmaceutical",
+      description: "Lian Hwa Pharmaceutical",
+      alternates: { canonical: "/en/contact" },
+      openGraph: {
+        type: "website",
+        siteName: "Lian Hwa Pharmaceutical Official Website",
+        locale: "en",
+        url: "/en/contact",
+        images: ["/images/OG_image.png"],
+      },
+      schema: [
+        {
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          name: "Contact",
+          url: abs("/en/contact"),
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Lian Hwa Pharmaceutical Official Website",
+          url: abs("/en/"),
+          contactPoint: [
+            {
+              "@type": "ContactPoint",
+              telephone: "07-6963001",
+              contactType: "customer service",
+              areaServed: "TW",
+              availableLanguage: ["Chinese"],
+            },
+          ],
+        },
+      ],
+    },
+  },
 };

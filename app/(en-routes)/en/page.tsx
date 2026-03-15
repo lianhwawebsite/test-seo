@@ -1,16 +1,16 @@
 import { getMetadata, getSchema } from "@/app/lib/getMetadata";
 import { SeoHead } from "@/app/component/SeoHead";
-import { AllServices } from "./component/home/AllServices";
+import { AllServices } from "@/app/component/home/AllServices";
 import Script from "next/script";
 import { abs } from "@/app/config";
-import data from "@/data.json";
+import data from "@/enData.json";
 
 export function generateMetadata() {
-  return getMetadata("zh-TW", "home");
+  return getMetadata("en", "home");
 }
 
 export default function Home() {
-  const schema = getSchema("zh-TW", "home");
+  const schema = getSchema("en","home");
   const fetchData = data;
   
   return (
@@ -21,10 +21,10 @@ export default function Home() {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebSite",
-          url: abs("/"),
-          name: "聯華製藥廠官方網站",
-          alternateName: "Lianhwa Pharm",
-          inLanguage: "zh-TW",
+          url: abs("/en"),
+          name: "Lian Hwa Pharmaceutical Official Website",
+          alternateName: "Lian Hwa Pharmaceutical",
+          inLanguage: "en",
         })}
       </Script>
     </>

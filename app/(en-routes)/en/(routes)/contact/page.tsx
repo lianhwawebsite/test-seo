@@ -9,7 +9,7 @@ export function generateMetadata() {
 }
 
 export default function Page() {
-  const schema = getSchema("zh-TW","contact");
+  const schema = getSchema("en","contact");
   const companyTitle = data?.contact.find((item) => item.name === "公司名稱")?.label || "公司名稱";
   const companyEnglishTitle = data?.contact.find((item) => item.name === "公司英文名稱")?.label || "公司英文名稱";
   const address = data?.contact.find((item) => item.name === "公司地址")?.label || "公司地址";
@@ -30,13 +30,14 @@ export default function Page() {
           </div>
           <p className={paragraphClass}>{address}</p>
           <div className="flex flex-col items-center gap-2 md:items-start md:gap-2 w-fit">
-            {data?.contact
+            {/* {data?.contact
               .filter((item) => ["聯絡電話", "傳真號碼", "電子信箱"].includes(item.name))
               .map((item) => (
                 <p className={paragraphClass} key={item.name}>
                   {item.label}
                 </p>
-              ))}
+              ))} */}
+              TEST Contact
           </div>
           <p className={paragraphClass}>{openHours}</p>
         </div>

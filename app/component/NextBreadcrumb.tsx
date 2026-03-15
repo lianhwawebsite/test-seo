@@ -3,6 +3,7 @@ import { Fragment } from "react";
 import Link from "next/link";
 import { useSearchParams, usePathname } from "next/navigation";
 import data from "@/data.json";
+import enData from "@/enData.json";
 
 type NavbarItemData = {
   label: string;
@@ -16,16 +17,19 @@ type NavbarItemData = {
 const NextBreadcrumb = () => {
   const searchParams = useSearchParams();
   const paths = usePathname();
-  const pathNames = paths.split("/").filter((path) => path);
+  const isEn = paths.startsWith("/en");
+  const currentData = isEn ? enData : data;
+
+  const pathNames = paths.split("/").filter((path) => path && path !== "en");
 
   const flattenNavbarItems = (items: NavbarItemData[]) => {
     const map: Record<string, string> = {};
 
     items.forEach((item: NavbarItemData) => {
-      if (item.href && item.href !== "/") {
+      if (item.href && item.href !== "/" && item.href !== "/en") {
         let hrefSplit = item.href.split("/");
         map[hrefSplit[hrefSplit.length - 1]] = item.label;
-      } else if (item.href === "/") {
+      } else if (item.href === "/" || item.href === "/en") {
         map["home"] = item.label;
       }
 
@@ -42,7 +46,9 @@ const NextBreadcrumb = () => {
     return map;
   };
 
-  const nameMap = flattenNavbarItems(data?.navbarItems);
+  const nameMap = flattenNavbarItems(currentData?.navbarItems);
+  const homeHref = isEn ? "/en/" : "/";
+
   const Separator = () => {
     return <span className="text-[12px] leading-[1.2] tracking-0 mx-1 md:text-sm md:mx-1.5 md:leading-[1] inline-block align-top"> &gt; </span>;
   };
@@ -51,18 +57,18 @@ const NextBreadcrumb = () => {
 
   return (
     <>
-      {paths !== "/" && (
+      {paths !== homeHref && (
         <ul className="flex w-full flex-wrap text-md">
           <li className={listClasses}>
-            <Link href={"/"}>{nameMap?.["home"]}</Link>
+            <Link href={homeHref}>{nameMap?.["home"]}</Link>
           </li>
           {pathNames.length > 0 && <Separator />}
           {pathNames.map((link, index) => {
-            const href = `/${pathNames.slice(0, index + 1).join("/")}`;
+            const href = `${homeHref}${pathNames.slice(0, index + 1).join("/")}`;
             const itemClasses = paths === href ? `${listClasses} ${activeClasses}` : listClasses;
 
-            const isProductDetailPage = pathNames[index - 1] === "products" && data?.products?.some((item) => item.id === link);
-            const product = data?.products?.find((item) => item.id === link);
+            const isProductDetailPage = pathNames[index - 1] === "products" && currentData?.products?.some((item) => item.id === link);
+            const product = currentData?.products?.find((item) => item.id === link);
 
             const typeParam = searchParams.get("types");
 
@@ -72,7 +78,7 @@ const NextBreadcrumb = () => {
                 <Fragment key={index}>
                   {/* type 層 */}
                   <li className={listClasses}>
-                    <Link href={`/products?types=${encodeURIComponent(product.type)}`}>{product.type}</Link>
+                    <Link href={`${homeHref}products?types=${encodeURIComponent(product.type)}`}>{product.type}</Link>
                   </li>
                   <Separator />
                   {/* 藥品名稱 */}
@@ -95,7 +101,7 @@ const NextBreadcrumb = () => {
                   <>
                     <Separator />
                     <li className={itemClasses}>
-                      <Link href={`/products?types=${encodeURIComponent(typeParam)}`}>{typeParam}</Link>
+                      <Link href={`${homeHref}products?types=${encodeURIComponent(typeParam)}`}>{typeParam}</Link>
                     </li>
                   </>
                 )}

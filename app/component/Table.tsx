@@ -1,22 +1,20 @@
-import data from "@/data.json";
+// import data from "@/data.json";
 import { Pagination } from "@/app/component/Pagination";
 import { Fragment, useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Product } from "@/app/lib/types";
+import { AllData, Product } from "@/app/lib/types";
 
-const products: Product[] = (data as any).products.map((p: any) => ({
-  ...p,
-  animals: Array.isArray(p?.animals) ? (p.animals as string[]) : [],
-}));
-
-export default function Table({ query, selectedAnimals, selectedTypes, page, setProductNum }: { query: string; selectedAnimals: string[]; selectedTypes: string[]; page: number; setProductNum: (num: number) => void }) {
+export default function Table({ TableProductURL, data, query, selectedAnimals, selectedTypes, page, setProductNum, PaginationLabel }: { TableProductURL: string; data: AllData; query: string; selectedAnimals: string[]; selectedTypes: string[]; page: number; setProductNum: (num: number) => void; PaginationLabel: string[] }) {
+  const products: Product[] = (data as AllData).products.map((p: any) => ({
+    ...p,
+    animals: Array.isArray(p?.animals) ? (p.animals as string[]) : [],
+  }));
 
   const filteredData = useMemo(() => {
     const q = (query ?? "").toLowerCase();
 
     return products.filter((item) => {
-
       const nameHit = item.name.toLowerCase().includes(q);
       const codeHit = (item.medicineCode ?? "").toLowerCase().includes(q);
       const matchQuery = !q || nameHit || codeHit;
@@ -30,7 +28,7 @@ export default function Table({ query, selectedAnimals, selectedTypes, page, set
       return matchQuery && matchAnimals && matchTypes;
     });
   }, [query, selectedAnimals, selectedTypes]);
-  
+
   useEffect(() => {
     setProductNum(filteredData.length);
   }, [filteredData]);
@@ -45,21 +43,21 @@ export default function Table({ query, selectedAnimals, selectedTypes, page, set
       <section className="grid grid-cols sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
         {pagedResults.map((product) => (
           <Fragment key={product.id}>
-            <ProductCard product={product} />
+            <ProductCard TableProductURL={TableProductURL} product={product} />
             <ProductCardMobile product={product} />
           </Fragment>
         ))}
       </section>
-      {filteredData.length > 0 && <Pagination currentPage={page} totalPages={totalPages} />}
+      {filteredData.length > 0 && <Pagination PaginationLabel={PaginationLabel} currentPage={page} totalPages={totalPages} />}
     </section>
   );
 }
 
-function ProductCard({ product }: { product: Product }) {
+function ProductCard({ TableProductURL, product }: { TableProductURL: string; product: Product }) {
   const [isHover, setIsHover] = useState(false);
 
   return (
-    <Link className="hidden sm:block" href={`/products/${product.id}`} itemProp="url">
+    <Link className="hidden sm:block" href={`${TableProductURL}products/${product.id}`} itemProp="url">
       <article className="" itemScope itemType="https://schema.org/Product">
         <div onMouseOver={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)} itemProp="img" className="bg-customGray w-full flex flex-col justify-between px-2 pt-2 pb-1.5 rounded-xl sm:h-45 sm:px-4.5 sm:pt-6 sm:pb-5 hover:bg-theme-1 hover:text-white transition-all">
           <div className="grid grid-cols-2 text-[12px] leading-[1.20] tracking-[0px] h-fit">
@@ -73,9 +71,11 @@ function ProductCard({ product }: { product: Product }) {
               <h2 itemProp="name" className="text-xs leading-[1.22] tracking-[.5px] md:text-lg md:leading-[1.26] md:tracking-[.4px] md:truncate md:max-w-[100px] xl:max-w-[150px] font-semibold md:font-medium">
                 {product.name}
               </h2>
-              <h3 itemProp="english-name" className="text-[10px] leading-[1.20] tracking-0 md:text-sm md:leading-[1.16] md:truncate md:max-w-[100px] xl:max-w-[150px] ">
-                {product.englishName}
-              </h3>
+              {TableProductURL === "/" ? (
+                <h3 itemProp="alternative-name" className="text-[10px] leading-[1.20] tracking-0 md:text-sm md:leading-[1.16] md:truncate md:max-w-[100px] xl:max-w-[150px] ">
+                  {product.alternativeName}
+                </h3>
+              ): null}
             </div>
             {isHover ? <Image src="/images/product_arrow_white_PC.svg" alt="" width={57} height={60} className="w-[47.5px] h-[50px] sm:w-fit sm:h-fit" /> : <Image src="/images/product_arrow_PC.svg" alt="" width={57} height={60} className="w-[47.5px] h-[50px] sm:w-fit sm:h-fit" />}
           </div>

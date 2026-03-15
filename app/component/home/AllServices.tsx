@@ -3,13 +3,13 @@ import { ServiceFirst } from "@/app/component/home/ServiceFirst";
 import { ServiceSecond } from "@/app/component/home/ServiceSecond";
 import { ServiceThird } from "@/app/component/home/ServiceThird";
 import { ServiceFourth } from "@/app/component/home/ServiceFourth";
-import data from "@/data.json";
+import { AllData } from "@/app/lib/types";
 import PageTransition from "../PageTransition";
 
-export const AllServices = () => {
-  const { title, description, imgSrcPc, imgSrcMo, services } = data.home;
-  const productPage = data.navbarItems.find((page) => page.label === "產品一覽");
-
+export const AllServices = ({ allData }: { allData: AllData }) => {
+  const { title, description, imgSrcPc, imgSrcMo, services } = allData.home;
+  const productPage = allData.navbarItems[1];
+  
   return (
     <>
       <PageTransition>
