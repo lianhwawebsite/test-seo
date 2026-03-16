@@ -5,6 +5,7 @@ import Image from "next/image";
 export default async function NotFound() {
   const headersList = await headers();
   const domain = headersList.get("host");
+  
   return (
     <div className="flex-1 flex flex-col items-center justify-center gap-9 h-full my-auto md:gap-11.5">
       <Image src="/images/error.svg" alt="Arrow Right" width={300} height={52} className="w-[45%] md:w-fit md:h-fit" />
