@@ -62,7 +62,7 @@ function DesktopNavbar({ currentData, currentLangLabel, zhHref, enHref, isEn }: 
             return (
               <Fragment key={item.label}>
                 {!isHomePage && (
-                  <li className="relative group text-base font-medium md:text-lg md:leading-[1.22] md:tracking-[.6px] md:font-bold">
+                  <li className="relative group text-base font-medium md:leading-[1.22] md:tracking-[.6px] md:font-bold">
                     <Link href={item.href!} className="">
                       {item.label}
                     </Link>
@@ -72,7 +72,7 @@ function DesktopNavbar({ currentData, currentLangLabel, zhHref, enHref, isEn }: 
             );
           })}
           <li className="font-bold align-bottom md:leading-[1.22]">|</li>
-          <li className="relative text-base font-medium md:text-lg md:leading-[1.22] md:tracking-[.6px] md:font-bold">
+          <li className="relative text-base font-medium md:leading-[1.22] md:tracking-[.6px] md:font-bold">
             <button onClick={() => setOpen(!open)} className="flex items-center gap-3 hover:text-secondary transition-colors">
               <span>{currentLangLabel}</span>
 

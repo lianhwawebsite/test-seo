@@ -9,63 +9,63 @@
             "href": "/en/products"
         },
         {
-            "label": "Contact",
+            "label": "Contact Us",
             "href": "/en/contact"
         }
     ],
     "footerItems": [
         {
-            "name": "首頁",
+            "name": "Home",
             "label": "",
             "href": "/en"
         },
         {
-            "name": "公司地址",
-            "label": "〒 | 821012 XXX"
+            "name": "Address",
+            "label": "No. 383, Zhongshan Rd., Luzhu Dist., Kaohsiung City 821012, Taiwan"
         },
         {
-            "name": "聯絡電話",
-            "label": "Tel | 07-6963001"
+            "name": "Tel",
+            "label": "Phone｜+886-7-6963001"
         },
         {
-            "name": "傳真號碼",
-            "label": "Fax | 07-6973457"
+            "name": "Fax",
+            "label": "Fax｜+886-7-6973457"
         },
         {
-            "name": "電子信箱",
-            "label": "Mail | lh.ph@msa.hinet.net"
+            "name": "Email",
+            "label": "Email｜lh.ph@msa.hinet.net"
         },
         {
-            "name": "公司名稱",
-            "label": "LIAN HWA PHARMACEUTICAL"
+            "name": "CompanyName",
+            "label": "LIAN HWA PHARMACEUTICAL CO., LTD."
         },
         {
-            "name": "公司英文名稱",
+            "name": "CompanyAlterName",
             "label": "LIAN HWA PHARMACEUTICAL CO., LTD"
         }
     ],
     "home": {
-        "title": "動物健康的專業後盾",
-        "description": "聯華製藥廠股份有限公司創立於1973年，專注於動物藥品的研發與製造。憑藉近半世紀的專業經驗與技術積累，聯華始終堅守優良藥品製造規範（GMP），以嚴謹的作業流程確保產品品質，致力於為畜牧業提供安全、可靠的用藥選擇。",
+        "title": "Professional Support \nfor Animal Health",
+        "description": "Established in 1973, Lien Hua Pharmaceutical Co., Ltd. specializes in the research, development, and manufacturing of veterinary pharmaceuticals. With over half a century of expertise and technical innovation, Lien Hua remains steadfast in its commitment to Good Manufacturing Practice (GMP) standards. Our rigorous operational protocols ensure consistent product quality, providing the livestock industry with safe and dependable medical solutions.",
         "imgSrcPc": "/images/home/landing_page_KV_pc.svg",
         "imgSrcMo": "/images/home/landing_page_KV_mo.svg",
         "services": [
             {
                 "id": "1",
-                "title": "服務介紹",
-                "description": "秉持「創新研發、專業服務、優良品質、誠信責任」的核心理念，聯華追求永續經營，並以自有開發的SGP製程技術為基礎，提供多元且具療效的產品，與動物健康緊密相連，攜手畜牧產業邁向更高的照護標準。",
-                "imgSrcPc": "/images/home/landing_page_service_pc.svg",
-                "imgSrcMo": "/images/home/landing_page_service_mo.svg"
+                "title": "Service Intro",
+                "description": "Driven by our core values of \"Innovative R&D, Professional Service, Superior Quality, and Integrity,\" we strive for sustainable growth. Leveraging our proprietary SGP manufacturing technology, we offer a diverse range of high-efficacy products designed to safeguard animal health and elevate the standards of care across the livestock sector.",
+                "imgSrcPc": "/images/home/landing_page_service_pc_en.svg",
+                "imgSrcMo": "/images/home/landing_page_service_mo_en.svg"
             },
             {
                 "id": "2",
-                "title": "百種常用處方及指示用藥",
-                "description": "目前聯華的產品線涵蓋各類動物專用藥品，包括：注射液、懸浮液劑、乾粉注射劑、乾粉懸劑、散劑、口服液劑、外用消毒劑、含藥飼料添加物、補助飼料等，共計百種常用處方及指示用藥。"
+                "title": "Essential Prescriptions & OTC Solutions",
+                "description": "With over a hundred essential prescriptions and over-the-counter (OTC) medications, our product line encompasses a diverse range of dosage forms:\n\n• Injections & Suspensions\n• Dry Powder Injections & Dry Powder Suspensions\n• Soluble Powders & Oral Liquids\n• External Disinfectants\n• Medicated Feed Additives & Feed Supplements"
             },
             {
                 "id": "3",
-                "title": "展望未來",
-                "description": "展望未來，聯華將與經營團隊持續深化產品創新與製造技術，提升整體品質，持續為畜牧產業、消費者與社會創造更多價值。",
+                "title": "Looking ahead",
+                "description": "Looking ahead, Lien Hua and our management team will continue to advance product innovation and manufacturing excellence. By enhancing overall quality, we remain dedicated to creating lasting value for the livestock industry, consumers, and society as a whole.",
                 "imgSrc": "/images/home/landing_page_slogan_pc_mo.svg"
             }
         ]
@@ -75,7 +75,7 @@
             "id": "1",
             "name": "ROWLANSON 14-6-2",
             "alternativeName": "聯華牌新肉卵素 一四-六-二",
-            "type": "Supplement",
+            "type": "Feed Supplements",
             "medicineCode": "No. 19159",
             "ingredientsNote": "每公斤含量不低於",
             "mainIngredients": [
@@ -195,7 +195,7 @@
             "id": "2",
             "name": "VITAFASOL",
             "alternativeName": "聯華牌維他肥",
-            "type": "Supplement",
+            "type": "Feed Supplements",
             "medicineCode": "No. 19152",
             "ingredientsNote": "每公斤含量不低於",
             "mainIngredients": [
@@ -323,7 +323,7 @@
             "id": "3",
             "name": "Electrolytic VICOMS soluble",
             "alternativeName": "聯華牌電解質 維康素",
-            "type": "Supplement",
+            "type": "Feed Supplements",
             "medicineCode": "No. 19157",
             "ingredientsNote": "每公斤含量不低於",
             "mainIngredients": [
@@ -399,7 +399,7 @@
             "id": "4",
             "name": "BIO-LACTOMINE",
             "alternativeName": "聯華牌 表衛命",
-            "type": "Supplement",
+            "type": "Feed Supplements",
             "medicineCode": "No. 00027",
             "ingredientsNote": "每公斤含量不低於",
             "mainIngredients": [
@@ -432,7 +432,7 @@
             "id": "5",
             "name": "COUGHTIN POWDER",
             "alternativeName": "聯華 嗽服寧粉",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 02475",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -473,7 +473,7 @@
             "id": "6",
             "name": "OTC 500",
             "alternativeName": "歐帝賜500",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08860",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -509,7 +509,7 @@
             "packaging": "1KG/包",
             "animals": [
                 "Chicken",
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12415"
         },
@@ -517,7 +517,7 @@
             "id": "7",
             "name": "DOXYLLIN 200",
             "alternativeName": "特安200",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 09652",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -553,7 +553,7 @@
             "packaging": "1KG/包",
             "animals": [
                 "Chicken",
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28953"
         },
@@ -561,7 +561,7 @@
             "id": "8",
             "name": "ERYTHROMYCIN 500 Water Soluble Powder",
             "alternativeName": "聯華 紅黴素",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08495",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -608,7 +608,7 @@
             "id": "9",
             "name": "ERYMYCIN C",
             "alternativeName": "速效黴素 C",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08861",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -656,7 +656,7 @@
             "id": "10",
             "name": "AMPIDICLOX Pow.",
             "alternativeName": "博效黴素粉",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 04675",
             "ingredientsNote": "Each gm Contains:",
             "mainIngredients": [
@@ -696,7 +696,7 @@
             "packaging": "1KG/包",
             "animals": [
                 "Chicken",
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3141"
         },
@@ -704,7 +704,7 @@
             "id": "11",
             "name": "AMOCILLIN 200",
             "alternativeName": "安復西林200",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08429",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -740,7 +740,7 @@
             "packaging": "1KG/包",
             "animals": [
                 "Chicken",
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/122"
         },
@@ -748,7 +748,7 @@
             "id": "12",
             "name": "AMOCILLIN 500",
             "alternativeName": "安復西林500",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08833",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -788,7 +788,7 @@
             "packaging": "500GM/包\n1KG/包\n20KG/包",
             "animals": [
                 "Chicken",
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12365"
         },
@@ -796,7 +796,7 @@
             "id": "13",
             "name": "CEPHA Powder",
             "alternativeName": "雪華黴素散",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 07602",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -832,7 +832,7 @@
             "packaging": "1KG/包",
             "animals": [
                 "Chicken",
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/6096"
         },
@@ -840,7 +840,7 @@
             "id": "14",
             "name": "PEXIN",
             "alternativeName": "聯華 必驅淨",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 02479",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -867,10 +867,10 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken",
                 "Cattle",
-                "Sheep",
+                "Sheep & Goat",
                 "Horse",
                 "Dog",
                 "Cat"
@@ -881,7 +881,7 @@
             "id": "15",
             "name": "SULDIN",
             "alternativeName": "聯華 速寧",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 06757",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -916,7 +916,7 @@
             ],
             "packaging": "100GM/包\n1KG/包",
             "animals": [
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/4984"
         },
@@ -924,7 +924,7 @@
             "id": "16",
             "name": "MYCOSOL",
             "alternativeName": "聯華 滅克速",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 04932",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -971,7 +971,7 @@
             "id": "17",
             "name": "GENTAMICIN 150",
             "alternativeName": "極大黴素150",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08521",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1007,7 +1007,7 @@
             "packaging": "1KG/包",
             "animals": [
                 "Chicken",
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11885"
         },
@@ -1015,7 +1015,7 @@
             "id": "18",
             "name": "FLORCIN 100 Pow.",
             "alternativeName": "復洛黴素100散",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 09457",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1046,7 +1046,7 @@
             ],
             "packaging": "1KG/包\n25KG/包",
             "animals": [
-                "Pig",
+                "Swine",
                 "Duck"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/17510"
@@ -1055,7 +1055,7 @@
             "id": "19",
             "name": "THIALORCIN 250",
             "alternativeName": "畜樂黴素250",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08500",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1098,7 +1098,7 @@
             "id": "20",
             "name": "FLUMEQUINE 500",
             "alternativeName": "復美淨500",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08883",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1138,8 +1138,8 @@
             "packaging": "1KG/包",
             "animals": [
                 "Chicken",
-                "Fish",
-                "Turtle"
+                "Aquatic",
+                "Reptile"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12454"
         },
@@ -1147,7 +1147,7 @@
             "id": "21",
             "name": "COMPLEX LEUKOPYCORIN K",
             "alternativeName": "複方白冠必克寧 K",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 02452",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1190,7 +1190,7 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1822"
@@ -1199,7 +1199,7 @@
             "id": "22",
             "name": "COLIVARIN Soluble",
             "alternativeName": "新尅痢威靈粉",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 02484",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1252,7 +1252,7 @@
             "id": "23",
             "name": "COCCIDIOCIDESOL",
             "alternativeName": "剋球寶可溶散",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 02490",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1309,7 +1309,7 @@
             "id": "24",
             "name": "CS3 Soluble",
             "alternativeName": "殺球",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 02451",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1361,7 +1361,7 @@
             "id": "25",
             "name": "LICOCCIDE 600",
             "alternativeName": "立剋球600",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08621",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1405,7 +1405,7 @@
             "id": "26",
             "name": "DIMETHOPRIM",
             "alternativeName": "聯華 速康",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 05635",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1449,7 +1449,7 @@
             "id": "27",
             "name": "TRIDIAZINE 480",
             "alternativeName": "除疾靈480",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08611",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1489,8 +1489,8 @@
             "packaging": "1KG/包",
             "animals": [
                 "Cattle",
-                "Sheep",
-                "Pig",
+                "Sheep & Goat",
+                "Swine",
                 "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12017"
@@ -1499,7 +1499,7 @@
             "id": "28",
             "name": "TOMEGIN 500",
             "alternativeName": "聯華 特滅菌500",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08939",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1534,7 +1534,7 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken",
                 "Cattle",
                 "Horse",
@@ -1547,7 +1547,7 @@
             "id": "29",
             "name": "TYLOSIN 500",
             "alternativeName": "聯華 泰樂新500",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 09646",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1579,7 +1579,7 @@
             "packaging": "1KG/包",
             "animals": [
                 "Chicken",
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28941"
         },
@@ -1587,7 +1587,7 @@
             "id": "30",
             "name": "AIVALOSIN 50",
             "alternativeName": "聯華 愛樂新50",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08749",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1618,7 +1618,7 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12223"
@@ -1627,7 +1627,7 @@
             "id": "31",
             "name": "TILMICOSIN 200",
             "alternativeName": "聯華 泰順200",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08678",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1658,7 +1658,7 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12117"
         },
@@ -1666,7 +1666,7 @@
             "id": "32",
             "name": "LINCOCIN 400",
             "alternativeName": "聯華 靈可新400",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08661",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1721,7 +1721,7 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12091"
@@ -1730,7 +1730,7 @@
             "id": "33",
             "name": "SPECTLIN 220",
             "alternativeName": "速倍特靈220",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08729",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1765,7 +1765,7 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12195"
         },
@@ -1773,7 +1773,7 @@
             "id": "34",
             "name": "TIAMULIN 200",
             "alternativeName": "聯華 泰妙素200",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08710",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1808,7 +1808,7 @@
             ],
             "packaging": "1KG/包",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12169"
@@ -1817,7 +1817,7 @@
             "id": "35",
             "name": "COLISTIN 120",
             "alternativeName": "聯華 剋痢黴素120",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 08748",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1853,7 +1853,7 @@
             "packaging": "1KG/包\n25KG/包",
             "animals": [
                 "Cattle",
-                "Pig",
+                "Swine",
                 "Chicken",
                 "Turkey"
             ],
@@ -1863,7 +1863,7 @@
             "id": "36",
             "name": "DOXYLLIN 500",
             "alternativeName": "特安500",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 09654",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
@@ -1906,7 +1906,7 @@
             "id": "37",
             "name": "URICOSURIC powder",
             "alternativeName": "聯華 尿酸溶解",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 05613",
             "ingredientsNote": "Each kilogram contains:",
             "mainIngredients": [
@@ -1942,7 +1942,7 @@
             "id": "38",
             "name": "DOXYCYCLINE",
             "alternativeName": "特安黴素",
-            "type": "Powder",
+            "type": "Soluble Powders",
             "medicineCode": "No. 05610",
             "ingredientsNote": "Each kilogram contains:",
             "mainIngredients": [
@@ -1977,7 +1977,7 @@
             "id": "39",
             "name": "AMPICILLIN Inj.",
             "alternativeName": "聯華 安比西寧針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 08673",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2008,7 +2008,7 @@
             ],
             "packaging": "15gm",
             "animals": [
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12104"
         },
@@ -2016,7 +2016,7 @@
             "id": "40",
             "name": "AMPICIN-G Inj.",
             "alternativeName": "長效安黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 04110",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2060,7 +2060,7 @@
             "id": "41",
             "name": "AMPICIN-G Inj.",
             "alternativeName": "長效安黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 04110",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2095,7 +2095,7 @@
             ],
             "packaging": "30gm",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken",
                 "Turkey"
             ],
@@ -2105,7 +2105,7 @@
             "id": "42",
             "name": "AMPIDICLOX Inj.",
             "alternativeName": "博效黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 04676",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2154,7 +2154,7 @@
             "id": "43",
             "name": "AMPIDICLOX Inj.",
             "alternativeName": "博效黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 04676",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2203,7 +2203,7 @@
             "id": "44",
             "name": "AMOCILLIN Inj.",
             "alternativeName": "安復西林針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 08433",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2242,7 +2242,7 @@
             ],
             "packaging": "15gm",
             "animals": [
-                "Pig",
+                "Swine",
                 "Cattle"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/130"
@@ -2251,7 +2251,7 @@
             "id": "45",
             "name": "AMOCILLIN Inj.",
             "alternativeName": "安復西林針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 08433",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2290,7 +2290,7 @@
             ],
             "packaging": "30gm",
             "animals": [
-                "Pig",
+                "Swine",
                 "Cattle"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/130"
@@ -2299,7 +2299,7 @@
             "id": "46",
             "name": "KANAMYCIN Inj.",
             "alternativeName": "聯華 康黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 02434",
             "ingredientsNote": "Each Vial Contains:",
             "mainIngredients": [
@@ -2331,8 +2331,8 @@
             "packaging": "12.5gm",
             "animals": [
                 "Cattle",
-                "Pig",
-                "Sheep",
+                "Swine",
+                "Sheep & Goat",
                 "Chicken",
                 "Turkey"
             ],
@@ -2342,7 +2342,7 @@
             "id": "47",
             "name": "KANAMYCIN Inj.",
             "alternativeName": "聯華 康黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 02434",
             "ingredientsNote": "Each Vial Contains:",
             "mainIngredients": [
@@ -2374,8 +2374,8 @@
             "packaging": "25gm",
             "animals": [
                 "Cattle",
-                "Pig",
-                "Sheep",
+                "Swine",
+                "Sheep & Goat",
                 "Chicken",
                 "Turkey"
             ],
@@ -2385,7 +2385,7 @@
             "id": "48",
             "name": "KANAMYCIN D INJECTION",
             "alternativeName": "聯華 康黴素D針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 02436",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2421,8 +2421,8 @@
             "packaging": "5gm",
             "animals": [
                 "Cattle",
-                "Pig",
-                "Sheep",
+                "Swine",
+                "Sheep & Goat",
                 "Chicken",
                 "Turkey"
             ],
@@ -2432,7 +2432,7 @@
             "id": "49",
             "name": "TYLOSIN STERILE Inj.",
             "alternativeName": "泰靈黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 02413",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2473,7 +2473,7 @@
             "id": "50",
             "name": "SPECTLIN Inj.",
             "alternativeName": "速倍特靈針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 09653",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2512,7 +2512,7 @@
             ],
             "packaging": "30gm/vial",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28955"
@@ -2521,7 +2521,7 @@
             "id": "51",
             "name": "SPECTLIN Inj.",
             "alternativeName": "速倍特靈針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 09653",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2560,7 +2560,7 @@
             ],
             "packaging": "45gm/vial",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28955"
@@ -2569,7 +2569,7 @@
             "id": "52",
             "name": "CEFTIOFUR Inj.",
             "alternativeName": "瀉涕伏針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 08772",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2609,8 +2609,8 @@
             "packaging": "4gm",
             "animals": [
                 "Cattle",
-                "Sheep",
-                "Pig",
+                "Sheep & Goat",
+                "Swine",
                 "Chicken",
                 "Turkey"
             ],
@@ -2620,7 +2620,7 @@
             "id": "53",
             "name": "CEFTIOFUR Inj.",
             "alternativeName": "瀉涕伏針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 08772",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2660,8 +2660,8 @@
             "packaging": "10gm",
             "animals": [
                 "Cattle",
-                "Sheep",
-                "Pig",
+                "Sheep & Goat",
+                "Swine",
                 "Chicken",
                 "Turkey"
             ],
@@ -2671,7 +2671,7 @@
             "id": "54",
             "name": "CEFTIOFUR Inj.",
             "alternativeName": "瀉涕伏針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 08772",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2711,8 +2711,8 @@
             "packaging": "25gm",
             "animals": [
                 "Cattle",
-                "Sheep",
-                "Pig",
+                "Sheep & Goat",
+                "Swine",
                 "Chicken",
                 "Turkey"
             ],
@@ -2722,7 +2722,7 @@
             "id": "55",
             "name": "CEPHAMYCIN Inj.",
             "alternativeName": "雪華黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 08138",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2750,7 +2750,7 @@
             "id": "56",
             "name": "CEPHAMYCIN Inj.",
             "alternativeName": "雪華黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 08138",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2778,7 +2778,7 @@
             "id": "57",
             "name": "Spectinomycin Inj.",
             "alternativeName": "速靈黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 05631",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2801,7 +2801,7 @@
             ],
             "packaging": "5gm",
             "animals": [
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
         },
@@ -2809,7 +2809,7 @@
             "id": "58",
             "name": "Spectinomycin Inj.",
             "alternativeName": "速靈黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 05631",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2832,7 +2832,7 @@
             ],
             "packaging": "12.5gm",
             "animals": [
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
         },
@@ -2840,7 +2840,7 @@
             "id": "59",
             "name": "Spectinomycin Inj.",
             "alternativeName": "速靈黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 05631",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2863,7 +2863,7 @@
             ],
             "packaging": "15gm",
             "animals": [
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
         },
@@ -2871,7 +2871,7 @@
             "id": "60",
             "name": "Spectinomycin Inj.",
             "alternativeName": "速靈黴素針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 05631",
             "ingredientsNote": "Each vial contains:",
             "mainIngredients": [
@@ -2894,7 +2894,7 @@
             ],
             "packaging": "25gm",
             "animals": [
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
         },
@@ -2902,7 +2902,7 @@
             "id": "61",
             "name": "05616",
             "alternativeName": "聯華營養針",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 05616",
             "ingredientsNote": "Each 500 ml contains:",
             "mainIngredients": [
@@ -2925,7 +2925,7 @@
             ],
             "packaging": "500ml",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3934"
@@ -2934,7 +2934,7 @@
             "id": "62",
             "name": "SPECTINOMYCIN Inj.",
             "alternativeName": "速靈黴素",
-            "type": "Dry Powder",
+            "type": "Dry Powder Injections & Suspensions",
             "medicineCode": "No. 05634",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -2965,7 +2965,7 @@
             ],
             "packaging": "100ml",
             "animals": [
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3956"
         },
@@ -2973,7 +2973,7 @@
             "id": "63",
             "name": "phenazathionium",
             "alternativeName": "藍特淨",
-            "type": "Disinfectant",
+            "type": "Disinfectants (External Use)",
             "medicineCode": "No. 02455",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3006,7 +3006,7 @@
             "id": "64",
             "name": "WINTOZINE 500",
             "alternativeName": "穩特淨500",
-            "type": "Disinfectant",
+            "type": "Disinfectants (External Use)",
             "medicineCode": "No. 08445",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3039,7 +3039,7 @@
             "id": "65",
             "name": "BKB-S",
             "alternativeName": "必克淨",
-            "type": "Disinfectant",
+            "type": "Disinfectants (External Use)",
             "medicineCode": "No. 08015",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3072,7 +3072,7 @@
             "id": "66",
             "name": "POVIDINE 300",
             "alternativeName": "普衛碘300",
-            "type": "Disinfectant",
+            "type": "Disinfectants (External Use)",
             "medicineCode": "No. 08446",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3105,7 +3105,7 @@
             "id": "67",
             "name": "UTOZINE 250",
             "alternativeName": "優特淨250",
-            "type": "Disinfectant",
+            "type": "Disinfectants (External Use)",
             "medicineCode": "No. 09596",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3154,7 +3154,7 @@
             "id": "68",
             "name": "L.C.N INJECTION",
             "alternativeName": "聯華 立可安",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 07601",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3189,7 +3189,7 @@
             ],
             "packaging": "100ml",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken",
                 "Turkey",
                 "Dog"
@@ -3200,7 +3200,7 @@
             "id": "69",
             "name": "DECADIN Inj.",
             "alternativeName": "聯華 立刻靈 注",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 04770",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3225,7 +3225,7 @@
             "animals": [
                 "Cattle",
                 "Horse",
-                "Pig",
+                "Swine",
                 "Chicken",
                 "Turkey"
             ],
@@ -3235,7 +3235,7 @@
             "id": "70",
             "name": "LINCO 300 Inj.",
             "alternativeName": "聯華 林可300針",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 09645",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3281,7 +3281,7 @@
                 "Dog",
                 "Cat",
                 "Chicken",
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28935"
         },
@@ -3289,7 +3289,7 @@
             "id": "71",
             "name": "ANTICOUGH Inj.",
             "alternativeName": "咳喘寧針",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 08930",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3322,8 +3322,8 @@
             "animals": [
                 "Cattle",
                 "Horse",
-                "Pig",
-                "Sheep",
+                "Swine",
+                "Sheep & Goat",
                 "Dog",
                 "Cat"
             ],
@@ -3333,7 +3333,7 @@
             "id": "72",
             "name": "TYLOSIN V Inj.",
             "alternativeName": "聯華 泰樂新V注",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 02441",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3369,7 +3369,7 @@
             "packaging": "100ml",
             "animals": [
                 "Cattle",
-                "Pig",
+                "Swine",
                 "Chicken",
                 "Turkey"
             ],
@@ -3379,7 +3379,7 @@
             "id": "73",
             "name": "Tomegin 20 Inj.",
             "alternativeName": "聯華 特滅菌 20注",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 04113",
             "ingredientsNote": "Each 100ml Contains:",
             "mainIngredients": [
@@ -3422,7 +3422,7 @@
             "id": "74",
             "name": "KANAMYCIN 100 Inj.",
             "alternativeName": "聯華 康黴素 100針",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 09010",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3457,9 +3457,9 @@
             ],
             "packaging": "100ml",
             "animals": [
-                "Pig",
+                "Swine",
                 "Cattle",
-                "Sheep",
+                "Sheep & Goat",
                 "Chicken",
                 "Duck"
             ],
@@ -3469,7 +3469,7 @@
             "id": "75",
             "name": "SULPYRIN 500 Inj.",
             "alternativeName": "聯華 速必寧500針",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 08586",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3505,8 +3505,8 @@
             "packaging": "100ml、600ml",
             "animals": [
                 "Cattle",
-                "Sheep",
-                "Pig"
+                "Sheep & Goat",
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11977"
         },
@@ -3514,7 +3514,7 @@
             "id": "76",
             "name": "SULPYRIN Inj.",
             "alternativeName": "聯華 速必寧 注",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 04112",
             "ingredientsNote": "Each 100ml Contains:",
             "mainIngredients": [
@@ -3538,8 +3538,8 @@
             "packaging": "100ml、500ml",
             "animals": [
                 "Cattle",
-                "Sheep",
-                "Pig"
+                "Sheep & Goat",
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2759"
         },
@@ -3547,7 +3547,7 @@
             "id": "77",
             "name": "FURONSAN Inj.",
             "alternativeName": "復勞酸 注",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 02448",
             "ingredientsNote": "Each ml Contains:",
             "mainIngredients": [
@@ -3604,7 +3604,7 @@
             "id": "78",
             "name": "ENROTRIL 100 Inj.",
             "alternativeName": "聯華 愛樂利 100針",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 08844",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3636,7 +3636,7 @@
             "packaging": "500ml",
             "animals": [
                 "Cattle",
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12390"
         },
@@ -3644,7 +3644,7 @@
             "id": "79",
             "name": "VILICAN  INJECTION",
             "alternativeName": "聯華 維力康 注",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 02449",
             "ingredientsNote": "Each 100ml Contains:",
             "mainIngredients": [
@@ -3697,7 +3697,7 @@
             "id": "80",
             "name": "PITOCIN  INJECTION",
             "alternativeName": "樂胎速 注",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 02465",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3722,8 +3722,8 @@
             "animals": [
                 "Cattle",
                 "Horse",
-                "Sheep",
-                "Pig",
+                "Sheep & Goat",
+                "Swine",
                 "Dog",
                 "Cat"
             ],
@@ -3733,7 +3733,7 @@
             "id": "81",
             "name": "PREDONINE S inj.",
             "alternativeName": "百炎通 注",
-            "type": "Injection",
+            "type": "Injectable & Sterile Suspensions",
             "medicineCode": "No. 05612",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3761,7 +3761,7 @@
             "packaging": "100ml",
             "animals": [
                 "Cattle",
-                "Pig"
+                "Swine"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3929"
         },
@@ -3882,7 +3882,7 @@
             "id": "85",
             "name": "GENTAMICIN 50",
             "alternativeName": "極大黴素50",
-            "type": "Oral Solution",
+            "type": "Oral Liquids",
             "medicineCode": "No. 08798",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -3921,7 +3921,7 @@
             ],
             "packaging": "200ml",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12314"
@@ -3930,7 +3930,7 @@
             "id": "86",
             "name": "FLORCIN 100",
             "alternativeName": "復洛黴素100",
-            "type": "Oral Solution",
+            "type": "Oral Liquids",
             "medicineCode": "No. 08809",
             "ingredientsNote": "Each ml contains：",
             "mainIngredients": [
@@ -3969,9 +3969,9 @@
             ],
             "packaging": "1L\n200ml",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken",
-                "Fish"
+                "Aquatic"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12326"
         },
@@ -3979,7 +3979,7 @@
             "id": "87",
             "name": "TILMICOSIN 250",
             "alternativeName": "聯華 泰順250",
-            "type": "Oral Solution",
+            "type": "Oral Liquids",
             "medicineCode": "No. 08799",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -4014,7 +4014,7 @@
             ],
             "packaging": "1L",
             "animals": [
-                "Pig",
+                "Swine",
                 "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12315"
@@ -4023,7 +4023,7 @@
             "id": "88",
             "name": "TOLTRAZURIL 25",
             "alternativeName": "聯華 剋球淨25",
-            "type": "Oral Solution",
+            "type": "Oral Liquids",
             "medicineCode": "No. 08826",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -4078,7 +4078,7 @@
             "id": "89",
             "name": "FLUMEQUINE 500S",
             "alternativeName": "復美淨500S",
-            "type": "Oral Solution",
+            "type": "Oral Liquids",
             "medicineCode": "No. 08899",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -4121,7 +4121,7 @@
             "id": "90",
             "name": "COLISTIN 200S",
             "alternativeName": "聯華 剋痢黴素200S",
-            "type": "Oral Solution",
+            "type": "Oral Liquids",
             "medicineCode": "No. 08922",
             "ingredientsNote": "Each ml contains:",
             "mainIngredients": [
@@ -4154,41 +4154,41 @@
             "animals": [
                 "Chicken",
                 "Turkey",
-                "Pig",
+                "Swine",
                 "Cattle",
-                "Sheep"
+                "Sheep & Goat"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12520"
         }
     ],
     "contact": [
         {
-            "name": "公司名稱",
-            "label": "聯華製藥廠股份有限公司"
+            "name": "CompanyName",
+            "label": "LIAN HWA"
         },
         {
-            "name": "公司英文名稱",
-            "label": "LIAN HWA PHARMACEUTICAL CO., LTD"
+            "name": "CompanyAlterName",
+            "label": "PHARMACEUTICAL CO., LTD"
         },
         {
-            "name": "聯絡電話",
-            "label": "電話 | 07-6963001"
+            "name": "Tel",
+            "label": "Phone｜+886-7-6963001"
         },
         {
-            "name": "傳真號碼",
-            "label": "傳真 | 07-6973457"
+            "name": "Fax",
+            "label": "Fax｜+886-7-6973457"
         },
         {
-            "name": "公司地址",
-            "label": "地址 | 821012 高雄市路竹區中山路383號"
+            "name": "Address",
+            "label": "No. 383, Zhongshan Rd., Luzhu Dist., Kaohsiung City 821012, Taiwan"
         },
         {
-            "name": "電子信箱",
-            "label": "Email | lh.ph@msa.hinet.net"
+            "name": "Email",
+            "label": "Email｜lh.ph@msa.hinet.net"
         },
         {
-            "name": "營業時間",
-            "label": "營業時間｜週一至週五，08:00–17:00"
+            "name": "OpeningHours",
+            "label": "Business Hours｜Mon. – Fri., 08:00 – 17:00 (GMT+8)"
         }
     ]
 }

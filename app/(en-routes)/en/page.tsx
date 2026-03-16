@@ -1,6 +1,6 @@
 import { getMetadata, getSchema } from "@/app/lib/getMetadata";
 import { SeoHead } from "@/app/component/SeoHead";
-import { AllServices } from "@/app/component/home/AllServices";
+import { AllServices } from "@/app/component/homeEN/AllServices";
 import Script from "next/script";
 import { abs } from "@/app/config";
 import data from "@/enData.json";

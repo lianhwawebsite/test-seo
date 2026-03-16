@@ -10,10 +10,10 @@ export function generateMetadata() {
 
 export default function Page() {
   const schema = getSchema("zh-TW","contact");
-  const companyTitle = data?.contact.find((item) => item.name === "公司名稱")?.label || "公司名稱";
-  const companyEnglishTitle = data?.contact.find((item) => item.name === "公司英文名稱")?.label || "公司英文名稱";
-  const address = data?.contact.find((item) => item.name === "公司地址")?.label || "公司地址";
-  const openHours = data?.contact.find((item) => item.name === "營業時間")?.label || "營業時間";
+  const companyTitle = data?.contact.find((item) => item.name === "CompanyName")?.label || "CompanyName";
+  const companyEnglishTitle = data?.contact.find((item) => item.name === "CompanyAlterName")?.label || "CompanyAlterName";
+  const address = data?.contact.find((item) => item.name === "Address")?.label || "Address";
+  const openHours = data?.contact.find((item) => item.name === "OpeningHours")?.label || "OpeningHours";
   const paragraphClass = "text-center font-medium text-sm leading-[1.20] tracking-[0px] md:text-left md:text-sm md:leading-[1.26] md:tracking-[0.4px]";
 
   return (
@@ -31,7 +31,7 @@ export default function Page() {
           <p className={paragraphClass}>{address}</p>
           <div className="flex flex-col items-center gap-2 md:items-start md:gap-2 w-fit">
             {data?.contact
-              .filter((item) => ["聯絡電話", "傳真號碼", "電子信箱"].includes(item.name))
+              .filter((item) => ["Tel", "Fax", "Email"].includes(item.name))
               .map((item) => (
                 <p className={paragraphClass} key={item.name}>
                   {item.label}
