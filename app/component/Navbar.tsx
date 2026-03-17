@@ -71,30 +71,29 @@ function DesktopNavbar({ currentData, currentLangLabel, zhHref, enHref, isEn }: 
               </Fragment>
             );
           })}
-          <li className="font-bold align-bottom md:leading-[1.22]">|</li>
-          <li className="relative text-base font-medium md:leading-[1.22] md:tracking-[.6px] md:font-bold">
-            <button onClick={() => setOpen(!open)} className="flex items-center gap-3 hover:text-secondary transition-colors">
-              <span>{currentLangLabel}</span>
-
-              <span className={`transition-transform duration-200 ${open ? "rotate-180" : ""}`}>
-                <Image src="/images/nav_lang_arrow_PC.svg" alt="" width={4} height={8} className="hidden md:w-[10px] md:block" />
-              </span>
-            </button>
-
-            {open && (
-              <div className="absolute right-0 top-full pt-2 z-50">
-                <div className="text-white">
-                  {isEn ? (
-                    <Link href={zhHref} onClick={() => setOpen(false)} className="block px-5 py-1 hover:opacity-80">
-                      繁
-                    </Link>
-                  ) : (
-                    <Link href={enHref} onClick={() => setOpen(false)} className="block px-5 py-1 hover:opacity-80">
-                      EN
-                    </Link>
-                  )}
+          <li className="relative flex text-sm gap-8.25 ml-2">
+            {isEn ? (
+              <>
+                <Link href={zhHref} className="relative">
+                  <span className="absolute left-1/2 -top-[30%] -translate-x-1/2 py-3.75 px-3.75 border rounded-full border-white"></span>
+                  <span>繁</span>
+                </Link>
+                <div className="relative">
+                  <span className="absolute left-1/2 -top-[30%] -translate-x-1/2 py-3.75 px-3.75 border rounded-full border-white bg-white/30"></span>
+                  <span>EN</span>
                 </div>
-              </div>
+              </>
+            ) : (
+              <>
+                <div className="relative">
+                  <span className="absolute left-1/2 -top-[30%] -translate-x-1/2 py-3.75 px-3.75 border rounded-full border-white bg-white/30"></span>
+                  <span>繁</span>
+                </div>
+                <Link href={enHref} className="relative">
+                  <span className="absolute left-1/2 -top-[30%] -translate-x-1/2 py-3.75 px-3.75 border rounded-full border-white"></span>
+                  <span>EN</span>
+                </Link>
+              </>
             )}
           </li>
         </ul>
@@ -132,7 +131,32 @@ function MobileNavbar({ currentData, currentLangLabel, zhHref, enHref, isEn }: {
             <Image src="/images/logo_mo.svg" alt="" height={0} width={0} className="w-[49px] h-auto" />
           </Link>
         )}
-
+        <div className="absolute top-[35%] right-[85px] w-fit flex justify-between gap-8 text-white text-sm">
+          
+          {isEn ? (
+            <>
+              <Link href={zhHref} className="relative">
+                <span className="absolute left-1/2 -top-[25%] -translate-x-1/2 py-3.5 px-3.5 border rounded-full border-white"></span>
+                <span>繁</span>
+              </Link>
+              <div className="relative">
+                <span className="absolute left-1/2 -top-[25%] -translate-x-1/2 py-3.5 px-3.5 border rounded-full border-white"></span>
+                <span>EN</span>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="relative">
+                <span className="absolute left-1/2 -top-[25%] -translate-x-1/2 py-3.5 px-3.5 border rounded-full border-white"></span>
+                <span>繁</span>
+              </div>
+              <Link href={enHref} className="relative">
+                <span className="absolute left-1/2 -top-[25%] -translate-x-1/2 py-3.5 px-3.5 border rounded-full border-white"></span>
+                <span>EN</span>
+              </Link>
+            </>
+          )}
+        </div>
         <button className="sm:hidden my-auto h-fit z-30 right-10" onClick={() => setMobileOpen((prev) => !prev)}>
           {mobileOpen ? <Image src="/images/close.svg" alt="" width={20} height={20} className="w-fit" /> : <Image src="/images/hamburger.svg" alt="" width={24} height={24} className="w-fit" />}
         </button>
@@ -156,26 +180,6 @@ function MobileNavbar({ currentData, currentLangLabel, zhHref, enHref, isEn }: {
                   </Fragment>
                 );
               })}
-
-              <li className="pt-10 border-t border-white/20">
-                <div className="flex gap-4">
-                  {isEn ? (
-                    <>
-                      <span className="text-white/40">EN</span>
-                      <Link href={zhHref} onClick={() => setMobileOpen(false)}>
-                        繁
-                      </Link>
-                    </>
-                  ) : (
-                    <>
-                      <span className="text-white/40">繁</span>
-                      <Link href={enHref} onClick={() => setMobileOpen(false)}>
-                        EN
-                      </Link>
-                    </>
-                  )}
-                </div>
-              </li>
             </ul>
           </nav>
         )}

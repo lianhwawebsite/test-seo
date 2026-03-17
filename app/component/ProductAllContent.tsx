@@ -20,10 +20,11 @@ const ProductPageContent = {
   },
   en: {
     allAnimals: ["Livestock", "Chicken", "Swine", "Turkey", "Cattle", "Horse", "Sheep & Goat", "Dog", "Cat", "Goose", "Duck", "Aquatic", "Reptile"],
-    allTypes: ["Injectable & Sterile Suspensions", "Dry Powder Injections & Suspensions", "Soluble Powders", "Oral Liquids", "Disinfectants (External Use)", "Feed Supplements", "Others"],
+    // allTypes: ["Injectable & Sterile Suspensions", "Dry Powder Injections & Suspensions", "Soluble Powders", "Oral Liquids", "Disinfectants (External Use)", "Feed Supplements", "Others"],
+    allTypes: ["Soluble Powders"],
     itemsUnit: "item(s)",
     filterTitles: ["Categories", "Target Species"],
-    searchPlaceholder: "Product Name or No.",
+    searchPlaceholder: "Search by Product Name or Registration No.",
     paginationLabel: ["Previous", "Next"],
   },
 };

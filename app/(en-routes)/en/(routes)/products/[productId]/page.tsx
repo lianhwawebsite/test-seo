@@ -109,9 +109,8 @@ export default async function Page({ params }: Props) {
       <section className="mx-auto max-w-[1200px] grid grid-cols-1 md:grid-cols-8 gap-6 mt-6 md:gap-0 md:mt-10 font-notoSansTC">
         <section className="flex flex-col gap-y-10 md:col-span-8 md:col-start-3 ">
           <div className="hidden relative px-6 md:block">
-            <div className="absolute top-0 left-0 h-[48px]  border-theme-1 border-3 rounded-4xl"></div>
+            <div className="absolute top-0 left-0 h-[32px]  border-theme-1 border-3 rounded-4xl"></div>
             <h1 className="font-bold text-2xl leading-[1.22] tracking-[1px]">{product?.name}</h1>
-            <h2 className="font-bold text-lg leading-[1.22] tracking-[.6px]">{product?.alternativeName}</h2>
           </div>
           <div className="grid md:grid-cols-6">
             <p className="hidden col-span-2 px-6 font-medium text-base leading-[1.26] tracking-[.4px] md:block">{product?.medicineCode}</p>
@@ -129,7 +128,6 @@ function ProductDetail({ product }: { product: Product }) {
       <article className="flex flex-col gap-6 justify-between md:hidden">
         <div className="text-primary flex flex-col gap-1.5">
           <h1 className="font-bold text-xl leading-[1.22] tracking-[0.6px]">{product?.name}</h1>
-          <h2 className="font-medium text-base leading-[1.22] tracking-[0px]">{product?.alternativeName}</h2>
         </div>
         <p className="text-sm leading-[1.16] tracking-[0px]">{product?.medicineCode}</p>
       </article>
@@ -170,7 +168,7 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.dosageAndAdministration?.length === 0 ? null : (
           <div>
-            <p className="font-medium text-sm md:text-base">用法用量</p>
+            <p className="font-medium text-sm md:text-base">Dosage & Administration</p>
             {product?.dosageAndAdministration?.split("\n").map((sentence, idx) => (
               <p key={idx} className="text-sm md:text-base">
                 {sentence}
@@ -181,7 +179,7 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.indications?.length === 0 ? null : (
           <div>
-            <p className="font-medium text-sm md:text-base">適應症</p>
+            <p className="font-medium text-sm md:text-base">Indications</p>
             {product?.indications?.split("\n").map((sentence, idx) => (
               <p key={idx} className="text-sm md:text-base">
                 {sentence}
@@ -192,7 +190,7 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.packaging?.length === 0 ? null : (
           <div>
-            <p className="font-medium text-sm md:text-base">包裝</p>
+            <p className="font-medium text-sm md:text-base">Packaging</p>
             {product?.packaging?.split("\n").map((sentence, idx) => (
               <p key={idx} className="text-sm md:text-base">
                 {sentence}
@@ -203,7 +201,7 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.precautions?.length === 0 ? null : (
           <div className="text-primary">
-            <p className="font-medium text-sm md:text-base">注意事項</p>
+            <p className="font-medium text-sm md:text-base">Precautions</p>
             {product?.precautions?.length === 1 ? (
               <>
                 {product?.precautions?.map((precaution) => (
@@ -234,7 +232,7 @@ function ProductDetail({ product }: { product: Product }) {
           </div>
         )}
 
-        <div className="flex items-center h-20 mb-4">{product?.licenseUrl && <CTA href={product.licenseUrl} label="動物用藥品許可證查詢" />}</div>
+        <div className="flex items-center h-20 mb-4">{product?.licenseUrl && <CTA href={product.licenseUrl} label="Official Registration Details" />}</div>
       </article>
     </section>
   );

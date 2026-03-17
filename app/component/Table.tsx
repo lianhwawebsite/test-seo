@@ -44,7 +44,7 @@ export default function Table({ TableProductURL, data, query, selectedAnimals, s
         {pagedResults.map((product) => (
           <Fragment key={product.id}>
             <ProductCard TableProductURL={TableProductURL} product={product} />
-            <ProductCardMobile product={product} />
+            <ProductCardMobile TableProductURL={TableProductURL} product={product} />
           </Fragment>
         ))}
       </section>
@@ -89,11 +89,11 @@ function ProductCard({ TableProductURL, product }: { TableProductURL: string; pr
     </Link>
   );
 }
-function ProductCardMobile({ product }: { product: Product }) {
+function ProductCardMobile({ TableProductURL, product }: { TableProductURL: string; product: Product }) {
   const [isHover, setIsHover] = useState(false);
 
   return (
-    <Link className="block sm:hidden" href={`/products/${product.id}`} itemProp="url">
+    <Link className="block sm:hidden" href={`${TableProductURL}/products/${product.id}`} itemProp="url">
       <article className="" itemScope itemType="https://schema.org/Product">
         <div onMouseOver={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)} itemProp="img" className="bg-customGray w-full flex flex-col justify-between gap-11 px-2.5 py-2.5 rounded-lg sm:gap-18 sm:px-4.5 sm:pt-5 sm:pb-3.5 hover:bg-theme-1 hover:text-white transition-all">
           <div className="flex items-center justify-between">

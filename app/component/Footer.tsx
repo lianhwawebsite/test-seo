@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
         <div className="order-1 md:order-2 relative flex flex-col gap-3.5 md:gap-7 md:justify-start md:items-start md:col-span-1 lg:col-span-1">
           <p className="footer-title">{companyNameItem?.label}</p>
-          <div className="w-full flex flex-col justify-start items-center gap-3 md:justify-between md:items-start md:gap-4.5">
+          <div className={`w-full flex flex-col justify-start items-center gap-3 md:justify-between md:items-start ${isEn ? `md:gap-2.6` : `md:gap-4`}`}>
             {currentData?.footerItems.map((item) => {
               return (
                 <Fragment key={item.name}>

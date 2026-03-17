@@ -72,368 +72,11 @@
     },
     "products": [
         {
-            "id": "1",
-            "name": "ROWLANSON 14-6-2",
-            "alternativeName": "聯華牌新肉卵素 一四-六-二",
-            "type": "Feed Supplements",
-            "medicineCode": "No. 19159",
-            "ingredientsNote": "每公斤含量不低於",
-            "mainIngredients": [
-                {
-                    "name": "碘",
-                    "amount": "50毫克"
-                },
-                {
-                    "name": "葉酸",
-                    "amount": "50毫克"
-                },
-                {
-                    "name": "泛酸鈣",
-                    "amount": "7,000毫克"
-                },
-                {
-                    "name": "維生素B1",
-                    "amount": "1,000毫克"
-                },
-                {
-                    "name": "維生素B2",
-                    "amount": "3,600毫克"
-                },
-                {
-                    "name": "維生素D3",
-                    "amount": "1,650,000毫克"
-                },
-                {
-                    "name": "維生素K3",
-                    "amount": "3,000毫克"
-                },
-                {
-                    "name": "錳",
-                    "amount": "1,500毫克"
-                },
-                {
-                    "name": "離氨酸",
-                    "amount": "25,000毫克"
-                },
-                {
-                    "name": "生物素",
-                    "amount": "1,000毫克"
-                },
-                {
-                    "name": "菸鹼醯胺",
-                    "amount": "7,000毫克"
-                },
-                {
-                    "name": "維生素A",
-                    "amount": "5.000.000單位"
-                },
-                {
-                    "name": "維生素B12",
-                    "amount": "1,000微毫克"
-                },
-                {
-                    "name": "維生素B6",
-                    "amount": "1,500毫克"
-                },
-                {
-                    "name": "維生素E",
-                    "amount": "10,000單位"
-                },
-                {
-                    "name": "鈷",
-                    "amount": "100毫克"
-                },
-                {
-                    "name": "鐵",
-                    "amount": "1,000毫克"
-                },
-                {
-                    "name": "蛋胺酸",
-                    "amount": "17,000毫克"
-                }
-            ],
-            "ingredientsNoteSecond": "每公斤含量不超過",
-            "mainIngredientsSecond": [
-                {
-                    "name": "銅",
-                    "amount": "不超過500毫克"
-                },
-                {
-                    "name": "鋅",
-                    "amount": "不超過1,000毫克"
-                },
-                {
-                    "name": "鉛",
-                    "amount": "不超過50ppm"
-                },
-                {
-                    "name": "砷",
-                    "amount": "不超過12ppm"
-                },
-                {
-                    "name": "鎘",
-                    "amount": "不超過10ppm"
-                },
-                {
-                    "name": "汞",
-                    "amount": "不超過0.5ppm"
-                }
-            ],
-            "indications": "防治緊迫症、提高產肉率、提高產蛋率、提高孵化率、防止脂肪肝、減輕疫苗接種後反應。",
-            "dosageAndAdministration": "將本品每1公斤溶於1,000公升飲水中使用或每噸飼料添加本品2～3公斤。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本品使用後請將袋口密封。"
-                }
-            ],
-            "packaging": "1kg",
-            "animals": [],
-            "licenseUrl": ""
-        },
-        {
-            "id": "2",
-            "name": "VITAFASOL",
-            "alternativeName": "聯華牌維他肥",
-            "type": "Feed Supplements",
-            "medicineCode": "No. 19152",
-            "ingredientsNote": "每公斤含量不低於",
-            "mainIngredients": [
-                {
-                    "name": "碘",
-                    "amount": "200毫克"
-                },
-                {
-                    "name": "葉酸",
-                    "amount": "50毫克"
-                },
-                {
-                    "name": "泛酸鈣",
-                    "amount": "2,000毫克"
-                },
-                {
-                    "name": "維生素B1",
-                    "amount": "1,000毫克"
-                },
-                {
-                    "name": "維生素B2",
-                    "amount": "2,000毫克"
-                },
-                {
-                    "name": "維生素D3",
-                    "amount": "1,500,000毫克"
-                },
-                {
-                    "name": "維生素K",
-                    "amount": "1,000毫克"
-                },
-                {
-                    "name": "維生素A",
-                    "amount": "4,5000,000單位"
-                },
-                {
-                    "name": "維生素B12",
-                    "amount": "5,000微毫克"
-                },
-                {
-                    "name": "維生素B6",
-                    "amount": "1,000毫克"
-                },
-                {
-                    "name": "維生素E",
-                    "amount": "5,000毫克"
-                },
-                {
-                    "name": "錳",
-                    "amount": "1,000毫克"
-                },
-                {
-                    "name": "甘氨酸",
-                    "amount": "5,000毫克"
-                },
-                {
-                    "name": "蛋胺酸",
-                    "amount": "17,000毫克"
-                },
-                {
-                    "name": "生物素",
-                    "amount": "1,000微毫克"
-                },
-                {
-                    "name": "菸鹼醯胺",
-                    "amount": "2,000毫克"
-                },
-                {
-                    "name": "鈷",
-                    "amount": "1,000毫克"
-                },
-                {
-                    "name": "鐵",
-                    "amount": "1,000毫克"
-                },
-                {
-                    "name": "離氨酸",
-                    "amount": "17,000毫克"
-                }
-            ],
-            "ingredientsNoteSecond": "每公斤含量不超過",
-            "mainIngredientsSecond": [
-                {
-                    "name": "銅",
-                    "amount": "不超過500毫克"
-                },
-                {
-                    "name": "鋅",
-                    "amount": "不超過300毫克"
-                },
-                {
-                    "name": "鉛",
-                    "amount": "不超過50ppm"
-                },
-                {
-                    "name": "砷",
-                    "amount": "不超過12ppm"
-                },
-                {
-                    "name": "鎘",
-                    "amount": "不超過10ppm"
-                },
-                {
-                    "name": "汞",
-                    "amount": "不超過0.5ppm"
-                }
-            ],
-            "indications": "防止各種緊迫症、提高產肉率、提高產蛋率、提高孵化率、防止脂肪肝及軟腳症。",
-            "dosageAndAdministration": "將本品每1公斤溶於1,000公升飲水中使用或每噸飼料添加本品2～3公斤。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本品使用後請將袋口密封。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本品請置於乾燥冷暗處。"
-                }
-            ],
-            "packaging": "1kg",
-            "animals": [],
-            "licenseUrl": ""
-        },
-        {
-            "id": "3",
-            "name": "Electrolytic VICOMS soluble",
-            "alternativeName": "聯華牌電解質 維康素",
-            "type": "Feed Supplements",
-            "medicineCode": "No. 19157",
-            "ingredientsNote": "每公斤含量不低於",
-            "mainIngredients": [
-                {
-                    "name": "葉酸",
-                    "amount": "250毫克"
-                },
-                {
-                    "name": "維生素K3",
-                    "amount": "4,000毫克"
-                },
-                {
-                    "name": "泛酸鈣",
-                    "amount": "8,000毫克"
-                },
-                {
-                    "name": "維生素A",
-                    "amount": "10,000,000單位"
-                },
-                {
-                    "name": "維生素B1",
-                    "amount": "500毫克"
-                },
-                {
-                    "name": "維生素B2",
-                    "amount": "1,000毫克"
-                },
-                {
-                    "name": "維生素D3",
-                    "amount": "1,500,000單位"
-                },
-                {
-                    "name": "鉀",
-                    "amount": "2,307毫克"
-                },
-                {
-                    "name": "鈉",
-                    "amount": "3,934毫克"
-                }
-            ],
-            "ingredientsNoteSecond": "重金屬含量",
-            "mainIngredientsSecond": [
-                {
-                    "name": "鉛含量",
-                    "amount": "不超過50ppm"
-                },
-                {
-                    "name": "砷含量",
-                    "amount": "不超過12ppm"
-                },
-                {
-                    "name": "鎘含量",
-                    "amount": "不超過10ppm"
-                },
-                {
-                    "name": "汞含量",
-                    "amount": "不超過0.5ppm"
-                }
-            ],
-            "indications": "促進家禽發育、防止失水現象，預防緊迫、提高飼料效率。",
-            "dosageAndAdministration": "將本品1公斤溶於2,000公升飲水或飼料中使用",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本品使用後請將袋口密封。"
-                }
-            ],
-            "packaging": "1kg",
-            "animals": [],
-            "licenseUrl": ""
-        },
-        {
-            "id": "4",
-            "name": "BIO-LACTOMINE",
-            "alternativeName": "聯華牌 表衛命",
-            "type": "Feed Supplements",
-            "medicineCode": "No. 00027",
-            "ingredientsNote": "每公斤含量不低於",
-            "mainIngredients": [
-                {
-                    "name": "乳酸桿菌",
-                    "amount": "10^10個"
-                }
-            ],
-            "indications": "促進生長、提高飼料效率。",
-            "dosageAndAdministration": "每噸飼料中添加本品1～3公斤",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本品請置於乾燥冷暗處"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本品請勿添加於熱中飼料"
-                },
-                {
-                    "id": "3",
-                    "precaution": "本品請勿與高濃度抗菌劑類併用"
-                }
-            ],
-            "packaging": "1kg",
-            "animals": [],
-            "licenseUrl": ""
-        },
-        {
             "id": "5",
             "name": "COUGHTIN POWDER",
             "alternativeName": "聯華 嗽服寧粉",
             "type": "Soluble Powders",
-            "medicineCode": "No. 02475",
+            "medicineCode": "Registration No.02475",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -445,23 +88,23 @@
                     "amount": "2mg"
                 }
             ],
-            "indications": "Livestock：治療急慢性支氣管炎、肺炎及感冒引起咳嗽、喀痰、氣喘。\n雞、Turkey：治療慢性呼吸器病（CRD）、傳染性鼻炎、感冒、傳染性支氣管炎等對症治療。",
-            "dosageAndAdministration": "治療時每1000kg飼料加入本品2～3kg。",
+            "indications": "Livestock：For the treatment of acute and chronic bronchitis, pneumonia, and coughing, expectoration, or asthma caused by the common cold.\nChicken & Turkey (Excluding laying hens):Symptomatic treatment of Chronic Respiratory Disease (CRD), Infectious Coryza, influenza, and Infectious Bronchitis.",
+            "dosageAndAdministration": "Mix 2–3 kg of this product per 1,000 kg (1 ton) of feed.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：17日。"
+                    "precaution": "Withdrawal Period: 17 days."
                 },
                 {
                     "id": "3",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Livestock",
                 "Chicken",
@@ -474,7 +117,7 @@
             "name": "OTC 500",
             "alternativeName": "歐帝賜500",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08860",
+            "medicineCode": "Registration No.08860",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -482,31 +125,31 @@
                     "amount": "500mg (pot.)"
                 }
             ],
-            "indications": "雞（不含產蛋中之蛋雞）：治療對本劑具感受性細菌引起之感染症，如慢性呼吸器病、傳染性鼻炎、細菌性下痢等。\n豬：治療對本劑具感受性細菌引起之感染症，如細菌性腸炎、細菌性肺炎。",
-            "dosageAndAdministration": "每噸飲水添加本劑200gm（5000倍），連續使用3～5日。",
+            "indications": "Chicken (Excluding laying hens): Treatment of infections caused by bacteria sensitive to Oxytetracycline, such as Chronic Respiratory Disease (CRD), Infectious Coryza, and bacterial diarrhea.\nSwine: Treatment of infections caused by bacteria sensitive to Oxytetracycline, such as bacterial enteritis and bacterial pneumonia.",
+            "dosageAndAdministration": "Mix 200 g of this product per 1,000 liters (1 ton) of drinking water (1:5000 dilution). Administer consecutively for 3–5 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時內使用完。"
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：雞豬3日。"
+                    "precaution": "Withdrawal Period: 3 days."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken",
                 "Swine"
@@ -518,7 +161,7 @@
             "name": "DOXYLLIN 200",
             "alternativeName": "特安200",
             "type": "Soluble Powders",
-            "medicineCode": "No. 09652",
+            "medicineCode": "Registration No.09652",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -526,31 +169,31 @@
                     "amount": "200mg(pot.)"
                 }
             ],
-            "indications": "雞（不含產蛋中之蛋雞）：治療呼吸道及泌尿道感染症，如大腸桿菌症、家禽霍亂、傳染性鼻炎、慢性呼吸器病等。\n豬：治療大腸桿菌症、多發性關節炎、黴漿菌性肺炎（豬流行性肺炎）。",
-            "dosageAndAdministration": "每噸飲水添加本劑250gm（4000倍），連續使用3～5日。",
+            "indications": "Chicken (Excluding laying hens): Treatment of respiratory and urinary tract infections, such as Colibacillosis, Fowl Cholera, Infectious Coryza, and Chronic Respiratory Disease (CRD).\nSwine: Treatment of Colibacillosis, Polyarthritis, and Mycoplasmal Pneumonia (Enzootic Pneumonia).",
+            "dosageAndAdministration": "Mix 250 g of this product per 1,000 liters (1 ton) of drinking water (1:4000 dilution). Administer consecutively for 3–5 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時內使用完。"
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：3日。"
+                    "precaution": "Withdrawal Period: 3 days."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken",
                 "Swine"
@@ -562,7 +205,7 @@
             "name": "ERYTHROMYCIN 500 Water Soluble Powder",
             "alternativeName": "聯華 紅黴素",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08495",
+            "medicineCode": "Registration No.08495",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -570,35 +213,35 @@
                     "amount": "500mg(pot.)"
                 }
             ],
-            "indications": "雞（不含產蛋中之蛋雞）：治療慢性呼吸器病、傳染性鼻炎及滑膜炎等。",
-            "dosageAndAdministration": "每噸飲水添加本劑200gm，連續使用5日。",
+            "indications": "Chicken (Excluding laying hens): Treatment of Chronic Respiratory Disease (CRD), Infectious Coryza, and Synovitis.",
+            "dosageAndAdministration": "Mix 200 g of this product per 1,000 liters (1 ton) of drinking water. Administer consecutively for 5 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "與其他巨環類抗生素之間有不完全交叉抗藥性。"
+                    "precaution": "Drug Resistance: Incomplete cross-resistance may occur between this product and other macrolide antibiotics."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：5日。"
+                    "precaution": "Withdrawal Period: 5 days."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 },
                 {
                     "id": "6",
-                    "precaution": "本劑不可連續使用7日以上。"
+                    "precaution": "Do not use this product for more than 7 consecutive days."
                 }
             ],
-            "packaging": "400GM/包\n1KG/包",
+            "packaging": "400 g / Bag\n1 kg / Bag",
             "animals": [
                 "Chicken"
             ],
@@ -609,7 +252,7 @@
             "name": "ERYMYCIN C",
             "alternativeName": "速效黴素 C",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08861",
+            "medicineCode": "Registration No.08861",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -621,31 +264,31 @@
                     "amount": "100,000IU"
                 }
             ],
-            "indications": "雞、Turkey（不含產蛋中之蛋雞）：治療呼吸道及消化道疾病；可解除因疫苗接種、剪嘴及遷移等所產生之緊迫而導致的呼吸道併發症。",
-            "dosageAndAdministration": "雞、Turkey（不含產蛋中之蛋雞）：每噸飲水添加本劑1kg，連續使用3日。",
+            "indications": "Chicken & Turkey (Excluding laying hens): Treatment of respiratory and digestive tract diseases. Also used to alleviate respiratory complications caused by stress from vaccination, debeaking, or transportation.",
+            "dosageAndAdministration": "Mix 1 kg of this product per 1,000 liters (1 ton) of drinking water. Administer consecutively for 3 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：雞、Turkey7日。"
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 24 hours."
                 },
                 {
                     "id": "3",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在24小時內使用完。"
+                    "precaution": "Withdrawal Period: 7 days."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "100GM/包\n1KG/包",
+            "packaging": "1 kg / Bag\n100 g / Bag",
             "animals": [
                 "Chicken",
                 "Turkey"
@@ -657,7 +300,7 @@
             "name": "AMPIDICLOX Pow.",
             "alternativeName": "博效黴素粉",
             "type": "Soluble Powders",
-            "medicineCode": "No. 04675",
+            "medicineCode": "Registration No.04675",
             "ingredientsNote": "Each gm Contains:",
             "mainIngredients": [
                 {
@@ -673,27 +316,27 @@
                     "amount": "25mg"
                 }
             ],
-            "indications": "豬、雞（不含產蛋中之蛋雞）：治療慢性呼吸器病（CRD）、傳染性鼻炎、葡萄球菌症、大腸菌症、肺炎及其他呼吸道感染症。",
-            "dosageAndAdministration": "治療時將本品1kg溶於1000L飲水中給藥，連續使用2～3日。",
+            "indications": "Swine & Chicken (Excluding laying hens): Treatment of Chronic Respiratory Disease (CRD), Infectious Coryza, Staphylococcosis, Colibacillosis, pneumonia, and other respiratory tract infections.",
+            "dosageAndAdministration": "Dissolve 1 kg of this product in 1,000 liters of drinking water. Administer consecutively for 2–3 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "停藥期：7日。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Withdrawal Period: 7 days."
                 },
                 {
                     "id": "3",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "4",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken",
                 "Swine"
@@ -705,7 +348,7 @@
             "name": "AMOCILLIN 200",
             "alternativeName": "安復西林200",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08429",
+            "medicineCode": "Registration No. 08429",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -713,31 +356,31 @@
                     "amount": "200mg(pot.)"
                 }
             ],
-            "indications": "雞（不含產蛋中之蛋雞）：治療大腸桿菌症、沙氏桿菌症、細菌性下痢、傳染性鼻炎。\n豬：治療大腸桿菌症、沙氏桿菌症、嗜血桿菌症、巴氏桿菌症、豬萎縮性鼻炎、豬丹毒、膿腫及腦膜炎。",
-            "dosageAndAdministration": "雞（不含產蛋中之蛋雞）：每噸飲水添加本劑500gm，連續使用2～3日。\n豬：每kg體重使用本劑50mg，一日兩次，連續使用3～5日，泡於水中飲用或直接灌食。",
+            "indications": "Chicken (Excluding laying hens): Treatment of Colibacillosis, Salmonellosis, bacterial diarrhea, and Infectious Coryza.\nSwine: Treatment of Colibacillosis, Salmonellosis, Haemophilosis, Pasteurellosis, Atrophic Rhinitis (AR), Swine Erysipelas, abscesses, and meningitis.",
+            "dosageAndAdministration": "Chicken (Excluding laying hens): Mix 500 g of this product per 1,000 liters (1 ton) of drinking water. Administer consecutively for 2–3 days.\nSwine: Administer 50 mg of this product per kg of body weight, twice daily. Mix with drinking water or administer by direct drenching. Use consecutively for 3–5 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時內使用完。"
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：雞5日、豬15日。"
+                    "precaution": "Withdrawal Period: 5 days for chickens; 15 days for swine."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken",
                 "Swine"
@@ -749,7 +392,7 @@
             "name": "AMOCILLIN 500",
             "alternativeName": "安復西林500",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08833",
+            "medicineCode": "Registration No. 08833",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -757,35 +400,35 @@
                     "amount": "500mg(pot.)"
                 }
             ],
-            "indications": "雞（不含產蛋中之蛋雞）：治療大腸桿菌症、沙氏桿菌症、慢性呼吸器病、傳染性鼻炎及細菌性腸炎。\n豬：治療大腸桿菌症、沙氏桿菌症、放線桿菌性肺炎、巴氏桿菌症、萎縮性鼻炎、丹毒、膿腫及腦膜炎。",
-            "dosageAndAdministration": "雞（不含產蛋中之蛋雞）：每噸飲水添加本劑100gm，連續使用2～3日。\n豬：每kg體重使用本劑20mg，一日兩次，投於飲水中或直接灌食，連續使用3～5日。",
+            "indications": "Chicken (Excluding laying hens): Treatment of Colibacillosis, Salmonellosis, Chronic Respiratory Disease (CRD), Infectious Coryza, and bacterial enteritis.\nSwine: Treatment of Colibacillosis, Salmonellosis, Actinobacillus Pleuropneumonia (APP), Pasteurellosis, Atrophic Rhinitis (AR), Erysipelas, abscesses, and meningitis.",
+            "dosageAndAdministration": "Chicken (Excluding laying hens): Mix 100 g of this product per 1,000 liters (1 ton) of drinking water. Administer consecutively for 2–3 days.\nSwine: Administer 20 mg of this product per kg of body weight, twice daily. Mix with drinking water or administer by direct drenching. Use consecutively for 3–5 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：雞5日、豬15日。"
+                    "precaution": "Withdrawal Period: 5 days for chickens; 15 days for swine."
                 },
                 {
                     "id": "3",
-                    "precaution": "治療期間必須連續使用至少48小時，直至症狀消失，但請勿使用超過7日。"
+                    "precaution": "Treatment Duration: Continue treatment for at least 48 hours until symptoms disappear; however, do not exceed 7 days of use."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時內使用完。"
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
                 },
                 {
                     "id": "5",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "6",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "500GM/包\n1KG/包\n20KG/包",
+            "packaging": "500 g / Bag\n1 kg / Bag\n20 kg / Bag",
             "animals": [
                 "Chicken",
                 "Swine"
@@ -797,7 +440,7 @@
             "name": "CEPHA Powder",
             "alternativeName": "雪華黴素散",
             "type": "Soluble Powders",
-            "medicineCode": "No. 07602",
+            "medicineCode": "Registration No. 07602",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -805,31 +448,31 @@
                     "amount": "150mg(pot.)"
                 }
             ],
-            "indications": "雞（不含產蛋中之蛋雞）：治療傳染性鼻炎、支氣管炎、慢性呼吸器病、葡萄球菌症等。\n豬：治療細菌性肺炎、肺疫、豬丹毒、子宮內膜炎及產褥熱。",
-            "dosageAndAdministration": "每噸飲水添加本劑300～600gm。",
+            "indications": "Chicken (Excluding laying hens): Treatment of Infectious Coryza, bronchitis, Chronic Respiratory Disease (CRD), and Staphylococcosis.\nSwine: Treatment of bacterial pneumonia, Pasteurellosis (Swine Plague), Swine Erysipelas, endometritis, and puerperal fever.",
+            "dosageAndAdministration": "Mix 300–600 g of this product per 1,000 liters (1 ton) of drinking water.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時內使用完。"
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：2日。"
+                    "precaution": "Withdrawal Period: 2 days."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken",
                 "Swine"
@@ -841,7 +484,7 @@
             "name": "PEXIN",
             "alternativeName": "聯華 必驅淨",
             "type": "Soluble Powders",
-            "medicineCode": "No. 02479",
+            "medicineCode": "Registration No. 02479",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -849,23 +492,27 @@
                     "amount": "700mg"
                 }
             ],
-            "indications": "豬：驅除蛔蟲、腸結節蟲。\n雞（不含產蛋中之蛋雞）：驅除蛔蟲、盲腸蟲。\n牛羊：驅除蛔蟲。\n馬：驅除蛔蟲、蟯蟲。\n犬貓：驅除蛔蟲。",
-            "dosageAndAdministration": "豬：每10kg體重3gm。\n雞（不含產蛋中之蛋雞）：每7~10kg體重使用3gm。\n牛馬：每10kg體重使用3~6gm。\n羊：每10kg體重使用2~gm。\n犬貓：每10kg體重使用1.5~3gm。",
+            "indications": "Swine: Removal of Ascaris (roundworms) and Oesophagostomum (nodular worms).\nChicken (Excluding laying hens): Removal of Ascaris (roundworms) and Heterakis (cecal worms).\nCattle & Sheep: Removal of Ascaris (roundworms).\nHorse: Removal of Ascaris (roundworms) and Oxyuris (pinworms).\nDog & Cat: Removal of Ascaris (roundworms).",
+            "dosageAndAdministration": "Swine: 3 g of this product per 10 kg of body weight.\nChicken (Excluding laying hens): 3 g of this product per 7–10 kg of body weight.\nCattle & Horse: 3–6 g of this product per 10 kg of body weight.\nSheep: 2–3 g of this product per 10 kg of body weight.\nDog & Cat: 1.5–3 g of this product per 10 kg of body weight.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "停藥期：7日。"
+                    "precaution": "Withdrawal Period: 7 days."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "3",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Swine",
                 "Chicken",
@@ -882,7 +529,7 @@
             "name": "SULDIN",
             "alternativeName": "聯華 速寧",
             "type": "Soluble Powders",
-            "medicineCode": "No. 06757",
+            "medicineCode": "Registration No. 06757",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -890,31 +537,31 @@
                     "amount": "50mg"
                 }
             ],
-            "indications": "豬：驅除及預防蛔蟲、鞭蟲、鈎蟲。",
-            "dosageAndAdministration": "乳豬或仔豬：每100kg乾飼料使用本品60gm混勻使用5日。",
+            "indications": "Swine: Removal and prevention of Ascaris (roundworms), Trichuris (whipworms), and Ancylostoma (hookworms).",
+            "dosageAndAdministration": "Suckling Pigs or Piglets: Mix 60 g of this product per 100 kg of dry feed. Use consecutively for 5 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "停藥期：14日。"
+                    "precaution": "Withdrawal Period: 14 days."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "3",
-                    "precaution": "本品添加飼料後須混合均勻。"
+                    "precaution": "Preparation: Ensure the product is thoroughly and evenly mixed into the feed."
                 },
                 {
                     "id": "4",
-                    "precaution": "本品不必併用瀉下劑。"
+                    "precaution": "Administering: Concomitant use with laxatives is not required."
                 },
                 {
                     "id": "5",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 }
             ],
-            "packaging": "100GM/包\n1KG/包",
+            "packaging": "100 g / Bag\n1 kg / Bag",
             "animals": [
                 "Swine"
             ],
@@ -925,7 +572,7 @@
             "name": "MYCOSOL",
             "alternativeName": "聯華 滅克速",
             "type": "Soluble Powders",
-            "medicineCode": "No. 04932",
+            "medicineCode": "Registration No. 04932",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -933,35 +580,35 @@
                     "amount": "50mg(pot.)"
                 }
             ],
-            "indications": "雞（不含蛋雞）：治療黴菌感染症。",
-            "dosageAndAdministration": "治療：將本品每kg溶於500L飲水中給與，使用7～10日。",
+            "indications": "Chicken (Excluding laying hens): Treatment of fungal infections.",
+            "dosageAndAdministration": "Dissolve 1 kg of this product in 500 liters of drinking water. Administer consecutively for 7–10 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "3",
-                    "precaution": "蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in laying hens."
                 },
                 {
                     "id": "4",
-                    "precaution": "本品溶於飲水後，請於當日使用完畢。"
+                    "precaution": "Preparation: Once dissolved in water, the medicated solution should be used within the same day."
                 },
                 {
                     "id": "5",
-                    "precaution": "本品勿與磺胺藥物併用。"
+                    "precaution": "Drug Interaction: Do not use this product in combination with sulfonamides."
                 },
                 {
                     "id": "6",
-                    "precaution": "停藥期：7日。"
+                    "precaution": "Withdrawal Period: 7 days."
                 }
             ],
-            "packaging": "100GM/包\n1KG/包",
+            "packaging": "100 g / Bag\n1 kg / Bag",
             "animals": [
                 "Chicken"
             ],
@@ -972,7 +619,7 @@
             "name": "GENTAMICIN 150",
             "alternativeName": "極大黴素150",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08521",
+            "medicineCode": "Registration No. 08521",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -980,31 +627,31 @@
                     "amount": "150mg (pot.)"
                 }
             ],
-            "indications": "雞（不含產蛋中之蛋雞）：治療細菌性腸炎、下痢。\n豬：治療細菌性腸炎、下痢、赤痢。",
-            "dosageAndAdministration": "每噸飲水添加本劑0.2kg。",
+            "indications": "Chicken (Excluding laying hens): Treatment of bacterial enteritis and diarrhea.\nSwine: Treatment of bacterial enteritis, diarrhea, and swine dysentery.",
+            "dosageAndAdministration": "Mix 0.2 kg of this product per 1,000 liters (1 ton) of drinking water.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時內使用完。"
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：10日。"
+                    "precaution": "Withdrawal Period: 10 days."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken",
                 "Swine"
@@ -1016,7 +663,7 @@
             "name": "FLORCIN 100 Pow.",
             "alternativeName": "復洛黴素100散",
             "type": "Soluble Powders",
-            "medicineCode": "No. 09457",
+            "medicineCode": "Registration No. 09457",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1024,27 +671,27 @@
                     "amount": "100mg(pot.)"
                 }
             ],
-            "indications": "豬：治療放線桿菌胸膜肺炎、巴氏桿菌肺炎、沙氏桿菌症、大腸桿菌及其他對本劑具有感受性之細菌所引起之感染。\n土番鴨（不含產蛋中之蛋鴨）：治療水禽雷氏桿菌之感染症。",
-            "dosageAndAdministration": "豬：每噸飼料添加本劑0.2～0.4kg，或每kg體重投予本劑0.01～0.02gm（相當於Florfenicol 1～2mg）。\n土番鴨（不含產蛋中之蛋鴨）：每kg體重投予本劑0.4gm（相當於Florfenicol 40mg），每日一次，連續使用5日。",
+            "indications": "Swine: Treatment of Actinobacillus Pleuropneumonia (APP), Pasteurella pneumonia, Salmonellosis, Colibacillosis, and other infections caused by bacteria sensitive to Florfenicol.\nMule Ducks (Excluding laying ducks): Treatment of Riemerella anatipestifer infections in waterfowl.",
+            "dosageAndAdministration": "Swine: Mix 0.2–0.4 kg of this product per 1,000 kg (1 ton) of feed, or administer 0.01–0.02 g of this product per kg of body weight (equivalent to 1–2 mg of Florfenicol).\nMule Ducks (Excluding laying ducks): Administer 0.4 g of this product per kg of body weight (equivalent to 40 mg of Florfenicol) once daily for 5 consecutive days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "使用本藥品連續添加治療，請勿超過7日。"
+                    "precaution": "Treatment Duration: Do not exceed 7 consecutive days of treatment."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：豬3日、土番鴨14日。"
+                    "precaution": "Withdrawal Period: 3 days for swine; 14 days for mule ducks."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 }
             ],
-            "packaging": "1KG/包\n25KG/包",
+            "packaging": "1 kg / Bag\n25 kg / Bag",
             "animals": [
                 "Swine",
                 "Duck"
@@ -1056,7 +703,7 @@
             "name": "THIALORCIN 250",
             "alternativeName": "畜樂黴素250",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08500",
+            "medicineCode": "Registration No. 08500",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1064,31 +711,31 @@
                     "amount": "250mg(pot.)"
                 }
             ],
-            "indications": "雞（不含產蛋中之蛋雞）：治療傳染性鼻炎、慢性呼吸器病。",
-            "dosageAndAdministration": "每噸飲水添加本劑400～2,000gm（即飲水含100～500ppm Thiamphenicol），連續使用3～5日。",
+            "indications": "Chicken (Excluding laying hens): Treatment of Infectious Coryza and Chronic Respiratory Disease (CRD).",
+            "dosageAndAdministration": "Mix 400–2,000 g of this product per 1,000 liters (1 ton) of drinking water (equivalent to 100–500 ppm of Thiamphenicol). Administer consecutively for 3–5 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時內使用完。"
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：3日。"
+                    "precaution": "Withdrawal Period: 3 days."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken"
             ],
@@ -1099,7 +746,7 @@
             "name": "FLUMEQUINE 500",
             "alternativeName": "復美淨500",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08883",
+            "medicineCode": "Registration No. 08883",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1107,35 +754,35 @@
                     "amount": "500mg"
                 }
             ],
-            "indications": "雞（不含產蛋中之蛋雞）：治療大腸桿菌症、傳染性鼻炎、沙氏桿菌症。\n鱸形目：治療對本劑具有感受性發光桿菌或親水性產氣單胞菌群或螢光假單胞菌或愛德華氏菌之感染。\n鰻形目：治療對本劑具有感受性親水性產氣單胞菌群或螢光假單胞菌或愛德華氏菌之感染。\n龜鱉目：治療對本劑具有感受性親水性產氣單胞菌之感染。",
-            "dosageAndAdministration": "雞（不含產蛋中之蛋雞）：每噸飲水添加量：1～15日齡雞使用本劑200gm；4週齡雞使用本劑300gm；成雞使用本劑400gm。\n鱸形目、鰻形目：經口投與，每日每kg體重使用本劑40mg，連續使用3～5日。\n龜鱉目：經口投與，每日每kg體重使用本劑40mg，連續使用5日。",
+            "indications": "Chicken (Excluding laying hens): Treatment of Colibacillosis, Infectious Coryza, and Salmonellosis.\nPerciformes (Perch-like fish): Treatment of infections caused by sensitive Photobacterium, Aeromonas hydrophila group, Pseudomonas fluorescens, or Edwardsiella.\nAnguilliformes (Eel-like fish): Treatment of infections caused by sensitive Aeromonas hydrophila group, Pseudomonas fluorescens, or Edwardsiella.\nTestudines (Turtles & Terrapins): Treatment of infections caused by sensitive Aeromonas hydrophila.",
+            "dosageAndAdministration": "Chicken (Excluding laying hens): Per 1,000 liters (1 ton) of drinking water: Use 200 g for chicks (1–15 days old); 300 g for 4-week-old chickens; 400 g for adult chickens.\nPerciformes & Anguilliformes: Oral administration. Use 40 mg of this product per kg of body weight daily for 3–5 consecutive days.\nTestudines: Oral administration. Use 40 mg of this product per kg of body weight daily for 5 consecutive days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：雞（不含產蛋中之蛋雞）7日、鱸形目8日、鰻形目20日、龜鱉目32日。"
+                    "precaution": "Withdrawal Period: 7 days for chickens; 8 days for Perciformes; 20 days for Anguilliformes; 32 days for Testudines."
                 },
                 {
                     "id": "3",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時內使用完。"
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
                 },
                 {
                     "id": "4",
-                    "precaution": "鱸形目、鰻形目、龜鱉目使用本劑不可連續使用7日以上。"
+                    "precaution": "Treatment Duration: For Perciformes, Anguilliformes, and Testudines, do not exceed 7 consecutive days of use."
                 },
                 {
                     "id": "5",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "6",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken",
                 "Aquatic",
@@ -1148,7 +795,7 @@
             "name": "COMPLEX LEUKOPYCORIN K",
             "alternativeName": "複方白冠必克寧 K",
             "type": "Soluble Powders",
-            "medicineCode": "No. 02452",
+            "medicineCode": "Registration No. 02452",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1168,27 +815,31 @@
                     "amount": "500mg"
                 }
             ],
-            "indications": "豬、雞（不含產蛋中之蛋雞）：治療雞白冠病、豬弓蟲病。",
-            "dosageAndAdministration": "雞（不含產蛋中之蛋雞）：治療雞白冠病時，每噸飼料添加本品1kg，連續使用不宜超過7日。\n豬：治療豬弓蟲病時，每噸飼料加入本品2～3kg，連續使用不宜超過7日。",
+            "indications": "Swine & Chicken (Excluding laying hens): Treatment of Leucocytozoonosis in chickens and Toxoplasmosis in swine.",
+            "dosageAndAdministration": "Chicken (Excluding laying hens): For Leucocytozoonosis, mix 1 kg of this product per 1,000 kg (1 ton) of feed. Do not exceed 7 consecutive days of use.\n豬Swine: For Toxoplasmosis, mix 2–3 kg of this product per 1,000 kg (1 ton) of feed. Do not exceed 7 consecutive days of use.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：14日。"
+                    "precaution": "Withdrawal Period: 14 days."
                 },
                 {
                     "id": "3",
-                    "precaution": "本品不得作為抗球蟲劑。"
+                    "precaution": "Usage Restrictions: This product must not be used as a coccidiostat (anti-coccidial agent)."
                 },
                 {
                     "id": "4",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Swine",
                 "Chicken"
@@ -1200,7 +851,7 @@
             "name": "COLIVARIN Soluble",
             "alternativeName": "新尅痢威靈粉",
             "type": "Soluble Powders",
-            "medicineCode": "No. 02484",
+            "medicineCode": "Registration No. 02484",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1220,27 +871,27 @@
                     "amount": "1mg"
                 }
             ],
-            "indications": "Livestock：治療乳豬白痢、赤痢症，飼料變動或氣候劇變引起下痢症，大腸菌症。\n雞、Turkey（不含產蛋中之蛋雞）：治療沙氏桿菌症、大腸菌症、傳染性漿膜炎。",
-            "dosageAndAdministration": "治療時將本品1kg溶於1000L飲水中給與，連續使用3～5日。",
+            "indications": "Livestock: Treatment of white scours and dysentery in suckling pigs; diarrhea caused by feed changes or sudden climate shifts; and Colibacillosis.\nChicken & Turkey (Excluding laying hens): Treatment of Salmonellosis, Colibacillosis, and Infectious Serositis.",
+            "dosageAndAdministration": "Dissolve 1 kg of this product in 1,000 liters (1 ton) of drinking water. Administer consecutively for 3–5 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：10日。"
+                    "precaution": "Withdrawal Period: 10 days."
                 },
                 {
                     "id": "3",
-                    "precaution": "本品請貯存於陰暗處。"
+                    "precaution": "Storage: Store in a dark, cool place, away from light and direct sunlight."
                 },
                 {
                     "id": "4",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "100GM/包\n1KG/包",
+            "packaging": "100 g / Bag\n1 kg / Bag",
             "animals": [
                 "Livestock",
                 "Chicken",
@@ -1253,7 +904,7 @@
             "name": "COCCIDIOCIDESOL",
             "alternativeName": "剋球寶可溶散",
             "type": "Soluble Powders",
-            "medicineCode": "No. 02490",
+            "medicineCode": "Registration No. 02490",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1277,27 +928,27 @@
                     "amount": "1mg"
                 }
             ],
-            "indications": "Livestock及雞、Turkey（不含產蛋中之蛋雞）：治療各種球蟲病、家禽霍亂、弧菌性肝炎。",
-            "dosageAndAdministration": "治療時將本品1kg溶於1000L飲水中給與連續使用3日。",
+            "indications": "Livestock, Chicken & Turkey (Excluding laying hens): Treatment of various types of coccidiosis, Fowl Cholera, and Vibrionic Hepatitis.",
+            "dosageAndAdministration": "Dissolve 1 kg of this product in 1,000 liters (1 ton) of drinking water. Administer consecutively for 3 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：7日。"
+                    "precaution": "Withdrawal Period: 7 days."
                 },
                 {
                     "id": "3",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "4",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "100GM/包\n1KG/包",
+            "packaging": "100 g / Bag\n1 kg / Bag",
             "animals": [
                 "Livestock",
                 "Chicken",
@@ -1310,7 +961,7 @@
             "name": "CS3 Soluble",
             "alternativeName": "殺球",
             "type": "Soluble Powders",
-            "medicineCode": "No. 02451",
+            "medicineCode": "Registration No. 02451",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1330,27 +981,27 @@
                     "amount": "500,000IU"
                 }
             ],
-            "indications": "雞、Turkey（不含產蛋中之蛋雞）：治療各種球蟲病、霍亂、雞白痢、傷寒、弧菌性肝炎。",
-            "dosageAndAdministration": "治療時將本品1kg溶於飲水1000L中給與連續使用2～3日。",
+            "indications": "Chicken & Turkey (Excluding laying hens): Treatment of various types of coccidiosis, Fowl Cholera, Pullorum disease, Fowl Typhoid, and Vibrionic Hepatitis.",
+            "dosageAndAdministration": "Dissolve 1 kg of this product in 1,000 liters (1 ton) of drinking water. Administer consecutively for 2–3 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "停藥期：5日。"
+                    "precaution": "Withdrawal Period: 5 days."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "3",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "4",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken",
                 "Turkey"
@@ -1362,7 +1013,7 @@
             "name": "LICOCCIDE 600",
             "alternativeName": "立剋球600",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08621",
+            "medicineCode": "Registration No. 08621",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1370,31 +1021,31 @@
                     "amount": "600mg"
                 }
             ],
-            "indications": "雞、Turkey（不含產蛋中之蛋雞）：治療球蟲病及沙氏桿菌症。",
-            "dosageAndAdministration": "每噸飲水添加本劑500gm（相當於含300gm的Sulfachloropyrazine Sod. Monohydrate），連續使用3日。",
+            "indications": "Chicken & Turkey (Excluding laying hens): Treatment of coccidiosis and Salmonellosis.",
+            "dosageAndAdministration": "Mix 500 g of this product (equivalent to 300 g of Sulfachloropyrazine Sodium Monohydrate) per 1,000 liters (1 ton) of drinking water. Administer consecutively for 3 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時內使用完。"
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：10日。"
+                    "precaution": "Withdrawal Period: 10 days."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "500GM/包",
+            "packaging": "500 g / Bag",
             "animals": [
                 "Chicken",
                 "Turkey"
@@ -1406,7 +1057,7 @@
             "name": "DIMETHOPRIM",
             "alternativeName": "聯華 速康",
             "type": "Soluble Powders",
-            "medicineCode": "No. 05635",
+            "medicineCode": "Registration No. 05635",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1418,27 +1069,27 @@
                     "amount": "400mg"
                 }
             ],
-            "indications": "雞、Turkey（不含產蛋中之蛋雞）：治療大腸桿菌症、傳染性鼻炎、葡萄球菌症、肺炎、腸炎。",
-            "dosageAndAdministration": "雞、Turkey（不含產蛋中之蛋雞）：治療時每1～2gm溶於10L飲水中給與，連用2～3日。",
+            "indications": "Chicken & Turkey (Excluding laying hens): Treatment of Colibacillosis, Infectious Coryza, Staphylococcosis, pneumonia, and enteritis.",
+            "dosageAndAdministration": "Treatment: Dissolve 1–2 g of this product per 10 liters of drinking water. Administer consecutively for 2–3 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：15日。"
+                    "precaution": "Withdrawal Period: 15 days."
                 },
                 {
                     "id": "3",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "4",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken",
                 "Turkey"
@@ -1450,7 +1101,7 @@
             "name": "TRIDIAZINE 480",
             "alternativeName": "除疾靈480",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08611",
+            "medicineCode": "Registration No. 08611",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1462,31 +1113,31 @@
                     "amount": "400mg"
                 }
             ],
-            "indications": "牛、羊、豬：治療對本劑具感受性細菌所引起之呼吸道、消化道和泌尿生殖道感染症。\n雞（不含產蛋中之蛋雞）：治療球蟲症及對本劑具感受性細菌所引起之呼吸道和消化道感染症。",
-            "dosageAndAdministration": "經口投予。\n牛：每頭使用本劑10～15gm。\n羊：每頭使用本劑2gm。\n豬：每kg體重使用本劑30mg。\n雞（不含產蛋中之蛋雞）：每噸飲水添加本劑250gm。",
+            "indications": "Cattle, Sheep, & Swine: Treatment of respiratory, digestive, and genitourinary tract infections caused by bacteria sensitive to this product.\nChicken (Excluding laying hens): Treatment of coccidiosis and respiratory/digestive tract infections caused by bacteria sensitive to this product.",
+            "dosageAndAdministration": "Method: Oral administration.\nCattle: Administer 10–15 g per head.\nSheep: Administer 2 g per head.\nSwine: Administer 30 mg per kg of body weight.\nChicken (Excluding laying hens): Mix 250 g of this product per 1,000 liters (1 ton) of drinking water.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時內使用完。"
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：肉用21日、乳用4日。"
+                    "precaution": "Withdrawal Period: 21 days for meat use; 4 days for milk use."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Cattle",
                 "Sheep & Goat",
@@ -1500,7 +1151,7 @@
             "name": "TOMEGIN 500",
             "alternativeName": "聯華 特滅菌500",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08939",
+            "medicineCode": "Registration No. 08939",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1508,31 +1159,31 @@
                     "amount": "500mg"
                 }
             ],
-            "indications": "豬：治療弓蟲病、細菌性腸炎、肺炎及萎縮性鼻炎。\n雞（不含產蛋中之蛋雞）：治療傳染性鼻炎、慢性呼吸器病、球蟲症及白冠病。\n牛：治療細菌性乳房炎、子宮內膜炎。\n馬：治療細菌性肺炎。\n犬貓：治療細菌性腸炎。",
-            "dosageAndAdministration": "牛：每kg體重使用本劑40～60mg。\n馬：每kg體重使用本劑20～60mg。\n豬：每kg體重使用本劑80～200mg。\n犬貓：每kg體重使用本劑100～200mg。\n每日經口投予一次，次日起改為半量投予。\n雞（不含產蛋中之蛋雞）：每噸飼料添加本劑2kg。",
+            "indications": "Swine: Treatment of Toxoplasmosis, bacterial enteritis, pneumonia, and Atrophic Rhinitis (AR).\nChicken (Excluding laying hens): Treatment of Infectious Coryza, Chronic Respiratory Disease (CRD), coccidiosis, and Leucocytozoonosis.\nCattle: Treatment of bacterial mastitis and endometritis.\nHorse: Treatment of bacterial pneumonia.\nDog & Cat: Treatment of bacterial enteritis.",
+            "dosageAndAdministration": "Cattle: 40–60 mg per kg of body weight.\nHorse: 20–60 mg per kg of body weight.\nSwine: 80–200 mg per kg of body weight.\nDog & Cat: 100–200 mg per kg of body weight.\nNote: Administer orally once daily. From the second day onwards, reduce the dosage by half.\nChicken (Excluding laying hens): Mix 2 kg of this product per 1,000 kg (1 ton) of feed.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本藥品不可連續使用7日以上；必要時可與Dexamethasone或Prednisolone等腎上腺皮質素合用。"
+                    "precaution": "Treatment Duration: Do not exceed 7 consecutive days of use. If necessary, it may be used in combination with corticosteroids such as Dexamethasone or Prednisolone."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：牛、豬、雞15日。"
+                    "precaution": "Withdrawal Period: 15 days for cattle, swine, and chickens."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Swine",
                 "Chicken",
@@ -1548,7 +1199,7 @@
             "name": "TYLOSIN 500",
             "alternativeName": "聯華 泰樂新500",
             "type": "Soluble Powders",
-            "medicineCode": "No. 09646",
+            "medicineCode": "Registration No. 09646",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1556,27 +1207,27 @@
                     "amount": "500mg"
                 }
             ],
-            "indications": "雞、豬：治療革蘭氏陽性菌及其他對本劑具感受性細菌引起之感染症，如豬赤痢、雞慢性呼吸器病及黴漿菌感染症。",
-            "dosageAndAdministration": "雞：每噸飲水添加本劑1.0kg，連續使用1～5日。\n豬：每噸飲水添加本劑0.5kg，連續使用1～5日。",
+            "indications": "Chicken & Swine: Treatment of infections caused by Gram-positive bacteria and other sensitive organisms, such as swine dysentery, Chronic Respiratory Disease (CRD) in chickens, and Mycoplasma infections.",
+            "dosageAndAdministration": "Chicken: Mix 1.0 kg of this product per 1,000 liters (1 ton) of drinking water. Administer consecutively for 1–5 days.\nSwine: Mix 0.5 kg of this product per 1,000 liters (1 ton) of drinking water. Administer consecutively for 1–5 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "與Erythromycin有不完全交叉抗藥性。"
+                    "precaution": "Drug Resistance: Incomplete cross-resistance may occur between this product and Erythromycin."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：5日。"
+                    "precaution": "Withdrawal Period: 5 days."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken",
                 "Swine"
@@ -1588,7 +1239,7 @@
             "name": "AIVALOSIN 50",
             "alternativeName": "聯華 愛樂新50",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08749",
+            "medicineCode": "Registration No. 08749",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1596,27 +1247,27 @@
                     "amount": "50mg(pot.)"
                 }
             ],
-            "indications": "豬：治療地方性肺炎、黴漿菌性關節炎、鼻炎。\n雞（不含蛋雞）：治療慢性呼吸器病、黴漿菌、葡萄球菌及鏈球菌感染症。",
-            "dosageAndAdministration": "豬、雞（不含蛋雞）：每噸飼料添加本劑0.4～1.0kg，視病情連續使用5～7日。",
+            "indications": "Swine: Treatment of Enzootic Pneumonia, Mycoplasmal arthritis, and rhinitis.\nChicken (Excluding laying hens): Treatment of Chronic Respiratory Disease (CRD), Mycoplasma, Staphylococcus, and Streptococcus infections.",
+            "dosageAndAdministration": "Swine & Chicken (Excluding laying hens): Mix 0.4–1.0 kg of this product per 1,000 kg (1 ton) of feed. Administer consecutively for 5–7 days depending on the severity of the condition.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：豬3日、雞5日。"
+                    "precaution": "Withdrawal Period: 3 days for swine; 5 days for chickens."
                 },
                 {
                     "id": "3",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "4",
-                    "precaution": "蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Swine",
                 "Chicken"
@@ -1628,7 +1279,7 @@
             "name": "TILMICOSIN 200",
             "alternativeName": "聯華 泰順200",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08678",
+            "medicineCode": "Registration No. 08678",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1636,27 +1287,27 @@
                     "amount": "200mg(pot.)"
                 }
             ],
-            "indications": "豬：治療由胸膜肺炎放線桿菌、豬肺炎徽漿菌、出血性敗血症巴氏桿菌及其他對Tilmicosin具感受性細菌引起之肺炎。",
-            "dosageAndAdministration": "治療肥育期豬隻肺炎：每噸飼料添加本劑2kg（相當於含Tilmicosin有效力價400gm），連續使用14日。",
+            "indications": "Swine: Treatment of pneumonia caused by Actinobacillus pleuropneumoniae, Mycoplasma hyopneumoniae, Pasteurella multocida (Hemorrhagic Septicemia), and other bacteria sensitive to Tilmicosin.",
+            "dosageAndAdministration": "Mix 2 kg of this product per 1,000 kg (1 ton) of feed (equivalent to 400 g of active Tilmicosin potency). Administer consecutively for 14 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本劑勿與含有Bentonite飼料合併使用。"
+                    "precaution": "Drug Interaction: Do not combine this product with feed containing Bentonite."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：14日。"
+                    "precaution": "Withdrawal Period: 14 days."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Swine"
             ],
@@ -1667,7 +1318,7 @@
             "name": "LINCOCIN 400",
             "alternativeName": "聯華 靈可新400",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08661",
+            "medicineCode": "Registration No. 08661",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1675,51 +1326,51 @@
                     "amount": "400mg(pot.)"
                 }
             ],
-            "indications": "豬、肉雞：治療豬赤痢、肉雞之壞死性腸炎。",
-            "dosageAndAdministration": "豬：每噸飲水添加本劑138.9gm（相當於含55.6gm的Lincomycin），直至症狀消失後連續使用至少5日，連續最多使用10日。\n肉雞：每噸飲水添加本劑42.3gm（相當於含16.9gm的Lincomycin)，連續使用7日。",
+            "indications": "Swine & Broilers: Treatment of swine dysentery and necrotic enteritis in broilers.",
+            "dosageAndAdministration": "Swine: Mix 138.9 g of this product (equivalent to 55.6 g of Lincomycin) per 1,000 liters (1 ton) of drinking water. Continue treatment for at least 5 days after symptoms disappear; do not exceed 10 consecutive days.\nBroilers: Mix 42.3 g of this product (equivalent to 16.9 g of Lincomycin) per 1,000 liters (1 ton) of drinking water. Administer consecutively for 7 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：豬4日、肉雞3日。"
+                    "precaution": "Withdrawal Period: 4 days for swine; 3 days for broilers."
                 },
                 {
                     "id": "3",
-                    "precaution": "本劑不可使用於產蛋雞、種雞及體重超過250磅之豬。"
+                    "precaution": "Usage Restrictions: Do not use in laying hens, breeder hens, or swine weighing over 250 lbs."
                 },
                 {
                     "id": "4",
-                    "precaution": "本劑禁用於兔、日竺鼠、馬及反芻動物。"
+                    "precaution": "Contraindications: Strictly prohibited for use in rabbits, guinea pigs, horses, and ruminants."
                 },
                 {
                     "id": "5",
-                    "precaution": "豬投藥2日後，若其赤痢症狀（水樣、黏液及血樣下痢）未見改善時，應停止使用。"
+                    "precaution": "Treatment Monitoring: If symptoms of dysentery (watery, mucoid, or bloody diarrhea) do not improve after 2 days of treatment in swine, discontinue use."
                 },
                 {
                     "id": "6",
-                    "precaution": "當豬使用本劑時，可能會發生軟便、下痢或肛門腫脹，此現象不需停藥，於5～8日內會自行消失恢復。"
+                    "precaution": "當Side Effects: Swine may experience soft stools, diarrhea, or anal swelling during treatment. These symptoms typically resolve spontaneously within 5–8 days and do not require discontinuation of the medication."
                 },
                 {
                     "id": "7",
-                    "precaution": "本劑不可與紅黴素同時使用。"
+                    "precaution": "Drug Interaction: Do not use concurrently with Erythromycin."
                 },
                 {
                     "id": "8",
-                    "precaution": "本劑與一部份巨環素類抗生素有不完全交叉抗藥性。"
+                    "precaution": "Drug Resistance: Incomplete cross-resistance may occur between this product and some macrolide antibiotics."
                 },
                 {
                     "id": "9",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時内使用完。"
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
                 },
                 {
                     "id": "10",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Swine",
                 "Chicken"
@@ -1731,7 +1382,7 @@
             "name": "SPECTLIN 220",
             "alternativeName": "速倍特靈220",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08729",
+            "medicineCode": "Registration No. 08729",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1743,27 +1394,27 @@
                     "amount": "110mg(pot.)"
                 }
             ],
-            "indications": "豬：治療赤痢、細菌性腸炎、細菌性下痢及黴漿菌性肺炎。",
-            "dosageAndAdministration": "豬：每噸飼料添加本劑200gm～500gm。",
+            "indications": "Swine: Treatment of dysentery, bacterial enteritis, bacterial diarrhea, and mycoplasmal pneumonia.",
+            "dosageAndAdministration": "Mix 200–500 g of this product per 1,000 kg (1 ton) of feed.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：豬1日。"
+                    "precaution": "Withdrawal Period: 1 day."
                 },
                 {
                     "id": "3",
-                    "precaution": "當豬使用本劑時，偶有於使用36小時內可能會發生軟便，此現象不需停藥，於5～8日內會自行消失恢復。"
+                    "precaution": "Side Effects: Swine may occasionally experience soft stools within 36 hours of use. This symptom typically resolves spontaneously within 5–8 days and do not require discontinuation of the medication."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Swine"
             ],
@@ -1774,7 +1425,7 @@
             "name": "TIAMULIN 200",
             "alternativeName": "聯華 泰妙素200",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08710",
+            "medicineCode": "Registration No. 08710",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1782,31 +1433,31 @@
                     "amount": "200mg"
                 }
             ],
-            "indications": "豬：治療黴漿菌肺炎、豬赤痢。\n雞（不含產蛋中之蛋雞）：治療慢性呼吸器病、傳染性鼻炎。",
-            "dosageAndAdministration": "豬：治療豬赤痢:每噸飼料添加本劑0.3～0.5kg，連續使用3～6日。治療黴漿菌肺炎:每噸飼料添加本劑1.0kg，連續使用5～7日。\n雞（不含產蛋中之蛋雞）：每噸飼料添加本劑2.0～2.5kg，連續使用3～5日。",
+            "indications": "Swine: Treatment of mycoplasmal pneumonia and swine dysentery.\nChicken (Excluding laying hens): Treatment of Chronic Respiratory Disease (CRD) and Infectious Coryza.",
+            "dosageAndAdministration": "Swine (Dysentery): Mix 0.3–0.5 kg of this product per 1,000 kg (1 ton) of feed. Administer consecutively for 3–6 days.\nSwine (Mycoplasmal Pneumonia): Mix 1.0 kg of this product per 1,000 kg (1 ton) of feed. Administer consecutively for 5–7 days.\nChicken (Excluding laying hens): Mix 2.0–2.5 kg of this product per 1,000 kg (1 ton) of feed. Administer consecutively for 3–5 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本劑勿與Monensin、Narasin或Salinomycin合併使用。"
+                    "precaution": "Drug Interaction: Do not combine this product with ionophore antibiotics such as Monensin, Narasin, or Salinomycin."
                 },
                 {
                     "id": "3",
-                    "precaution": "停藥期：7日。"
+                    "precaution": "Withdrawal Period: 7 days."
                 },
                 {
                     "id": "4",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 },
                 {
                     "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Swine",
                 "Chicken"
@@ -1818,7 +1469,7 @@
             "name": "COLISTIN 120",
             "alternativeName": "聯華 剋痢黴素120",
             "type": "Soluble Powders",
-            "medicineCode": "No. 08748",
+            "medicineCode": "Registration No. 08748",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1826,31 +1477,31 @@
                     "amount": "120mg(pot.)\n（相當含有3,600,000IU）"
                 }
             ],
-            "indications": "小牛、豬、肉雞、Turkey及產蛋雞：治療對Colistin具感受性之大腸桿菌或沙氏桿菌引起的消化道感染症。",
-            "dosageAndAdministration": "小牛：溶解於飲水中，每日每kg體重使用本劑42～50mg，連續使用5～7日。\n豬：溶解於飲水中，每日每kg體重使用本劑42～50mg，連續使用5～7日。\n肉雞、Turkey及產蛋雞：溶解於飲水中，每日每kg體重使用本劑50mg，連續使用5～7日。",
+            "indications": "Calf, Swine, Broilers, Turkey & Laying Hens: Treatment of digestive tract infections caused by Colistin-sensitive E. coli or Salmonella.",
+            "dosageAndAdministration": "Calf & Swine: Dissolve in drinking water. Administer 42–50 mg of this product per kg of body weight daily for 5–7 consecutive days.\nBroilers, Turkey & Laying Hens: Dissolve in drinking water. Administer 50 mg of this product per kg of body weight daily for 5–7 consecutive days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或餇料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "本劑勿與Polymyxin合併使用（會相互拮抗），或腎功能嚴重障害勿使用本劑。"
+                    "precaution": "Contraindications: Do not combine with Polymyxin (due to antagonism). Do not use in animals with severe renal impairment."
                 },
                 {
                     "id": "3",
-                    "precaution": "與Aminoglycosides（胺基配糖體類）避免混合使用。"
+                    "precaution": "Drug Interaction: Avoid mixing with Aminoglycosides."
                 },
                 {
                     "id": "4",
-                    "precaution": "停藥期（小牛、豬、肉雞、Turkey及產蛋雞）：3日。"
+                    "precaution": "Withdrawal Period: 3 days for calves, swine, broilers, turkeys, and laying hens."
                 },
                 {
                     "id": "5",
-                    "precaution": "本藥品請貯存於陰涼乾燥處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 }
             ],
-            "packaging": "1KG/包\n25KG/包",
+            "packaging": "1 kg / Bag\n25 kg / Bag",
             "animals": [
                 "Cattle",
                 "Swine",
@@ -1864,7 +1515,7 @@
             "name": "DOXYLLIN 500",
             "alternativeName": "特安500",
             "type": "Soluble Powders",
-            "medicineCode": "No. 09654",
+            "medicineCode": "Registration No. 09654",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1872,31 +1523,31 @@
                     "amount": "500mg(pot.)"
                 }
             ],
-            "indications": "肉雞：治療由雞敗血性黴漿菌(Mycoplasma gallisepticum) 引起的慢性呼吸器病(CRD)。",
-            "dosageAndAdministration": "每公升飲水添加本劑0.1至0.2公克，連續使用3至5天。",
+            "indications": "Broilers: Treatment of Chronic Respiratory Disease (CRD) caused by Mycoplasma gallisepticum.",
+            "dosageAndAdministration": "Mix 0.1–0.2 g of this product per liter of drinking water. Administer consecutively for 3–5 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
                 },
                 {
                     "id": "3",
-                    "precaution": "肉停藥期：7天。"
+                    "precaution": "Withdrawal Period: 7 days."
                 },
                 {
                     "id": "4",
-                    "precaution": "應依每日藥用水量進行置備，並應每24小時更換藥用水。"
+                    "precaution": "Preparation: Prepare fresh medicated water daily; replace every 24 hours."
                 },
                 {
                     "id": "5",
-                    "precaution": "本藥品請貯存陰涼乾燥處及儲放孩童無法取得之處。"
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight. Keep out of reach of children."
                 }
             ],
-            "packaging": "1KG/包",
+            "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken"
             ],
@@ -1907,7 +1558,7 @@
             "name": "URICOSURIC powder",
             "alternativeName": "聯華 尿酸溶解",
             "type": "Soluble Powders",
-            "medicineCode": "No. 05613",
+            "medicineCode": "Registration No. 05613",
             "ingredientsNote": "Each kilogram contains:",
             "mainIngredients": [
                 {
@@ -1923,12 +1574,16 @@
                     "amount": "890gm"
                 }
             ],
-            "indications": "犬、猫：治療尿酸沈著症、痛風性關節炎。 ",
-            "dosageAndAdministration": "治療時按每公斤體重使用100〜300mg連用1星期。 ",
+            "indications": "Dog & Cat: Treatment of Uricosuria (Urate urolithiasis) and gouty arthritis.",
+            "dosageAndAdministration": "Administer 100–300 mg of this product per kg of body weight. Use consecutively for 1 week.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水産養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 }
             ],
             "packaging": "1kg",
@@ -1943,7 +1598,7 @@
             "name": "DOXYCYCLINE",
             "alternativeName": "特安黴素",
             "type": "Soluble Powders",
-            "medicineCode": "No. 05610",
+            "medicineCode": "Registration No. 05610",
             "ingredientsNote": "Each kilogram contains:",
             "mainIngredients": [
                 {
@@ -1951,20 +1606,24 @@
                     "amount": "50gm(potency)\nLactose add to 1kg"
                 }
             ],
-            "indications": "雞（不含產蛋中之蛋雞）：治療慢性呼吸器病(CRD)。",
-            "dosageAndAdministration": "治療時將本品每100公克溶於100公升飲水中給予，連用3～5天。",
+            "indications": "Chicken (Excluding laying hens): Treatment of Chronic Respiratory Disease (CRD).",
+            "dosageAndAdministration": "Chicken (Excluding laying hens): Dissolve 100 g of this product in 100 liters of drinking water. Administer consecutively for 3–5 days.",
             "precautions": [
                 {
                     "id": "1",
-                    "precaution": "本藥品由飼主，畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
                 },
                 {
                     "id": "2",
-                    "precaution": "停藥期：5日。"
+                    "precaution": "Withdrawal Period: 5 days."
                 },
                 {
                     "id": "3",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
                 }
             ],
             "packaging": "1kg",
@@ -1972,2193 +1631,6 @@
                 "Chicken"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3926"
-        },
-        {
-            "id": "39",
-            "name": "AMPICILLIN Inj.",
-            "alternativeName": "聯華 安比西寧針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 08673",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Ampicillin Sodium",
-                    "amount": "15gm(pot.)"
-                }
-            ],
-            "indications": "豬：治療豬丹毒，痢疾及對本劑具感受性細菌所引起之肺炎、腦炎、泌尿道炎、子宮炎、敗血症、化膿性疾患。",
-            "dosageAndAdministration": "以注射用水或適當稀釋液加入用力振搖溶解後行皮下或肌肉注射。\n豬：每日每公斤體重注射本劑10~20mg。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師(佐)監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑加入注射用水或稀釋液，須在8小時內用完，且不宜放置冰箱冷藏。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "停藥期：豬7日。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本劑請貯存於陰涼處。"
-                }
-            ],
-            "packaging": "15gm",
-            "animals": [
-                "Swine"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12104"
-        },
-        {
-            "id": "40",
-            "name": "AMPICIN-G Inj.",
-            "alternativeName": "長效安黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 04110",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Ampicillin Sodium",
-                    "amount": "17.5gm(pot.)"
-                },
-                {
-                    "name": "Glucosamine HCl",
-                    "amount": "7.5gm"
-                }
-            ],
-            "indications": "豬、雞、Turkey（不含產蛋中之蛋雞）：治療急慢性豬丹毒、葡萄球菌症、螺旋體菌症、肺炎球菌症、皮膚感染症、化膿性球菌症、腦炎及其他細菌感染症。",
-            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量\n豬：15~20mg。\n雞、Turkey(不含產蛋中之蛋雞)：20~30mg。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師(佐)監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：5日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本品應置於陰暗處。"
-                }
-            ],
-            "packaging": "25gm",
-            "animals": [
-                "Chicken",
-                "Turkey"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2758"
-        },
-        {
-            "id": "41",
-            "name": "AMPICIN-G Inj.",
-            "alternativeName": "長效安黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 04110",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Ampicillin Sodium",
-                    "amount": "21.0gm(pot.)"
-                },
-                {
-                    "name": "Glucosamine HCl",
-                    "amount": "9.0gm"
-                }
-            ],
-            "indications": "豬、雞、Turkey（不含產蛋中之蛋雞）：治療急慢性豬丹毒、葡萄球菌症、螺旋體菌症、肺炎球菌症、皮膚感染症、化膿性球菌症、腦炎及其他細菌感染症。",
-            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量\n豬：15~20mg。\n雞、Turkey(不含產蛋中之蛋雞)：20~30mg。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師(佐)監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：5日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本品應置於陰暗處。"
-                }
-            ],
-            "packaging": "30gm",
-            "animals": [
-                "Swine",
-                "Chicken",
-                "Turkey"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2758"
-        },
-        {
-            "id": "42",
-            "name": "AMPIDICLOX Inj.",
-            "alternativeName": "博效黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 04676",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Ampicillin Sodium",
-                    "amount": "6.25gm(pot.)"
-                },
-                {
-                    "name": "Dicloxacillin Sodium",
-                    "amount": "3.125gm(pot.)"
-                },
-                {
-                    "name": "Glucosamine",
-                    "amount": "3.125gm"
-                }
-            ],
-            "indications": "Livestock、雞、Turkey（不含產蛋中之蛋雞）：治療葡萄球菌症、慢性呼吸器病(CRD)、傳染性鼻炎、肺炎、大腸桿菌及其它呼吸道感染症。",
-            "dosageAndAdministration": "將本品以注射用水溶解後行肌肉注射，按每公斤體重注射劑量：\n雞、Turkey（不含產蛋中之蛋雞）：15～25mg\nLivestock：10～15mg",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本品應置於陰暗處。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：5日"
-                },
-                {
-                    "id": "3",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
-                }
-            ],
-            "packaging": "12.5gm",
-            "animals": [
-                "Chicken",
-                "Turkey",
-                "Livestock"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3142"
-        },
-        {
-            "id": "43",
-            "name": "AMPIDICLOX Inj.",
-            "alternativeName": "博效黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 04676",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Ampicillin Sodium",
-                    "amount": "12.5gm(pot.)"
-                },
-                {
-                    "name": "Dicloxacillin Sodium",
-                    "amount": "6.25gm(pot.)"
-                },
-                {
-                    "name": "Glucosamine",
-                    "amount": "6.25gm"
-                }
-            ],
-            "indications": "Livestock、雞、Turkey（不含產蛋中之蛋雞）：治療葡萄球菌症、慢性呼吸器病(CRD)、傳染性鼻炎、肺炎、大腸桿菌及其它呼吸道感染症。",
-            "dosageAndAdministration": "將本品以注射用水溶解後行肌肉注射，按每公斤體重注射劑量：\n雞、Turkey（不含產蛋中之蛋雞）：15～25mg\nLivestock：10～15mg",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本品應置於陰暗處。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：5日"
-                },
-                {
-                    "id": "3",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
-                }
-            ],
-            "packaging": "25gm",
-            "animals": [
-                "Chicken",
-                "Turkey",
-                "Livestock"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3142"
-        },
-        {
-            "id": "44",
-            "name": "AMOCILLIN Inj.",
-            "alternativeName": "安復西林針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 08433",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Amoxicillin Trihydrate Micronized",
-                    "amount": "15gm(pot.)"
-                }
-            ],
-            "indications": "豬：治療細菌性肺炎（嗜血桿菌性肺炎）、子宮炎、乳房炎、無乳症候群(MMA)、豬丹毒、大腸桿菌症、沙氏桿菌症及一般化膿症。 \n牛：治療細菌性肺炎、子宮炎、乳房炎、無乳症候群(MMA)、大腸桿菌症、沙氏桿菌症及一般化膿症。",
-            "dosageAndAdministration": "以注射用水或適當稀釋液加入用力振搖均勻後行肌肉注射。\n豬、牛：每日每公斤體重注射本劑7mg，連續使用3～5天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑加入注射用水或稀釋液，須在12小時內用完，且不得放置冰箱冷藏。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "停藥期：豬14日／牛乳48小時／牛21日。本劑不可連續使用超過7日。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "使用本劑偶會發生過敏症狀，使用前宜先施行反應試驗，陽性反應者避免使用。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "投本劑偶會發生局部作用。"
-                },
-                {
-                    "id": "6",
-                    "precaution": "本劑請儲存於陰涼處。"
-                }
-            ],
-            "packaging": "15gm",
-            "animals": [
-                "Swine",
-                "Cattle"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/130"
-        },
-        {
-            "id": "45",
-            "name": "AMOCILLIN Inj.",
-            "alternativeName": "安復西林針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 08433",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Amoxicillin Trihydrate Micronized",
-                    "amount": "30gm(pot.)"
-                }
-            ],
-            "indications": "豬：治療細菌性肺炎（嗜血桿菌性肺炎）、子宮炎、乳房炎、無乳症候群(MMA)、豬丹毒、大腸桿菌症、沙氏桿菌症及一般化膿症。 \n牛：治療細菌性肺炎、子宮炎、乳房炎、無乳症候群(MMA)、大腸桿菌症、沙氏桿菌症及一般化膿症。",
-            "dosageAndAdministration": "以注射用水或適當稀釋液加入用力振搖均勻後行肌肉注射。\n豬、牛：每日每公斤體重注射本劑7mg，連續使用3～5天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑加入注射用水或稀釋液，須在12小時內用完，且不得放置冰箱冷藏。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "停藥期：豬14日、牛乳48小時、牛21日。本劑不可連續使用超過7日。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "使用本劑偶會發生過敏症狀，使用前宜先施行反應試驗，陽性反應者避免使用。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "投本劑偶會發生局部作用。"
-                },
-                {
-                    "id": "6",
-                    "precaution": "本劑請儲存於陰涼處。"
-                }
-            ],
-            "packaging": "30gm",
-            "animals": [
-                "Swine",
-                "Cattle"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/130"
-        },
-        {
-            "id": "46",
-            "name": "KANAMYCIN Inj.",
-            "alternativeName": "聯華 康黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 02434",
-            "ingredientsNote": "Each Vial Contains:",
-            "mainIngredients": [
-                {
-                    "name": "Kanamycin Sulfate",
-                    "amount": "12.5gm(pot.)"
-                }
-            ],
-            "indications": "牛、羊、豬：治療細菌性肺炎、細菌性下痢症、乳房炎。\n雞、Turkey（不含產蛋中之蛋雞）：治療慢性呼吸器病、傳染性鼻炎。",
-            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量：\n牛：5～10mg\n豬、羊：15〜20mg\n雞、Turkey（不含產蛋中之蛋雞）：25mg",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本品應置於暗處。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "停藥期：牛、羊、豬30日／牛乳36小時／雞、Turkey（不含產蛋中之蛋雞）：14日"
-                }
-            ],
-            "packaging": "12.5gm",
-            "animals": [
-                "Cattle",
-                "Swine",
-                "Sheep & Goat",
-                "Chicken",
-                "Turkey"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1337"
-        },
-        {
-            "id": "47",
-            "name": "KANAMYCIN Inj.",
-            "alternativeName": "聯華 康黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 02434",
-            "ingredientsNote": "Each Vial Contains:",
-            "mainIngredients": [
-                {
-                    "name": "Kanamycin Sulfate",
-                    "amount": "25gm(pot.)"
-                }
-            ],
-            "indications": "牛、羊、豬：治療細菌性肺炎、細菌性下痢症、乳房炎。 \n雞、Turkey（不含產蛋中之蛋雞）：治療慢性呼吸器病、傳染性鼻炎。",
-            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量：\n牛：5～10mg\n豬、羊：15〜20mg\n雞、Turkey（不含產蛋中之蛋雞）：25mg",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本品應置於暗處。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "停藥期：牛、羊、豬30日／牛乳36小時／雞、Turkey（不含產蛋中之蛋雞）：14日"
-                }
-            ],
-            "packaging": "25gm",
-            "animals": [
-                "Cattle",
-                "Swine",
-                "Sheep & Goat",
-                "Chicken",
-                "Turkey"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1337"
-        },
-        {
-            "id": "48",
-            "name": "KANAMYCIN D INJECTION",
-            "alternativeName": "聯華 康黴素D針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 02436",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Kanamycin Sulfate",
-                    "amount": "5000mg(pot.)"
-                },
-                {
-                    "name": "Dexamethasone-21-Phosphate Sodium",
-                    "amount": "5000mcg"
-                }
-            ],
-            "indications": "牛、豬、羊：治療細菌性肺炎、細菌性下痢、乳房炎。 \n雞、Turkey（不含蛋雞）：治療慢性呼吸器病(CRD)、傳染性鼻炎。",
-            "dosageAndAdministration": "肌肉注射每公斤體重注射劑量：\n牛 : 5～10mg。\n豬、羊：15~20mg。\n雞、Turkey（不含蛋雞）：25mg。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本品應置於冷暗處"
-                },
-                {
-                    "id": "3",
-                    "precaution": "蛋雞不得使用。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "停藥期：牛、羊、豬:30日／牛乳：36小時／雞、Turkey（不含蛋雞）：14日"
-                }
-            ],
-            "packaging": "5gm",
-            "animals": [
-                "Cattle",
-                "Swine",
-                "Sheep & Goat",
-                "Chicken",
-                "Turkey"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1798"
-        },
-        {
-            "id": "49",
-            "name": "TYLOSIN STERILE Inj.",
-            "alternativeName": "泰靈黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 02413",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Tylosin Tartrate sterile",
-                    "amount": "25gm(pot.)"
-                }
-            ],
-            "indications": "Livestock：治療肺炎、丹毒、赤痢、關節炎、乳房炎。 \n雞、Turkey（不含蛋雞）：治療慢性呼吸器病(CRD)、傳染性鼻炎、滑膜炎、葡萄球菌症。",
-            "dosageAndAdministration": "肌肉注射，每公斤體重注射劑量：\nLivestock：5～22mg。\n雞、Turkey（不含蛋雞）：25～50mg。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "停藥期：5日。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "蛋雞不得使用。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本品應置於暗處。"
-                }
-            ],
-            "packaging": "25gm",
-            "animals": [
-                "Livestock",
-                "Chicken",
-                "Turkey"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1778"
-        },
-        {
-            "id": "50",
-            "name": "SPECTLIN Inj.",
-            "alternativeName": "速倍特靈針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 09653",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Lincomycin HCl",
-                    "amount": "10gm(pot.)"
-                },
-                {
-                    "name": "Spectinomycin Sulfate",
-                    "amount": "20gm(pot.)"
-                }
-            ],
-            "indications": "豬：治療葡萄球菌症、鏈球菌症、黴漿菌症、赤痢及對本劑具感受性之其它感染症。 \n雞（不含產蛋中之蛋雞）：治療葡萄球菌症、鏈球菌症、黴漿菌症及對本劑具感受性之其它感染症。",
-            "dosageAndAdministration": "以注射用水或適當稀釋液加入用力振搖溶解。\n豬：每日每公斤體重肌肉注射本劑15mg，連續使用3～7天。\n雞（不含產蛋中之蛋雞）：每日每公斤體重皮下注射本劑30mg，連續使用3天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑加入注射用水或稀釋液溶解，未使用完可放置冰箱冷藏，但不宜超過3天。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "停藥期：豬、雞21日。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本劑請儲存於陰涼處。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
-                }
-            ],
-            "packaging": "30gm/vial",
-            "animals": [
-                "Swine",
-                "Chicken"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28955"
-        },
-        {
-            "id": "51",
-            "name": "SPECTLIN Inj.",
-            "alternativeName": "速倍特靈針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 09653",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Lincomycin HCl",
-                    "amount": "15gm(pot.)"
-                },
-                {
-                    "name": "Spectinomycin Sulfate",
-                    "amount": "30gm(pot.)"
-                }
-            ],
-            "indications": "豬：治療葡萄球菌症、鏈球菌症、黴漿菌症、赤痢及對本劑具感受性之其它感染症。\n雞（不含產蛋中之蛋雞）：治療葡萄球菌症、鏈球菌症、黴漿菌症及對本劑具感受性之其它感染症。",
-            "dosageAndAdministration": "以注射用水或適當稀釋液加入用力振搖溶解。\n豬：每日每公斤體重肌肉注射本劑15mg，連續使用3~7天。\n雞（不含產蛋中之蛋雞）：每日每公斤體重皮下注射本劑30mg，連續使用3天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑加入注射用水或稀釋液溶解，未使用完可放置冰箱冷藏，但不宜超過3天。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "停藥期：豬、雞21日。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本劑請儲存於陰涼處。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
-                }
-            ],
-            "packaging": "45gm/vial",
-            "animals": [
-                "Swine",
-                "Chicken"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28955"
-        },
-        {
-            "id": "52",
-            "name": "CEFTIOFUR Inj.",
-            "alternativeName": "瀉涕伏針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 08772",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Ceftiofur Sodium",
-                    "amount": "4gm(pot.)"
-                }
-            ],
-            "indications": "牛、羊：治療溶血性、敗血性巴氏桿菌及牛睡眠性嗜血桿菌等引起之呼吸道感染症。\n豬：治療胸膜肺炎放線桿菌、敗血性巴氏桿菌、豬霍亂沙氏桿菌及豬鏈球菌第二型等引起之呼吸道感染症。\n一日齡雞、Turkey：控制大腸桿菌症。",
-            "dosageAndAdministration": "每gm加20ml注射用水且用力振搖溶解後，即每ml溶解後溶液約含50mg的Ceftiofur。\n牛、羊：每kg體重肌肉注射本劑1.1～2.2mg，每日一次，連續使用3～5日。\n豬：每kg體重肌肉注射本劑3~5mg，每日一次，連續使用3日。\n一日齡雞：每隻皮下注射本劑0.08～0.20mg。\n一日齡Turkey：每隻皮下注射本劑0.17~0.50mg。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑加入注射用水或稀釋液，須在12小時内用完，或放置2～8°C冰箱冷藏須在7天内用完，並避免陽光照射。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "停藥期：牛、羊、豬、雞、Turkey5日，使用於乳牛無需牛乳廢棄期。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本劑請貯存於2〜8°C冰箱冷藏。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "勿使用於對Penicillins、Cephalosporins過敏的動物。"
-                },
-                {
-                    "id": "6",
-                    "precaution": "請勿使用於人類，並置於兒童無法取得之處；另避免與皮膚或黏膜直接接觸，以免發生過敏反應，若出現皮膚發疹、呼吸困難時請找醫生診治。"
-                }
-            ],
-            "packaging": "4gm",
-            "animals": [
-                "Cattle",
-                "Sheep & Goat",
-                "Swine",
-                "Chicken",
-                "Turkey"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12257"
-        },
-        {
-            "id": "53",
-            "name": "CEFTIOFUR Inj.",
-            "alternativeName": "瀉涕伏針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 08772",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Ceftiofur Sodium",
-                    "amount": "10gm(pot.)"
-                }
-            ],
-            "indications": "牛、羊：治療溶血性、敗血性巴氏桿菌及牛睡眠性嗜血桿菌等引起之呼吸道感染症。\n豬：治療胸膜肺炎放線桿菌、敗血性巴氏桿菌、豬霍亂沙氏桿菌及豬鏈球菌第二型等引起之呼吸道感染症。\n一日齡雞、Turkey：控制大腸桿菌症。",
-            "dosageAndAdministration": "每gm加20ml注射用水且用力振搖溶解後，即每ml溶解後溶液約含50mg的Ceftiofur。\n牛、羊：每kg體重肌肉注射本劑1.1～2.2mg，每日一次，連續使用3～5日。\n豬：每kg體重肌肉注射本劑3~5mg，每日一次，連續使用3日。\n一日齡雞：每隻皮下注射本劑0.08～0.20mg。\n一日齡Turkey：每隻皮下注射本劑0.17~0.50mg。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑加入注射用水或稀釋液，須在12小時内用完，或放置2～8°C冰箱冷藏須在7天内用完，並避免陽光照射。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "停藥期：牛、羊、豬、雞、Turkey5日，使用於乳牛無需牛乳廢棄期。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本劑請貯存於2〜8°C冰箱冷藏。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "勿使用於對Penicillins、Cephalosporins過敏的動物。"
-                },
-                {
-                    "id": "6",
-                    "precaution": "請勿使用於人類，並置於兒童無法取得之處；另避免與皮膚或黏膜直接接觸，以免發生過敏反應，若出現皮膚發疹、呼吸困難時請找醫生診治。"
-                }
-            ],
-            "packaging": "10gm",
-            "animals": [
-                "Cattle",
-                "Sheep & Goat",
-                "Swine",
-                "Chicken",
-                "Turkey"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12257"
-        },
-        {
-            "id": "54",
-            "name": "CEFTIOFUR Inj.",
-            "alternativeName": "瀉涕伏針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 08772",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Ceftiofur Sodium",
-                    "amount": "25gm(pot.)"
-                }
-            ],
-            "indications": "牛、羊：治療溶血性、敗血性巴氏桿菌及牛睡眠性嗜血桿菌等引起之呼吸道感染症。\n豬：治療胸膜肺炎放線桿菌、敗血性巴氏桿菌、豬霍亂沙氏桿菌及豬鏈球菌第二型等引起之呼吸道感染症。\n一日齡雞、Turkey：控制大腸桿菌症。",
-            "dosageAndAdministration": "每gm加20ml注射用水且用力振搖溶解後，即每ml溶解後溶液約含50mg的Ceftiofur。\n牛、羊：每kg體重肌肉注射本劑1.1～2.2mg，每日一次，連續使用3～5日。\n豬：每kg體重肌肉注射本劑3~5mg，每日一次，連續使用3日。\n一日齡雞：每隻皮下注射本劑0.08～0.20mg。\n一日齡Turkey：每隻皮下注射本劑0.17~0.50mg。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑加入注射用水或稀釋液，須在12小時内用完，或放置2～8°C冰箱冷藏須在7天内用完，並避免陽光照射。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "停藥期：牛、羊、豬、雞、Turkey5日，使用於乳牛無需牛乳廢棄期。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本劑請貯存於2〜8°C冰箱冷藏。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "勿使用於對Penicillins、Cephalosporins過敏的動物。"
-                },
-                {
-                    "id": "6",
-                    "precaution": "請勿使用於人類，並置於兒童無法取得之處；另避免與皮膚或黏膜直接接觸，以免發生過敏反應，若出現皮膚發疹、呼吸困難時請找醫生診治。"
-                }
-            ],
-            "packaging": "25gm",
-            "animals": [
-                "Cattle",
-                "Sheep & Goat",
-                "Swine",
-                "Chicken",
-                "Turkey"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12257"
-        },
-        {
-            "id": "55",
-            "name": "CEPHAMYCIN Inj.",
-            "alternativeName": "雪華黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 08138",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Cephaloridine",
-                    "amount": "550mg(potency)"
-                }
-            ],
-            "indications": "犬、猫：治療肺炎、沙氏桿菌症、泌尿道感染症。",
-            "dosageAndAdministration": "將本品用注射用蒸餾水溶解液，按每公斤體重皮下或肌内注射11mg。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                }
-            ],
-            "packaging": "550mg",
-            "animals": [
-                "Dog",
-                "Cat"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3927"
-        },
-        {
-            "id": "56",
-            "name": "CEPHAMYCIN Inj.",
-            "alternativeName": "雪華黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 08138",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Cephaloridine",
-                    "amount": "5500mg(potency)"
-                }
-            ],
-            "indications": "犬、猫：治療肺炎、沙氏桿菌症、泌尿道感染症。",
-            "dosageAndAdministration": "將本品用注射用蒸餾水溶解液，按每公斤體重皮下或肌内注射11mg。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                }
-            ],
-            "packaging": "5500mg",
-            "animals": [
-                "Dog",
-                "Cat"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3927"
-        },
-        {
-            "id": "57",
-            "name": "Spectinomycin Inj.",
-            "alternativeName": "速靈黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 05631",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Spectinomycin",
-                    "amount": "5gm (力價)"
-                }
-            ],
-            "indications": "豬：治療腸炎、仔豬白痢。",
-            "dosageAndAdministration": "皮下或肌肉注射按每公斤體重注射5mg連用2～4天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：21日。"
-                }
-            ],
-            "packaging": "5gm",
-            "animals": [
-                "Swine"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
-        },
-        {
-            "id": "58",
-            "name": "Spectinomycin Inj.",
-            "alternativeName": "速靈黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 05631",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Spectinomycin",
-                    "amount": "12.5gm (力價)"
-                }
-            ],
-            "indications": "豬：治療腸炎、仔豬白痢。",
-            "dosageAndAdministration": "皮下或肌肉注射按每公斤體重注射5mg連用2～4天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：21日。"
-                }
-            ],
-            "packaging": "12.5gm",
-            "animals": [
-                "Swine"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
-        },
-        {
-            "id": "59",
-            "name": "Spectinomycin Inj.",
-            "alternativeName": "速靈黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 05631",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Spectinomycin",
-                    "amount": "15gm (力價)"
-                }
-            ],
-            "indications": "豬：治療腸炎、仔豬白痢。",
-            "dosageAndAdministration": "皮下或肌肉注射按每公斤體重注射5mg連用2～4天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：21日。"
-                }
-            ],
-            "packaging": "15gm",
-            "animals": [
-                "Swine"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
-        },
-        {
-            "id": "60",
-            "name": "Spectinomycin Inj.",
-            "alternativeName": "速靈黴素針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 05631",
-            "ingredientsNote": "Each vial contains:",
-            "mainIngredients": [
-                {
-                    "name": "Spectinomycin",
-                    "amount": "25gm (力價)"
-                }
-            ],
-            "indications": "豬：治療腸炎、仔豬白痢。",
-            "dosageAndAdministration": "皮下或肌肉注射按每公斤體重注射5mg連用2～4天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：21日。"
-                }
-            ],
-            "packaging": "25gm",
-            "animals": [
-                "Swine"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
-        },
-        {
-            "id": "61",
-            "name": "05616",
-            "alternativeName": "聯華營養針",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 05616",
-            "ingredientsNote": "Each 500 ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Dextrose",
-                    "amount": "25gm"
-                },
-                {
-                    "name": "Water for injection",
-                    "amount": "O.S."
-                }
-            ],
-            "indications": "豬及雞：治療肝臟疾病解毒。增進營養、產前產後營養補給、酸中毒、低血糖症。",
-            "dosageAndAdministration": "静脈注射、皮下注射或腹腔注射，注射劑量：大豬40～100ml、小豬10～20ml、雞0.5～3ml。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                }
-            ],
-            "packaging": "500ml",
-            "animals": [
-                "Swine",
-                "Chicken"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3934"
-        },
-        {
-            "id": "62",
-            "name": "SPECTINOMYCIN Inj.",
-            "alternativeName": "速靈黴素",
-            "type": "Dry Powder Injections & Suspensions",
-            "medicineCode": "No. 05634",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Spectinomycin",
-                    "amount": "25mg(pot.)"
-                },
-                {
-                    "name": "Water for injection",
-                    "amount": "q.s."
-                }
-            ],
-            "indications": "豬：治療腸炎、仔豬白痢。",
-            "dosageAndAdministration": "按每公斤體重肌肉或皮下注射0.3～0.4ml，連用2～3天",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：21日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "請將本品置於冷暗處。"
-                }
-            ],
-            "packaging": "100ml",
-            "animals": [
-                "Swine"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3956"
-        },
-        {
-            "id": "63",
-            "name": "phenazathionium",
-            "alternativeName": "藍特淨",
-            "type": "Disinfectants (External Use)",
-            "medicineCode": "No. 02455",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Alkyldimethylbenzylammonium Chloride",
-                    "amount": "20%"
-                },
-                {
-                    "name": "3,7-Bis(dimethylamino)-phenzathionium Chloride",
-                    "amount": "0.005%"
-                }
-            ],
-            "indications": "家禽流行性感冒病毒、新城病病毒、Livestock及家禽皮膚、畜舍、飼養器具、工作器具及乳房之消毒。",
-            "dosageAndAdministration": "一般創傷、皮膚黏膜消毒、手術前皮膚消毒：以1,000～1,500倍稀釋液擦拭消毒。\n畜舍、雞舍、雞體、畜體、飼料倉庫消毒：以500～700倍稀釋液撒布、噴霧或擦拭消毒。\n給水器、給餌器、孵卵器、育雛器消毒：以500～700倍稀釋液撒布、噴霧或擦拭消毒。\n種蛋殺菌消毒：以500～700倍稀釋液，並確保藥液溫度較蛋內部溫度高（通常45℃）浸漬約2分鐘，避免急冷乾燥之。\n踏槽、踏盤消毒：以300～500倍稀釋液，每2~5日或污濁時更換藥液。\n工作服、工作鞋、手術器具消毒：以500～700倍稀釋液洗淨、噴霧或擦拭消毒。\n乳房洗淨消毒：以500～1000倍稀釋液擦拭消毒。\n家禽流行性感冒病毒之消毒：以200倍稀釋液噴霧或擦拭消毒。\n新城病病毒之消毒：以400倍稀釋液噴霧或擦拭消毒。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "先用水洗滌消毒對象，如使用肥皂洗滌後應用水充分沖洗後始可使用本劑。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "溶於溫水中攪拌後使用。"
-                }
-            ],
-            "packaging": "1L/B 、5L/B 、18L/B、25L/B",
-            "animals": [],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1825"
-        },
-        {
-            "id": "64",
-            "name": "WINTOZINE 500",
-            "alternativeName": "穩特淨500",
-            "type": "Disinfectants (External Use)",
-            "medicineCode": "No. 08445",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Benzalkonium Chloride",
-                    "amount": "500mg"
-                }
-            ],
-            "indications": "禽畜舍、家禽流行性感冒、新城病、鰻池之消毒。",
-            "dosageAndAdministration": "黏膜消毒：以2,500～5,000倍稀釋液塗抹消毒。\n子宮沖洗：以2,500倍稀釋液沖洗。\n禽畜舍消毒：以2,000～2,500倍稀釋液噴霧消毒。\n家禽流行性感冒消毒：以250倍稀釋液噴霧消毒。\n新城病消毒：以500倍稀釋液噴霧消毒。\n鰻池消毒：每100噸池水使用本劑120ml，隔7天再消毒一次。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "使用時應避免濺到眼睛；不慎觸及時。請以大量清水沖洗後立即送醫處理。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑不可與肥皂混合用，須沖洗乾淨後再使用。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "本劑請貯存陰涼處且放置於孩童接觸不到的地方。"
-                }
-            ],
-            "packaging": "5L/B、18L/B",
-            "animals": [],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11793"
-        },
-        {
-            "id": "65",
-            "name": "BKB-S",
-            "alternativeName": "必克淨",
-            "type": "Disinfectants (External Use)",
-            "medicineCode": "No. 08015",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Didecyldimethylammonium Bromide",
-                    "amount": "500mg"
-                }
-            ],
-            "indications": "禽畜舍及設備器具清潔殺菌消毒、種豬配種前之全身消毒、種蛋消毒、家禽流行性感冒及新城病之消毒。",
-            "dosageAndAdministration": "控制傳染病：以2,000倍稀釋液噴霧消毒。\n一般消毒：以3,000倍稀釋液噴霧、噴灑或洗滌浸漬消毒。\n飲水系統消毒使用：10,000~20,000倍劑量。\n家禽流行性感冒消毒：以500倍稀釋液噴霧消毒。\n新城病消毒：以1000倍稀釋液噴霧消毒。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "使用時應避免濺到眼睛；不慎觸及時，請以大量清水沖洗後立即送醫處理。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑不可與肥皂混合使用，須沖洗乾淨後再使用。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "可視需要使用噴霧、噴灑或洗滌浸漬等方式，及增減用量。 "
-                }
-            ],
-            "packaging": "5L/B",
-            "animals": [],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/6699"
-        },
-        {
-            "id": "66",
-            "name": "POVIDINE 300",
-            "alternativeName": "普衛碘300",
-            "type": "Disinfectants (External Use)",
-            "medicineCode": "No. 08446",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Povidone Iodine",
-                    "amount": "300mg\n(Equivalent to available iodine 30mg)"
-                }
-            ],
-            "indications": "手術前後皮膚之消毒，創傷、燒傷、凍傷的治療，子宮內膜炎、陰道炎等之消毒治療，乳頭部位之洗滌消毒（預防乳房炎）、治療皮膚感染症。\n禽畜舍及各種器具之消毒。",
-            "dosageAndAdministration": "手術前後皮膚之消毒及皮膚感染症治療：以300倍稀釋液塗抹消毒。\n乳頭部位之洗滌消毒：以750倍稀釋液塗抹消毒。\n子宮、陰道之消毒：以400倍稀釋液沖洗消毒。\n禽畜舍及各種器皿：以400～1,000 倍稀釋液噴霧消毒。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "使用時應避免濺到眼睛；不慎觸及時，請以大量清水沖洗後立即送醫處理。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑不可與陽離子消毒劑或清潔劑混合使用。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "可視需要使用噴霧、噴灑或洗滌浸漬等方式，及增減用量。 "
-                }
-            ],
-            "packaging": "1L/B、5L/B",
-            "animals": [],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11794"
-        },
-        {
-            "id": "67",
-            "name": "UTOZINE 250",
-            "alternativeName": "優特淨250",
-            "type": "Disinfectants (External Use)",
-            "medicineCode": "No. 09596",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Glutaraldehyde",
-                    "amount": "150mg"
-                },
-                {
-                    "name": "CoCo Benzy Dimetyl Ammonium Choride",
-                    "amount": "100mg"
-                }
-            ],
-            "indications": "禽畜舍殺菌、消毒。",
-            "dosageAndAdministration": "一般性定期消毒：稀釋150～300倍。\n\u3000(a)無縫隙表面：每平方公尺噴灑100mL。\n\u3000(b)有縫隙表面：每平方公尺噴灑300mL。\n疾病爆發或流行時：稀釋50～100倍。\n飲水器消毒：稀釋300倍。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "使請貯存於15C～30C陰暗處，並避免日曬。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "請勿吞食，避免吸入。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "皮膚接觸可能會產生過敏。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "施用者請穿著適當之保護衣、手套及護面（眼）用具。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "若有下列情形，請依指示處置並盡速送醫：\n(a)不慎吞食，請喝下大量牛乳或清水，切勿催吐。\n(b)不慎接觸到皮膚或眼睛，請以大量清水沖洗15分鐘"
-                },
-                {
-                    "id": "6",
-                    "precaution": "請在通風良好之場所使用本劑。"
-                }
-            ],
-            "packaging": "5L",
-            "animals": [],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28811"
-        },
-        {
-            "id": "68",
-            "name": "L.C.N INJECTION",
-            "alternativeName": "聯華 立可安",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 07601",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Lincomycin HCI",
-                    "amount": "50mg(pot.)"
-                },
-                {
-                    "name": "Spectinomycin HCI",
-                    "amount": "100mg(pot.)"
-                }
-            ],
-            "indications": "豬：治療傳染性關節炎、大腸桿菌症、黴漿菌性肺炎、與嗜血桿菌性肺炎。\n雞與Turkey（不含產蛋中之蛋雞）：治療慢性呼吸器病、複合性慢性呼吸器病、家禽霍亂與葡萄球菌症。\n犬：治療呼吸道感染、皮膚病、尿路感染以及續發性細菌性感染。",
-            "dosageAndAdministration": "豬：每10公斤體重肌肉注射本品1ml，每天一次，依需要注射3～7天。\n雞及Turkey（不含產蛋中之蛋雞）：每0.5公斤體重0.1ml，每天一次，連續注射3天。\n犬：每5公斤體重肌肉注射本品1ml，每天一次，可達21天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：21日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本劑請貯存於陰涼避光處。"
-                }
-            ],
-            "packaging": "100ml",
-            "animals": [
-                "Swine",
-                "Chicken",
-                "Turkey",
-                "Dog"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/6095"
-        },
-        {
-            "id": "69",
-            "name": "DECADIN Inj.",
-            "alternativeName": "聯華 立刻靈 注",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 04770",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Dexamethasone-21-Sodium phosphate",
-                    "amount": "1mg"
-                }
-            ],
-            "indications": "牛、馬、豬、雞、Turkey（不含蛋雞）：產前、產後跛腳、急慢性乳房炎、子宮炎、肺炎、氣管炎、喘咳、關節炎、濕疹及其他副腎皮質賀爾蒙適應症。",
-            "dosageAndAdministration": "牛、馬：10～20ml。\n豬：5～10ml。\n雞、Turkey (不含蛋雞)：0.5～2ml。\n行肌肉或皮下注射。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "蛋雞不得使用。"
-                }
-            ],
-            "packaging": "100ml",
-            "animals": [
-                "Cattle",
-                "Horse",
-                "Swine",
-                "Chicken",
-                "Turkey"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3184"
-        },
-        {
-            "id": "70",
-            "name": "LINCO 300 Inj.",
-            "alternativeName": "聯華 林可300針",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 09645",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Lincomycin HCI",
-                    "amount": "300mg(pot.)"
-                }
-            ],
-            "indications": "犬、貓：治療對本劑具感受性細菌引起之肺炎、氣管炎、腦膜炎。\n雞（不含產蛋中之蛋雞）：治療慢性呼吸器病、傳染性鼻炎。\n豬： 治療對本劑具感受性細菌引起之肺炎、氣管炎、腦膜炎、放線桿菌症。",
-            "dosageAndAdministration": "每公斤體重注射本劑0.03～0.06ml，依症狀增減之，每日一次行肌肉或靜脈注射。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑不可與紅黴素同時使用。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "貓使用本劑可能會發生嘔吐。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "豬使用本劑可能會發生軟便、下痢或肛門腫脹。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "停藥期：7日。"
-                },
-                {
-                    "id": "6",
-                    "precaution": "本劑請貯存於陰涼處。"
-                },
-                {
-                    "id": "7",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
-                }
-            ],
-            "packaging": "100ml",
-            "animals": [
-                "Dog",
-                "Cat",
-                "Chicken",
-                "Swine"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28935"
-        },
-        {
-            "id": "71",
-            "name": "ANTICOUGH Inj.",
-            "alternativeName": "咳喘寧針",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 08930",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Chlorpheniramine Maleate",
-                    "amount": "2.5mg"
-                },
-                {
-                    "name": "DL-Methylephedrine HCI",
-                    "amount": "20mg"
-                },
-                {
-                    "name": "Sulpyrin",
-                    "amount": "150mg"
-                }
-            ],
-            "indications": "牛、馬、豬、羊、犬、貓：治療感冒、流行性感冒、支氣管炎、咽喉炎、鼻炎、咳嗽、喘息、肺炎、傷寒及其他疾病引起之發熱鎮痛均可使用。",
-            "dosageAndAdministration": "牛、馬：(大) 10～25ml、(小) 5～10ml。\n豬：(大) 5～10ml、(中) 2～5ml、(小) 0.5～2ml。\n羊、犬、貓： 1～5ml。\n每日1～2次，施皮下或肌肉注射、重症時配合化學療法使用效果佳。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：牛、豬、羊至少14日／牛乳及羊乳5日。"
-                }
-            ],
-            "packaging": "500ml、100ml",
-            "animals": [
-                "Cattle",
-                "Horse",
-                "Swine",
-                "Sheep & Goat",
-                "Dog",
-                "Cat"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12535"
-        },
-        {
-            "id": "72",
-            "name": "TYLOSIN V Inj.",
-            "alternativeName": "聯華 泰樂新V注",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 02441",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Tylosin",
-                    "amount": "25mg (pot.)"
-                },
-                {
-                    "name": "DL-Methylephedrine HCI",
-                    "amount": "20mg"
-                },
-                {
-                    "name": "Sulpyrin",
-                    "amount": "150mg"
-                }
-            ],
-            "indications": "牛：治療肺炎，運輸熱、腐蹄病、子宮炎。\n豬：治療流行性肺炎、赤痢症、丹毒。\n雞、Turkey（不含蛋雞）：治療慢性呼吸器病(CRD)、葡萄球菌症、鏈球菌症。",
-            "dosageAndAdministration": "皮下或肌肉注射每公斤體重注射劑量。\n牛：0.1～0.3ml、豬、羊：0.1～0.4ml，\n雞、Turkey（不含蛋雞）：1ml （四週齡以上雞才能使用）\n連用最多不可超過三天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：6日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "蛋雞不得使用。"
-                }
-            ],
-            "packaging": "100ml",
-            "animals": [
-                "Cattle",
-                "Swine",
-                "Chicken",
-                "Turkey"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1801"
-        },
-        {
-            "id": "73",
-            "name": "Tomegin 20 Inj.",
-            "alternativeName": "聯華 特滅菌 20注",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 04113",
-            "ingredientsNote": "Each 100ml Contains:",
-            "mainIngredients": [
-                {
-                    "name": "Sulfamonomethoxine Sodium",
-                    "amount": "20gm"
-                },
-                {
-                    "name": "Water for injection",
-                    "amount": "q.s."
-                }
-            ],
-            "indications": "雞、Turkey、鴨、鵝（不含產蛋中之蛋禽）：治療傳染性鼻炎、球蟲症、白冠病。\nLivestock：治療下痢症、弓蟲病、錐蟲病。",
-            "dosageAndAdministration": "皮下或肌肉注射，每公斤體重注射劑量\n雞、Turkey、鴨、鵝（不含產蛋中之蛋禽）：0.25～0.5ml。\nLivestock：0.15～0.25ml。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：5日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋禽不得使用。"
-                }
-            ],
-            "packaging": "100ml",
-            "animals": [
-                "Chicken",
-                "Turkey",
-                "Duck",
-                "Goose",
-                "Livestock"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2761"
-        },
-        {
-            "id": "74",
-            "name": "KANAMYCIN 100 Inj.",
-            "alternativeName": "聯華 康黴素 100針",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 09010",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Kanamycin Sulfate",
-                    "amount": "100mg(pot.)"
-                }
-            ],
-            "indications": "豬、牛、羊：治療細菌性肺炎、支氣管炎、呼吸道感染症、豬巴氏桿菌病、細菌性腸炎、仔豬白痢、赤痢、乳房炎、子宮炎、尿道感染症、化膿性疾病。\n雞、鴨（不含產蛋中之蛋禽）：治療家禽霍亂、傳染性鼻炎。",
-            "dosageAndAdministration": "每日一次行肌肉注射。\n豬、牛、羊：每kg體重注射本劑0.1～0.2ml。\n雞、鴨（不含產蛋中之蛋禽）：每kg體重注射本劑0.25～0.5ml。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：豬、牛、羊、雞、鴨7日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "本藥連續使用時，宜變更注射部位。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋禽不得使用。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "本劑請貯存於陰涼處。"
-                }
-            ],
-            "packaging": "100ml",
-            "animals": [
-                "Swine",
-                "Cattle",
-                "Sheep & Goat",
-                "Chicken",
-                "Duck"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12660"
-        },
-        {
-            "id": "75",
-            "name": "SULPYRIN 500 Inj.",
-            "alternativeName": "聯華 速必寧500針",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 08586",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Sulpyrine",
-                    "amount": "500mg"
-                }
-            ],
-            "indications": "牛、羊、豬：解熱、鎮痛。",
-            "dosageAndAdministration": "牛：每公斤體重皮下注射或肌肉注射 0.04ml。\n羊、豬：每公斤體重皮下注射或肌肉注射 0.02ml。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本劑不可與磺胺藥混合使用。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "本劑請貯存於陰涼乾燥處。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "停藥期：牛、羊、豬至少14日／牛乳、羊乳至少2日。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "本劑有催畸胎作用、懷孕動物不可使用。"
-                }
-            ],
-            "packaging": "100ml、600ml",
-            "animals": [
-                "Cattle",
-                "Sheep & Goat",
-                "Swine"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11977"
-        },
-        {
-            "id": "76",
-            "name": "SULPYRIN Inj.",
-            "alternativeName": "聯華 速必寧 注",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 04112",
-            "ingredientsNote": "Each 100ml Contains:",
-            "mainIngredients": [
-                {
-                    "name": "Sulpyrin",
-                    "amount": "20gm"
-                }
-            ],
-            "indications": "牛、馬、豬：解熱、鎮痛。",
-            "dosageAndAdministration": "牛、馬：50～100ml，豬：按體重每公斤0.3～0.5ml，行肌肉注射。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：牛、豬至少14日／牛乳至少3日。"
-                }
-            ],
-            "packaging": "100ml、500ml",
-            "animals": [
-                "Cattle",
-                "Sheep & Goat",
-                "Swine"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2759"
-        },
-        {
-            "id": "77",
-            "name": "FURONSAN Inj.",
-            "alternativeName": "復勞酸 注",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 02448",
-            "ingredientsNote": "Each ml Contains:",
-            "mainIngredients": [
-                {
-                    "name": "Glucuronic Acid",
-                    "amount": "10mg"
-                },
-                {
-                    "name": "DL-methionine",
-                    "amount": "10mg"
-                },
-                {
-                    "name": "Riboflavin-5-phosphate sodium",
-                    "amount": "0.25mg"
-                },
-                {
-                    "name": "Vitamin pp",
-                    "amount": "10mg"
-                },
-                {
-                    "name": "Vitamin B₁",
-                    "amount": "10mg"
-                },
-                {
-                    "name": "Vitamin B₆",
-                    "amount": "1mg"
-                },
-                {
-                    "name": "Vitamin B₁₂",
-                    "amount": "10mcg"
-                },
-                {
-                    "name": "Dextrase",
-                    "amount": "50mg"
-                }
-            ],
-            "indications": "強肝、畜禽緊迫症、運搬移動解勞、增強抗病力、促進食慾、營養補給、肝硬化、食物或藥物中毒、疾病之輔助療法。",
-            "dosageAndAdministration": "靜脈或肌肉注射。按每公斤體重0.2～0.5ml。視病症適宜增減之。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本品應置於暗處。抽取時請無菌操作。"
-                }
-            ],
-            "packaging": "100ml",
-            "animals": [],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1817"
-        },
-        {
-            "id": "78",
-            "name": "ENROTRIL 100 Inj.",
-            "alternativeName": "聯華 愛樂利 100針",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 08844",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Enrofloxacin",
-                    "amount": "100mg"
-                }
-            ],
-            "indications": "小牛（體重250kg以下）、豬：治療由革蘭氏陰性菌、革蘭氏陽性菌及黴漿菌等引起之感染症。",
-            "dosageAndAdministration": "小牛行皮下注射、豬行肌肉注射。\n治療一般感染症，每100kg體重注射本劑2.5ml，連續使用3天。\n治療嚴重呼吸道感染症，每100kg體重注射本劑5.0ml，連續使用3天。\n治療沙氏桿菌感染症，每100kg體重注射本劑5.0ml，連續使用5天。\n治療母豬MMA症候群，每100kg體重注射本劑2.5ml，連續使用1～2天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：豬9日／小牛7日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "馬禁止使用。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本劑請貯存於陰涼處。"
-                }
-            ],
-            "packaging": "500ml",
-            "animals": [
-                "Cattle",
-                "Swine"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12390"
-        },
-        {
-            "id": "79",
-            "name": "VILICAN  INJECTION",
-            "alternativeName": "聯華 維力康 注",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 02449",
-            "ingredientsNote": "Each 100ml Contains:",
-            "mainIngredients": [
-                {
-                    "name": "Thiamine HCI",
-                    "amount": "1000mg"
-                },
-                {
-                    "name": "Vitamin pp",
-                    "amount": "1000mg"
-                },
-                {
-                    "name": "Pyridoxine HCI",
-                    "amount": "50mg"
-                },
-                {
-                    "name": "Riboflavin-5-phosphate Sodium",
-                    "amount": "20mg"
-                },
-                {
-                    "name": "Vitamin B₁₂",
-                    "amount": "500mcg"
-                },
-                {
-                    "name": "DL-methionine",
-                    "amount": "1000mg"
-                },
-                {
-                    "name": "Dextrose",
-                    "amount": "5000mg"
-                }
-            ],
-            "indications": "營養障礙、中毒、食慾不振、產後、病中或病後之滋補。",
-            "dosageAndAdministration": "行靜脈、肌肉或皮下注射，視病症及輕症宜增減之，一般按每公斤體重0.25～0.5ml。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本品應置於冷暗處。抽取時請無菌操作。"
-                }
-            ],
-            "packaging": "100ml、500ml",
-            "animals": [],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1818"
-        },
-        {
-            "id": "80",
-            "name": "PITOCIN  INJECTION",
-            "alternativeName": "樂胎速 注",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 02465",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Pitocin",
-                    "amount": "10 I.U."
-                }
-            ],
-            "indications": "分娩誘導、子宮內崩壞物排出，促進泌乳，乳房炎輔助治療。",
-            "dosageAndAdministration": "肌肉或皮下注射。每公斤體重注射劑量：\n牛馬：10ml。\n羊豬：3～5ml。\n犬貓：0.5～3ml。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本品應置於暗處。"
-                }
-            ],
-            "packaging": "20ml",
-            "animals": [
-                "Cattle",
-                "Horse",
-                "Sheep & Goat",
-                "Swine",
-                "Dog",
-                "Cat"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1834"
-        },
-        {
-            "id": "81",
-            "name": "PREDONINE S inj.",
-            "alternativeName": "百炎通 注",
-            "type": "Injectable & Sterile Suspensions",
-            "medicineCode": "No. 05612",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "prednisolone Acetate",
-                    "amount": "4mg"
-                },
-                {
-                    "name": "suspending agent.",
-                    "amount": "q.s."
-                }
-            ],
-            "indications": "牛、豬：治療急慢性乳房炎、 關節炎、子宮炎、肺炎、過敏皮膚炎。",
-            "dosageAndAdministration": "牛、豬：按每公斤體重肌肉注射0.2ml。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本處方藥品限由執業獸醫師（佐）監督之下使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：7日。"
-                }
-            ],
-            "packaging": "100ml",
-            "animals": [
-                "Cattle",
-                "Swine"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3929"
-        },
-        {
-            "id": "82",
-            "name": "LH POULTRIN",
-            "alternativeName": "聯華 好飼佳",
-            "type": "Others",
-            "medicineCode": "",
-            "ingredientsNote": "Each gm contains:",
-            "mainIngredients": [
-                {
-                    "name": "Pineapple Peel Extract",
-                    "amount": "200mg"
-                }
-            ],
-            "indications": "",
-            "dosageAndAdministration": "添加於家禽飲水或飼料中。\n1.平時促進消化：每噸飲水添加本品300～500gm，使用5～7天。\n2.緊迫、疾病或尿酸沈積時：每噸飲水添加本品1,000～1,500gm，使用3～5天。 \n3.出售前，減少失重或猝死：每噸飲水添加本品600～1,500gm，出售前3天開始使用。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本品屬於非藥品，具有保健增強免疫力功能，且無停藥期限制。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本品添加飲水中宜新鮮配置，須在12小時內使用完。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "抗生素配合本品使用，可增強抗生素療效。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本品請儲存於陰涼乾燥處。"
-                }
-            ],
-            "packaging": "1KG",
-            "animals": [
-                "家禽"
-            ],
-            "licenseUrl": ""
-        },
-        {
-            "id": "83",
-            "name": "LH HOTFREE",
-            "alternativeName": "聯華 好飼壯",
-            "type": "Others",
-            "medicineCode": "",
-            "ingredientsNote": "Each kg contains:",
-            "mainIngredients": [
-                {
-                    "name": "Pineapple Peel Extract",
-                    "amount": "50mg"
-                }
-            ],
-            "indications": "",
-            "dosageAndAdministration": "添加於家禽於飼料中混合均勻。\n1.促進食慾、改善飼料利用率、改善蛋殼品質、增加蛋重量及降低糞便氨排放量：每噸飼料添加本品1kg。\n2.緩解家禽之初產卵緊迫、保養輸卵管或種禽人工受精後的保養：每噸飼料添加本品1kg。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本品屬於非藥品，具有保健增強免疫力功能，且無停藥期限制。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "本品添加飲水中宜新鮮配置，須在12小時內使用完。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "本品請儲存於陰涼乾燥處。"
-                }
-            ],
-            "packaging": "1KG",
-            "animals": [
-                "家禽"
-            ],
-            "licenseUrl": ""
-        },
-        {
-            "id": "84",
-            "name": "LH POULTRONG 150",
-            "alternativeName": "聯華 禽壯150",
-            "type": "Others",
-            "medicineCode": "",
-            "ingredientsNote": "Each kg contains:",
-            "mainIngredients": [
-                {
-                    "name": "Herbs Extract",
-                    "amount": "150mg"
-                }
-            ],
-            "indications": "",
-            "dosageAndAdministration": "添加於家禽於飼料中混合均勻。\n1.促進食慾、改善飼料利用率、改善蛋殼品質、增加蛋重量及降低糞便氨排放量：每噸飼料添加本品1kg。\n2.緩解家禽之初產卵緊迫、保養輸卵管或種禽人工受精後的保養：每噸飼料添加本品1kg。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本品屬於非藥品，具有保健增強免疫力功能，且無停藥期限制。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "Herbs Extract含葛縷子、小茴香、龍膽草、迷迭香、薄荷、橡樹皮、大蒜、洋蔥和丁香等草本萃取物。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "抗生素配合本品使用，可增強抗生素療效。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本品請儲存於陰涼乾燥處。"
-                }
-            ],
-            "packaging": "1KG",
-            "animals": [
-                "家禽"
-            ],
-            "licenseUrl": ""
-        },
-        {
-            "id": "85",
-            "name": "GENTAMICIN 50",
-            "alternativeName": "極大黴素50",
-            "type": "Oral Liquids",
-            "medicineCode": "No. 08798",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Gentamicin Sulfate",
-                    "amount": "50mg（p）"
-                }
-            ],
-            "indications": "豬：治療大腸桿菌症、豬赤痢。\n雞（不含產蛋中之蛋雞）：治療大腸桿菌症及沙氏桿菌症。",
-            "dosageAndAdministration": "豬：治療大腸桿菌症時每噸飲水添加本劑125ml（稀釋8,000倍）；治療豬赤痢時每噸飲水添加本劑250ml（稀釋4,000倍），連續使用3天。\n雞（不含產蛋中之蛋雞）：治療大腸桿菌症等引起之下痢、腸炎及其他複合感染時，每噸飲水添加本劑600ml。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：豬雞3日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "對本劑有過敏症狀之動物，禁止服用本劑。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時內使用完。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "本藥品請貯存於陰涼處。"
-                },
-                {
-                    "id": "6",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
-                }
-            ],
-            "packaging": "200ml",
-            "animals": [
-                "Swine",
-                "Chicken"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12314"
-        },
-        {
-            "id": "86",
-            "name": "FLORCIN 100",
-            "alternativeName": "復洛黴素100",
-            "type": "Oral Liquids",
-            "medicineCode": "No. 08809",
-            "ingredientsNote": "Each ml contains：",
-            "mainIngredients": [
-                {
-                    "name": "Florfenicol",
-                    "amount": "100mg"
-                }
-            ],
-            "indications": "豬：治療放線桿菌胸膜肺炎、巴氏桿菌肺炎、沙氏桿菌症、大腸桿菌症及其他具有感受性細菌引起之疾病。\n雞（不含產蛋中之蛋雞）：治療大腸桿菌症。\n鱸形目：治療對本劑具有感受性親水性產氣單胞菌群或螢光假單胞菌或愛德華氏菌或鏈球菌或發光桿菌之感染。\n鰻形目：治療對本劑具有感受性親水性產氣單胞菌群或螢光假單胞菌或愛德華氏菌或鰻魚敗血症假單胞菌之感染。\n鮭形目：治療對本劑具有感受性弧菌或鮭屬產氣單胞菌或親水性產氣單胞菌群之感染。",
-            "dosageAndAdministration": "豬：每日每公斤體重投予本劑0.01~0.02ml（相當於1~2mg力價），加入飲水混合後經口投與。\n雞（不含產蛋中之蛋雞）：每日每公斤體重投予本劑0.2ml（相當於20mg力價），加入雞隻每日飲水量1/4~1/2中混合均勻經口投與，連續使用5天。\n鱸形目、鰻形目、鮭形目：每日每公斤體重投予本劑0.1ml（相當於10mg力價），經口投與，連續使用3~5天。\n土番鴨（不含產蛋中之蛋鴨）：每公斤體重投予本劑0.4ml（相當於40mg力價），每天1次，連續使用5天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：豬3日；雞5日；鱸形目15日；鰻形目7日；鮭形目14日；土番鴨14日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "本藥品不可使用於懷孕中的動物。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "連續治療請勿超過7天；本劑不可連續使用7天以上。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "本藥品請貯存於陰涼處。"
-                },
-                {
-                    "id": "6",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋禽不得使用。"
-                }
-            ],
-            "packaging": "1L\n200ml",
-            "animals": [
-                "Swine",
-                "Chicken",
-                "Aquatic"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12326"
-        },
-        {
-            "id": "87",
-            "name": "TILMICOSIN 250",
-            "alternativeName": "聯華 泰順250",
-            "type": "Oral Liquids",
-            "medicineCode": "No. 08799",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Tilmicosin Phosphate",
-                    "amount": "250mg（p）"
-                }
-            ],
-            "indications": "豬：治療由豬肺炎黴漿菌、出血性敗血症巴氏桿菌、胸膜肺炎放線桿菌、化膿性放線桿菌及其他對Tilmicosin 具感受性細菌引起之豬呼吸道疾病。\n雞（不含產蛋中之蛋雞）：治療由鳥類黴漿菌及滑膜炎黴漿菌所引起之雞呼吸道疾病。",
-            "dosageAndAdministration": "豬：每100L飲水添加本劑80ml（相當於每L含200mg的Tilmicosin）連續使用5天。\n雞（不含產蛋中之蛋雞）：每噸飲水添加本劑300ml（相當於每L含75mg的Tilmicosin）連續使用3天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：豬14日、雞12日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "本劑不得使用於種用動物、馬及其他馬類等動物。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本藥品請貯存於陰涼處。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "雞16週齡以上不得使用，產蛋中之蛋雞不得使用。"
-                }
-            ],
-            "packaging": "1L",
-            "animals": [
-                "Swine",
-                "Chicken"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12315"
-        },
-        {
-            "id": "88",
-            "name": "TOLTRAZURIL 25",
-            "alternativeName": "聯華 剋球淨25",
-            "type": "Oral Liquids",
-            "medicineCode": "No. 08826",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Toltrazuril",
-                    "amount": "25mg"
-                }
-            ],
-            "indications": "雞（種禽）：治療球蟲感染症。",
-            "dosageAndAdministration": "雞（種禽）：每噸飲水添加本劑1L，連續使用2天；或每噸飲水添加本劑3L，每天8小時連續使用2天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本藥品由飼主、禽畜水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：雞（種禽）8日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "本劑推薦之停藥期為8日，較球蟲的生活史5天長，於停藥期間有可能再感染之慮。所以不宜用於產蛋期間之產蛋雞及將上市肉雞等球蟲感染症之治療，故不得使用於產蛋雞及肉雞。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "若不慎接觸本品，請立刻清洗。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "請勿將本品接觸食物，並置於兒童接觸不到處。"
-                },
-                {
-                    "id": "6",
-                    "precaution": "應避免陽光直接照射品劑。"
-                },
-                {
-                    "id": "7",
-                    "precaution": "本藥品請貯存於陰涼處。"
-                },
-                {
-                    "id": "8",
-                    "precaution": "蛋雞不得使用。"
-                }
-            ],
-            "packaging": "1L",
-            "animals": [
-                "Chicken"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12364"
-        },
-        {
-            "id": "89",
-            "name": "FLUMEQUINE 500S",
-            "alternativeName": "復美淨500S",
-            "type": "Oral Liquids",
-            "medicineCode": "No. 08899",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Flumequine",
-                    "amount": "500mg"
-                }
-            ],
-            "indications": "肉雞：治療大腸桿菌症、沙氏桿菌症、巴氏桿菌症。",
-            "dosageAndAdministration": "肉雞：每100kg體重使用本劑2.4ml添加飲水中（相當於每kg體重使用12mg的Flumequine有效成分），連續使用5天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：2日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "本藥品添加飲水中宜新鮮配製，須在12小時內使用完。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "請勿混合於固體飼料中使用。"
-                },
-                {
-                    "id": "5",
-                    "precaution": "本藥品請貯存於陰涼處。"
-                }
-            ],
-            "packaging": "1L",
-            "animals": [
-                "Chicken"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12479"
-        },
-        {
-            "id": "90",
-            "name": "COLISTIN 200S",
-            "alternativeName": "聯華 剋痢黴素200S",
-            "type": "Oral Liquids",
-            "medicineCode": "No. 08922",
-            "ingredientsNote": "Each ml contains:",
-            "mainIngredients": [
-                {
-                    "name": "Colistin Sulfate",
-                    "amount": "2,000,000IU"
-                }
-            ],
-            "indications": "雞、Turkey、豬、仔牛、仔羊：治療對COLISTIN 具感受性細菌（大腸桿菌、沙氏桿菌）所引起之消化道感染症。",
-            "dosageAndAdministration": "每噸飲水添加本劑500~1,000ml（1,000~2,000倍）。\n雞、Turkey：每日每公斤體重投予75,000IU，連續使用3~5天。\n豬、仔牛、仔羊：每日每公斤體重投予50,000IU，連續使用3~5天。",
-            "precautions": [
-                {
-                    "id": "1",
-                    "precaution": "本藥品由飼主、畜禽水產養殖業者或飼料廠依獸醫師（佐）處方使用。"
-                },
-                {
-                    "id": "2",
-                    "precaution": "停藥期：豬、牛、羊、雞、Turkey1日；蛋0日。"
-                },
-                {
-                    "id": "3",
-                    "precaution": "本藥品添加飲水中宜新鮮配製。須在12小時內使用完。"
-                },
-                {
-                    "id": "4",
-                    "precaution": "本藥品請貯存於陰涼處。"
-                }
-            ],
-            "packaging": "1L",
-            "animals": [
-                "Chicken",
-                "Turkey",
-                "Swine",
-                "Cattle",
-                "Sheep & Goat"
-            ],
-            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12520"
         }
     ],
     "contact": [
