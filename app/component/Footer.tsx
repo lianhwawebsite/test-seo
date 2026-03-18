@@ -18,7 +18,6 @@ export default function Footer() {
   const companyNameItem = currentData.footerItems.find((item) => item.name === "CompanyName");
   const companyEnglishNameItem = currentData.footerItems.find((item) => item.name === "CompanyAlterName");
   
-
   return (
     <footer className={`relative z-10 row-start-3 font-notoSansTC overflow-hidden flex items-center justify-center h-[205px] mt-auto md:h-[328px] w-full md:px-9 lg:px-24 ${isHome ? "bg-transparent":"bg-white"}`}>
       <Image src="/images/footer_pc.svg" alt="" fill sizes="(min-width: 768px) 100vw, 0px" className="object-top object-cover hidden md:block -z-10" priority />
