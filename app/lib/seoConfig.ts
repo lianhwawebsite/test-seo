@@ -99,4 +99,82 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
       ],
     },
   },
+  en: {
+    home: {
+      title: "Home｜Lian Hwa Pharmaceutical",
+      description: "Established in 1973, Lian Hua Pharmaceutical Co., Ltd. specializes in the research, development, and manufacturing of veterinary pharmaceuticals.",
+      alternates: { canonical: "/en" },
+      openGraph: {
+        type: "website",
+        siteName: "Lian Hwa Pharmaceutical Official Website",
+        locale: "en",
+        url: "/",
+        images: ["/images/OG_image.png"],
+      },
+      schema: [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Lian Hwa Pharmaceutical Official Website",
+          url: abs("/en"),
+          logo: abs("/images/favicon.ico"),
+        },
+      ],
+    },
+    products: {
+      title: "Products｜Lian Hwa Pharmaceutical",
+      description: "With over a hundred essential prescriptions and over-the-counter (OTC) medications, our product line encompasses a diverse range of dosage forms.",
+      alternates: { canonical: "/en/products" },
+      openGraph: {
+        type: "website",
+        siteName: "Lian Hwa Pharmaceutical Official Website",
+        locale: "en",
+        url: "/en/products",
+        images: ["/images/OG_image.png"],
+      },
+      schema: {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: abs("/en") },
+          { "@type": "ListItem", position: 2, name: "Products", item: abs("/en/products") },
+        ],
+      },
+    },
+    contact: {
+      title: "Contact Us｜Lian Hwa Pharmaceutical",
+      description: "Feel free to contact us! If you have any questions or suggestions, please feel free to reach out to us.",
+      alternates: { canonical: "/en/contact" },
+      openGraph: {
+        type: "website",
+        siteName: "Lian Hwa Pharmaceutical Official Website",
+        locale: "en",
+        url: "/en/contact",
+        images: ["/images/OG_image.png"],
+      },
+      schema: [
+        {
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          name: "Contact",
+          url: abs("/en/contact"),
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          name: "Lian Hwa Pharmaceutical Official Website",
+          url: abs("/en/"),
+          contactPoint: [
+            {
+              "@type": "ContactPoint",
+              telephone: "07-6963001",
+              contactType: "customer service",
+              areaServed: "TW",
+              availableLanguage: ["Chinese"],
+            },
+          ],
+        },
+      ],
+    },
+  },
 };

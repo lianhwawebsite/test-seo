@@ -1,14 +1,13 @@
 import Image from "next/image";
-import { useEffect, useState } from "react";
-import { CTAFunc } from "./CTA";
+import { useState } from "react";
 
-export default function Filter({ allTypes, allAnimals, setAnimals, setTypes, animals, types }: { allTypes: string[]; allAnimals: string[]; setAnimals: (v: string[]) => void; setTypes: (v: string[]) => void; animals: string[]; types: string[] }) {
+export default function Filter({ filterTitles, allTypes, allAnimals, setAnimals, setTypes, animals, types }: { filterTitles: string[]; allTypes: string[]; allAnimals: string[]; setAnimals: (v: string[]) => void; setTypes: (v: string[]) => void; animals: string[]; types: string[] }) {
   return (
     <section className="col-span-1 flex flex-col">
-      <DesktopFilterButton title={"產品種類"} items={allTypes} item={types} setItems={setTypes} />
+      <DesktopFilterButton title={filterTitles[0]} items={allTypes} item={types} setItems={setTypes} />
       <div className="hidden w-full h-9 md:block" />
-      <DesktopFilterButton title={"適用動物"} items={allAnimals} item={animals} setItems={setAnimals} />
-      <MobileFilterMenu allTypes={allTypes} allAnimals={allAnimals} types={types} animals={animals} setTypes={setTypes} setAnimals={setAnimals} />
+      <DesktopFilterButton title={filterTitles[1]} items={allAnimals} item={animals} setItems={setAnimals} />
+      <MobileFilterMenu filterTitles={filterTitles} allTypes={allTypes} allAnimals={allAnimals} types={types} animals={animals} setTypes={setTypes} setAnimals={setAnimals} />
     </section>
   );
 }
@@ -39,7 +38,7 @@ function DesktopFilterButton({ title, items, item, setItems }: { title: string; 
   );
 }
 
-function MobileFilterMenu({ allTypes, allAnimals, types, animals, setTypes, setAnimals }: { allTypes: string[]; allAnimals: string[]; types: string[]; animals: string[]; setTypes: (v: string[]) => void; setAnimals: (v: string[]) => void }) {
+function MobileFilterMenu({ filterTitles, allTypes, allAnimals, types, animals, setTypes, setAnimals }: { filterTitles: string[]; allTypes: string[]; allAnimals: string[]; types: string[]; animals: string[]; setTypes: (v: string[]) => void; setAnimals: (v: string[]) => void }) {
   const [openFilter, setOpenFilter] = useState<"type" | "animal" | null>(null);
 
   function FilterTitle({ title, onClick, isActive }: { title: string; onClick: () => void; isActive: boolean }) {
@@ -55,8 +54,8 @@ function MobileFilterMenu({ allTypes, allAnimals, types, animals, setTypes, setA
   return (
     <>
       <div className="flex items-center justify-start gap-4 h-full mr-3 md:hidden">
-        <FilterTitle title={"產品種類"} isActive={openFilter === "type"} onClick={() => setOpenFilter(openFilter === "type" ? null : "type")} />
-        <FilterTitle title={"適用動物"} isActive={openFilter === "animal"} onClick={() => setOpenFilter(openFilter === "animal" ? null : "animal")} />
+        <FilterTitle title={filterTitles[0]} isActive={openFilter === "type"} onClick={() => setOpenFilter(openFilter === "type" ? null : "type")} />
+        <FilterTitle title={filterTitles[1]} isActive={openFilter === "animal"} onClick={() => setOpenFilter(openFilter === "animal" ? null : "animal")} />
       </div>
       {openFilter === "type" && <MobileFilterButton items={allTypes} item={types} setItems={setTypes} />}
       {openFilter === "animal" && <MobileFilterButton items={allAnimals} item={animals} setItems={setAnimals} />}

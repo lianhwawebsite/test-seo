@@ -1,18 +1,22 @@
 "use client";
 import { usePathname } from "next/navigation";
-import data from "@/data.json";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment } from "react";
+import data from "@/data.json";
+import enData from "@/enData.json";
 
 export default function Footer() {
   const pathname = usePathname();
-  const isHome = pathname === "/";
+  const isEn = pathname.startsWith("/en");
+  const currentData = isEn ? enData : data;
+  
+  const isHome = pathname === "/" || "/en";
   const date = new Date();
   let year = date.getFullYear();
-  const homeItem = data.footerItems.find((item) => item.name === "首頁");
-  const companyNameItem = data.footerItems.find((item) => item.name === "公司名稱");
-  const companyEnglishNameItem = data.footerItems.find((item) => item.name === "公司英文名稱");
+  const homeItem = currentData.footerItems.find((item) => item.name === "Home");
+  const companyNameItem = currentData.footerItems.find((item) => item.name === "CompanyName");
+  const companyEnglishNameItem = currentData.footerItems.find((item) => item.name === "CompanyAlterName");
   return (
     <footer
       className={`relative z-10 row-start-3 font-notoSansTC overflow-hidden flex items-center justify-center h-[205px] mt-auto md:h-[328px] w-screen md:px-9 lg:px-24 
@@ -30,11 +34,11 @@ export default function Footer() {
         </div>
         <div className="order-1 md:order-2 relative flex flex-col gap-3.5 md:gap-7 md:justify-start md:items-start md:col-span-1 lg:col-span-1">
           <p className="footer-title">{companyNameItem?.label}</p>
-          <div className="w-full flex flex-col justify-start items-center gap-3 md:justify-between md:items-start md:gap-4.5">
-            {data?.footerItems.map((item) => {
+          <div className={`w-full flex flex-col justify-start items-center gap-3 md:justify-between md:items-start ${isEn ? `md:gap-2.6` : `md:gap-4`}`}>
+            {currentData?.footerItems.map((item) => {
               return (
                 <Fragment key={item.name}>
-                  {item.name !== "首頁" && item.name !== "公司英文名稱" && item.name !== "公司名稱" && (
+                  {item.name !== "Home" && item.name !== "CompanyAlterName" && item.name !== "CompanyName" && (
                     <p className="footer-text" key={item.name}>
                       {item.label}
                     </p>

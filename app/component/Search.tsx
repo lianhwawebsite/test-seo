@@ -9,7 +9,7 @@ type Product = {
   medicineCode: string;
 };
 
-export default function Search({ inputValue, setInputValue, updateURL }: { inputValue: string; setInputValue: (v: string) => void; updateURL: (customQuery?: string) => void }) {
+export default function Search({ lang, placeholder, inputValue, setInputValue, updateURL }: { lang: string; placeholder: string; inputValue: string; setInputValue: (v: string) => void; updateURL: (customQuery?: string) => void }) {
   const [suggestions, setSuggestions] = useState<Product[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [inputFocus, setInputFocus] = useState(false);
@@ -28,7 +28,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
     }
 
     const timer = setTimeout(() => {
-      fetch(`/api/products?q=${encodeURIComponent(inputValue)}`)
+      fetch(`/api/products?q=${encodeURIComponent(inputValue)}&lang=${lang}`)
         .then((res) => res.json())
         .then((data: Product[]) => setSuggestions(data));
     }, 300);
@@ -55,7 +55,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
         <label htmlFor="search" className="sr-only">
           Search
         </label>
-        <button type="submit" className="cursor-pointer ml-1.75 md:ml-2" aria-label="搜尋">
+        <button type="submit" className="cursor-pointer ml-1.75 md:ml-2" aria-label="search">
           <Image src="/images/search.svg" alt="" width={24} height={24} className="hidden md:w-[14px] md:block" />
           <Image src="/images/search_mo.svg" alt="" width={12} height={12} className="w-[12px] md:hidden" />
         </button>
@@ -63,7 +63,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
           <div className={`absolute h-[85%] w-[1px] bg-theme-6 top-1/2 -translate-y-[50%] left-0 ${inputFocus ? "opacity-0" : "opacity-100"}`}></div>
           <input
             className="block w-[90%] text-sm leading-[1.21] tracking-[0.3px] md:text-base md:leading-[1.26] md:tracking-[.5] pl-1 placeholder:text-theme-6 focus:outline-0"
-            placeholder="產品名稱或動物藥製字"
+            placeholder={placeholder}
             onChange={(e) => {
               setInputValue(e.target.value);
               setShowSuggestions(true);
@@ -75,7 +75,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
               setInputFocus(true);
             }}
             onBlur={(e) => {
-              e.target.placeholder = "產品名稱或動物藥製字";
+              e.target.placeholder = placeholder;
               setTimeout(() => {
                 setShowSuggestions(false);
                 setInputFocus(false);
@@ -83,7 +83,7 @@ export default function Search({ inputValue, setInputValue, updateURL }: { input
             }}
           />
         </div>
-        <button type="button" className={`absolute top-[50%] right-1 md:right-[8px] -translate-y-[50%] cursor-pointer ${inputFocus ? "block" : "hidden"}`} onClick={handleDelete} aria-label="清除搜尋">
+        <button type="button" className={`absolute top-[50%] right-1 md:right-[8px] -translate-y-[50%] cursor-pointer ${inputFocus ? "block" : "hidden"}`} onClick={handleDelete} aria-label="clear search">
           <Image src="/images/close_black.svg" alt="" width={24} height={24} className="w-[15px] h-[15px] md:w-fit md:h-fit" />
         </button>
 

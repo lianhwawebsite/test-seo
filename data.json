@@ -15,32 +15,32 @@
     ],
     "footerItems": [
         {
-            "name": "首頁",
+            "name": "Home",
             "label": "",
             "href": "/"
         },
         {
-            "name": "公司地址",
+            "name": "Address",
             "label": "〒 | 821012 高雄市路竹區中山路383號"
         },
         {
-            "name": "聯絡電話",
+            "name": "Tel",
             "label": "Tel | 07-6963001"
         },
         {
-            "name": "傳真號碼",
+            "name": "Fax",
             "label": "Fax | 07-6973457"
         },
         {
-            "name": "電子信箱",
+            "name": "Email",
             "label": "Mail | lh.ph@msa.hinet.net"
         },
         {
-            "name": "公司名稱",
+            "name": "CompanyName",
             "label": "聯華製藥廠股份有限公司"
         },
         {
-            "name": "公司英文名稱",
+            "name": "CompanyAlterName",
             "label": "LIAN HWA PHARMACEUTICAL CO., LTD"
         }
     ],
@@ -74,7 +74,7 @@
         {
             "id": "1",
             "name": "聯華牌新肉卵素 一四-六-二",
-            "englishName": "ROWLANSON 14-6-2",
+            "alternativeName": "ROWLANSON 14-6-2",
             "type": "補助飼料",
             "medicineCode": "臺省農畜飼製字第19159號",
             "ingredientsNote": "每公斤含量不低於",
@@ -194,7 +194,7 @@
         {
             "id": "2",
             "name": "聯華牌維他肥",
-            "englishName": "VITAFASOL",
+            "alternativeName": "VITAFASOL",
             "type": "補助飼料",
             "medicineCode": "臺省農畜飼製字第19152號",
             "ingredientsNote": "每公斤含量不低於",
@@ -322,7 +322,7 @@
         {
             "id": "3",
             "name": "聯華牌電解質 維康素",
-            "englishName": "Electrolytic VICOMS soluble",
+            "alternativeName": "Electrolytic VICOMS soluble",
             "type": "補助飼料",
             "medicineCode": "臺省農畜飼製字第19157號",
             "ingredientsNote": "每公斤含量不低於",
@@ -398,7 +398,7 @@
         {
             "id": "4",
             "name": "聯華牌 表衛命",
-            "englishName": "BIO-LACTOMINE",
+            "alternativeName": "BIO-LACTOMINE",
             "type": "補助飼料",
             "medicineCode": "臺省農畜飼添字第00027號",
             "ingredientsNote": "每公斤含量不低於",
@@ -431,7 +431,7 @@
         {
             "id": "5",
             "name": "聯華 嗽服寧粉",
-            "englishName": "COUGHTIN POWDER",
+            "alternativeName": "COUGHTIN POWDER",
             "type": "散劑",
             "medicineCode": "動物藥製字第02475號",
             "ingredientsNote": "Each gm contains:",
@@ -472,7 +472,7 @@
         {
             "id": "6",
             "name": "歐帝賜500",
-            "englishName": "OTC 500",
+            "alternativeName": "OTC 500",
             "type": "散劑",
             "medicineCode": "動物藥製字第08860號",
             "ingredientsNote": "Each gm contains:",
@@ -516,7 +516,7 @@
         {
             "id": "7",
             "name": "特安200",
-            "englishName": "DOXYLLIN 200",
+            "alternativeName": "DOXYLLIN 200",
             "type": "散劑",
             "medicineCode": "動物藥製字第09652號",
             "ingredientsNote": "Each gm contains:",
@@ -560,7 +560,7 @@
         {
             "id": "8",
             "name": "聯華 紅黴素",
-            "englishName": "ERYTHROMYCIN 500 Water Soluble Powder",
+            "alternativeName": "ERYTHROMYCIN 500 Water Soluble Powder",
             "type": "散劑",
             "medicineCode": "動物藥製字第08495號",
             "ingredientsNote": "Each gm contains:",
@@ -607,7 +607,7 @@
         {
             "id": "9",
             "name": "速效黴素 C",
-            "englishName": "ERYMYCIN C",
+            "alternativeName": "ERYMYCIN C",
             "type": "散劑",
             "medicineCode": "動物藥製字第08861號",
             "ingredientsNote": "Each gm contains:",
@@ -655,7 +655,7 @@
         {
             "id": "10",
             "name": "博效黴素粉",
-            "englishName": "AMPIDICLOX Pow.",
+            "alternativeName": "AMPIDICLOX Pow.",
             "type": "散劑",
             "medicineCode": "動物藥製字第04675號",
             "ingredientsNote": "Each gm Contains:",
@@ -703,7 +703,7 @@
         {
             "id": "11",
             "name": "安復西林200",
-            "englishName": "AMOCILLIN 200",
+            "alternativeName": "AMOCILLIN 200",
             "type": "散劑",
             "medicineCode": "動物藥製字第08429號",
             "ingredientsNote": "Each gm contains:",
@@ -747,7 +747,7 @@
         {
             "id": "12",
             "name": "安復西林500",
-            "englishName": "AMOCILLIN 500",
+            "alternativeName": "AMOCILLIN 500",
             "type": "散劑",
             "medicineCode": "動物藥製字第08833號",
             "ingredientsNote": "Each gm contains:",
@@ -795,7 +795,7 @@
         {
             "id": "13",
             "name": "雪華黴素散",
-            "englishName": "CEPHA Powder",
+            "alternativeName": "CEPHA Powder",
             "type": "散劑",
             "medicineCode": "動物藥製字第07602號",
             "ingredientsNote": "Each gm contains:",
@@ -839,7 +839,7 @@
         {
             "id": "14",
             "name": "聯華 必驅淨",
-            "englishName": "PEXIN",
+            "alternativeName": "PEXIN",
             "type": "散劑",
             "medicineCode": "動物藥製字第02479號",
             "ingredientsNote": "Each gm contains:",
@@ -880,7 +880,7 @@
         {
             "id": "15",
             "name": "聯華 速寧",
-            "englishName": "SULDIN",
+            "alternativeName": "SULDIN",
             "type": "散劑",
             "medicineCode": "動物藥製字第06757號",
             "ingredientsNote": "Each gm contains:",
@@ -923,7 +923,7 @@
         {
             "id": "16",
             "name": "聯華 滅克速",
-            "englishName": "MYCOSOL",
+            "alternativeName": "MYCOSOL",
             "type": "散劑",
             "medicineCode": "動物藥製字第04932號",
             "ingredientsNote": "Each gm contains:",
@@ -970,7 +970,7 @@
         {
             "id": "17",
             "name": "極大黴素150",
-            "englishName": "GENTAMICIN 150",
+            "alternativeName": "GENTAMICIN 150",
             "type": "散劑",
             "medicineCode": "動物藥製字第08521號",
             "ingredientsNote": "Each gm contains:",
@@ -1014,7 +1014,7 @@
         {
             "id": "18",
             "name": "復洛黴素100散",
-            "englishName": "FLORCIN 100 Pow.",
+            "alternativeName": "FLORCIN 100 Pow.",
             "type": "散劑",
             "medicineCode": "動物藥製字第09457號",
             "ingredientsNote": "Each gm contains:",
@@ -1054,7 +1054,7 @@
         {
             "id": "19",
             "name": "畜樂黴素250",
-            "englishName": "THIALORCIN 250",
+            "alternativeName": "THIALORCIN 250",
             "type": "散劑",
             "medicineCode": "動物藥製字第08500號",
             "ingredientsNote": "Each gm contains:",
@@ -1097,7 +1097,7 @@
         {
             "id": "20",
             "name": "復美淨500",
-            "englishName": "FLUMEQUINE 500",
+            "alternativeName": "FLUMEQUINE 500",
             "type": "散劑",
             "medicineCode": "動物藥製字第08883號",
             "ingredientsNote": "Each gm contains:",
@@ -1146,7 +1146,7 @@
         {
             "id": "21",
             "name": "複方白冠必克寧 K",
-            "englishName": "COMPLEX LEUKOPYCORIN K",
+            "alternativeName": "COMPLEX LEUKOPYCORIN K",
             "type": "散劑",
             "medicineCode": "動物藥製字第02452號",
             "ingredientsNote": "Each gm contains:",
@@ -1198,7 +1198,7 @@
         {
             "id": "22",
             "name": "新尅痢威靈粉",
-            "englishName": "COLIVARIN Soluble",
+            "alternativeName": "COLIVARIN Soluble",
             "type": "散劑",
             "medicineCode": "動物藥製字第02484號",
             "ingredientsNote": "Each gm contains:",
@@ -1251,7 +1251,7 @@
         {
             "id": "23",
             "name": "剋球寶可溶散",
-            "englishName": "COCCIDIOCIDESOL",
+            "alternativeName": "COCCIDIOCIDESOL",
             "type": "散劑",
             "medicineCode": "動物藥製字第02490號",
             "ingredientsNote": "Each gm contains:",
@@ -1308,7 +1308,7 @@
         {
             "id": "24",
             "name": "殺球",
-            "englishName": "CS3 Soluble",
+            "alternativeName": "CS3 Soluble",
             "type": "散劑",
             "medicineCode": "動物藥製字第02451號",
             "ingredientsNote": "Each gm contains:",
@@ -1360,7 +1360,7 @@
         {
             "id": "25",
             "name": "立剋球600",
-            "englishName": "LICOCCIDE 600",
+            "alternativeName": "LICOCCIDE 600",
             "type": "散劑",
             "medicineCode": "動物藥製字第08621號",
             "ingredientsNote": "Each gm contains:",
@@ -1404,7 +1404,7 @@
         {
             "id": "26",
             "name": "聯華 速康",
-            "englishName": "DIMETHOPRIM",
+            "alternativeName": "DIMETHOPRIM",
             "type": "散劑",
             "medicineCode": "動物藥製字第05635號",
             "ingredientsNote": "Each gm contains:",
@@ -1448,7 +1448,7 @@
         {
             "id": "27",
             "name": "除疾靈480",
-            "englishName": "TRIDIAZINE 480",
+            "alternativeName": "TRIDIAZINE 480",
             "type": "散劑",
             "medicineCode": "動物藥製字第08611號",
             "ingredientsNote": "Each gm contains:",
@@ -1498,7 +1498,7 @@
         {
             "id": "28",
             "name": "聯華 特滅菌500",
-            "englishName": "TOMEGIN 500",
+            "alternativeName": "TOMEGIN 500",
             "type": "散劑",
             "medicineCode": "動物藥製字第08939號",
             "ingredientsNote": "Each gm contains:",
@@ -1546,7 +1546,7 @@
         {
             "id": "29",
             "name": "聯華 泰樂新500",
-            "englishName": "TYLOSIN 500",
+            "alternativeName": "TYLOSIN 500",
             "type": "散劑",
             "medicineCode": "動物藥製字第09646號",
             "ingredientsNote": "Each gm contains:",
@@ -1586,7 +1586,7 @@
         {
             "id": "30",
             "name": "聯華 愛樂新50",
-            "englishName": "AIVALOSIN 50",
+            "alternativeName": "AIVALOSIN 50",
             "type": "散劑",
             "medicineCode": "動物藥製字第08749號",
             "ingredientsNote": "Each gm contains:",
@@ -1626,7 +1626,7 @@
         {
             "id": "31",
             "name": "聯華 泰順200",
-            "englishName": "TILMICOSIN 200",
+            "alternativeName": "TILMICOSIN 200",
             "type": "散劑",
             "medicineCode": "動物藥製字第08678號",
             "ingredientsNote": "Each gm contains:",
@@ -1665,7 +1665,7 @@
         {
             "id": "32",
             "name": "聯華 靈可新400",
-            "englishName": "LINCOCIN 400",
+            "alternativeName": "LINCOCIN 400",
             "type": "散劑",
             "medicineCode": "動物藥製字第08661號",
             "ingredientsNote": "Each gm contains:",
@@ -1729,7 +1729,7 @@
         {
             "id": "33",
             "name": "速倍特靈220",
-            "englishName": "SPECTLIN 220",
+            "alternativeName": "SPECTLIN 220",
             "type": "散劑",
             "medicineCode": "動物藥製字第08729號",
             "ingredientsNote": "Each gm contains:",
@@ -1772,7 +1772,7 @@
         {
             "id": "34",
             "name": "聯華 泰妙素200",
-            "englishName": "TIAMULIN 200",
+            "alternativeName": "TIAMULIN 200",
             "type": "散劑",
             "medicineCode": "動物藥製字第08710號",
             "ingredientsNote": "Each gm contains:",
@@ -1816,7 +1816,7 @@
         {
             "id": "35",
             "name": "聯華 剋痢黴素120",
-            "englishName": "COLISTIN 120",
+            "alternativeName": "COLISTIN 120",
             "type": "散劑",
             "medicineCode": "動物藥製字第08748號",
             "ingredientsNote": "Each gm contains:",
@@ -1862,7 +1862,7 @@
         {
             "id": "36",
             "name": "特安500",
-            "englishName": "DOXYLLIN 500",
+            "alternativeName": "DOXYLLIN 500",
             "type": "散劑",
             "medicineCode": "動物藥製字第09654號",
             "ingredientsNote": "Each gm contains:",
@@ -1905,7 +1905,7 @@
         {
             "id": "37",
             "name": "聯華 尿酸溶解",
-            "englishName": "URICOSURIC powder",
+            "alternativeName": "URICOSURIC powder",
             "type": "散劑",
             "medicineCode": "動物藥製字第05613號",
             "ingredientsNote": "Each kilogram contains:",
@@ -1941,7 +1941,7 @@
         {
             "id": "38",
             "name": "特安黴素",
-            "englishName": "DOXYCYCLINE",
+            "alternativeName": "DOXYCYCLINE",
             "type": "散劑",
             "medicineCode": "動物藥製字第05610號",
             "ingredientsNote": "Each kilogram contains:",
@@ -1976,7 +1976,7 @@
         {
             "id": "39",
             "name": "聯華 安比西寧針",
-            "englishName": "AMPICILLIN Inj.",
+            "alternativeName": "AMPICILLIN Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第08673號",
             "ingredientsNote": "Each vial contains:",
@@ -2015,7 +2015,7 @@
         {
             "id": "40",
             "name": "長效安黴素針",
-            "englishName": "AMPICIN-G Inj.",
+            "alternativeName": "AMPICIN-G Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第04110號",
             "ingredientsNote": "Each vial contains:",
@@ -2059,7 +2059,7 @@
         {
             "id": "41",
             "name": "長效安黴素針",
-            "englishName": "AMPICIN-G Inj.",
+            "alternativeName": "AMPICIN-G Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第04110號",
             "ingredientsNote": "Each vial contains:",
@@ -2104,7 +2104,7 @@
         {
             "id": "42",
             "name": "博效黴素針",
-            "englishName": "AMPIDICLOX Inj.",
+            "alternativeName": "AMPIDICLOX Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第04676號",
             "ingredientsNote": "Each vial contains:",
@@ -2153,7 +2153,7 @@
         {
             "id": "43",
             "name": "博效黴素針",
-            "englishName": "AMPIDICLOX Inj.",
+            "alternativeName": "AMPIDICLOX Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第04676號",
             "ingredientsNote": "Each vial contains:",
@@ -2202,7 +2202,7 @@
         {
             "id": "44",
             "name": "安復西林針",
-            "englishName": "AMOCILLIN Inj.",
+            "alternativeName": "AMOCILLIN Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第08433號",
             "ingredientsNote": "Each vial contains:",
@@ -2250,7 +2250,7 @@
         {
             "id": "45",
             "name": "安復西林針",
-            "englishName": "AMOCILLIN Inj.",
+            "alternativeName": "AMOCILLIN Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第08433號",
             "ingredientsNote": "Each vial contains:",
@@ -2298,7 +2298,7 @@
         {
             "id": "46",
             "name": "聯華 康黴素針",
-            "englishName": "KANAMYCIN Inj.",
+            "alternativeName": "KANAMYCIN Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第02434號",
             "ingredientsNote": "Each Vial Contains:",
@@ -2341,7 +2341,7 @@
         {
             "id": "47",
             "name": "聯華 康黴素針",
-            "englishName": "KANAMYCIN Inj.",
+            "alternativeName": "KANAMYCIN Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第02434號",
             "ingredientsNote": "Each Vial Contains:",
@@ -2384,7 +2384,7 @@
         {
             "id": "48",
             "name": "聯華 康黴素D針",
-            "englishName": "KANAMYCIN D INJECTION",
+            "alternativeName": "KANAMYCIN D INJECTION",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第02436號",
             "ingredientsNote": "Each vial contains:",
@@ -2431,7 +2431,7 @@
         {
             "id": "49",
             "name": "泰靈黴素針",
-            "englishName": "TYLOSIN STERILE Inj.",
+            "alternativeName": "TYLOSIN STERILE Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第02413號",
             "ingredientsNote": "Each vial contains:",
@@ -2472,7 +2472,7 @@
         {
             "id": "50",
             "name": "速倍特靈針",
-            "englishName": "SPECTLIN Inj.",
+            "alternativeName": "SPECTLIN Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第09653號",
             "ingredientsNote": "Each vial contains:",
@@ -2520,7 +2520,7 @@
         {
             "id": "51",
             "name": "速倍特靈針",
-            "englishName": "SPECTLIN Inj.",
+            "alternativeName": "SPECTLIN Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第09653號",
             "ingredientsNote": "Each vial contains:",
@@ -2568,7 +2568,7 @@
         {
             "id": "52",
             "name": "瀉涕伏針",
-            "englishName": "CEFTIOFUR Inj.",
+            "alternativeName": "CEFTIOFUR Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第08772號",
             "ingredientsNote": "Each vial contains:",
@@ -2619,7 +2619,7 @@
         {
             "id": "53",
             "name": "瀉涕伏針",
-            "englishName": "CEFTIOFUR Inj.",
+            "alternativeName": "CEFTIOFUR Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第08772號",
             "ingredientsNote": "Each vial contains:",
@@ -2670,7 +2670,7 @@
         {
             "id": "54",
             "name": "瀉涕伏針",
-            "englishName": "CEFTIOFUR Inj.",
+            "alternativeName": "CEFTIOFUR Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第08772號",
             "ingredientsNote": "Each vial contains:",
@@ -2721,7 +2721,7 @@
         {
             "id": "55",
             "name": "雪華黴素針",
-            "englishName": "CEPHAMYCIN Inj.",
+            "alternativeName": "CEPHAMYCIN Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第08138號",
             "ingredientsNote": "Each vial contains:",
@@ -2749,7 +2749,7 @@
         {
             "id": "56",
             "name": "雪華黴素針",
-            "englishName": "CEPHAMYCIN Inj.",
+            "alternativeName": "CEPHAMYCIN Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第08138號",
             "ingredientsNote": "Each vial contains:",
@@ -2777,7 +2777,7 @@
         {
             "id": "57",
             "name": "速靈黴素針",
-            "englishName": "Spectinomycin Inj.",
+            "alternativeName": "Spectinomycin Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第05631號",
             "ingredientsNote": "Each vial contains:",
@@ -2808,7 +2808,7 @@
         {
             "id": "58",
             "name": "速靈黴素針",
-            "englishName": "Spectinomycin Inj.",
+            "alternativeName": "Spectinomycin Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第05631號",
             "ingredientsNote": "Each vial contains:",
@@ -2839,7 +2839,7 @@
         {
             "id": "59",
             "name": "速靈黴素針",
-            "englishName": "Spectinomycin Inj.",
+            "alternativeName": "Spectinomycin Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第05631號",
             "ingredientsNote": "Each vial contains:",
@@ -2870,7 +2870,7 @@
         {
             "id": "60",
             "name": "速靈黴素針",
-            "englishName": "Spectinomycin Inj.",
+            "alternativeName": "Spectinomycin Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第05631號",
             "ingredientsNote": "Each vial contains:",
@@ -2901,7 +2901,7 @@
         {
             "id": "61",
             "name": "聯華營養針",
-            "englishName": "",
+            "alternativeName": "",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第05616號",
             "ingredientsNote": "Each 500 ml contains:",
@@ -2933,7 +2933,7 @@
         {
             "id": "62",
             "name": "速靈黴素",
-            "englishName": "SPECTINOMYCIN Inj.",
+            "alternativeName": "SPECTINOMYCIN Inj.",
             "type": "乾粉注射液、乾粉懸劑",
             "medicineCode": "動物藥製字第05634號",
             "ingredientsNote": "Each ml contains:",
@@ -2972,7 +2972,7 @@
         {
             "id": "63",
             "name": "藍特淨",
-            "englishName": "phenazathionium",
+            "alternativeName": "phenazathionium",
             "type": "消毒劑",
             "medicineCode": "動物藥製字第02455號",
             "ingredientsNote": "Each ml contains:",
@@ -3005,7 +3005,7 @@
         {
             "id": "64",
             "name": "穩特淨500",
-            "englishName": "WINTOZINE 500",
+            "alternativeName": "WINTOZINE 500",
             "type": "消毒劑",
             "medicineCode": "動物藥製字第08445號",
             "ingredientsNote": "Each ml contains:",
@@ -3038,7 +3038,7 @@
         {
             "id": "65",
             "name": "必克淨",
-            "englishName": "BKB-S",
+            "alternativeName": "BKB-S",
             "type": "消毒劑",
             "medicineCode": "動物藥製字第08015號",
             "ingredientsNote": "Each ml contains:",
@@ -3071,7 +3071,7 @@
         {
             "id": "66",
             "name": "普衛碘300",
-            "englishName": "POVIDINE 300",
+            "alternativeName": "POVIDINE 300",
             "type": "消毒劑",
             "medicineCode": "動物藥製字第08446號",
             "ingredientsNote": "Each ml contains:",
@@ -3104,7 +3104,7 @@
         {
             "id": "67",
             "name": "優特淨250",
-            "englishName": "UTOZINE 250",
+            "alternativeName": "UTOZINE 250",
             "type": "消毒劑",
             "medicineCode": "動物藥製字第09596號",
             "ingredientsNote": "Each ml contains:",
@@ -3153,7 +3153,7 @@
         {
             "id": "68",
             "name": "聯華 立可安",
-            "englishName": "L.C.N INJECTION",
+            "alternativeName": "L.C.N INJECTION",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第07601號",
             "ingredientsNote": "Each ml contains:",
@@ -3199,7 +3199,7 @@
         {
             "id": "69",
             "name": "聯華 立刻靈 注",
-            "englishName": "DECADIN Inj.",
+            "alternativeName": "DECADIN Inj.",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第04770號",
             "ingredientsNote": "Each ml contains:",
@@ -3234,7 +3234,7 @@
         {
             "id": "70",
             "name": "聯華 林可300針",
-            "englishName": "LINCO 300 Inj.",
+            "alternativeName": "LINCO 300 Inj.",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第09645號",
             "ingredientsNote": "Each ml contains:",
@@ -3288,7 +3288,7 @@
         {
             "id": "71",
             "name": "咳喘寧針",
-            "englishName": "ANTICOUGH Inj.",
+            "alternativeName": "ANTICOUGH Inj.",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第08930號",
             "ingredientsNote": "Each ml contains:",
@@ -3332,7 +3332,7 @@
         {
             "id": "72",
             "name": "聯華 泰樂新V注",
-            "englishName": "TYLOSIN V Inj.",
+            "alternativeName": "TYLOSIN V Inj.",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第02441號",
             "ingredientsNote": "Each ml contains:",
@@ -3378,7 +3378,7 @@
         {
             "id": "73",
             "name": "聯華 特滅菌 20注",
-            "englishName": "Tomegin 20 Inj.",
+            "alternativeName": "Tomegin 20 Inj.",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第04113號",
             "ingredientsNote": "Each 100ml Contains:",
@@ -3421,7 +3421,7 @@
         {
             "id": "74",
             "name": "聯華 康黴素 100針",
-            "englishName": "KANAMYCIN 100 Inj.",
+            "alternativeName": "KANAMYCIN 100 Inj.",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第09010號",
             "ingredientsNote": "Each ml contains:",
@@ -3468,7 +3468,7 @@
         {
             "id": "75",
             "name": "聯華 速必寧500針",
-            "englishName": "SULPYRIN 500 Inj.",
+            "alternativeName": "SULPYRIN 500 Inj.",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第08586號",
             "ingredientsNote": "Each ml contains:",
@@ -3513,7 +3513,7 @@
         {
             "id": "76",
             "name": "聯華 速必寧 注",
-            "englishName": "SULPYRIN Inj.",
+            "alternativeName": "SULPYRIN Inj.",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第04112號",
             "ingredientsNote": "Each 100ml Contains:",
@@ -3546,7 +3546,7 @@
         {
             "id": "77",
             "name": "復勞酸 注",
-            "englishName": "FURONSAN Inj.",
+            "alternativeName": "FURONSAN Inj.",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第02448號",
             "ingredientsNote": "Each ml Contains:",
@@ -3603,7 +3603,7 @@
         {
             "id": "78",
             "name": "聯華 愛樂利 100針",
-            "englishName": "ENROTRIL 100 Inj.",
+            "alternativeName": "ENROTRIL 100 Inj.",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第08844號",
             "ingredientsNote": "Each ml contains:",
@@ -3643,7 +3643,7 @@
         {
             "id": "79",
             "name": "聯華 維力康 注",
-            "englishName": "VILICAN  INJECTION",
+            "alternativeName": "VILICAN  INJECTION",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第02449號",
             "ingredientsNote": "Each 100ml Contains:",
@@ -3696,7 +3696,7 @@
         {
             "id": "80",
             "name": "樂胎速 注",
-            "englishName": "PITOCIN  INJECTION",
+            "alternativeName": "PITOCIN  INJECTION",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第02465號",
             "ingredientsNote": "Each ml contains:",
@@ -3732,7 +3732,7 @@
         {
             "id": "81",
             "name": "百炎通 注",
-            "englishName": "PREDONINE S inj.",
+            "alternativeName": "PREDONINE S inj.",
             "type": "注射液、滅菌懸劑",
             "medicineCode": "動物藥製字第05612號",
             "ingredientsNote": "Each ml contains:",
@@ -3768,7 +3768,7 @@
         {
             "id": "82",
             "name": "聯華 好飼佳",
-            "englishName": "LH POULTRIN",
+            "alternativeName": "LH POULTRIN",
             "type": "其他",
             "medicineCode": "",
             "ingredientsNote": "Each gm contains:",
@@ -3807,7 +3807,7 @@
         {
             "id": "83",
             "name": "聯華 好飼壯",
-            "englishName": "LH HOTFREE",
+            "alternativeName": "LH HOTFREE",
             "type": "其他",
             "medicineCode": "",
             "ingredientsNote": "Each kg contains:",
@@ -3842,7 +3842,7 @@
         {
             "id": "84",
             "name": "聯華 禽壯150",
-            "englishName": "LH POULTRONG 150",
+            "alternativeName": "LH POULTRONG 150",
             "type": "其他",
             "medicineCode": "",
             "ingredientsNote": "Each kg contains:",
@@ -3881,7 +3881,7 @@
         {
             "id": "85",
             "name": "極大黴素50",
-            "englishName": "GENTAMICIN 50",
+            "alternativeName": "GENTAMICIN 50",
             "type": "口服液劑",
             "medicineCode": "動物藥製字第08798號",
             "ingredientsNote": "Each ml contains:",
@@ -3929,7 +3929,7 @@
         {
             "id": "86",
             "name": "復洛黴素100",
-            "englishName": "FLORCIN 100",
+            "alternativeName": "FLORCIN 100",
             "type": "口服液劑",
             "medicineCode": "動物藥製字第08809號",
             "ingredientsNote": "Each ml contains：",
@@ -3978,7 +3978,7 @@
         {
             "id": "87",
             "name": "聯華 泰順250",
-            "englishName": "TILMICOSIN 250",
+            "alternativeName": "TILMICOSIN 250",
             "type": "口服液劑",
             "medicineCode": "動物藥製字第08799號",
             "ingredientsNote": "Each ml contains:",
@@ -4022,7 +4022,7 @@
         {
             "id": "88",
             "name": "聯華 剋球淨25",
-            "englishName": "TOLTRAZURIL 25",
+            "alternativeName": "TOLTRAZURIL 25",
             "type": "口服液劑",
             "medicineCode": "動物藥製字第08826號",
             "ingredientsNote": "Each ml contains:",
@@ -4077,7 +4077,7 @@
         {
             "id": "89",
             "name": "復美淨500S",
-            "englishName": "FLUMEQUINE 500S",
+            "alternativeName": "FLUMEQUINE 500S",
             "type": "口服液劑",
             "medicineCode": "動物藥製字第08899號",
             "ingredientsNote": "Each ml contains:",
@@ -4120,7 +4120,7 @@
         {
             "id": "90",
             "name": "聯華 剋痢黴素200S",
-            "englishName": "COLISTIN 200S",
+            "alternativeName": "COLISTIN 200S",
             "type": "口服液劑",
             "medicineCode": "動物藥製字第08922號",
             "ingredientsNote": "Each ml contains:",
@@ -4163,32 +4163,32 @@
     ],
     "contact": [
         {
-            "name": "公司名稱",
+            "name": "CompanyName",
             "label": "聯華製藥廠股份有限公司"
         },
         {
-            "name": "公司英文名稱",
+            "name": "CompanyAlterName",
             "label": "LIAN HWA PHARMACEUTICAL CO., LTD"
         },
         {
-            "name": "聯絡電話",
+            "name": "Tel",
             "label": "電話 | 07-6963001"
         },
         {
-            "name": "傳真號碼",
+            "name": "Fax",
             "label": "傳真 | 07-6973457"
         },
         {
-            "name": "公司地址",
+            "name": "Address",
             "label": "地址 | 821012 高雄市路竹區中山路383號"
         },
         {
-            "name": "電子信箱",
+            "name": "Email",
             "label": "Email | lh.ph@msa.hinet.net"
         },
         {
-            "name": "營業時間",
-            "label": "營業時間｜週一至週五，08:00–17:00"
+            "name": "OpeningHours",
+            "label": "營業時間 | 週一至週五，08:00–17:00"
         }
     ]
 }

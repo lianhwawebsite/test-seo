@@ -3,7 +3,7 @@ import { SeoHead } from "@/app/component/SeoHead";
 import ProductAllContent from "@/app/component/ProductAllContent";
 
 export function generateMetadata() {
-  const lang = "zh-TW";
+  const lang = "en";
   return getMetadata(lang, "products");
 }
 
@@ -15,7 +15,7 @@ export default async function Page(props: {
     page?: string;
   }>;
 }) {
-  const schema = getSchema("zh-TW","products");
+  const schema = getSchema("en","products");
   const searchParams = await props.searchParams;
   const query = searchParams?.query?.toLowerCase() || "";
   const selectedAnimals = searchParams?.animals?.split(",") || [];

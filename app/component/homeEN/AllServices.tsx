@@ -1,8 +1,8 @@
 "use client";
-import { ServiceFirst } from "@/app/component/home/ServiceFirst";
-import { ServiceSecond } from "@/app/component/home/ServiceSecond";
-import { ServiceThird } from "@/app/component/home/ServiceThird";
-import { ServiceFourth } from "@/app/component/home/ServiceFourth";
+import { ServiceFirst } from "@/app/component/homeEN/ServiceFirst";
+import { ServiceSecond } from "@/app/component/homeEN/ServiceSecond";
+import { ServiceThird } from "@/app/component/homeEN/ServiceThird";
+import { ServiceFourth } from "@/app/component/homeEN/ServiceFourth";
 import { AllData } from "@/app/lib/types";
 import PageTransition from "../PageTransition";
 

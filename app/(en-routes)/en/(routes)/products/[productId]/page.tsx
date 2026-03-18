@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import data from "@/data.json";
+import data from "@/enData.json";
 import NextBreadcrumb from "@/app/component/NextBreadcrumb";
 import { CTA } from "@/app/component/CTA";
 import { SeoHead } from "@/app/component/SeoHead";
@@ -46,14 +46,14 @@ function buildDrugSchema(p: Product) {
     "@context": "https://schema.org",
     "@type": "Drug",
     name: p.name,
-    description: p.indications || `${p.name} 的產品資訊`,
+    description: p.indications || `${p.name} Introduction`,
     nonProprietaryName: p.alternativeName || undefined,
     identifier: p.medicineCode || undefined,
     activeIngredient: activeIngredient || undefined,
     dosageForm,
     manufacturer: {
       "@type": "Organization",
-      name: "聯華製藥廠",
+      name: "Lian Hwa Pharmaceutical",
     },
   };
 }
@@ -63,19 +63,19 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const product = findProduct(productId);
   if (!product) return notFound();
 
-  const title = `${product.name} 介紹｜聯華製藥廠`;
-  const description = product.indications || `${product.name} 的產品資訊`;
+  const title = `${product.name} ｜Lian Hwa Pharmaceutical`;
+  const description = product.indications || `${product.name} Introduction`;
 
   return {
     title,
     description,
-    alternates: { canonical: `/products/${productId}` },
+    alternates: { canonical: `/en/products/${productId}` },
     robots: { index: true, follow: true },
     openGraph: {
       type: "website",
-      siteName: "聯華製藥廠",
-      locale: "zh_TW",
-      url: `/products/${productId}`,
+      siteName: "Lian Hwa Pharmaceutical",
+      locale: "en",
+      url: `/en/products/${productId}`,
       images: ["/images/OG_image.png"],
     },
   };
@@ -90,9 +90,9 @@ export default async function Page({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "首頁", item: abs("/") },
-      { "@type": "ListItem", position: 2, name: "產品一覽", item: abs("/products") },
-      { "@type": "ListItem", position: 3, name: product.name, item: abs(`/products/${productId}`) },
+      { "@type": "ListItem", position: 1, name: "Home", item: abs("/en") },
+      { "@type": "ListItem", position: 2, name: "Products", item: abs("/en/products") },
+      { "@type": "ListItem", position: 3, name: product.name, item: abs(`/en/products/${productId}`) },
     ],
   };
 
@@ -109,9 +109,8 @@ export default async function Page({ params }: Props) {
       <section className="mx-auto max-w-[1200px] grid grid-cols-1 md:grid-cols-8 gap-6 mt-6 md:gap-0 md:mt-10 font-notoSansTC">
         <section className="flex flex-col gap-y-10 md:col-span-8 md:col-start-3 ">
           <div className="hidden relative px-6 md:block">
-            <div className="absolute top-0 left-0 h-[48px]  border-theme-1 border-3 rounded-4xl"></div>
+            <div className="absolute top-0 left-0 h-[32px]  border-theme-1 border-3 rounded-4xl"></div>
             <h1 className="font-bold text-2xl leading-[1.22] tracking-[1px]">{product?.name}</h1>
-            <h2 className="font-bold text-lg leading-[1.22] tracking-[.6px]">{product?.alternativeName}</h2>
           </div>
           <div className="grid md:grid-cols-6">
             <p className="hidden col-span-2 px-6 font-medium text-base leading-[1.26] tracking-[.4px] md:block">{product?.medicineCode}</p>
@@ -126,15 +125,14 @@ export default async function Page({ params }: Props) {
 function ProductDetail({ product }: { product: Product }) {
   return (
     <section className="flex flex-col gap-y-6 md:gap-y-10 col-span-4">
-      <article className="flex flex-col gap-6 justify-between md:hidden">
+      <article className="flex flex-col gap-6 md:gap-9 justify-between md:hidden">
         <div className="text-primary flex flex-col gap-1.5">
           <h1 className="font-bold text-xl leading-[1.22] tracking-[0.6px]">{product?.name}</h1>
-          <h2 className="font-medium text-base leading-[1.22] tracking-[0px]">{product?.alternativeName}</h2>
         </div>
         <p className="text-sm leading-[1.16] tracking-[0px]">{product?.medicineCode}</p>
       </article>
-      <article className="md:col-start-1 md:row-start-2 flex flex-col gap-y-6" itemScope itemType="https://schema.org/Product">
-        <div className="text-sm leading-[1.5] tracking-[0px] md:text-base md:leading-[1.7] md:tracking-[0.5px]">
+      <article className="md:col-start-1 md:row-start-2 flex flex-col gap-y-6 md:gap-y-9" itemScope itemType="https://schema.org/Product">
+        <div className="text-sm leading-[1.3] tracking-[0px] md:text-base md:tracking-[0.5px]">
           <p>{product?.ingredientsNote}</p>
           {product?.mainIngredients?.map((ingredient, idx) => (
             <div key={idx}>
@@ -170,9 +168,9 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.dosageAndAdministration?.length === 0 ? null : (
           <div>
-            <p className="font-medium text-sm md:text-base">用法用量</p>
+            <p className="font-medium text-sm leading-[1.3] md:text-base md:leading-[1.4]">Dosage & Administration</p>
             {product?.dosageAndAdministration?.split("\n").map((sentence, idx) => (
-              <p key={idx} className="text-sm md:text-base">
+              <p key={idx} className="text-sm leading-[1.3] md:text-base md:leading-[1.4] pb-1">
                 {sentence}
               </p>
             ))}
@@ -181,9 +179,9 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.indications?.length === 0 ? null : (
           <div>
-            <p className="font-medium text-sm md:text-base">適應症</p>
+            <p className="font-medium text-sm leading-[1.3] md:text-base md:leading-[1.4]">Indications</p>
             {product?.indications?.split("\n").map((sentence, idx) => (
-              <p key={idx} className="text-sm md:text-base">
+              <p key={idx} className="text-sm leading-[1.3] md:text-base md:leading-[1.4] pb-1">
                 {sentence}
               </p>
             ))}
@@ -192,9 +190,9 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.packaging?.length === 0 ? null : (
           <div>
-            <p className="font-medium text-sm md:text-base">包裝</p>
+            <p className="font-medium text-sm leading-[1.3] md:text-base md:leading-[1.4]">Packaging</p>
             {product?.packaging?.split("\n").map((sentence, idx) => (
-              <p key={idx} className="text-sm md:text-base">
+              <p key={idx} className="text-sm leading-[1.3] md:text-base md:leading-[1.4]">
                 {sentence}
               </p>
             ))}
@@ -203,11 +201,11 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.precautions?.length === 0 ? null : (
           <div className="text-primary">
-            <p className="font-medium text-sm md:text-base">注意事項</p>
+            <p className="font-medium text-sm leading-[1.3] md:text-base md:leading-[1.4]">Precautions</p>
             {product?.precautions?.length === 1 ? (
               <>
                 {product?.precautions?.map((precaution) => (
-                  <div key={precaution.id} className="text-sm md:text-base">
+                  <div key={precaution.id} className="text-sm leading-[1.3] md:text-base md:leading-[1.4]">
                     {precaution.precaution.split("\n").map((sentence, idx) => (
                       <Fragment key={idx}>
                         <span className="text-sm md:text-base">{sentence}</span>
@@ -220,10 +218,10 @@ function ProductDetail({ product }: { product: Product }) {
             ) : (
               <ol className="list-decimal pl-5">
                 {product?.precautions?.map((precaution) => (
-                  <li key={precaution.id} className="text-sm md:text-base">
+                  <li key={precaution.id} className="text-sm leading-[1.3] md:text-base md:leading-[1.4] pb-1">
                     {precaution.precaution.split("\n").map((sentence, idx) => (
                       <Fragment key={idx}>
-                        <span className="text-sm md:text-base">{sentence}</span>
+                        <span className="text-sm leading-[1.3] md:text-base md:leading-[1.4]">{sentence}</span>
                         <br />
                       </Fragment>
                     ))}
@@ -234,7 +232,7 @@ function ProductDetail({ product }: { product: Product }) {
           </div>
         )}
 
-        <div className="flex items-center h-20 mb-4">{product?.licenseUrl && <CTA href={product.licenseUrl} label="動物用藥品許可證查詢" />}</div>
+        <div className="flex items-center h-20 mb-4">{product?.licenseUrl && <CTA href={product.licenseUrl} label="Official Registration Details" />}</div>
       </article>
     </section>
   );

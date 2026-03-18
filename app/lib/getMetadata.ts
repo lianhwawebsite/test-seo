@@ -31,6 +31,6 @@ export function getMetadata(lang: string, pageKey: string): Metadata {
   };
 }
 
-export function getSchema(key: string): object | object[] | null {
-  return seoMeta["zh-TW"]?.[key]?.schema ?? null;
+export function getSchema(lng: "zh-TW" | "en", key: string): object | object[] | null {
+  return seoMeta[lng]?.[key]?.schema ?? null;
 }
