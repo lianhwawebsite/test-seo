@@ -10,17 +10,17 @@ export default function Footer() {
   const pathname = usePathname();
   const isEn = pathname.startsWith("/en");
   const currentData = isEn ? enData : data;
-  
-  const isHome = pathname === "/" || "/en";
+
+  const isHome = pathname === "/" || pathname === "/en";
   const date = new Date();
   let year = date.getFullYear();
   const homeItem = currentData.footerItems.find((item) => item.name === "Home");
   const companyNameItem = currentData.footerItems.find((item) => item.name === "CompanyName");
   const companyEnglishNameItem = currentData.footerItems.find((item) => item.name === "CompanyAlterName");
+  
+
   return (
-    <footer
-      className={`relative z-10 row-start-3 font-notoSansTC overflow-hidden flex items-center justify-center h-[205px] mt-auto md:h-[328px] w-screen md:px-9 lg:px-24 
-      ${isHome ? "bg-transparent" : "bg-white"}`}>
+    <footer className={`relative z-10 row-start-3 font-notoSansTC overflow-hidden flex items-center justify-center h-[205px] mt-auto md:h-[328px] w-full md:px-9 lg:px-24 ${isHome ? "bg-transparent":"bg-white"}`}>
       <Image src="/images/footer_pc.svg" alt="" fill sizes="(min-width: 768px) 100vw, 0px" className="object-top object-cover hidden md:block -z-10" priority />
       <Image src="/images/footer_mo.svg" alt="" fill sizes="(max-width: 767px) 100vw, 0px" className="object-top object-cover block md:hidden -z-10" priority />
       <div className="mx-auto max-w-[1200px] relative z-10 grid gap-6 h-fit w-full pt-9 pb-6 text-white md:grid-cols-3 md:pb-15 md:pt-25 lg:grid-cols-3">
