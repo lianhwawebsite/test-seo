@@ -15,7 +15,7 @@ export default function Page() {
   const address = data?.contact.find((item) => item.name === "Address")?.label || "Address";
   const openHours = data?.contact.find((item) => item.name === "OpeningHours")?.label || "OpeningHours";
   const [openHoursTitle, openHoursValue] = openHours.split("｜");
-  const paragraphClass = "text-center text-[15px] font-light leading-[1.15] tracking-[0px] md:font-normal md:text-left md:text-sm md:leading-[1.26] md:tracking-[0.4px] md:font-notoSansTC";
+  const paragraphClass = "text-center text-[15px] font-light leading-[1.4] tracking-[0px] md:font-normal md:text-left md:text-sm md:leading-[1.26] md:tracking-[0.4px] md:font-notoSansTC";
 
   return (
     <>

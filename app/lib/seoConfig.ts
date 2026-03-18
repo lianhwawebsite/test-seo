@@ -102,7 +102,7 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
   en: {
     home: {
       title: "Home｜Lian Hwa Pharmaceutical",
-      description: "Lian Hwa Pharmaceutical",
+      description: "Established in 1973, Lian Hua Pharmaceutical Co., Ltd. specializes in the research, development, and manufacturing of veterinary pharmaceuticals.",
       alternates: { canonical: "/en" },
       openGraph: {
         type: "website",
@@ -122,8 +122,8 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
       ],
     },
     products: {
-      title: "Product｜Lian Hwa Pharmaceutical",
-      description: "Lian Hwa Pharmaceutical",
+      title: "Products｜Lian Hwa Pharmaceutical",
+      description: "With over a hundred essential prescriptions and over-the-counter (OTC) medications, our product line encompasses a diverse range of dosage forms.",
       alternates: { canonical: "/en/products" },
       openGraph: {
         type: "website",
@@ -137,13 +137,13 @@ export const seoMeta: Record<string, Record<string, MetaInfo>> = {
         "@type": "BreadcrumbList",
         itemListElement: [
           { "@type": "ListItem", position: 1, name: "Home", item: abs("/en") },
-          { "@type": "ListItem", position: 2, name: "Product", item: abs("/en/products") },
+          { "@type": "ListItem", position: 2, name: "Products", item: abs("/en/products") },
         ],
       },
     },
     contact: {
-      title: "Contact｜Lian Hwa Pharmaceutical",
-      description: "Lian Hwa Pharmaceutical",
+      title: "Contact Us｜Lian Hwa Pharmaceutical",
+      description: "Feel free to contact us! If you have any questions or suggestions, please feel free to reach out to us.",
       alternates: { canonical: "/en/contact" },
       openGraph: {
         type: "website",

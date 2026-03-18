@@ -46,7 +46,7 @@
     ],
     "home": {
         "title": "Professional Support \nfor Animal Health",
-        "description": "Established in 1973, Lien Hua Pharmaceutical Co., Ltd. specializes in the research, development, and manufacturing of veterinary pharmaceuticals. With over half a century of expertise and technical innovation, Lien Hua remains steadfast in its commitment to Good Manufacturing Practice (GMP) standards. Our rigorous operational protocols ensure consistent product quality, providing the livestock industry with safe and dependable medical solutions.",
+        "description": "Established in 1973, Lian Hua Pharmaceutical Co., Ltd. specializes in the research, development, and manufacturing of veterinary pharmaceuticals. With over half a century of expertise and technical innovation, Lian Hua remains steadfast in its commitment to Good Manufacturing Practice (GMP) standards. Our rigorous operational protocols ensure consistent product quality, providing the livestock industry with safe and dependable medical solutions.",
         "imgSrcPc": "/images/home/landing_page_KV_pc.svg",
         "imgSrcMo": "/images/home/landing_page_KV_mo.svg",
         "services": [
@@ -65,7 +65,7 @@
             {
                 "id": "3",
                 "title": "Looking ahead",
-                "description": "Looking ahead, Lien Hua and our management team will continue to advance product innovation and manufacturing excellence. By enhancing overall quality, we remain dedicated to creating lasting value for the livestock industry, consumers, and society as a whole.",
+                "description": "Looking ahead, Lian Hua and our management team will continue to advance product innovation and manufacturing excellence. By enhancing overall quality, we remain dedicated to creating lasting value for the livestock industry, consumers, and society as a whole.",
                 "imgSrc": "/images/home/landing_page_slogan_pc_mo.svg"
             }
         ]
@@ -76,7 +76,7 @@
             "name": "COUGHTIN POWDER",
             "alternativeName": "聯華 嗽服寧粉",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No.02475",
+            "medicineCode": "Reg. No.02475",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -88,7 +88,7 @@
                     "amount": "2mg"
                 }
             ],
-            "indications": "Livestock：For the treatment of acute and chronic bronchitis, pneumonia, and coughing, expectoration, or asthma caused by the common cold.\nChicken & Turkey (Excluding laying hens):Symptomatic treatment of Chronic Respiratory Disease (CRD), Infectious Coryza, influenza, and Infectious Bronchitis.",
+            "indications": "Livestock: For the treatment of acute and chronic bronchitis, pneumonia, and coughing, expectoration, or asthma caused by the common cold.\nChicken & Turkey (Excluding laying hens): Symptomatic treatment of Chronic Respiratory Disease (CRD), Infectious Coryza, influenza, and Infectious Bronchitis.",
             "dosageAndAdministration": "Mix 2–3 kg of this product per 1,000 kg (1 ton) of feed.",
             "precautions": [
                 {
@@ -117,7 +117,7 @@
             "name": "OTC 500",
             "alternativeName": "歐帝賜500",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No.08860",
+            "medicineCode": "Reg. No.08860",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -161,7 +161,7 @@
             "name": "DOXYLLIN 200",
             "alternativeName": "特安200",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No.09652",
+            "medicineCode": "Reg. No.09652",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -205,7 +205,7 @@
             "name": "ERYTHROMYCIN 500 Water Soluble Powder",
             "alternativeName": "聯華 紅黴素",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No.08495",
+            "medicineCode": "Reg. No.08495",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -252,7 +252,7 @@
             "name": "ERYMYCIN C",
             "alternativeName": "速效黴素 C",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No.08861",
+            "medicineCode": "Reg. No.08861",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -300,7 +300,7 @@
             "name": "AMPIDICLOX Pow.",
             "alternativeName": "博效黴素粉",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No.04675",
+            "medicineCode": "Reg. No.04675",
             "ingredientsNote": "Each gm Contains:",
             "mainIngredients": [
                 {
@@ -348,7 +348,7 @@
             "name": "AMOCILLIN 200",
             "alternativeName": "安復西林200",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08429",
+            "medicineCode": "Reg. No. 08429",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -392,7 +392,7 @@
             "name": "AMOCILLIN 500",
             "alternativeName": "安復西林500",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08833",
+            "medicineCode": "Reg. No. 08833",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -440,7 +440,7 @@
             "name": "CEPHA Powder",
             "alternativeName": "雪華黴素散",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 07602",
+            "medicineCode": "Reg. No. 07602",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -484,7 +484,7 @@
             "name": "PEXIN",
             "alternativeName": "聯華 必驅淨",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 02479",
+            "medicineCode": "Reg. No. 02479",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -529,7 +529,7 @@
             "name": "SULDIN",
             "alternativeName": "聯華 速寧",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 06757",
+            "medicineCode": "Reg. No. 06757",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -572,7 +572,7 @@
             "name": "MYCOSOL",
             "alternativeName": "聯華 滅克速",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 04932",
+            "medicineCode": "Reg. No. 04932",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -619,7 +619,7 @@
             "name": "GENTAMICIN 150",
             "alternativeName": "極大黴素150",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08521",
+            "medicineCode": "Reg. No. 08521",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -663,7 +663,7 @@
             "name": "FLORCIN 100 Pow.",
             "alternativeName": "復洛黴素100散",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 09457",
+            "medicineCode": "Reg. No. 09457",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -703,7 +703,7 @@
             "name": "THIALORCIN 250",
             "alternativeName": "畜樂黴素250",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08500",
+            "medicineCode": "Reg. No. 08500",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -746,7 +746,7 @@
             "name": "FLUMEQUINE 500",
             "alternativeName": "復美淨500",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08883",
+            "medicineCode": "Reg. No. 08883",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -795,7 +795,7 @@
             "name": "COMPLEX LEUKOPYCORIN K",
             "alternativeName": "複方白冠必克寧 K",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 02452",
+            "medicineCode": "Reg. No. 02452",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -851,7 +851,7 @@
             "name": "COLIVARIN Soluble",
             "alternativeName": "新尅痢威靈粉",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 02484",
+            "medicineCode": "Reg. No. 02484",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -904,7 +904,7 @@
             "name": "COCCIDIOCIDESOL",
             "alternativeName": "剋球寶可溶散",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 02490",
+            "medicineCode": "Reg. No. 02490",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -961,7 +961,7 @@
             "name": "CS3 Soluble",
             "alternativeName": "殺球",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 02451",
+            "medicineCode": "Reg. No. 02451",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1013,7 +1013,7 @@
             "name": "LICOCCIDE 600",
             "alternativeName": "立剋球600",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08621",
+            "medicineCode": "Reg. No. 08621",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1057,7 +1057,7 @@
             "name": "DIMETHOPRIM",
             "alternativeName": "聯華 速康",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 05635",
+            "medicineCode": "Reg. No. 05635",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1101,7 +1101,7 @@
             "name": "TRIDIAZINE 480",
             "alternativeName": "除疾靈480",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08611",
+            "medicineCode": "Reg. No. 08611",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1151,7 +1151,7 @@
             "name": "TOMEGIN 500",
             "alternativeName": "聯華 特滅菌500",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08939",
+            "medicineCode": "Reg. No. 08939",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1199,7 +1199,7 @@
             "name": "TYLOSIN 500",
             "alternativeName": "聯華 泰樂新500",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 09646",
+            "medicineCode": "Reg. No. 09646",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1239,7 +1239,7 @@
             "name": "AIVALOSIN 50",
             "alternativeName": "聯華 愛樂新50",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08749",
+            "medicineCode": "Reg. No. 08749",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1279,7 +1279,7 @@
             "name": "TILMICOSIN 200",
             "alternativeName": "聯華 泰順200",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08678",
+            "medicineCode": "Reg. No. 08678",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1318,7 +1318,7 @@
             "name": "LINCOCIN 400",
             "alternativeName": "聯華 靈可新400",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08661",
+            "medicineCode": "Reg. No. 08661",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1382,7 +1382,7 @@
             "name": "SPECTLIN 220",
             "alternativeName": "速倍特靈220",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08729",
+            "medicineCode": "Reg. No. 08729",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1425,7 +1425,7 @@
             "name": "TIAMULIN 200",
             "alternativeName": "聯華 泰妙素200",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08710",
+            "medicineCode": "Reg. No. 08710",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1469,7 +1469,7 @@
             "name": "COLISTIN 120",
             "alternativeName": "聯華 剋痢黴素120",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 08748",
+            "medicineCode": "Reg. No. 08748",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1515,7 +1515,7 @@
             "name": "DOXYLLIN 500",
             "alternativeName": "特安500",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 09654",
+            "medicineCode": "Reg. No. 09654",
             "ingredientsNote": "Each gm contains:",
             "mainIngredients": [
                 {
@@ -1558,7 +1558,7 @@
             "name": "URICOSURIC powder",
             "alternativeName": "聯華 尿酸溶解",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 05613",
+            "medicineCode": "Reg. No. 05613",
             "ingredientsNote": "Each kilogram contains:",
             "mainIngredients": [
                 {
@@ -1598,7 +1598,7 @@
             "name": "DOXYCYCLINE",
             "alternativeName": "特安黴素",
             "type": "Soluble Powders",
-            "medicineCode": "Registration No. 05610",
+            "medicineCode": "Reg. No. 05610",
             "ingredientsNote": "Each kilogram contains:",
             "mainIngredients": [
                 {

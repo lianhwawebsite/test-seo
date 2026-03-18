@@ -11,7 +11,6 @@ export default function Navbar() {
   const pathname = usePathname();
   const isEn = pathname.startsWith("/en");
   const currentData = isEn ? enData : data;
-  const currentLangLabel = isEn ? "EN" : "繁";
 
   const getZhHref = () => {
     const pathSegments = pathname.split("/").filter((p) => p);
@@ -39,13 +38,13 @@ export default function Navbar() {
 
   return (
     <>
-      <DesktopNavbar currentData={currentData} currentLangLabel={currentLangLabel} zhHref={zhHref} enHref={enHref} isEn={isEn} />
-      <MobileNavbar currentData={currentData} currentLangLabel={currentLangLabel} zhHref={zhHref} enHref={enHref} isEn={isEn} />
+      <DesktopNavbar currentData={currentData} zhHref={zhHref} enHref={enHref} isEn={isEn} />
+      <MobileNavbar currentData={currentData} zhHref={zhHref} enHref={enHref} isEn={isEn} />
     </>
   );
 }
 
-function DesktopNavbar({ currentData, currentLangLabel, zhHref, enHref, isEn }: { currentData: AllData; currentLangLabel: string; zhHref: string; enHref: string; isEn: boolean }) {
+function DesktopNavbar({ currentData, zhHref, enHref, isEn }: { currentData: AllData; zhHref: string; enHref: string; isEn: boolean }) {
   const homeItem = currentData.navbarItems[0];
   const [open, setOpen] = useState(false);
 
@@ -102,7 +101,7 @@ function DesktopNavbar({ currentData, currentLangLabel, zhHref, enHref, isEn }: 
   );
 }
 
-function MobileNavbar({ currentData, currentLangLabel, zhHref, enHref, isEn }: { currentData: AllData; currentLangLabel: string; zhHref: string; enHref: string; isEn: boolean }) {
+function MobileNavbar({ currentData, zhHref, enHref, isEn }: { currentData: AllData; zhHref: string; enHref: string; isEn: boolean }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const homeItem = currentData.navbarItems[0];
@@ -131,8 +130,7 @@ function MobileNavbar({ currentData, currentLangLabel, zhHref, enHref, isEn }: {
             <Image src="/images/logo_mo.svg" alt="" height={0} width={0} className="w-[49px] h-auto" />
           </Link>
         )}
-        <div className="absolute top-[35%] right-[85px] w-fit flex justify-between gap-8 text-white text-sm">
-          
+        <div className="z-30 absolute top-[35%] right-[85px] w-fit flex justify-between gap-8 text-white text-sm">
           {isEn ? (
             <>
               <Link href={zhHref} className="relative">
