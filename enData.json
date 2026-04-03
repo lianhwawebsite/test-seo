@@ -72,6 +72,363 @@
     },
     "products": [
         {
+            "id": "1",
+            "name": "ROWLANSON 14-6-2",
+            "alternativeName": "聯華牌新肉卵素 一四-六-二",
+            "type": "Feed Supplements",
+            "medicineCode": "Reg. No.19159",
+            "ingredientsNote": "Each kg contains (Minimum content):",
+            "mainIngredients": [
+                {
+                    "name": "Vitamin A",
+                    "amount": "5,000,000 IU"
+                },
+                {
+                    "name": "Vitamin D3",
+                    "amount": "1,650,000 IU"
+                },
+                {
+                    "name": "Vitamin E",
+                    "amount": "10,000 IU"
+                },
+                {
+                    "name": "Vitamin K3",
+                    "amount": "3,000 mg"
+                },
+                {
+                    "name": "Vitamin B1",
+                    "amount": "1,000 mg"
+                },
+                {
+                    "name": "Vitamin B2",
+                    "amount": "3,600 mg"
+                },
+                {
+                    "name": "Vitamin B6",
+                    "amount": "1,500 mg"
+                },
+                {
+                    "name": "Vitamin B12",
+                    "amount": "1,000 mcg"
+                },
+                {
+                    "name": "Calcium Pantothenate",
+                    "amount": "7,000 mg"
+                },
+                {
+                    "name": "Niacinamide",
+                    "amount": "7,000 mg"
+                },
+                {
+                    "name": "Folic Acid",
+                    "amount": "50 mg"
+                },
+                {
+                    "name": "Biotin",
+                    "amount": "1,000 mcg"
+                },
+                {
+                    "name": "DL-Methionine",
+                    "amount": "17,000 mg"
+                },
+                {
+                    "name": "L-Lysine",
+                    "amount": "25,000 mg"
+                },
+                {
+                    "name": "Manganese",
+                    "amount": "1,500 mg"
+                },
+                {
+                    "name": "Iron",
+                    "amount": "1,000 mg"
+                },
+                {
+                    "name": "Iodine",
+                    "amount": "50 mg"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "100 mg"
+                }
+            ],
+            "ingredientsNoteSecond": "Each kg contains (Maximum content):",
+            "mainIngredientsSecond": [
+                {
+                    "name": "Zinc",
+                    "amount": "≤ 1,000 mg"
+                },
+                {
+                    "name": "Copper:",
+                    "amount": "≤ 500 mg"
+                },
+                {
+                    "name": "Lead (Pb)",
+                    "amount": "≤ 50 ppm"
+                },
+                {
+                    "name": "Arsenic (As)",
+                    "amount": "≤ 12 ppm"
+                },
+                {
+                    "name": "Cadmium (Cd)",
+                    "amount": "≤ 10 ppm"
+                },
+                {
+                    "name": "Mercury (Hg)",
+                    "amount": "≤ 0.5 ppm"
+                }
+            ],
+            "indications": "Prevention and treatment of stress, enhancement of meat and egg production rates, improvement of hatchability, prevention of fatty liver, and mitigation of post-vaccination reactions.",
+            "dosageAndAdministration": "Dissolve 1 kg of this product per 1,000 liters (1 ton) of drinking water, or mix 2–3 kg of this product per 1,000 kg (1 ton) of feed.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Storage: Keep the bag sealed tightly after use. Store in a cool, dry place away from direct sunlight"
+                }
+            ],
+            "packaging": "1kg",
+            "animals": [],
+            "animalCategories": [],
+            "licenseUrl": ""
+        },
+        {
+            "id": "2",
+            "name": "VITAFASOL",
+            "alternativeName": "聯華牌維他肥",
+            "type": "Feed Supplements",
+            "medicineCode": "Reg. No.19152",
+            "ingredientsNote": "Each kg contains (Minimum content):",
+            "mainIngredients": [
+                {
+                    "name": "Vitamin A",
+                    "amount": "45,000,000 IU"
+                },
+                {
+                    "name": "Vitamin D3",
+                    "amount": "1,500,000 IU"
+                },
+                {
+                    "name": "Vitamin E",
+                    "amount": "5,000 mg"
+                },
+                {
+                    "name": "Vitamin K",
+                    "amount": "1,000 mg"
+                },
+                {
+                    "name": "Vitamin B1",
+                    "amount": "1,000 mg"
+                },
+                {
+                    "name": "Vitamin B2",
+                    "amount": "2,000 mg"
+                },
+                {
+                    "name": "Vitamin B6",
+                    "amount": "1,000 mg"
+                },
+                {
+                    "name": "Vitamin B12",
+                    "amount": "5,000 mcg"
+                },
+                {
+                    "name": "Calcium Pantothenate",
+                    "amount": "2,000 mg"
+                },
+                {
+                    "name": "Niacinamide",
+                    "amount": "2,000 mg"
+                },
+                {
+                    "name": "Folic Acid",
+                    "amount": "50 mg"
+                },
+                {
+                    "name": "Biotin",
+                    "amount": "1,000 mcg"
+                },
+                {
+                    "name": "DL-Methionine",
+                    "amount": "17,000 mg"
+                },
+                {
+                    "name": "L-Lysine",
+                    "amount": "17,000 mg"
+                },
+                {
+                    "name": "Glycine",
+                    "amount": "5,000 mg"
+                },
+                {
+                    "name": "Manganese",
+                    "amount": "1,000 mg"
+                },
+                {
+                    "name": "Iron",
+                    "amount": "1,000 mg"
+                },
+                {
+                    "name": "Iodine",
+                    "amount": "200 mg"
+                },
+                {
+                    "name": "Cobalt",
+                    "amount": "1,000 mg"
+                }
+            ],
+            "ingredientsNoteSecond": "Each kg contains (Maximum content):",
+            "mainIngredientsSecond": [
+                {
+                    "name": "Zinc",
+                    "amount": "≤ 300 mg"
+                },
+                {
+                    "name": "Copper",
+                    "amount": "≤ 500 mg"
+                },
+                {
+                    "name": "Lead (Pb)",
+                    "amount": "≤ 50 ppm"
+                },
+                {
+                    "name": "Arsenic (As)",
+                    "amount": "≤ 12 ppm"
+                },
+                {
+                    "name": "Cadmium (Cd)",
+                    "amount": "≤ 10 ppm"
+                },
+                {
+                    "name": "Mercury (Hg)",
+                    "amount": "≤ 0.5 ppm"
+                }
+            ],
+            "indications": "Prevention of various stress-related conditions, enhancement of meat and egg production rates, improvement of hatchability, and prevention of fatty liver and perosis.",
+            "dosageAndAdministration": "Dissolve 1 kg of this product per 1,000 liters (1 ton) of drinking water, or mix 2–3 kg of this product per 1,000 kg (1 ton) of feed.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Storage: Keep the bag sealed tightly after use. Store in a cool, dry place away from direct sunlight"
+                }
+            ],
+            "packaging": "1kg",
+            "animals": [],
+            "animalCategories": [],
+            "licenseUrl": ""
+        },
+        {
+            "id": "3",
+            "name": "Electrolytic VICOMS soluble",
+            "alternativeName": "聯華牌電解質 維康素",
+            "type": "Feed Supplements",
+            "medicineCode": "Reg. No.19157",
+            "ingredientsNote": "Each kg contains (Minimum content):",
+            "mainIngredients": [
+                {
+                    "name": "Vitamin A",
+                    "amount": "10,000,000 IU"
+                },
+                {
+                    "name": "Vitamin D3",
+                    "amount": "1,500,000 IU"
+                },
+                {
+                    "name": "Vitamin K3",
+                    "amount": "4,000 mg"
+                },
+                {
+                    "name": "Vitamin B1",
+                    "amount": "500 mg"
+                },
+                {
+                    "name": "Vitamin B2",
+                    "amount": "1,000 mg"
+                },
+                {
+                    "name": "Calcium Pantothenate",
+                    "amount": "8,000 mg"
+                },
+                {
+                    "name": "Folic Acid",
+                    "amount": "250 mg"
+                },
+                {
+                    "name": "Potassium",
+                    "amount": "2,307 mg"
+                },
+                {
+                    "name": "Sodium",
+                    "amount": "3,934 mg"
+                }
+            ],
+            "ingredientsNoteSecond": "Heavy Metal Content:",
+            "mainIngredientsSecond": [
+                {
+                    "name": "Lead (Pb)",
+                    "amount": "≤ 50 ppm"
+                },
+                {
+                    "name": "Arsenic (As)",
+                    "amount": "≤ 12 ppm"
+                },
+                {
+                    "name": "Cadmium (Cd)",
+                    "amount": "≤ 10 ppm"
+                },
+                {
+                    "name": "Mercury (Hg)",
+                    "amount": "≤ 0.5 ppm"
+                }
+            ],
+            "indications": "To promote poultry growth, prevent dehydration, alleviate stress, and improve feed efficiency.",
+            "dosageAndAdministration": "Dissolve 1 kg of this product per 2,000 liters of drinking water or mix thoroughly into feed.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Storage: Keep the bag sealed tightly after use. Store in a cool, dry place away from direct sunlight"
+                }
+            ],
+            "packaging": "1kg",
+            "animals": [],
+            "animalCategories": [],
+            "licenseUrl": ""
+        },
+        {
+            "id": "4",
+            "name": "BIO-LACTOMINE",
+            "alternativeName": "聯華牌 表衛命",
+            "type": "Feed Supplements",
+            "medicineCode": "Reg. No.00027",
+            "ingredientsNote": "Each kg contains (Minimum content):",
+            "mainIngredients": [
+                {
+                    "name": "Lactobacillus",
+                    "amount": "10^10 CFU"
+                }
+            ],
+            "indications": "To promote growth and improve feed efficiency.",
+            "dosageAndAdministration": "Mix 1–3 kg of this product per 1,000 kg (1 ton) of feed.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Storage: Store in a cool, dry place away from direct sunlight"
+                },
+                {
+                    "id": "2",
+                    "precaution": "Handling: Do not add this product to hot feed."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Interaction: Do not use concurrently with high concentrations of antimicrobial agents."
+                }
+            ],
+            "packaging": "1kg",
+            "animals": [],
+            "animalCategories": [],
+            "licenseUrl": ""
+        },
+        {
             "id": "5",
             "name": "COUGHTIN POWDER",
             "alternativeName": "聯華 嗽服寧粉",
@@ -109,6 +466,10 @@
                 "Livestock",
                 "Chicken",
                 "Turkey"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1850"
         },
@@ -154,6 +515,10 @@
                 "Chicken",
                 "Swine"
             ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12415"
         },
         {
@@ -197,6 +562,10 @@
             "animals": [
                 "Chicken",
                 "Swine"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28953"
         },
@@ -244,6 +613,9 @@
             "packaging": "400 g / Bag\n1 kg / Bag",
             "animals": [
                 "Chicken"
+            ],
+            "animalCategories": [
+                "Poultry"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11848"
         },
@@ -293,6 +665,9 @@
                 "Chicken",
                 "Turkey"
             ],
+            "animalCategories": [
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12411"
         },
         {
@@ -341,6 +716,10 @@
                 "Chicken",
                 "Swine"
             ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3141"
         },
         {
@@ -384,6 +763,10 @@
             "animals": [
                 "Chicken",
                 "Swine"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/122"
         },
@@ -433,6 +816,10 @@
                 "Chicken",
                 "Swine"
             ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12365"
         },
         {
@@ -476,6 +863,10 @@
             "animals": [
                 "Chicken",
                 "Swine"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/6096"
         },
@@ -522,6 +913,11 @@
                 "Dog",
                 "Cat"
             ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry",
+                "Others"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1855"
         },
         {
@@ -564,6 +960,9 @@
             "packaging": "100 g / Bag\n1 kg / Bag",
             "animals": [
                 "Swine"
+            ],
+            "animalCategories": [
+                "Livestock"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/4984"
         },
@@ -612,6 +1011,9 @@
             "animals": [
                 "Chicken"
             ],
+            "animalCategories": [
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3277"
         },
         {
@@ -656,6 +1058,10 @@
                 "Chicken",
                 "Swine"
             ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11885"
         },
         {
@@ -695,6 +1101,10 @@
             "animals": [
                 "Swine",
                 "Duck"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/17510"
         },
@@ -738,6 +1148,9 @@
             "packaging": "1 kg / Bag",
             "animals": [
                 "Chicken"
+            ],
+            "animalCategories": [
+                "Poultry"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11859"
         },
@@ -787,6 +1200,10 @@
                 "Chicken",
                 "Aquatic",
                 "Reptile"
+            ],
+            "animalCategories": [
+                "Poultry",
+                "Others"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12454"
         },
@@ -844,6 +1261,10 @@
                 "Swine",
                 "Chicken"
             ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1822"
         },
         {
@@ -896,6 +1317,10 @@
                 "Livestock",
                 "Chicken",
                 "Turkey"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1860"
         },
@@ -954,6 +1379,10 @@
                 "Chicken",
                 "Turkey"
             ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1863"
         },
         {
@@ -1006,6 +1435,9 @@
                 "Chicken",
                 "Turkey"
             ],
+            "animalCategories": [
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1821"
         },
         {
@@ -1050,6 +1482,9 @@
                 "Chicken",
                 "Turkey"
             ],
+            "animalCategories": [
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12039"
         },
         {
@@ -1093,6 +1528,9 @@
             "animals": [
                 "Chicken",
                 "Turkey"
+            ],
+            "animalCategories": [
+                "Poultry"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3958"
         },
@@ -1144,6 +1582,10 @@
                 "Swine",
                 "Chicken"
             ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12017"
         },
         {
@@ -1192,6 +1634,11 @@
                 "Dog",
                 "Cat"
             ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry",
+                "Others"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12547"
         },
         {
@@ -1231,6 +1678,10 @@
             "animals": [
                 "Chicken",
                 "Swine"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28941"
         },
@@ -1272,6 +1723,10 @@
                 "Swine",
                 "Chicken"
             ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12223"
         },
         {
@@ -1310,6 +1765,9 @@
             "packaging": "1 kg / Bag",
             "animals": [
                 "Swine"
+            ],
+            "animalCategories": [
+                "Livestock"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12117"
         },
@@ -1375,6 +1833,10 @@
                 "Swine",
                 "Chicken"
             ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12091"
         },
         {
@@ -1417,6 +1879,9 @@
             "packaging": "1 kg / Bag",
             "animals": [
                 "Swine"
+            ],
+            "animalCategories": [
+                "Livestock"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12195"
         },
@@ -1461,6 +1926,10 @@
             "animals": [
                 "Swine",
                 "Chicken"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12169"
         },
@@ -1508,6 +1977,10 @@
                 "Chicken",
                 "Turkey"
             ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12221"
         },
         {
@@ -1551,6 +2024,9 @@
             "animals": [
                 "Chicken"
             ],
+            "animalCategories": [
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28954"
         },
         {
@@ -1591,6 +2067,9 @@
                 "Dog",
                 "Cat"
             ],
+            "animalCategories": [
+                "Others"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3933"
         },
         {
@@ -1630,7 +2109,1769 @@
             "animals": [
                 "Chicken"
             ],
+            "animalCategories": [
+                "Poultry"
+            ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3926"
+        },
+        {
+            "id": "39",
+            "name": "AMPICIN-G Inj.",
+            "alternativeName": "長效安黴素針",
+            "type": "Dry Powder Injections & Suspensions",
+            "medicineCode": "Reg. No.04110",
+            "ingredientsNote": "Each vial contains:",
+            "mainIngredients": [
+                {
+                    "spec": "Spec. (1)",
+                    "name": "Ampicillin Sodium",
+                    "amount": "17.5g"
+                },
+                {
+                    "spec": "Spec. (1)",
+                    "name": "Glucosamine HCl",
+                    "amount": "7.5g"
+                },
+                {
+                    "spec": "Spec. (2)",
+                    "name": "Ampicillin Sodium",
+                    "amount": "21.0g"
+                },
+                {
+                    "spec": "Spec. (2)",
+                    "name": "Glucosamine HCl",
+                    "amount": "9.0g"
+                }
+            ],
+            "indications": "Swine, Chicken & Turkey (Excluding laying hens): Treatment of acute and chronic swine erysipelas, Staphylococcosis, Spirochetosis, Pneumococcosis, skin infections, Pyogenic coccosis, encephalitis, and other bacterial infections.",
+            "dosageAndAdministration": "Intramuscular (IM) injection.\n\nDosage per kg of body weight:\nSwine: 15–20 mg (active ingredient) per kg.\nChicken & Turkey (Excluding laying hens): 20–30 mg (active ingredient) per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 5 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool, dark place, away from direct sunlight."
+                }
+            ],
+            "packaging": "(1) 25 g / vial, (2) 30 g / vial",
+            "animals": [
+                "Swine",
+                "Chicken",
+                "Turkey"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2758"
+        },
+        {
+            "id": "40",
+            "name": "AMPIDICLOX Inj.",
+            "alternativeName": "博效黴素針",
+            "type": "Dry Powder Injections & Suspensions",
+            "medicineCode": "Reg. No.04676",
+            "ingredientsNote": "Each vial contains:",
+            "mainIngredients": [
+                {
+                    "spec": "Spec. (1)",
+                    "name": "Ampicillin Sodium",
+                    "amount": "6.25g(pot.)"
+                },
+                {
+                    "spec": "Spec. (1)",
+                    "name": "Dicloxacillin Sodium",
+                    "amount": "3.125g(pot.)"
+                },
+                {
+                    "spec": "Spec. (1)",
+                    "name": "Glucosamine",
+                    "amount": "3.125g"
+                },
+                {
+                    "spec": "Spec. (2)",
+                    "name": "Ampicillin Sodium",
+                    "amount": "12.5g(pot.)"
+                },
+                {
+                    "spec": "Spec. (2)",
+                    "name": "Dicloxacillin Sodium",
+                    "amount": "6.25g(pot.)"
+                },
+                {
+                    "spec": "Spec. (2)",
+                    "name": "Glucosamine",
+                    "amount": "6.25g"
+                }
+            ],
+            "indications": "Livestock, Chicken & Turkey (Excluding laying hens): Treatment of Staphylococcosis, Chronic Respiratory Disease (CRD), Infectious Coryza, pneumonia, Colibacillosis, and other respiratory tract infections.",
+            "dosageAndAdministration": "Intramuscular (IM) injection after reconstitution with sterile water for injection.\n\nDosage per kg of body weight:\nChicken & Turkey (Excluding laying hens): 15–25 mg per kg.\nLivestock: 10–15 mg per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Storage: Store in a cool, dark place, away from direct sunlight."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 5 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
+                }
+            ],
+            "packaging": "(1) 12.5 g / vial, (2) 25 g / vial",
+            "animals": [
+                "Chicken",
+                "Turkey",
+                "Livestock"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3142"
+        },
+        {
+            "id": "41",
+            "name": "AMOCILLIN Inj.",
+            "alternativeName": "安復西林針",
+            "type": "Dry Powder Injections & Suspensions",
+            "medicineCode": "Reg. No.08433",
+            "ingredientsNote": "Each vial contains:",
+            "mainIngredients": [
+                {
+                    "spec": "Spec. (1)",
+                    "name": "Amoxicillin Trihydrate Micronized",
+                    "amount": "15g(pot.)"
+                },
+                {
+                    "spec": "Spec. (2)",
+                    "name": "Amoxicillin Trihydrate Micronized",
+                    "amount": "30g(pot.)"
+                }
+            ],
+            "indications": "Swine: Treatment of bacterial pneumonia (Haemophilus pneumonia), metritis, mastitis, Mastitis-Metritis-Agalactia (MMA) syndrome, swine erysipelas, Colibacillosis, Salmonellosis, and general suppurative infections.\nCattle: Treatment of bacterial pneumonia, metritis, mastitis, MMA syndrome, Colibacillosis, Salmonellosis, and general suppurative infections.",
+            "dosageAndAdministration": "Intramuscular (IM) injection. Reconstitute with sterile water for injection or an appropriate diluent and shake well before use.\n\nDosage per kg of body weight:\nSwine & Cattle: 7 mg daily for 3–5 consecutive days per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Preparation: Once reconstituted, the solution must be used within 12 hours and must not be refrigerated."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Withdrawal Period: Swine: 14 days / Cattle: 21 days / Milk: 48 hours. Do not use for more than 7 consecutive days."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Safety: Allergic reactions may occur. A sensitivity test is recommended before use; avoid use in animals with positive reactions. Localized reactions may occasionally occur at the injection site."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "(1) 15 g / vial, (2) 30 g / vial",
+            "animals": [
+                "Swine",
+                "Cattle"
+            ],
+            "animalCategories": [
+                "Livestock"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/130"
+        },
+        {
+            "id": "42",
+            "name": "KANAMYCIN Inj.",
+            "alternativeName": "聯華 康黴素針",
+            "type": "Dry Powder Injections & Suspensions",
+            "medicineCode": "Reg. No.02434",
+            "ingredientsNote": "Each Vial Contains:",
+            "mainIngredients": [
+                {
+                    "spec": "Spec. (1)",
+                    "name": "Kanamycin Sulfate",
+                    "amount": "12.5g(pot.)"
+                },
+                {
+                    "spec": "Spec. (2)",
+                    "name": "Kanamycin Sulfate",
+                    "amount": "25g(pot.)"
+                }
+            ],
+            "indications": "Cattle, Sheep & Swine: Treatment of bacterial pneumonia, bacterial diarrhea, and mastitis.\nChicken & Turkey (Excluding laying hens): Treatment of Chronic Respiratory Disease (CRD) and Infectious Coryza.",
+            "dosageAndAdministration": "Intramuscular (IM) injection.\n\nDosage per kg of body weight:\nCattle: 5–10 mg per kg.\nSwine & Sheep: 15–20 mg per kg.\nChicken & Turkey (Excluding laying hens): 25 mg per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Storage: Store in a cool, dark place, away from direct sunlight."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Withdrawal Period: Cattle, Sheep & Swine: 30 days / Milk: 36 hours / Chicken & Turkey (Excluding laying hens): 14 days."
+                }
+            ],
+            "packaging": "(1) 12.5 g / vial, (2) 25 g / vial",
+            "animals": [
+                "Cattle",
+                "Swine",
+                "Sheep & Goat",
+                "Chicken",
+                "Turkey"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1337"
+        },
+        {
+            "id": "43",
+            "name": "SPECTLIN Inj.",
+            "alternativeName": "速倍特靈針",
+            "type": "Dry Powder Injections & Suspensions",
+            "medicineCode": "Reg. No.09653",
+            "ingredientsNote": "Each vial contains:",
+            "mainIngredients": [
+                {
+                    "spec": "Spec. (1)",
+                    "name": "Lincomycin HCl",
+                    "amount": "10g(pot.)"
+                },
+                {
+                    "spec": "Spec. (1)",
+                    "name": "Spectinomycin Sulfate",
+                    "amount": "20g(pot.)"
+                },
+                {
+                    "spec": "Spec. (2)",
+                    "name": "Lincomycin HCl",
+                    "amount": "15g(pot.)"
+                },
+                {
+                    "spec": "Spec. (2)",
+                    "name": "Spectinomycin Sulfate",
+                    "amount": "30g(pot.)"
+                }
+            ],
+            "indications": "Swine: Treatment of Staphylococcosis, Streptococcosis, Mycoplasmosis, dysentery, and other infections susceptible to this product.\nChicken (Excluding laying hens): Treatment of Staphylococcosis, Streptococcosis, Mycoplasmosis, and other infections susceptible to this product.",
+            "dosageAndAdministration": "Reconstitute with sterile water for injection or an appropriate diluent and shake well until dissolved.\n\nDosage per kg of body weight:\nSwine: 15 mg daily for 3–7 consecutive days per kg (IM).\nChicken (Excluding laying hens): 30 mg daily for 3 consecutive days per kg (SC).",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Preparation: Reconstituted solution can be refrigerated but must be used within 3 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Withdrawal Period: Swine & Chicken: 21 days."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
+                }
+            ],
+            "packaging": "(1) 30 g / vial, (2) 45 g / vial",
+            "animals": [
+                "Swine",
+                "Chicken"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28955"
+        },
+        {
+            "id": "44",
+            "name": "CEFTIOFUR Inj.",
+            "alternativeName": "瀉涕伏針",
+            "type": "Dry Powder Injections & Suspensions",
+            "medicineCode": "Reg. No.08772",
+            "ingredientsNote": "Each vial contains:",
+            "mainIngredients": [
+                {
+                    "spec": "Spec. (1)",
+                    "name": "Ceftiofur Sodium",
+                    "amount": "4g(pot.)"
+                },
+                {
+                    "spec": "Spec. (2)",
+                    "name": "Ceftiofur Sodium",
+                    "amount": "10g(pot.)"
+                },
+                {
+                    "spec": "Spec. (3)",
+                    "name": "Ceftiofur Sodium",
+                    "amount": "25g(pot.)"
+                }
+            ],
+            "indications": "Cattle & Sheep: Treatment of respiratory tract infections caused by Mannheimia haemolytica, Pasteurella multocida, and Histophilus somni.\nSwine: Treatment of respiratory tract infections caused by Actinobacillus pleuropneumoniae, Pasteurella multocida, Salmonella choleraesuis, and Streptococcus suis type 2.\nDay-old Chicken & Turkey: Control of Colibacillosis.",
+            "dosageAndAdministration": "Intramuscular (IM) or Subcutaneous (SC) injection. Reconstitute by adding 20 ml of sterile water for injection per gram of Ceftiofur; shake well. The resulting solution contains approximately 50 mg of Ceftiofur per ml.\n\nDosage per kg of body weight:\nCattle & Sheep: 1.1–2.2 mg daily for 3–5 consecutive days per kg (IM).\nSwine: 3–5 mg daily for 3 consecutive days per kg (IM).\nDay-old Chicken: 0.08–0.20 mg per bird (SC).\nDay-old Turkey: 0.17–0.50 mg per bird (SC).",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Preparation: Reconstituted solution must be used within 12 hours if stored at room temperature, or within 7 days if refrigerated at 2–8°C. Avoid direct sunlight."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Withdrawal Period: Cattle, Sheep, Swine, Chicken & Turkey: 5 days. There is no milk discard period for dairy cattle."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a refrigerator at 2–8°C."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Contraindications: Do not use in animals hypersensitive to Penicillins or Cephalosporins."
+                },
+                {
+                    "id": "6",
+                    "precaution": "Safety: For animal use only. Keep out of reach of children. Avoid direct contact with skin or mucosa. In case of allergic reactions (e.g., rash, difficulty breathing), seek medical attention immediately."
+                }
+            ],
+            "packaging": "(1) 4 g / vial, (2) 10 g / vial, (3) 25 g / vial",
+            "animals": [
+                "Cattle",
+                "Sheep & Goat",
+                "Swine",
+                "Chicken",
+                "Turkey"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12257"
+        },
+        {
+            "id": "45",
+            "name": "CEPHAMYCIN Inj.",
+            "alternativeName": "雪華黴素針",
+            "type": "Dry Powder Injections & Suspensions",
+            "medicineCode": "Reg. No.08138",
+            "ingredientsNote": "Each vial contains:",
+            "mainIngredients": [
+                {
+                    "spec": "Spec. (1)",
+                    "name": "Cephaloridine",
+                    "amount": "550mg(potency)"
+                },
+                {
+                    "spec": "Spec. (2)",
+                    "name": "Cephaloridine",
+                    "amount": "5500mg(potency)"
+                }
+            ],
+            "indications": "Dogs & Cats: Treatment of pneumonia, Salmonellosis, and urinary tract infections.",
+            "dosageAndAdministration": "Subcutaneous (SC) or Intramuscular (IM) injection after reconstitution with sterile distilled water for injection.\n\nDosage per kg of body weight:\nDogs & Cats: 11 mg per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "(1) 550 mg / vial, (2) 5,500 mg / vial",
+            "animals": [
+                "Dog",
+                "Cat"
+            ],
+            "animalCategories": [
+                "Others"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3927"
+        },
+        {
+            "id": "46",
+            "name": "Spectinomycin Inj.",
+            "alternativeName": "速靈黴素針",
+            "type": "Dry Powder Injections & Suspensions",
+            "medicineCode": "Reg. No.05631",
+            "ingredientsNote": "Each vial contains:",
+            "mainIngredients": [
+                {
+                    "spec": "Spec. (1)",
+                    "name": "Spectinomycin",
+                    "amount": "5g(potency)"
+                },
+                {
+                    "spec": "Spec. (2)",
+                    "name": "Spectinomycin",
+                    "amount": "12.5g(potency)"
+                },
+                {
+                    "spec": "Spec. (3)",
+                    "name": "Spectinomycin",
+                    "amount": "15g(potency)"
+                },
+                {
+                    "spec": "Spec. (4)",
+                    "name": "Spectinomycin",
+                    "amount": "25g(potency)"
+                }
+            ],
+            "indications": "Swine: Treatment of enteritis and piglet white scours.",
+            "dosageAndAdministration": "Subcutaneous (SC) or Intramuscular (IM) injection.\n\nDosage per kg of body weight:\nSwine: 5 mg for 2–4 consecutive days per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 21 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "(1) 5 g / vial, (2) 12.5 g / vial, (3) 15 g / vial, (4) 25 g / vial",
+            "animals": [
+                "Swine"
+            ],
+            "animalCategories": [
+                "Livestock"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3952"
+        },
+        {
+            "id": "47",
+            "name": "phenazathionium",
+            "alternativeName": "藍特淨",
+            "type": "Disinfectants (External Use)",
+            "medicineCode": "Reg. No.02455",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Alkyldimethylbenzylammonium Chloride",
+                    "amount": "20%"
+                },
+                {
+                    "name": "3,7-Bis(dimethylamino)-phenzathionium Chloride",
+                    "amount": "0.005%"
+                }
+            ],
+            "indications": "Disinfection for Avian Influenza virus, Newcastle Disease virus, livestock and poultry skin, housing, feeding equipment, work tools, and udders.",
+            "dosageAndAdministration": "General Instruction: Stir and dissolve the product in warm water before use.\nAvian Influenza Virus Disinfection: Use a 200-fold dilution for spraying or wiping.\nNewcastle Disease Virus Disinfection: Use a 400-fold dilution for spraying or wiping.\nFootbaths & Disinfection Trays: Use a 300–500 fold dilution; replace every 2–5 days or when the solution becomes soiled.\nHousing, Feed Warehouses & Animal Bodies: Use a 500–700 fold dilution for spraying, sprinkling, or wiping.\nFeeders, Waterers, Incubators & Brooders: Use a 500–700 fold dilution for spraying, sprinkling, or wiping.\nWorkwear, Footwear & Surgical Tools: Use a 500–700 fold dilution for washing, spraying, or wiping.\nBreeding Egg Sanitization: Use a 500–700 fold dilution. Ensure the solution temperature is higher than the internal temperature of the eggs (typically 45°C). Immerse for approximately 2 minutes and avoid rapid air-drying.\nUdder Washing & Disinfection: Use a 500–1,000 fold dilution for wiping.\nWounds, Mucosa & Pre-operative Skin Disinfection: Use a 1,000–1,500 fold dilution for wiping.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Preparation: Wash the target objects with water first. If soap is used, rinse thoroughly with water before applying this product."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Safety: Avoid contact with eyes or sensitive mucosa during application."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight. Keep out of reach of children."
+                }
+            ],
+            "packaging": "1L/B, 5L/B, 18L/B, 25L/B",
+            "animals": [],
+            "animalCategories": [],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1825"
+        },
+        {
+            "id": "48",
+            "name": "WINTOZINE 500",
+            "alternativeName": "穩特淨500",
+            "type": "Disinfectants (External Use)",
+            "medicineCode": "Reg. No.08445",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Benzalkonium Chloride",
+                    "amount": "500mg"
+                }
+            ],
+            "indications": "Disinfection of livestock and poultry housing, Avian Influenza, Newcastle Disease, and eel ponds.",
+            "dosageAndAdministration": "Mucosal Disinfection: Apply using a 2,500 to 5,000-fold dilution.\nUterine Lavage: Flush using a 2,500-fold dilution.\nHousing Disinfection: Spray using a 2,000 to 2,500-fold dilution.\nAvian Influenza Disinfection: Spray using a 250-fold dilution.\nNewcastle Disease Disinfection: Spray using a 500-fold dilution.\nEel Pond Disinfection: Use 120 ml of this product per 100 tons of pond water. Re-disinfect after 7 days.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Safety: Avoid splashing into eyes. In case of accidental contact, rinse with plenty of water and seek medical attention immediately."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Interaction: Do not mix with soap; rinse thoroughly before use."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Storage: Store in a cool place and keep out of reach of children."
+                }
+            ],
+            "packaging": "5L/B,18L/B",
+            "animals": [],
+            "animalCategories": [],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11793"
+        },
+        {
+            "id": "49",
+            "name": "BKB-S",
+            "alternativeName": "必克淨",
+            "type": "Disinfectants (External Use)",
+            "medicineCode": "Reg. No.08015",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Didecyldimethylammonium Bromide",
+                    "amount": "500mg"
+                }
+            ],
+            "indications": "Cleaning, sterilization, and disinfection of livestock/poultry housing and equipment; full-body disinfection of breeding swine before mating; egg disinfection; disinfection for Avian Influenza and Newcastle Disease.",
+            "dosageAndAdministration": "Infectious Disease Control: Spray using a 2,000-fold dilution.\nGeneral Disinfection: Disinfect by spraying, sprinkling, washing, or immersion using a 3,000-fold dilution.\nDrinking Water System Disinfection: Use at a 10,000 to 20,000-fold dilution.\nAvian Influenza Disinfection: Spray using a 500-fold dilution.\nNewcastle Disease Disinfection: Spray using a 1,000-fold dilution.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Safety: Avoid splashing into eyes. In case of accidental contact, rinse with plenty of water and seek medical attention immediately."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Interaction: Do not mix with soap; rinse thoroughly before use."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Usage: Method (spraying, sprinkling, washing, or immersion) and dosage may be adjusted as needed. "
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool place and keep out of reach of children."
+                }
+            ],
+            "packaging": "5L/B",
+            "animals": [],
+            "animalCategories": [],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/6699"
+        },
+        {
+            "id": "50",
+            "name": "POVIDINE 300",
+            "alternativeName": "普衛碘300",
+            "type": "Disinfectants (External Use)",
+            "medicineCode": "Reg. No.08446",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Povidone Iodine",
+                    "amount": "300mg\n(Equivalent to available iodine 30mg)"
+                }
+            ],
+            "indications": "Pre- and post-operative skin disinfection; treatment of wounds, burns, and frostbite; disinfection and treatment of endometritis and vaginitis; teat dipping/washing (prevention of mastitis); treatment of skin infections.\nDisinfection of livestock/poultry housing and various equipment.",
+            "dosageAndAdministration": "Pre/Post-operative Skin Disinfection & Skin Infections: Apply using a 300-fold dilution.\nTeat Washing & Disinfection: Apply using a 750-fold dilution.\n子Uterine & Vaginal Disinfection: Flush using a 400-fold dilution.\nHousing & Equipment Disinfection: Spray using a 400 to 1,000-fold dilution.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Safety: Avoid splashing into eyes. In case of accidental contact, rinse with plenty of water and seek medical attention immediately."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Interaction: Do not mix with cationic disinfectants or detergents."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Usage: Method (spraying, sprinkling, washing, or immersion) and dosage may be adjusted as needed. "
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool place and keep out of reach of children."
+                }
+            ],
+            "packaging": "1L/B, 5L/B",
+            "animals": [],
+            "animalCategories": [],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11794"
+        },
+        {
+            "id": "51",
+            "name": "UTOZINE 250",
+            "alternativeName": "優特淨250",
+            "type": "Disinfectants (External Use)",
+            "medicineCode": "Reg. No.09596",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Glutaraldehyde",
+                    "amount": "150mg"
+                },
+                {
+                    "name": "CoCo Benzy Dimetyl Ammonium Choride",
+                    "amount": "100mg"
+                }
+            ],
+            "indications": "Sterilization and disinfection of livestock and poultry housing.",
+            "dosageAndAdministration": "General Routine Disinfection: Dilute 150 to 300-fold.\n\u3000(a) Non-porous surfaces: Spray 100 mL per square meter.\n\u3000(b) Porous surfaces: Spray 300 mL per square meter.\nDuring Disease Outbreaks or Epidemics: Dilute 50 to 100-fold.\nWaterer Disinfection: Dilute 300-fold.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Storage: Store in a dark place at 15°C–30°C; avoid direct sunlight."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Safety: Do not swallow; avoid inhalation. Skin contact may cause allergic reactions."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Protection: Operators should wear appropriate protective clothing, gloves, and face/eye protection."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Emergency Measures:\n(a) If swallowed: Drink large amounts of milk or water. Do not induce vomiting. Seek medical attention immediately.\n(b) Skin/Eye contact: Rinse with plenty of water for 15 minutes. Seek medical attention immediately."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Environment: Use this product in a well-ventilated area."
+                }
+            ],
+            "packaging": "5L",
+            "animals": [],
+            "animalCategories": [],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28811"
+        },
+        {
+            "id": "52",
+            "name": "L.C.N INJECTION",
+            "alternativeName": "聯華 立可安",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.07601",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Lincomycin HCI",
+                    "amount": "50mg(pot.)"
+                },
+                {
+                    "name": "Spectinomycin HCI",
+                    "amount": "100mg(pot.)"
+                }
+            ],
+            "indications": " Swine: Treatment of infectious arthritis, Colibacillosis, Mycoplasmal pneumonia, and Haemophilus pneumonia.\nChicken & Turkey (Excluding laying hens): Treatment of Chronic Respiratory Disease (CRD), Complicated Chronic Respiratory Disease (CCRD), Fowl Cholera, and Staphylococcosis.\nDogs: Treatment of respiratory tract infections, skin diseases, urinary tract infections, and secondary bacterial infections.",
+            "dosageAndAdministration": "Intramuscular (IM) injection.\nDosage per kg of body weight:\nSwine: 1 ml per 10 kg of body weight once daily for 3–7 days as needed (IM).\nChicken & Turkey (Excluding laying hens): 0.1 ml per 0.5 kg of body weight once daily for 3 consecutive days (IM).\nDogs: 1 ml per 5 kg of body weight once daily for up to 21 days (IM).",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 21 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool, dry place, protected from light."
+                }
+            ],
+            "packaging": "100ml",
+            "animals": [
+                "Swine",
+                "Chicken",
+                "Turkey",
+                "Dog"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry",
+                "Others"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/6095"
+        },
+        {
+            "id": "53",
+            "name": "DECADIN Inj.",
+            "alternativeName": "聯華 立刻靈 注",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.04770",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Dexamethasone-21-Sodium phosphate",
+                    "amount": "1mg"
+                }
+            ],
+            "indications": "Cattle, Horse, Swine, Chicken & Turkey (Excluding laying hens): Pre- and post-partum lameness, acute and chronic mastitis, metritis, pneumonia, tracheitis, asthma/cough, arthritis, eczema, and other indications for corticosteroid hormone therapy.",
+            "dosageAndAdministration": "Intramuscular (IM) or Subcutaneous (SC) injection.\nCattle & Horse: 10–20 ml.\nSwine: 5–10 ml.\nChicken & Turkey (Excluding laying hens): 0.5–2 ml.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Usage Restrictions: Do not use in laying hens."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "100ml",
+            "animals": [
+                "Cattle",
+                "Horse",
+                "Swine",
+                "Chicken",
+                "Turkey"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3184"
+        },
+        {
+            "id": "54",
+            "name": "LINCO 300 Inj.",
+            "alternativeName": "聯華 林可300針",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.09645",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Lincomycin HCI",
+                    "amount": "300mg(pot.)"
+                }
+            ],
+            "indications": "Dogs & Cats: Treatment of pneumonia, tracheitis, and meningitis caused by bacteria susceptible to this product.\nChicken (Excluding laying hens): Treatment of Chronic Respiratory Disease (CRD) and Infectious Coryza.\nSwine: Treatment of pneumonia, tracheitis, meningitis, and Actinobacillosis caused by bacteria susceptible to this product.",
+            "dosageAndAdministration": "Intramuscular (IM) or Intravenous (IV) injection.\nDosage per kg of body weight:\nGeneral Dosage: 0.03–0.06 ml per kg once daily; dosage may be adjusted according to symptoms.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Interaction: Do not use concurrently with Erythromycin."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Safety: Vomiting may occur in cats, and swine may experience soft stool, diarrhea, or anal swelling after administration."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Withdrawal Period: 7 days."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
+                },
+                {
+                    "id": "6",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "100ml",
+            "animals": [
+                "Dog",
+                "Cat",
+                "Chicken",
+                "Swine"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry",
+                "Others"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/28935"
+        },
+        {
+            "id": "55",
+            "name": "ANTICOUGH Inj.",
+            "alternativeName": "咳喘寧針",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.08930",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Chlorpheniramine Maleate",
+                    "amount": "2.5mg"
+                },
+                {
+                    "name": "DL-Methylephedrine HCI",
+                    "amount": "20mg"
+                },
+                {
+                    "name": "Sulpyrin",
+                    "amount": "150mg"
+                }
+            ],
+            "indications": "Cattle, Horse, Swine, Sheep, Dogs & Cats: Treatment of common cold, influenza, bronchitis, laryngitis, rhinitis, cough, wheezing, pneumonia, and typhoid; also used for fever and pain relief caused by other diseases.",
+            "dosageAndAdministration": "Subcutaneous (SC) or Intramuscular (IM) injection, 1–2 times daily. May be combined with chemotherapy for severe cases.\nDosage:\nCattle & Horse: (Large) 10–25 ml; (Small) 5–10 ml.\nSwine: (Large) 5–10 ml; (Medium) 2–5 ml; (Small) 0.5–2 ml.\nSheep, Dogs & Cats: 1–5 ml.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: Cattle, Swine & Sheep: at least 14 days / Milk & Goat Milk: 5 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "100ml, 500ml",
+            "animals": [
+                "Cattle",
+                "Horse",
+                "Swine",
+                "Sheep & Goat",
+                "Dog",
+                "Cat"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Others"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12535"
+        },
+        {
+            "id": "56",
+            "name": "TYLOSIN V Inj.",
+            "alternativeName": "聯華 泰樂新V注",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.02441",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Tylosin",
+                    "amount": "25mg (pot.)"
+                }
+            ],
+            "indications": "Cattle: Treatment of pneumonia, shipping fever, foot rot, and metritis.\nSwine: Treatment of enzootic pneumonia, dysentery, and erysipelas.\nChicken & Turkey (Excluding laying hens): Treatment of Chronic Respiratory Disease (CRD), Staphylococcosis, and Streptococcosis.",
+            "dosageAndAdministration": "Subcutaneous (SC) or Intramuscular (IM) injection. Do not use for more than 3 consecutive days.\nDosage per kg of body weight:\nCattle: 0.1–0.3 ml per kg.\nSwine & Sheep: 0.1–0.4 ml per kg.\nChicken & Turkey (Excluding laying hens): 1 ml per kg (Use only in birds 4 weeks of age or older).",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 6 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Usage Restrictions: Do not use in laying hens."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "100ml",
+            "animals": [
+                "Cattle",
+                "Swine",
+                "Chicken",
+                "Turkey"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1801"
+        },
+        {
+            "id": "57",
+            "name": "Tomegin 20 Inj.",
+            "alternativeName": "聯華 特滅菌 20注",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.04113",
+            "ingredientsNote": "Each 100ml Contains:",
+            "mainIngredients": [
+                {
+                    "name": "Sulfamonomethoxine Sodium",
+                    "amount": "20g"
+                },
+                {
+                    "name": "Water for injection",
+                    "amount": "q.s."
+                }
+            ],
+            "indications": "Chicken, Turkey, Duck & Goose (Excluding laying birds): Treatment of Infectious Coryza, Coccidiosis, and Leucocytozoonosis (White Comb Disease).\nLivestock: Treatment of diarrhea, Toxoplasmosis, and Trypanosomiasis.",
+            "dosageAndAdministration": "Subcutaneous (SC) or Intramuscular (IM) injection.\nDosage per kg of body weight:\nChicken, Turkey, Duck & Goose (Excluding laying birds): 0.25–0.5 ml per kg.\nLivestock: 0.15–0.25 ml per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 5 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying birds."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "100ml",
+            "animals": [
+                "Chicken",
+                "Turkey",
+                "Duck",
+                "Goose",
+                "Livestock"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2761"
+        },
+        {
+            "id": "58",
+            "name": "聯華 康黴素 100針",
+            "alternativeName": "KANAMYCIN 100 Inj.",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.09010",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Kanamycin Sulfate",
+                    "amount": "100mg(pot.)"
+                }
+            ],
+            "indications": "Swine, Cattle & Sheep: Treatment of bacterial pneumonia, bronchitis, respiratory tract infections, Swine Pasteurellosis, bacterial enteritis, piglet white scours, dysentery, mastitis, metritis, urinary tract infections, and suppurative diseases.\nChicken & Duck (Excluding laying birds): Treatment of Fowl Cholera and Infectious Coryza.",
+            "dosageAndAdministration": "Intramuscular (IM) injection once daily.\nDosage per kg of body weight:\nSwine, Cattle & Sheep: 0.1–0.2 ml per kg.\nChicken & Duck (Excluding laying birds): 0.25–0.5 ml per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 7 days for swine, cattle, sheep, chicken, and duck."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Administration Safety: Rotate the injection site for repeated administration."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying birds."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "100ml",
+            "animals": [
+                "Swine",
+                "Cattle",
+                "Sheep & Goat",
+                "Chicken",
+                "Duck"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12660"
+        },
+        {
+            "id": "59",
+            "name": "SULPYRIN 500 Inj.",
+            "alternativeName": "聯華 速必寧500針",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.08586",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Sulpyrine",
+                    "amount": "500mg"
+                }
+            ],
+            "indications": "Cattle, Sheep & Swine: For the relief of fever and pain.",
+            "dosageAndAdministration": "Subcutaneous (SC) or Intramuscular (IM) injection.\nDosage per kg of body weight:\nSheep & Swine: 0.02 ml per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "nteraction: Do not mix or use concurrently with sulfonamides."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Safety: This product has teratogenic effects; do not use in pregnant animals."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Withdrawal Period: Cattle, Sheep & Swine: at least 14 days / Milk & Goat Milk: at least 2 days."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "100ml, 600ml",
+            "animals": [
+                "Cattle",
+                "Sheep & Goat",
+                "Swine"
+            ],
+            "animalCategories": [
+                "Livestock"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/11977"
+        },
+        {
+            "id": "60",
+            "name": "SULPYRIN Inj.",
+            "alternativeName": "聯華 速必寧 注",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.04112",
+            "ingredientsNote": "Each 100ml Contains:",
+            "mainIngredients": [
+                {
+                    "name": "Sulpyrin",
+                    "amount": "20gm"
+                }
+            ],
+            "indications": "Cattle, Horse & Swine: For the relief of fever and pain.",
+            "dosageAndAdministration": "Intramuscular (IM) injection.\nDosage:\nCattle & Horse: 50–100 ml.\nSwine: 0.3–0.5 ml per kg of body weight.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: Cattle & Swine: at least 14 days / Milk: at least 3 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "100ml, 500ml",
+            "animals": [
+                "Cattle",
+                "Horse",
+                "Swine"
+            ],
+            "animalCategories": [
+                "Livestock"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2759"
+        },
+        {
+            "id": "61",
+            "name": "FURONSAN Inj.",
+            "alternativeName": "復勞酸 注",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.02448",
+            "ingredientsNote": "Each ml Contains:",
+            "mainIngredients": [
+                {
+                    "name": "Glucuronic Acid",
+                    "amount": "10mg"
+                },
+                {
+                    "name": "DL-methionine",
+                    "amount": "10mg"
+                },
+                {
+                    "name": "Riboflavin-5-phosphate sodium",
+                    "amount": "0.25mg"
+                },
+                {
+                    "name": "Vitamin pp",
+                    "amount": "10mg"
+                },
+                {
+                    "name": "Vitamin B₁",
+                    "amount": "10mg"
+                },
+                {
+                    "name": "Vitamin B₆",
+                    "amount": "1mg"
+                },
+                {
+                    "name": "Vitamin B₁₂",
+                    "amount": "10mcg"
+                },
+                {
+                    "name": "Dextrase",
+                    "amount": "50mg"
+                }
+            ],
+            "indications": "Livestock & Poultry: Liver protection, stress relief, fatigue recovery from transportation, immune system enhancement, appetite stimulation, nutritional supplementation, liver cirrhosis, food or drug poisoning, and supportive therapy for diseases.",
+            "dosageAndAdministration": "Intravenous (IV) or Intramuscular (IM) injection. Dosage may be adjusted according to the severity of the condition.\nDosage per kg of body weight:\nGeneral Dosage: 0.2–0.5 ml per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Safety: Use aseptic techniques when withdrawing the solution."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "100ml",
+            "animals": [],
+            "animalCategories": [],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1817"
+        },
+        {
+            "id": "62",
+            "name": "ENROTRIL 100 Inj.",
+            "alternativeName": "聯華 愛樂利 100針",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.08844",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Enrofloxacin",
+                    "amount": "100mg"
+                }
+            ],
+            "indications": "Calf (under 250 kg) & Swine: Treatment of infections caused by Gram-negative bacteria, Gram-positive bacteria, and Mycoplasma.",
+            "dosageAndAdministration": "Subcutaneous (SC) injection for calves; Intramuscular (IM) injection for swine.\nDosage per 100 kg of body weight:\nGeneral Infections: 2.5 ml per 100 kg daily for 3 consecutive days.\n治Severe Respiratory Infections: 5.0 ml per 100 kg daily for 3 consecutive days.\nSalmonellosis: 5.0 ml per 100 kg daily for 5 consecutive days.\nSow MMA Syndrome: 2.5 ml per 100 kg daily for 1–2 consecutive days.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: Swine: 9 days / Calf: 7 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Contraindications: Do not use in horses."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "500ml",
+            "animals": [
+                "Cattle",
+                "Swine"
+            ],
+            "animalCategories": [
+                "Livestock"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12390"
+        },
+        {
+            "id": "63",
+            "name": "VILICAN  INJECTION",
+            "alternativeName": "聯華 維力康 注",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.02449",
+            "ingredientsNote": "Each 100ml Contains:",
+            "mainIngredients": [
+                {
+                    "name": "Thiamine HCI",
+                    "amount": "1000mg"
+                },
+                {
+                    "name": "Vitamin pp",
+                    "amount": "1000mg"
+                },
+                {
+                    "name": "Pyridoxine HCI",
+                    "amount": "50mg"
+                },
+                {
+                    "name": "Riboflavin-5-phosphate Sodium",
+                    "amount": "20mg"
+                },
+                {
+                    "name": "Vitamin B₁₂",
+                    "amount": "500mcg"
+                },
+                {
+                    "name": "DL-methionine",
+                    "amount": "1000mg"
+                },
+                {
+                    "name": "Dextrose",
+                    "amount": "5000mg"
+                }
+            ],
+            "indications": "Nutritional disorders, poisoning, loss of appetite, and tonic for pre/post-partum or during/after illness.",
+            "dosageAndAdministration": "Intravenous (IV), Intramuscular (IM), or Subcutaneous (SC) injection. Dosage may be adjusted according to the severity of the condition.\nDosage per kg of body weight:\nGeneral Dosage: 0.25–0.5 ml per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Safety: Use aseptic techniques when withdrawing the solution."
+                }
+            ],
+            "packaging": "100ml, 500ml",
+            "animals": [],
+            "animalCategories": [],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1818"
+        },
+        {
+            "id": "64",
+            "name": "PITOCIN  INJECTION",
+            "alternativeName": "樂胎速 注",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.02465",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Pitocin",
+                    "amount": "10 I.U."
+                }
+            ],
+            "indications": "Induction of labor, evacuation of uterine debris, promotion of lactation, and supportive treatment for mastitis.",
+            "dosageAndAdministration": "Intramuscular (IM) or Subcutaneous (SC) injection.\nDosage per kg of body weight:\nCattle & Horse: 10 ml per kg.\nSheep & Swine: 3–5 ml per kg.\nDogs & Cats: 0.5–3 ml per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "20ml",
+            "animals": [
+                "Cattle",
+                "Horse",
+                "Sheep & Goat",
+                "Swine",
+                "Dog",
+                "Cat"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Others"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/1834"
+        },
+        {
+            "id": "65",
+            "name": "PREDONINE S inj.",
+            "alternativeName": "百炎通 注",
+            "type": "Injectable & Sterile Suspensions",
+            "medicineCode": "Reg. No.05612",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "prednisolone Acetate",
+                    "amount": "4mg"
+                },
+                {
+                    "name": "suspending agent.",
+                    "amount": "q.s."
+                }
+            ],
+            "indications": "Cattle & Swine: Treatment of acute and chronic mastitis, arthritis, metritis, pneumonia, and allergic dermatitis.",
+            "dosageAndAdministration": "Intramuscular (IM) injection.\nDosage per kg of body weight:\nCattle & Swine: 0.2 ml per kg.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician)."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 7 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "100ml",
+            "animals": [
+                "Cattle",
+                "Swine"
+            ],
+            "animalCategories": [
+                "Livestock"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/3929"
+        },
+        {
+            "id": "66",
+            "name": "LH POULTRIN",
+            "alternativeName": "聯華 好飼佳",
+            "type": "Others",
+            "medicineCode": "",
+            "ingredientsNote": "Each gm contains:",
+            "mainIngredients": [
+                {
+                    "name": "Pineapple Peel Extract",
+                    "amount": "200mg"
+                }
+            ],
+            "indications": "",
+            "dosageAndAdministration": "General Digestive Support: Mix 300–500 g of this product per 1,000 liters (1 ton) of drinking water. Use consecutively for 5–7 days.\nStress, Disease, or Uric Acid Deposition: Mix 1,000–1,500 g of this product per 1,000 liters (1 ton) of drinking water. Use consecutively for 3–5 days.\nPre-sale (To reduce weight loss or sudden death): Mix 600–1,500 g of this product per 1,000 liters (1 ton) of drinking water. Start use 3 days before the sale.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Product Nature: This is a non-pharmaceutical product designed for health maintenance and immune support. No withdrawal period is required."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Synergy: Using this product in combination with antibiotics can enhance the efficacy of the antibiotics."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "1KG",
+            "animals": [
+                "Poultry"
+            ],
+            "animalCategories": [
+                "Poultry"
+            ],
+            "licenseUrl": ""
+        },
+        {
+            "id": "67",
+            "name": "LH HOTFREE",
+            "alternativeName": "聯華 好飼壯",
+            "type": "Others",
+            "medicineCode": "",
+            "ingredientsNote": "Each kg contains:",
+            "mainIngredients": [
+                {
+                    "name": "Pineapple Peel Extract",
+                    "amount": "50mg"
+                }
+            ],
+            "indications": "",
+            "dosageAndAdministration": "Mix 1 kg of this product per 1,000 kg (1 ton) of feed. Ensure the product is thoroughly and evenly mixed. This dosage applies to the following purposes:\nGeneral Maintenance: To promote appetite, improve feed conversion, enhance eggshell quality, increase egg weight, and reduce fecal ammonia emissions.\nStress Relief & Support: To alleviate onset-of-lay stress and for maintenance of the oviduct or after artificial insemination.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Product Nature: This is a non-pharmaceutical product designed for health maintenance and immune support. No withdrawal period is required."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "1KG",
+            "animals": [
+                "Poultry"
+            ],
+            "animalCategories": [
+                "Poultry"
+            ],
+            "licenseUrl": ""
+        },
+        {
+            "id": "68",
+            "name": "LH POULTRONG 150",
+            "alternativeName": "聯華 禽壯150",
+            "type": "Others",
+            "medicineCode": "",
+            "ingredientsNote": "Each kg contains:",
+            "mainIngredients": [
+                {
+                    "name": "Herbs Extract",
+                    "amount": "150mg"
+                }
+            ],
+            "indications": "",
+            "dosageAndAdministration": "Mix 1 kg of this product per 1,000 kg (1 ton) of feed. Ensure the product is thoroughly and evenly mixed. This dosage applies to the following purposes:\nGeneral Maintenance: To promote appetite, improve feed conversion, enhance eggshell quality, increase egg weight, and reduce fecal ammonia emissions.\nStress Relief & Support: To alleviate onset-of-lay stress and for maintenance of the oviduct or after artificial insemination.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Product Nature: This is a non-pharmaceutical product designed for health maintenance and immune support. No withdrawal period is required."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Composition: Herbs Extract includes botanical extracts from caraway, fennel, gentian, rosemary, peppermint, oak bark, garlic, onion, and clove."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Synergy: Using this product in combination with antibiotics can enhance the efficacy of the antibiotics."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "1KG",
+            "animals": [
+                "Poultry"
+            ],
+            "animalCategories": [
+                "Poultry"
+            ],
+            "licenseUrl": ""
+        },
+        {
+            "id": "69",
+            "name": "GENTAMICIN 50",
+            "alternativeName": "極大黴素50",
+            "type": "Oral Liquids",
+            "medicineCode": "Reg. No.08798",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Gentamicin Sulfate",
+                    "amount": "50mg（p）"
+                }
+            ],
+            "indications": "Swine: Treatment of Colibacillosis and swine dysentery.\nChicken (Excluding laying hens): Treatment of Colibacillosis and Salmonellosis.",
+            "dosageAndAdministration": "Swine (Colibacillosis): Mix 125 ml of this product per 1,000 liters (1 ton) of drinking water (8,000-fold dilution). Administer consecutively for 3 days.\nSwine (Dysentery): Mix 250 ml of this product per 1,000 liters (1 ton) of drinking water (4,000-fold dilution). Administer consecutively for 3 days.\nChicken (Excluding laying hens): For diarrhea, enteritis, and other complex infections caused by E. coli, mix 600 ml of this product per 1,000 liters (1 ton) of drinking water.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 3 days for swine and chickens."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Contraindications: Do not administer to animals with known hypersensitivity to this product."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                },
+                {
+                    "id": "6",
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
+                }
+            ],
+            "packaging": "200ml",
+            "animals": [
+                "Swine",
+                "Chicken"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12314"
+        },
+        {
+            "id": "70",
+            "name": "FLORCIN 100",
+            "alternativeName": "復洛黴素100",
+            "type": "Oral Liquids",
+            "medicineCode": "Reg. No.08809",
+            "ingredientsNote": "Each ml contains：",
+            "mainIngredients": [
+                {
+                    "name": "Florfenicol",
+                    "amount": "100mg"
+                }
+            ],
+            "indications": "Swine: Treatment of Actinobacillus pleuropneumoniae (APP), Pasteurella pneumonia, Salmonellosis, Colibacillosis, and other diseases caused by sensitive bacteria.\nChicken (Excluding laying hens): Treatment of Colibacillosis.\nPerciformes (Perch-like fish): Treatment of infections caused by sensitive Aeromonas hydrophila group, Pseudomonas fluorescens, Edwardsiella, Streptococcus, or Photobacterium.\nAnguilliformes (Eel-like fish): Treatment of infections caused by sensitive Aeromonas hydrophila group, Pseudomonas fluorescens, Edwardsiella, or Pseudomonas anguilliseptica.\nSalmoniformes (Salmon-like fish): Treatment of infections caused by sensitive Vibrio, Aeromonas salmonicida, or Aeromonas hydrophila group.",
+            "dosageAndAdministration": "Swine: Administer 0.01–0.02 ml of this product per kg of body weight daily (equivalent to 1–2 mg potency), mixed into drinking water for oral administration.\nChicken (Excluding laying hens): Administer 0.2 ml of this product per kg of body weight daily (equivalent to 20 mg potency). Mix thoroughly into 1/4 to 1/2 of the daily drinking water volume. Administer consecutively for 5 days.\nAquatic Species (Perciformes, Anguilliformes, Salmoniformes): Administer 0.1 ml of this product per kg of body weight daily (equivalent to 10 mg potency) orally for 3–5 consecutive days.\nMule Ducks (Excluding laying ducks): Administer 0.4 ml of this product per kg of body weight daily (equivalent to 40 mg potency) once a day for 5 consecutive days.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: Swine 3 days; Chicken 5 days; Perciformes 15 days; Anguilliformes 7 days; Salmoniformes 14 days; Mule Ducks 14 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Contraindications: Do not use in pregnant animals."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Treatment Duration: Do not exceed 7 consecutive days of treatment."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                },
+                {
+                    "id": "6",
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying poultry."
+                }
+            ],
+            "packaging": "1L, 200ml",
+            "animals": [
+                "Swine",
+                "Chicken",
+                "Aquatic"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry",
+                "Others"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12326"
+        },
+        {
+            "id": "71",
+            "name": "TILMICOSIN 250",
+            "alternativeName": "聯華 泰順250",
+            "type": "Oral Liquids",
+            "medicineCode": "Reg. No.08799",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Tilmicosin Phosphate",
+                    "amount": "250mg（p）"
+                }
+            ],
+            "indications": "Swine: Treatment of swine respiratory diseases caused by Mycoplasma hyopneumoniae, Pasteurella multocida, Actinobacillus pleuropneumoniae, Actinomyces pyogenes, and other Tilmicosin-sensitive bacteria.\nChicken (Excluding laying hens): Treatment of respiratory diseases caused by Mycoplasma gallisepticum and Mycoplasma synoviae.",
+            "dosageAndAdministration": "Swine: Mix 80 ml of this product per 100 liters of drinking water (equivalent to 200 mg of Tilmicosin per liter). Administer consecutively for 5 days.\nChicken (Excluding laying hens): Mix 300 ml of this product per 1,000 liters (1 ton) of drinking water (equivalent to 75 mg of Tilmicosin per liter). Administer consecutively for 3 days.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 14 days for swine; 12 days for chickens."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Contraindications: Do not use in breeding animals, horses, or other equid species."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Usage Restrictions: Do not use in chickens over 16 weeks of age or in laying hens."
+                }
+            ],
+            "packaging": "1L",
+            "animals": [
+                "Swine",
+                "Chicken"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12315"
+        },
+        {
+            "id": "72",
+            "name": "TOLTRAZURIL 25",
+            "alternativeName": "聯華 剋球淨25",
+            "type": "Oral Liquids",
+            "medicineCode": "Reg. No.08826",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Toltrazuril",
+                    "amount": "25mg"
+                }
+            ],
+            "indications": "Chicken (Breeder): Treatment of coccidiosis infections.",
+            "dosageAndAdministration": "Chicken (Breeder): Mix 1 L of this product per 1,000 liters (1 ton) of drinking water for 2 consecutive days; OR mix 3 L of this product per 1,000 liters (1 ton) of drinking water, administered for 8 hours daily for 2 consecutive days.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 8 days for chickens (breeders)."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Usage Restrictions: The recommended withdrawal period of 8 days is longer than the 5-day life cycle of coccidia, which may lead to re-infection during the withdrawal period. Therefore, this product is not suitable for treating coccidiosis in laying hens during production or broilers near market age. Do not use in laying hens or broilers."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Safety: If accidental contact occurs, wash immediately. Keep away from food and out of reach of children."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                },
+                {
+                    "id": "6",
+                    "precaution": "Usage Restrictions: Do not use in laying hens."
+                }
+            ],
+            "packaging": "1L",
+            "animals": [
+                "Chicken"
+            ],
+            "animalCategories": [
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12364"
+        },
+        {
+            "id": "73",
+            "name": "復美淨500S",
+            "alternativeName": "FLUMEQUINE 500S",
+            "type": "Oral Liquids",
+            "medicineCode": "Reg. No.08899",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Flumequine",
+                    "amount": "500mg"
+                }
+            ],
+            "indications": "Chicken (Broilers): Treatment of Colibacillosis, Salmonellosis, and Pasteurellosis.",
+            "dosageAndAdministration": "Chicken (Broilers): Mix 2.4 ml of this product per 100 kg of body weight into drinking water (equivalent to 12 mg of active Flumequine per kg of body weight). Administer consecutively for 5 days.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 2 days."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Usage Restrictions: Do not mix this product with solid feed."
+                },
+                {
+                    "id": "5",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "1L",
+            "animals": [
+                "Chicken"
+            ],
+            "animalCategories": [
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12479"
+        },
+        {
+            "id": "74",
+            "name": "COLISTIN 200S",
+            "alternativeName": "聯華 剋痢黴素200S",
+            "type": "Oral Liquids",
+            "medicineCode": "Reg. No.08922",
+            "ingredientsNote": "Each ml contains:",
+            "mainIngredients": [
+                {
+                    "name": "Colistin Sulfate",
+                    "amount": "2,000,000IU"
+                }
+            ],
+            "indications": "Chicken, Turkey, Swine, Calf, & Lamb: Treatment of digestive tract infections caused by Colistin-sensitive bacteria (E. coli, Salmonella).",
+            "dosageAndAdministration": "General: Mix 500–1,000 ml of this product per 1,000 liters (1 ton) of drinking water (1,000 to 2,000-fold dilution).\nChicken & Turkey: Administer 75,000 IU per kg of body weight daily for 3–5 consecutive days.\nSwine, Calf, & Lamb: Administer 50,000 IU per kg of body weight daily for 3–5 consecutive days.",
+            "precautions": [
+                {
+                    "id": "1",
+                    "precaution": "Prescription Only: This product must be used under the prescription and supervision of a licensed veterinarian (or veterinary technician) by livestock owners, aquatic farmers, or feed mills."
+                },
+                {
+                    "id": "2",
+                    "precaution": "Withdrawal Period: 1 day for swine, cattle, sheep, chickens, and turkeys; 0 days for eggs."
+                },
+                {
+                    "id": "3",
+                    "precaution": "Preparation: Medicated water should be freshly prepared and used within 12 hours."
+                },
+                {
+                    "id": "4",
+                    "precaution": "Storage: Store in a cool, dry place, away from direct sunlight."
+                }
+            ],
+            "packaging": "1L",
+            "animals": [
+                "Chicken",
+                "Turkey",
+                "Swine",
+                "Cattle",
+                "Sheep & Goat"
+            ],
+            "animalCategories": [
+                "Livestock",
+                "Poultry"
+            ],
+            "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/12520"
         }
     ],
     "contact": [
