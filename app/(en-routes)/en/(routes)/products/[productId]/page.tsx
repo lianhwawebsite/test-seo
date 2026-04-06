@@ -7,6 +7,12 @@ import { SeoHead } from "@/app/component/SeoHead";
 import { abs } from "@/app/config";
 import { Fragment } from "react";
 
+type Ingredient = {
+  spec?: string;
+  name?: string;
+  amount?: string;
+};
+
 type Product = {
   id: string;
   name: string;
@@ -14,7 +20,7 @@ type Product = {
   animals: string[];
   alternativeName?: string;
   medicineCode?: string;
-  mainIngredients?: { name?: string; amount?: string }[];
+  mainIngredients?: Ingredient[];
   indications?: string;
   dosageAndAdministration?: string;
   precautions?: { id: string; precaution: string }[];
@@ -22,7 +28,7 @@ type Product = {
   packaging?: string;
   ingredientsNote?: string;
   ingredientsNoteSecond?: string;
-  mainIngredientsSecond?: { name?: string; amount?: string }[];
+  mainIngredientsSecond?: Ingredient[];
   ogImage?: string;
 };
 
@@ -33,11 +39,11 @@ function findProduct(id: string): Product | undefined {
   return list.find((p) => p.id === id);
 }
 
-// 把你的資料映射成 schema.org/Drug
 function buildDrugSchema(p: Product) {
   const activeIngredient = (p.mainIngredients ?? [])
     .map((i) => [i?.name, i?.amount].filter(Boolean).join(" "))
     .filter(Boolean)
+    .filter((v, idx, arr) => arr.indexOf(v) === idx)
     .join(", ");
 
   const dosageForm = p.type?.split("、")?.[0]?.trim() || p.type || undefined;
@@ -102,12 +108,12 @@ export default async function Page({ params }: Props) {
     <>
       <SeoHead schema={[breadcrumb, drug]} />
 
-      <section className="mx-auto max-w-[1200px] ">
+      <section className="mx-auto max-w-[1200px]">
         <NextBreadcrumb />
       </section>
 
       <section className="mx-auto max-w-[1200px] grid grid-cols-1 md:grid-cols-8 gap-6 mt-6 md:gap-0 md:mt-10 font-notoSansTC">
-        <section className="flex flex-col gap-y-10 md:col-span-8 md:col-start-3 ">
+        <section className="flex flex-col gap-y-10 md:col-span-8 md:col-start-3">
           <div className="hidden relative px-6 md:block">
             <div className="absolute top-0 left-0 h-[32px]  border-theme-1 border-3 rounded-4xl"></div>
             <h1 className="font-bold text-2xl leading-[1.22] tracking-[1px]">{product?.name}</h1>
@@ -122,6 +128,58 @@ export default async function Page({ params }: Props) {
   );
 }
 
+function IngredientList({ ingredients }: { ingredients: Ingredient[] }) {
+  const hasSpec = ingredients.some((i) => i.spec);
+
+  if (!hasSpec) {
+    return (
+      <>
+        {ingredients.map((ingredient, idx) => (
+          <IngredientRow key={idx} ingredient={ingredient} />
+        ))}
+      </>
+    );
+  }
+
+  const groups = ingredients.reduce<{ spec: string; items: Ingredient[] }[]>((acc, ingredient) => {
+    const specLabel = ingredient.spec ?? "";
+    const existing = acc.find((g) => g.spec === specLabel);
+    if (existing) {
+      existing.items.push(ingredient);
+    } else {
+      acc.push({ spec: specLabel, items: [ingredient] });
+    }
+    return acc;
+  }, []);
+
+  return (
+    <>
+      {groups.map((group) => (
+        <div key={group.spec}>
+          <p className="font-medium text-sm md:text-base mt-2 mb-0.5">{group.spec}:</p>
+          {group.items.map((ingredient, idx) => (
+            <IngredientRow key={idx} ingredient={ingredient} />
+          ))}
+        </div>
+      ))}
+    </>
+  );
+}
+
+function IngredientRow({ ingredient }: { ingredient: Ingredient }) {
+  return (
+    <div>
+      {ingredient.name}.....................................&nbsp;
+      {ingredient.amount?.split("\n").map((sentence, idx) => (
+        <Fragment key={idx}>
+          <span className="text-sm md:text-base">{sentence}</span>
+          <br />
+        </Fragment>
+      ))}
+    </div>
+  );
+}
+
 function ProductDetail({ product }: { product: Product }) {
   return (
     <section className="flex flex-col gap-y-6 md:gap-y-10 col-span-4">
@@ -131,46 +189,27 @@ function ProductDetail({ product }: { product: Product }) {
         </div>
         <p className="text-sm leading-[1.16] tracking-[0px]">{product?.medicineCode}</p>
       </article>
-      <article className="md:col-start-1 md:row-start-2 flex flex-col gap-y-6 md:gap-y-9" itemScope itemType="https://schema.org/Product">
-        <div className="text-sm leading-[1.3] tracking-[0px] md:text-base md:tracking-[0.5px]">
+
+      <article className="md:col-start-1 md:row-start-2 flex flex-col gap-y-6" itemScope itemType="https://schema.org/Product">
+        <div className="text-sm leading-[1.5] tracking-[0px] md:text-base md:leading-[1.7] md:tracking-[0.5px]">
           <p>{product?.ingredientsNote}</p>
-          {product?.mainIngredients?.map((ingredient, idx) => (
-            <div key={idx}>
-              {ingredient.name}.....................................&nbsp;
-              {ingredient.amount?.split("\n").map((sentence, idx) => (
-                <Fragment key={idx}>
-                  <span className="text-sm md:text-base">{sentence}</span>
-                  <br />
-                </Fragment>
-              ))}
-            </div>
-          ))}
-          {Object.keys(product)?.includes("ingredientsNoteSecond") && (
+
+          {product?.mainIngredients && <IngredientList ingredients={product.mainIngredients} />}
+
+          {Object.keys(product).includes("ingredientsNoteSecond") && (
             <>
               <br />
               <p>{product?.ingredientsNoteSecond}</p>
             </>
           )}
-
-          {Object.keys(product)?.includes("mainIngredientsSecond") &&
-            product?.mainIngredientsSecond?.map((ingredient, idx) => (
-              <div key={idx}>
-                {ingredient.name}.....................................&nbsp;
-                {ingredient.amount?.split("\n").map((sentence, idx) => (
-                  <Fragment key={idx}>
-                    <span className="text-sm md:text-base">{sentence}</span>
-                    <br />
-                  </Fragment>
-                ))}
-              </div>
-            ))}
+          {Object.keys(product).includes("mainIngredientsSecond") && product?.mainIngredientsSecond && <IngredientList ingredients={product.mainIngredientsSecond} />}
         </div>
 
         {product?.dosageAndAdministration?.length === 0 ? null : (
           <div>
-            <p className="font-medium text-sm leading-[1.3] md:text-base md:leading-[1.4]">Dosage & Administration</p>
+            <p className="font-medium text-sm md:text-base">Dosage & Administration</p>
             {product?.dosageAndAdministration?.split("\n").map((sentence, idx) => (
-              <p key={idx} className="text-sm leading-[1.3] md:text-base md:leading-[1.4] pb-1">
+              <p key={idx} className="text-sm md:text-base">
                 {sentence}
               </p>
             ))}
@@ -179,9 +218,9 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.indications?.length === 0 ? null : (
           <div>
-            <p className="font-medium text-sm leading-[1.3] md:text-base md:leading-[1.4]">Indications</p>
+            <p className="font-medium text-sm md:text-base">Indications</p>
             {product?.indications?.split("\n").map((sentence, idx) => (
-              <p key={idx} className="text-sm leading-[1.3] md:text-base md:leading-[1.4] pb-1">
+              <p key={idx} className="text-sm md:text-base">
                 {sentence}
               </p>
             ))}
@@ -190,9 +229,9 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.packaging?.length === 0 ? null : (
           <div>
-            <p className="font-medium text-sm leading-[1.3] md:text-base md:leading-[1.4]">Packaging</p>
+            <p className="font-medium text-sm md:text-base">Packaging</p>
             {product?.packaging?.split("\n").map((sentence, idx) => (
-              <p key={idx} className="text-sm leading-[1.3] md:text-base md:leading-[1.4]">
+              <p key={idx} className="text-sm md:text-base">
                 {sentence}
               </p>
             ))}
@@ -201,11 +240,11 @@ function ProductDetail({ product }: { product: Product }) {
 
         {product?.precautions?.length === 0 ? null : (
           <div className="text-primary">
-            <p className="font-medium text-sm leading-[1.3] md:text-base md:leading-[1.4]">Precautions</p>
+            <p className="font-medium text-sm md:text-base">Precautions</p>
             {product?.precautions?.length === 1 ? (
               <>
                 {product?.precautions?.map((precaution) => (
-                  <div key={precaution.id} className="text-sm leading-[1.3] md:text-base md:leading-[1.4]">
+                  <div key={precaution.id} className="text-sm md:text-base">
                     {precaution.precaution.split("\n").map((sentence, idx) => (
                       <Fragment key={idx}>
                         <span className="text-sm md:text-base">{sentence}</span>
@@ -218,10 +257,10 @@ function ProductDetail({ product }: { product: Product }) {
             ) : (
               <ol className="list-decimal pl-5">
                 {product?.precautions?.map((precaution) => (
-                  <li key={precaution.id} className="text-sm leading-[1.3] md:text-base md:leading-[1.4] pb-1">
+                  <li key={precaution.id} className="text-sm md:text-base">
                     {precaution.precaution.split("\n").map((sentence, idx) => (
                       <Fragment key={idx}>
-                        <span className="text-sm leading-[1.3] md:text-base md:leading-[1.4]">{sentence}</span>
+                        <span className="text-sm md:text-base">{sentence}</span>
                         <br />
                       </Fragment>
                     ))}

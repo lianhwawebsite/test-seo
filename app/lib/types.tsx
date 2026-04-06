@@ -27,7 +27,14 @@ export interface Product {
   precautions?: { id: string; precaution: string }[];
   packaging?: string;
   licenseUrl?: string;
+  animalCategories?: string[];
 }
+
+export interface AnimalGroup {
+  label: string;
+  children: string[];
+}
+
 export interface AllData {
   navbarItems: {
     label: string;

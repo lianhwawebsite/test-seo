@@ -7,6 +7,12 @@ import { SeoHead } from "@/app/component/SeoHead";
 import { abs } from "@/app/config";
 import { Fragment } from "react";
 
+type Ingredient = {
+  spec?: string; // ✅ 新增，有些產品的成分會有規格分組
+  name?: string;
+  amount?: string;
+};
+
 type Product = {
   id: string;
   name: string;
@@ -14,7 +20,7 @@ type Product = {
   animals: string[];
   alternativeName?: string;
   medicineCode?: string;
-  mainIngredients?: { name?: string; amount?: string }[];
+  mainIngredients?: Ingredient[]; // ✅ 使用新的 Ingredient 型別
   indications?: string;
   dosageAndAdministration?: string;
   precautions?: { id: string; precaution: string }[];
@@ -22,7 +28,7 @@ type Product = {
   packaging?: string;
   ingredientsNote?: string;
   ingredientsNoteSecond?: string;
-  mainIngredientsSecond?: { name?: string; amount?: string }[];
+  mainIngredientsSecond?: Ingredient[]; // ✅ 同步更新
   ogImage?: string;
 };
 
@@ -33,11 +39,12 @@ function findProduct(id: string): Product | undefined {
   return list.find((p) => p.id === id);
 }
 
-// 把你的資料映射成 schema.org/Drug
 function buildDrugSchema(p: Product) {
   const activeIngredient = (p.mainIngredients ?? [])
     .map((i) => [i?.name, i?.amount].filter(Boolean).join(" "))
     .filter(Boolean)
+    // ✅ 去除重複（有 spec 時同名成分會出現多次）
+    .filter((v, idx, arr) => arr.indexOf(v) === idx)
     .join(", ");
 
   const dosageForm = p.type?.split("、")?.[0]?.trim() || p.type || undefined;
@@ -102,14 +109,14 @@ export default async function Page({ params }: Props) {
     <>
       <SeoHead schema={[breadcrumb, drug]} />
 
-      <section className="mx-auto max-w-[1200px] ">
+      <section className="mx-auto max-w-[1200px]">
         <NextBreadcrumb />
       </section>
 
       <section className="mx-auto max-w-[1200px] grid grid-cols-1 md:grid-cols-8 gap-6 mt-6 md:gap-0 md:mt-10 font-notoSansTC">
-        <section className="flex flex-col gap-y-10 md:col-span-8 md:col-start-3 ">
+        <section className="flex flex-col gap-y-10 md:col-span-8 md:col-start-3">
           <div className="hidden relative px-6 md:block">
-            <div className="absolute top-0 left-0 h-[48px]  border-theme-1 border-3 rounded-4xl"></div>
+            <div className="absolute top-0 left-0 h-[48px] border-theme-1 border-3 rounded-4xl"></div>
             <h1 className="font-bold text-2xl leading-[1.22] tracking-[1px]">{product?.name}</h1>
             <h2 className="font-bold text-lg leading-[1.22] tracking-[.6px]">{product?.alternativeName}</h2>
           </div>
@@ -123,6 +130,69 @@ export default async function Page({ params }: Props) {
   );
 }
 
+// ────────────────────────────────────────────────
+// ✅ 成分列表：判斷是否有 spec，決定顯示方式
+// ────────────────────────────────────────────────
+function IngredientList({ ingredients }: { ingredients: Ingredient[] }) {
+  // 判斷這份成分列表有沒有用到 spec
+  const hasSpec = ingredients.some((i) => i.spec);
+
+  if (!hasSpec) {
+    // ── 無 spec：原本的直接列出方式 ──
+    return (
+      <>
+        {ingredients.map((ingredient, idx) => (
+          <IngredientRow key={idx} ingredient={ingredient} />
+        ))}
+      </>
+    );
+  }
+
+  // ── 有 spec：依 spec 分組，保留原始順序 ──
+  // 用 reduce 建立 [{ spec, items[] }] 的結構，同時維持第一次出現的順序
+  const groups = ingredients.reduce<{ spec: string; items: Ingredient[] }[]>((acc, ingredient) => {
+    const specLabel = ingredient.spec ?? "";
+    const existing = acc.find((g) => g.spec === specLabel);
+    if (existing) {
+      existing.items.push(ingredient);
+    } else {
+      acc.push({ spec: specLabel, items: [ingredient] });
+    }
+    return acc;
+  }, []);
+
+  return (
+    <>
+      {groups.map((group) => (
+        <div key={group.spec}>
+          {/* spec 標題，例如「25g 裝:」 */}
+          <p className="font-medium text-sm md:text-base mt-2 mb-0.5">{group.spec}:</p>
+          {group.items.map((ingredient, idx) => (
+            <IngredientRow key={idx} ingredient={ingredient} />
+          ))}
+        </div>
+      ))}
+    </>
+  );
+}
+
+// ────────────────────────────────────────────────
+// 單行成分（抽出來重用，避免重複）
+// ────────────────────────────────────────────────
+function IngredientRow({ ingredient }: { ingredient: Ingredient }) {
+  return (
+    <div>
+      {ingredient.name}.....................................&nbsp;
+      {ingredient.amount?.split("\n").map((sentence, idx) => (
+        <Fragment key={idx}>
+          <span className="text-sm md:text-base">{sentence}</span>
+          <br />
+        </Fragment>
+      ))}
+    </div>
+  );
+}
+
 function ProductDetail({ product }: { product: Product }) {
   return (
     <section className="flex flex-col gap-y-6 md:gap-y-10 col-span-4">
@@ -133,41 +203,26 @@ function ProductDetail({ product }: { product: Product }) {
         </div>
         <p className="text-sm leading-[1.16] tracking-[0px]">{product?.medicineCode}</p>
       </article>
+
       <article className="md:col-start-1 md:row-start-2 flex flex-col gap-y-6" itemScope itemType="https://schema.org/Product">
+        {/* 成分區塊 */}
         <div className="text-sm leading-[1.5] tracking-[0px] md:text-base md:leading-[1.7] md:tracking-[0.5px]">
           <p>{product?.ingredientsNote}</p>
-          {product?.mainIngredients?.map((ingredient, idx) => (
-            <div key={idx}>
-              {ingredient.name}.....................................&nbsp;
-              {ingredient.amount?.split("\n").map((sentence, idx) => (
-                <Fragment key={idx}>
-                  <span className="text-sm md:text-base">{sentence}</span>
-                  <br />
-                </Fragment>
-              ))}
-            </div>
-          ))}
-          {Object.keys(product)?.includes("ingredientsNoteSecond") && (
+
+          {/* ✅ 改用 IngredientList，自動判斷是否需要分組 */}
+          {product?.mainIngredients && <IngredientList ingredients={product.mainIngredients} />}
+
+          {/* 第二組成分（原本邏輯不變） */}
+          {Object.keys(product).includes("ingredientsNoteSecond") && (
             <>
               <br />
               <p>{product?.ingredientsNoteSecond}</p>
             </>
           )}
-
-          {Object.keys(product)?.includes("mainIngredientsSecond") &&
-            product?.mainIngredientsSecond?.map((ingredient, idx) => (
-              <div key={idx}>
-                {ingredient.name}.....................................&nbsp;
-                {ingredient.amount?.split("\n").map((sentence, idx) => (
-                  <Fragment key={idx}>
-                    <span className="text-sm md:text-base">{sentence}</span>
-                    <br />
-                  </Fragment>
-                ))}
-              </div>
-            ))}
+          {Object.keys(product).includes("mainIngredientsSecond") && product?.mainIngredientsSecond && <IngredientList ingredients={product.mainIngredientsSecond} />}
         </div>
 
+        {/* 用法用量 */}
         {product?.dosageAndAdministration?.length === 0 ? null : (
           <div>
             <p className="font-medium text-sm md:text-base">用法用量</p>
@@ -179,6 +234,7 @@ function ProductDetail({ product }: { product: Product }) {
           </div>
         )}
 
+        {/* 適應症 */}
         {product?.indications?.length === 0 ? null : (
           <div>
             <p className="font-medium text-sm md:text-base">適應症</p>
@@ -190,6 +246,7 @@ function ProductDetail({ product }: { product: Product }) {
           </div>
         )}
 
+        {/* 包裝 */}
         {product?.packaging?.length === 0 ? null : (
           <div>
             <p className="font-medium text-sm md:text-base">包裝</p>
@@ -201,6 +258,7 @@ function ProductDetail({ product }: { product: Product }) {
           </div>
         )}
 
+        {/* 注意事項 */}
         {product?.precautions?.length === 0 ? null : (
           <div className="text-primary">
             <p className="font-medium text-sm md:text-base">注意事項</p>
