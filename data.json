@@ -2953,14 +2953,6 @@
                 {
                     "name": "Tylosin",
                     "amount": "25mg (pot.)"
-                },
-                {
-                    "name": "DL-Methylephedrine HCI",
-                    "amount": "20mg"
-                },
-                {
-                    "name": "Sulpyrin",
-                    "amount": "150mg"
                 }
             ],
             "indications": "牛：治療肺炎，運輸熱、腐蹄病、子宮炎。\n豬：治療流行性肺炎、赤痢症、丹毒。\n雞、火雞（不含蛋雞）：治療慢性呼吸器病(CRD)、葡萄球菌症、鏈球菌症。",
@@ -3034,6 +3026,7 @@
                 "家畜"
             ],
             "animalCategories": [
+                "家畜",
                 "家禽"
             ],
             "licenseUrl": "https://amdrug2.aphia.gov.tw/license-query/detail/2761"
@@ -3165,7 +3158,7 @@
             "packaging": "100ml、500ml",
             "animals": [
                 "牛",
-                "羊",
+                "馬",
                 "豬"
             ],
             "animalCategories": [
